@@ -1,3 +1,3 @@
-c961b2067698343b867cb675573ee980ea56dd3ec4ee49599e88bb596a8f47f6  Phil-0.3.0-86-macOS-arm64.dmg
+644fc147d1b04646060c5b94054b1a742a418ddffb6e5e6ed472a4ba252e67f5  Phil-0.3.0-87-macOS-arm64.dmg
 8dc37d109185ad779f0fe055bd48a09528e0da88eb0844b2b6449ee385fed7e9  Phil-Genesis-contract-sources-build86.zip
-e891d675b92098835a9057ecf62f3122d09876cf9d3cebc4f2ecd18d8b7dddbd  release-manifest.json
+e238f4e4127f1233673ce698e9db9928c5f33dafd0d45c231db710748ce9f887  release-manifest.json

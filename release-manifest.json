@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "version": "0.3.0",
-  "build": "86",
+  "build": "87",
   "status": "mainnet-preview-owner-mint-and-macbook-proof-pending",
   "platform": {
     "architecture": "arm64",
@@ -12,12 +12,12 @@
     "linux": false,
     "intelMac": false
   },
-  "filename": "Phil-0.3.0-86-macOS-arm64.dmg",
-  "bytes": 132160450,
-  "sha256": "c961b2067698343b867cb675573ee980ea56dd3ec4ee49599e88bb596a8f47f6",
-  "applicationInventorySHA256": "8c65b54cd56b7f848436faa7f14cdfbd234ae4188ff56a0c73b0d26666f37376",
-  "sourceHead": "572708f6c4bf1b9f4c4e11dc09b6a1959167ed4d",
-  "sourceTree": "151d48745f6c37dc2f82c432f0f7276f250949ab",
+  "filename": "Phil-0.3.0-87-macOS-arm64.dmg",
+  "bytes": 132174771,
+  "sha256": "644fc147d1b04646060c5b94054b1a742a418ddffb6e5e6ed472a4ba252e67f5",
+  "applicationInventorySHA256": "2b2b7dad97f3f05ca0ab6fd362259e3d6177562ddc4301c544b4d7ba9a59cb38",
+  "sourceHead": "78b9e7cda7ed9c235117d1daedc9b1ac00b83aae",
+  "sourceTree": "07893d4f347ba0e59b623acc7575caef58c18c18",
   "bundleIdentifier": "com.philcore.desktop",
   "publisher": "Tyler Lengyel",
   "teamIdentifier": "B342738S82",
@@ -29,16 +29,27 @@
   "factory": "0x154d8CBA98dE8F7b908de1fba4C157Aa52051a09",
   "configurationDigest": "682b20effd91117f398c41bff0a66134fd8a79ccfa64e69727990b6a2547e3d2",
   "catalogSHA256": "995806c83e9fbfb1847bed21a2f539dd8865cced5d8e0a672354de5e79bce6c3",
-  "compatibleIdentityBuild": "85",
   "publicMintOpensAt": "2026-09-16T17:42:35Z",
-  "downloadURL": "https://github.com/lengyeltyler/genesis-phil/releases/download/v0.3.0-build86/Phil-0.3.0-86-macOS-arm64.dmg",
+  "downloadURL": "https://github.com/lengyeltyler/genesis-phil/releases/download/v0.3.0-build87/Phil-0.3.0-87-macOS-arm64.dmg",
   "contractSourcesArchive": "Phil-Genesis-contract-sources-build86.zip",
   "contractSourcesSHA256": "8dc37d109185ad779f0fe055bd48a09528e0da88eb0844b2b6449ee385fed7e9",
   "verification": {
-    "unchangedRuntimeResourceFiles": 8,
-    "machOBinariesWithMinimumAtMost12": 16,
+    "configurationAndArtworkUnchanged": true,
+    "focusedStateCustodyAndBoundaryTestsPassed": 31,
+    "versionTestsPassed": 3,
+    "uiProgressAndSavedSelectionProof": "passed",
+    "liveReadOnlyMintReview": "passed",
+    "installedSignedApplicationReview": "passed",
+    "routineBlockAdvanceHandling": "recent canonical snapshot with bounded read-only refresh",
+    "fixedBrowsingTimeoutRemoved": true,
+    "singleUseSigningGrantMaximumSeconds": 30,
+    "locksOnManualLockMacLockSleepAndQuit": true,
     "packageSecretAndFixtureScan": "passed",
-    "nativeMalformedInputRejected": true,
     "realMintPerformedByReleasePreparation": false
-  }
+  },
+  "compatibleIdentityBuilds": [
+    "85",
+    "86",
+    "87"
+  ]
 }

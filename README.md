@@ -4,11 +4,11 @@ Create your Phil, keep the artwork and name you like, and mint it on Ethereum Ma
 
 ## Download for Mac
 
-### [Download Phil for Apple Silicon Mac](https://github.com/lengyeltyler/genesis-phil/releases/download/v0.3.0-build86/Phil-0.3.0-86-macOS-arm64.dmg)
+### [Download Phil for Apple Silicon Mac](https://github.com/lengyeltyler/genesis-phil/releases/download/v0.3.0-build87/Phil-0.3.0-87-macOS-arm64.dmg)
 
-**Version 0.3.0 · Build 86 · Mainnet preview**
+**Version 0.3.0 · Build 87 · Mainnet preview**
 
-[Installation and minting guide](docs/GETTING-STARTED.md) · [Release details](https://github.com/lengyeltyler/genesis-phil/releases/tag/v0.3.0-build86) · [Troubleshooting](docs/TROUBLESHOOTING.md)
+[Installation and minting guide](docs/GETTING-STARTED.md) · [Release details](https://github.com/lengyeltyler/genesis-phil/releases/tag/v0.3.0-build87) · [Troubleshooting](docs/TROUBLESHOOTING.md)
 
 Open the download, drag **Phil** into **Applications**, then open Phil from Applications. No Terminal, developer account, API key or hardware wallet is required for ordinary Desktop minting.
 
@@ -40,9 +40,9 @@ Spare ETH has **no general withdrawal action** in this Genesis account policy. F
 
 **Keep this Phil** preserves your selection locally through locking and restarting. The current and previous choices are saved; **Undo last reroll** can recover the previous choice. A preview does not reserve artwork on chain, and artwork preferences are not included in your identity backup.
 
-Phil locks after 15 minutes or when the Mac locks or sleeps. Unlock again to continue; a lock does not delete your saved choice. Back up the identity and keep the passphrase separately. Never post a passphrase, backup file, recovery words, private key or unredacted identity/journal files in GitHub issues.
+Phil stays unlocked while you browse. It locks when you choose Lock, lock or sleep your Mac, or quit. Unlock again to continue; a lock does not delete your saved choice. Each mint or transfer still requires fresh protected Mac confirmation. Back up the identity and keep the passphrase separately. Never post a passphrase, backup file, recovery words, private key or unredacted identity/journal files in GitHub issues.
 
-Build 86 uses the same collection/configuration as Build 85; Build 85 identities and verified backups retain that binding. Identities from older, different collection configurations cannot silently switch to this collection. Do not reset or overwrite an existing identity to force an upgrade.
+Build 87 uses the same collection/configuration as Builds 85–86; their identities and verified backups retain that binding. Identities from older, different collection configurations cannot silently switch to this collection. Do not reset or overwrite an existing identity to force an upgrade.
 
 ## Official collection
 

@@ -2,9 +2,9 @@
 
 [Back to download](../README.md)
 
-Read the requirements and current preview status on the download page first. This guide applies to Build 86 on Apple Silicon Macs.
+Read the requirements and current preview status on the download page first. This guide applies to Build 87 on Apple Silicon Macs.
 
-1. **Download Phil.** Use the [official download](https://github.com/lengyeltyler/genesis-phil/releases/download/v0.3.0-build86/Phil-0.3.0-86-macOS-arm64.dmg). The matching checksum is on the [verification page](VERIFY-DOWNLOAD.md).
+1. **Download Phil.** Use the [official download](https://github.com/lengyeltyler/genesis-phil/releases/download/v0.3.0-build87/Phil-0.3.0-87-macOS-arm64.dmg). The matching checksum is on the [verification page](VERIFY-DOWNLOAD.md).
 2. **Install.** Open the disk image and drag Phil to Applications. Do not bypass Gatekeeper or remove quarantine.
 3. **Open Phil.** Default providers are configured automatically: dRPC and independent PublicNode reads, with the public Candide bundler. You do not need a developer account. These public services have rate limits and can be unavailable. Optional **Advanced provider settings** accepts your own Alchemy Mainnet/bundler and Infura Mainnet keys; those plans can have quotas and charges.
 4. **Create identity.** Enter a name and a passphrase containing at least 12 characters, uppercase, lowercase, a number and a symbol. Confirm it and choose **Create Phil Identity**. The Desktop policy permits only Genesis mint and transfer with protected Mac confirmation. Phone-required identities cannot substitute this policy for phone approval.
@@ -27,10 +27,10 @@ Phil Genesis is an experimental Mainnet application. Protected authorization doe
 
 Choose a new filename when saving a backup. Phil preserves existing backups and does not overwrite them. After choosing the destination, approve Mac confirmation. Re-enter the original identity passphrase when opening and verifying the saved backup. If verification fails, keep both your vault and backup; the error identifies the validation stage without showing secrets.
 
-No Terminal, Xcode, Node, Git, manual JSON editing or developer account is part of normal use. This tutorial describes Build 86; the published release record separately records actual signed-artifact execution evidence. It is not a launch announcement.
+No Terminal, Xcode, Node, Git, manual JSON editing or developer account is part of normal use. This tutorial describes Build 87; the published release record separately records actual signed-artifact execution evidence. It is not a launch announcement.
 
 ## Launch access and reserved mints
 
 During the first 12 hours after the bootstrap deploys, only a Genesis account registered by one of the three approved early wallets may mint. Copy your Genesis account address from the app and complete the separate owner-controlled registration before reviewing a mint. Preserve the normal backup and protected-authorization steps. Other users may mint once public access opens, until the 336 general slots are used. The 33 reserved slots require an individual deployer grant to the recipient's Genesis account after opening. Receiving a grant does not mint a token and does not permit a second mint by an account that already minted. Transfers and approvals remain available during the launch window.
 
-The protected session still locks after 15 minutes, and on macOS lock or sleep. A warning appears during the last two minutes. This does not delete your saved artwork choice or retry an operation. Unlock again to continue. An unresolved signing attempt pauses new mint and transfer actions until its status is checked.
+Browsing no longer has a fixed 15-minute timeout. Phil still locks on manual lock, Mac lock/sleep or quit. Fresh Mac confirmation is required for each transaction, with a single-use signing grant limited to 30 seconds. This does not delete your saved artwork choice or retry an operation. Unlock again to continue. An unresolved signing attempt pauses new mint and transfer actions until its status is checked.
