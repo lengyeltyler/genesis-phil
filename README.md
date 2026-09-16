@@ -6,7 +6,8 @@ Create your Phil, keep the artwork and name you like, and mint it on Ethereum Ma
 
 ### [Download Phil for Apple Silicon Mac](https://github.com/lengyeltyler/genesis-phil/releases/download/v0.3.0-build86/Phil-0.3.0-86-macOS-arm64.dmg)
 
-**Version 0.3.0 · Build 86 · Mainnet preview**  
+**Version 0.3.0 · Build 86 · Mainnet preview**
+
 [Installation and minting guide](docs/GETTING-STARTED.md) · [Release details](https://github.com/lengyeltyler/genesis-phil/releases/tag/v0.3.0-build86) · [Troubleshooting](docs/TROUBLESHOOTING.md)
 
 Open the download, drag **Phil** into **Applications**, then open Phil from Applications. No Terminal, developer account, API key or hardware wallet is required for ordinary Desktop minting.
@@ -45,7 +46,8 @@ Build 86 uses the same collection/configuration as Build 85; Build 85 identities
 
 ## Official collection
 
-**Genesis Phil NFT:** [`0xbbd4Eb63e2C8580F2eb930D87F8b73EF2D17e748`](https://etherscan.io/address/0xbbd4Eb63e2C8580F2eb930D87F8b73EF2D17e748)  
+**Genesis Phil NFT:** [`0xbbd4Eb63e2C8580F2eb930D87F8b73EF2D17e748`](https://etherscan.io/address/0xbbd4Eb63e2C8580F2eb930D87F8b73EF2D17e748)
+
 Network: **Ethereum Mainnet (chain ID 1)**. This contract address is not your funding address. Copy your personal Genesis account from the app.
 
 [Verify your download and view release provenance](docs/VERIFY-DOWNLOAD.md) · [Privacy and limitations](docs/PRIVACY-AND-LIMITATIONS.md)
