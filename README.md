@@ -4,11 +4,11 @@ Create your Phil, keep the artwork and name you like, and mint it on Ethereum Ma
 
 ## Download for Mac
 
-### [Download Phil for Apple Silicon Mac](https://github.com/lengyeltyler/genesis-phil/releases/download/v0.3.0-build87/Phil-0.3.0-87-macOS-arm64.dmg)
+### [Download Phil for Apple Silicon Mac](https://github.com/lengyeltyler/genesis-phil/releases/download/v0.3.0-build88/Phil-0.3.0-88-macOS-arm64.dmg)
 
-**Version 0.3.0 · Build 87 · Mainnet preview**
+**Version 0.3.0 · Build 88 · Mainnet preview**
 
-[Installation and minting guide](docs/GETTING-STARTED.md) · [Release details](https://github.com/lengyeltyler/genesis-phil/releases/tag/v0.3.0-build87) · [Troubleshooting](docs/TROUBLESHOOTING.md)
+[Installation and minting guide](docs/GETTING-STARTED.md) · [Release details](https://github.com/lengyeltyler/genesis-phil/releases/tag/v0.3.0-build88) · [Troubleshooting](docs/TROUBLESHOOTING.md)
 
 Open the download, drag **Phil** into **Applications**, then open Phil from Applications. No Terminal, developer account, API key or hardware wallet is required for ordinary Desktop minting.
 
@@ -18,9 +18,9 @@ The app and installer are Developer ID signed and Apple notarized. Publisher: **
 
 ## Release status
 
-This is an **experimental Mainnet preview**, with real ETH network fees. The replacement collection deployment and early-account registration are confirmed. The first owner mint for this replacement collection and the MacBook proof are still pending. Download availability is not a claim that those gates have passed. The launch announcement is held until the owner completes those checks.
+This is an **experimental Mainnet preview**, with real ETH network fees. The Build 88 replacement collection deployment is finalized, and the Mini owner account's early registration is confirmed. The first owner mint for this replacement collection and the MacBook proof are still pending. Download availability is not a claim that those gates have passed. The launch announcement is held until the owner completes those checks.
 
-General minting opens automatically on **September 16, 2026 at 17:42:35 UTC** (11:42:35 a.m. Denver). Before then, only Genesis accounts registered by the three approved early wallets may mint. Downloading or creating an identity does not grant early access. Do not fund for a mint while the app reports that you are ineligible.
+General minting opens automatically on **September 17, 2026 at 03:45:35 UTC** (September 16 at 9:45:35 p.m. Denver). Before then, only Genesis accounts registered by the three approved early wallets may mint. Downloading or creating an identity does not grant early access. Do not fund for a mint while the app reports that you are ineligible.
 
 ## Mint your Phil
 
@@ -29,7 +29,7 @@ General minting opens automatically on **September 16, 2026 at 17:42:35 UTC** (1
 3. Check eligibility and refresh the funding estimate in **Account & funding**.
 4. Send the displayed ETH shortfall to **your own Genesis account**, on **Ethereum Mainnet**.
 5. In **Discover**, generate artwork locally and choose **Keep this Phil**.
-6. Select **Mint this Phil**, review the artwork, name and maximum network fee, and approve the protected Mac confirmation.
+6. Use **Reroll name** and **Undo name** independently of the artwork, then select **Mint this Phil**, review the artwork, name and maximum network fee, and approve the protected Mac confirmation.
 7. Wait for confirmation, then check **My minted Phil**. A timeout is not permission to submit again; use **Check pending submission**.
 
 Mint price is **0 ETH**; Ethereum network fees are separate. The mint creates your smart account as needed. One Genesis account can mint **one Phil permanently**, even if it later transfers that Phil. There are 369 total slots: 336 general and 33 individually granted reserved slots. Early mints consume general slots. No CAPTCHA is required.
@@ -38,15 +38,15 @@ Spare ETH has **no general withdrawal action** in this Genesis account policy. F
 
 ## Keep your choice and identity safe
 
-**Keep this Phil** preserves your selection locally through locking and restarting. The current and previous choices are saved; **Undo last reroll** can recover the previous choice. A preview does not reserve artwork on chain, and artwork preferences are not included in your identity backup.
+**Keep this Phil** preserves your artwork locally through locking and restarting. **Reroll name** keeps that artwork and **Undo name** restores the preceding name. The catalog offers 8,352 names; every complete minted name is unique. Previews can repeat and do not reserve a name. The current and previous choices are saved; **Undo last reroll** can recover the previous choice. A preview does not reserve artwork on chain, and artwork preferences are not included in your identity backup.
 
 Phil stays unlocked while you browse. It locks when you choose Lock, lock or sleep your Mac, or quit. Unlock again to continue; a lock does not delete your saved choice. Each mint or transfer still requires fresh protected Mac confirmation. Back up the identity and keep the passphrase separately. Never post a passphrase, backup file, recovery words, private key or unredacted identity/journal files in GitHub issues.
 
-Build 87 uses the same collection/configuration as Builds 85–86; their identities and verified backups retain that binding. Identities from older, different collection configurations cannot silently switch to this collection. Do not reset or overwrite an existing identity to force an upgrade.
+Build 88 uses a new collection and configuration. Build 85–87 identities and backups belong to the previous collection and cannot be restored into Build 88. Existing users must preserve the old app, complete local state and verified backup before a separately planned fresh-account setup. Do not overwrite/reset an existing identity or delete Keychain entries to force an upgrade. Funds and early registrations do not move to the new account.
 
 ## Official collection
 
-**Genesis Phil NFT:** [`0xbbd4Eb63e2C8580F2eb930D87F8b73EF2D17e748`](https://etherscan.io/address/0xbbd4Eb63e2C8580F2eb930D87F8b73EF2D17e748)
+**Genesis Phil NFT:** [`0x5519a6faE647bBC91f728420d627f818c77eE39B`](https://etherscan.io/address/0x5519a6faE647bBC91f728420d627f818c77eE39B)
 
 Network: **Ethereum Mainnet (chain ID 1)**. This contract address is not your funding address. Copy your personal Genesis account from the app.
 
