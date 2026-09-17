@@ -1,6 +1,6 @@
 {
-  "applicationSourceHead": "e3911123f5d6f5b093f52ea08f60526238a8029e",
-  "applicationSourceTree": "e100b5198a185a3aec00774f17cb06f761ce6304",
+  "applicationSourceHead": "776be1735a3bcb457d7bf02e1e5a44b1cad6eed9",
+  "applicationSourceTree": "80c90c52238c934d704b7b6382fb740f8c79f40c",
   "files": [
     {
       "path": "LICENSE",
@@ -109,8 +109,8 @@
     },
     {
       "path": "apps/philcore-desktop/production/release-version.json",
-      "sha256": "a51f6f8a20dacc1c3607ac7165046b1ecb3e0b497127a0e53ac3981e37923afd",
-      "gitBlob": "56f9536f32616060b51a217a79d288c332cbe64f"
+      "sha256": "2425dacf0b5114d63a58d1260bc3a5fd2e76c48cd88333b91d1709ef47c95d31",
+      "gitBlob": "49e611a0c99476685ce782f08f240d3f48d82cfb"
     },
     {
       "path": "apps/philcore-desktop/production/selection-store.cjs",
@@ -144,8 +144,8 @@
     },
     {
       "path": "apps/philcore-desktop/production/ui/style.css",
-      "sha256": "beed7dd88e149d9fe9f151c15d4e61502794dd40f5145148cdc11a0c013d9801",
-      "gitBlob": "52be4b91bb80a60b5a58411db0fec7983e530001"
+      "sha256": "8355eb1f6c3038982e25b05f24acf6cc33429dac1f463a6b0fccfbe3e81f07e1",
+      "gitBlob": "d063bb6c535f27b261ed6d0661b5dd66d8393af2"
     },
     {
       "path": "apps/philcore-desktop/src/main/macos-user-presence.cjs",

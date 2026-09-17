@@ -1,14 +1,14 @@
-# Install and mint with Phil — Build 93
+# Install and mint with Phil — Build 96
 
 [Back to download](../README.md)
 
-Use an Apple Silicon Mac. Build 93 targets macOS 12 or later; physical testing on every older macOS version has not been completed. Windows, Linux, Intel Mac, mobile and browser minting are not supported by this release.
+Use an Apple Silicon Mac. Build 96 targets macOS 12 or later; physical testing on every older macOS version has not been completed. The Desktop installer targets Apple Silicon macOS. The separate browser application is available at [Phil Web](https://phil.tylerlengyel.com); its passkey and backup flows differ from Desktop.
 
 ## Install or update
 
-1. Download [Phil-0.3.0-93-macOS-arm64.dmg](https://github.com/lengyeltyler/genesis-phil/releases/download/v0.3.0-build93/Phil-0.3.0-93-macOS-arm64.dmg).
+1. Download [Phil-0.3.0-96-macOS-arm64.dmg](https://github.com/lengyeltyler/genesis-phil/releases/download/v0.3.0-build96/Phil-0.3.0-96-macOS-arm64.dmg).
 2. Open the DMG, drag **Phil** into **Applications**, and open it from Applications. Do not bypass Gatekeeper. [Verify the download](VERIFY-DOWNLOAD.md) if needed.
-3. Build 92 users can quit Phil and replace the application while retaining the same identity and verified backup. Build 91 and earlier identities belong to different collections: preserve their app, complete state and backups before a separately planned fresh setup. Do not overwrite identity storage to force an upgrade.
+3. Build 92–95 users can quit Phil and replace the application while retaining the same identity and verified backup. Build 91 and earlier identities belong to different collections: preserve their app, complete state and backups before a separately planned fresh setup. Do not overwrite identity storage to force an upgrade.
 
 ## Create your account
 

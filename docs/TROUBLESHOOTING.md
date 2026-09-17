@@ -1,4 +1,4 @@
-# Troubleshooting — Build 93
+# Troubleshooting — Build 96
 
 [Back to download](../README.md)
 
@@ -13,7 +13,7 @@
 | Funding has not appeared | Confirm the sending transaction succeeded on Ethereum Mainnet and the destination is your personal Genesis account. Refresh the account balance. A failed provider read is not a reason to send more. |
 | Name or artwork already taken | Previews do not reserve either. The artwork and generated name stay paired; there is no separate name reroll. Choose another Phil only if you want to. |
 | I cannot go back through a batch | Roll 10 and Roll 100 intentionally keep only the final result. Intermediate rolls cannot be recovered. Single rerolls have an undo option. |
-| Withdraw asks for an amount | In Build 93, select **Withdraw all — gas deducted automatically** and enter the recipient. Custom amounts are optional and accept normal decimals. |
+| Withdraw asks for an amount | In Build 96, select **Withdraw all — gas deducted automatically** and enter the recipient. Custom amounts are optional and accept normal decimals. |
 | A little ETH remains after Withdraw all | The app reserves the maximum fee; unused gas can be refunded after execution. Another withdrawal has its own fee and may not be worthwhile for a tiny remainder. |
 | This Mac is incompatible | Use an Apple Silicon Mac with macOS 12 or later. There is no Intel, Windows, Linux, mobile or browser minting release. Earlier macOS versions have not all been physically tested. |
 | macOS blocks the installer | Re-download from the official release and check its checksum and publisher. Do not disable Gatekeeper or remove quarantine. |

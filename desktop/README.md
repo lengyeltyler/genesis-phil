@@ -1,8 +1,6 @@
-# Phils Build 95 — source and signed-artifact verification
+# Phils Build 96 — independently check the released application
 
-**Installer status: unpublished.** The signed/notarized Build-95 artifact exists internally and its source/verification material is public, but the installer upload failed. [Build 93 is the available public installer](../docs/VERIFY-DOWNLOAD.md). A hash or successful internal package comparison is not a public download.
-
-This source/input snapshot verifies **Phils 0.3.0, Build 95, package revision build93-visual-restoration**. It does not replace the released application, change contracts, or reset accounts.
+This source/input snapshot verifies **Phils 0.3.0, Build 96, package revision build93-light-blue**. It does not replace the released application, change contracts, or reset accounts.
 
 - [BUILDING.md](BUILDING.md): locked dependencies, reconstruction, local assembly, ad-hoc signing and the unresolved local-startup limitation.
 - [VERIFYING.md](VERIFYING.md): one-command comparison against the official DMG and Apple checks.
@@ -12,13 +10,13 @@ This source/input snapshot verifies **Phils 0.3.0, Build 95, package revision bu
 
 ## Immutable identities
 
-Application engineering source: `e3911123f5d6f5b093f52ea08f60526238a8029e`, tree `e100b5198a185a3aec00774f17cb06f761ce6304`.
+Application engineering source: `776be1735a3bcb457d7bf02e1e5a44b1cad6eed9`, tree `80c90c52238c934d704b7b6382fb740f8c79f40c`.
 
-The original immutable application-source snapshot is tagged `v0.3.0-build95-source`. This documentation/metadata edition is tagged `phil-web-mainnet-live-2026-09-17`; Desktop application bytes and original source-map bindings are unchanged. Its new public snapshot commit is distinct from the original engineering commit because private history and unrelated files are intentionally excluded. Verification-tooling changes do not change product source. The public tag/commit, source-file manifest and original-file map identify the export precisely; this is not a claim that the subset has the original whole-repository tree ID.
+The public source tag is `v0.3.0-build96-source`. Its new public snapshot commit is distinct from the original engineering commit because private history and unrelated files are intentionally excluded. Verification-tooling changes do not change product source. The public tag/commit, source-file manifest and original-file map identify the export precisely; this is not a claim that the subset has the original whole-repository tree ID.
 
 The older public `v0.3.0-build93` tag remains historical: it points to a download-repository commit with Build 88 documentation. The new source tag transparently supersedes it for source verification. Do not use the old tag's source archive as Desktop source. Historical Build 93 and Build 94 DMGs remain unchanged.
 
-DMG SHA-256: `3c088ac24248ae3f7812ae8f3723282e6f536f80fedfede236164c96f7ebb4cf`.
+DMG SHA-256: `9575bd6696f9c15f56ecd3e49511564068b78c0d4aa36e3c74422f3e8401f908`.
 
 Configuration SHA-256: `ff96af7b927ec2520cc3288e819ba260fc89a4cb68a4cb2fe269e048056ccff7`.
 

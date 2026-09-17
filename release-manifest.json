@@ -1,29 +1,29 @@
 {
   "schema": 1,
   "version": "0.3.0",
-  "build": "93",
+  "build": "96",
   "platform": "macOS arm64",
   "minimumMacOS": "12.0",
   "releaseType": "current-public-desktop-installer",
-  "sourceHead": "c559066f4a98859c1b940a2761e8524914ac6f8e",
-  "sourceTree": "fc77615fa8f816fa2995af002e341a84b89fd12f",
+  "sourceHead": "776be1735a3bcb457d7bf02e1e5a44b1cad6eed9",
+  "sourceTree": "80c90c52238c934d704b7b6382fb740f8c79f40c",
   "sourceDirty": false,
   "installer": {
-    "name": "Phil-0.3.0-93-macOS-arm64.dmg",
-    "sha256": "fd6307fceb1259eeded60f80fe4e5e2d9f4925eca26efab1b82d433221b582b7",
-    "bytes": 132867684,
-    "url": "https://github.com/lengyeltyler/genesis-phil/releases/download/v0.3.0-build93/Phil-0.3.0-93-macOS-arm64.dmg",
+    "name": "Phil-0.3.0-96-macOS-arm64.dmg",
+    "sha256": "9575bd6696f9c15f56ecd3e49511564068b78c0d4aa36e3c74422f3e8401f908",
+    "bytes": 132867632,
+    "url": "https://github.com/lengyeltyler/genesis-phil/releases/download/v0.3.0-build96/Phil-0.3.0-96-macOS-arm64.dmg",
     "status": "public"
   },
-  "applicationInventorySHA256": "788415750e9e31703312404f53ae035ae8653b65b61181b9be5848e4f4feee8d",
+  "applicationInventorySHA256": "4ce3ccde5e6d204a0fb376490b3cac0bbe71dc73dc2f2a205c6268cef469376a",
   "applicationNotarization": {
-    "id": "39d4a105-952a-4759-90c1-4a772c30f65d",
-    "status": "Accepted",
-    "message": "Processing complete"
+    "message": "Processing complete",
+    "id": "e2afd8b6-7278-404f-a2aa-15e4666ab4e9",
+    "status": "Accepted"
   },
   "dmgNotarization": {
-    "id": "37b48ccb-d10d-4779-9b84-0f31f5e04c8b",
     "status": "Accepted",
+    "id": "8316f210-9a18-4a16-834f-7582fa99d31f",
     "message": "Processing complete"
   },
   "signatureAndGatekeeper": "PASS",
@@ -35,25 +35,24 @@
   "publicOpensAt": 1789616160,
   "compatibleIdentityBuilds": [
     92,
-    93
+    93,
+    94,
+    95,
+    96
   ],
   "requiresNewIdentityForBuildsThrough": 91,
   "changes": [
-    "Withdraw all defaults to available ETH minus maximum network fee",
-    "Custom ETH amount is optional and accepts leading decimal point",
-    "No changes to deployed contracts, configuration or identity/account derivation",
-    "Owner-provided app icon and home-button branding; version and build remain 0.3.0 (93)"
+    "Replace nonsemantic purple UI accents with exact #C9E3FF; preserve Build-93 hierarchy, logo and Rolls",
+    "No Desktop functional, custody, contract, provider, artwork or execution changes from Build 95"
   ],
   "evidence": {
-    "localFocusedChecks": 6,
-    "isolatedUIFlows": 5,
-    "realWithdrawal": "owner confirmed on preceding Build 93 package; execution code unchanged",
-    "macBookProof": "owner test pending",
-    "brandingPreview": "visually checked",
-    "executionCodeConfigurationAndArtworkByteIdentical": true
+    "focusedUniqueTestsPassed": 74,
+    "sourceToPackage": "PASS",
+    "appleSignatureNotarizationStaplingGatekeeper": "PASS",
+    "newMainnetMintPerformed": false
   },
-  "packageRevision": "branding-1",
-  "supersedesInstallerSHA256": "b00b80ee41a7ed3ee46226667c646e0a8e52934fd177f542e367cee46f629cee",
+  "packageRevision": "build93-light-blue",
+  "supersedesInstallerSHA256": "fd6307fceb1259eeded60f80fe4e5e2d9f4925eca26efab1b82d433221b582b7",
   "build95": {
     "build": 95,
     "status": "signed-notarized-installer-unpublished-upload-failed",
@@ -71,19 +70,22 @@
   },
   "web": {
     "origin": "https://phil.tylerlengyel.com",
-    "engineeringHead": "ea1c45361cb4d722d5dae21d7241d52aecad1700",
-    "releaseId": "ea1c45361cb4d722d5dae21d7241d52aecad1700:e0c5391d81571c2f1900f7a1db3659a8e2997269501700bf8e28bc13902176ed",
+    "engineeringHead": "564df2262b7b637aafa3c44bb050794e1656ed36",
+    "engineeringTree": "e42c9d6a12e8016200ed9caacfaef8242fe91b55",
+    "releaseId": "564df2262b7b637aafa3c44bb050794e1656ed36:a144387db6c9fdec2c0a746df7903949c6f190337f7e4ea3bda2d7ddb29a9b77",
     "stageAtPublication": "public",
     "liveStatusURL": "https://phil.tylerlengyel.com/release-status.json",
     "historyAndTutorial": "live",
-    "acceptance": "not-required-owner-explicitly-waived-additional-mint",
+    "historyHeading": "Phils-Story",
     "balanceAndWithdrawal": "implemented-and-live",
+    "acceptance": "additional-mainnet-mint-not-required-for-ui-audit",
     "acceptanceTransactionHash": null,
     "newMintPerformed": false,
-    "engineeringTree": "3d1e2fc5ca0d79d3db0ff872c06884daa319208d",
-    "buildSHA256": "8054e39b6a3527aa6f60e7983681bdffc8a026eeecaf3b780bca0fac091a1e13",
+    "buildSHA256": "3aa231c091f838f802c217a0022f8bdff8625430abb7bba013113244f45224bc",
     "workerSHA256": "0f7d3df679b9151599e5f3670ce9c1562f2245de1abe228a19f1ff6e5e0ba4a4",
-    "finalLiveTag": "phil-web-mainnet-live-2026-09-17",
-    "finalLiveTagURL": "https://github.com/lengyeltyler/genesis-phil/tree/phil-web-mainnet-live-2026-09-17"
-  }
+    "finalLiveTag": "phil-final-blue-ui-2026-09-17",
+    "finalLiveTagURL": "https://github.com/lengyeltyler/genesis-phil/tree/phil-final-blue-ui-2026-09-17"
+  },
+  "sourceTag": "v0.3.0-build96-source",
+  "sourceURL": "https://github.com/lengyeltyler/genesis-phil/tree/v0.3.0-build96-source/desktop"
 }

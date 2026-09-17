@@ -154,7 +154,7 @@ test("guide uses fixed accessible four-step markup, no inline scripts or sensiti
   assert.match(dialog, /aria-describedby="welcome-intro"/);
   assert.match(dialog, />Helloooooooo<\/h2>/);
   assert.equal((dialog.match(/<li>/g) || []).length, 4);
-  assert.match(dialog, /Do not send funds/);
+  assert.doesNotMatch(dialog, /guide-stage|Do not send funds|minting is (?:open|paused)/i);
   assert.doesNotMatch(dialog, /<script|\son\w+=|<iframe|<form|<input/i);
   assert.doesNotMatch(
     source,

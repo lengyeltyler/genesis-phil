@@ -16,7 +16,7 @@
   },
   {
     "path": "BUILDING.md",
-    "sha256": "54397a0d9c5291cdaef6a05850d00a60795153bd03fc2c79764ad68647e08769",
+    "sha256": "b91610b081cb3ebbe33a58bad2da80b517c66e86592950a8a72fe6265d8ae67d",
     "mode": 420
   },
   {
@@ -36,12 +36,12 @@
   },
   {
     "path": "ORIGINAL-SOURCE-MAP.json",
-    "sha256": "def78e01f9fc3de92dc52733d6d06b37c5af47e31c0716bd208d19d8c48f540c",
+    "sha256": "f77a95d60c8d35748376fd33c3d1cb800c7f74ef41b6bf3096beb40663da5dae",
     "mode": 420
   },
   {
     "path": "README.md",
-    "sha256": "0a894491102e11253dd2707287a088b3cc10c4b4e1d58c2969070fa04443790a",
+    "sha256": "d7e0c5bda3e3c51e559afd9834447614f3b66d7a6a2f1a6b1fdefacf0eed2fe7",
     "mode": 420
   },
   {
@@ -56,7 +56,7 @@
   },
   {
     "path": "VERIFYING.md",
-    "sha256": "f1099f0c264379687a75c8e9e7c2d3153bd1f4f7bc8801f82ecb423675b01f40",
+    "sha256": "9d3dc3fb832025f1197a92b181c5bc4329523c3df9cb8b3039d2c7110ebb23e1",
     "mode": 420
   },
   {
@@ -146,7 +146,7 @@
   },
   {
     "path": "apps/philcore-desktop/production/release-version.json",
-    "sha256": "a51f6f8a20dacc1c3607ac7165046b1ecb3e0b497127a0e53ac3981e37923afd",
+    "sha256": "2425dacf0b5114d63a58d1260bc3a5fd2e76c48cd88333b91d1709ef47c95d31",
     "mode": 420
   },
   {
@@ -181,7 +181,7 @@
   },
   {
     "path": "apps/philcore-desktop/production/ui/style.css",
-    "sha256": "beed7dd88e149d9fe9f151c15d4e61502794dd40f5145148cdc11a0c013d9801",
+    "sha256": "8355eb1f6c3038982e25b05f24acf6cc33429dac1f463a6b0fccfbe3e81f07e1",
     "mode": 420
   },
   {
@@ -4951,7 +4951,7 @@
   },
   {
     "path": "package-inventory.json",
-    "sha256": "ab9bb98310e42416c3311d9060d5ff7692c2db5eda56d09465b288d7542cba88",
+    "sha256": "54382d71114421b2f0eceb85f2b6706ddd0ebe1072656f1e9b8ef83232dfd37a",
     "mode": 420
   },
   {

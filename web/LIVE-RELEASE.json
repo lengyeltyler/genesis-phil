@@ -1,37 +1,36 @@
 {
-  "head": "ea1c45361cb4d722d5dae21d7241d52aecad1700",
-  "tree": "3d1e2fc5ca0d79d3db0ff872c06884daa319208d",
-  "sourceDigest": "e3955c2e44f4bb316b6bc5a7e98b8800e0d150fa28a00117e3299c14788fb7bc",
-  "releaseId": "ea1c45361cb4d722d5dae21d7241d52aecad1700:e0c5391d81571c2f1900f7a1db3659a8e2997269501700bf8e28bc13902176ed",
-  "manifestSHA256": "e0c5391d81571c2f1900f7a1db3659a8e2997269501700bf8e28bc13902176ed",
-  "buildSHA256": "8054e39b6a3527aa6f60e7983681bdffc8a026eeecaf3b780bca0fac091a1e13",
+  "head": "564df2262b7b637aafa3c44bb050794e1656ed36",
+  "tree": "e42c9d6a12e8016200ed9caacfaef8242fe91b55",
+  "sourceDigest": "f5edc72f3833b6dde313053308c5176b0aeaa6778864034e039473ce8232a397",
+  "releaseId": "564df2262b7b637aafa3c44bb050794e1656ed36:a144387db6c9fdec2c0a746df7903949c6f190337f7e4ea3bda2d7ddb29a9b77",
+  "manifestSHA256": "a144387db6c9fdec2c0a746df7903949c6f190337f7e4ea3bda2d7ddb29a9b77",
+  "buildSHA256": "3aa231c091f838f802c217a0022f8bdff8625430abb7bba013113244f45224bc",
   "workerSHA256": "0f7d3df679b9151599e5f3670ce9c1562f2245de1abe228a19f1ff6e5e0ba4a4",
   "buildHashDefinition": "SHA-256 of compact JSON mapping sorted distribution filenames to SHA-256 values, followed by LF",
-  "publicSourceCommit": "ee5c853a61868d06e92c4984b5faa5f8aaed97d3",
-  "publicSourceTag": "phil-web-completion-2026-09-17",
+  "publicSourceTag": "phil-final-blue-ui-2026-09-17",
+  "publicSourceURL": "https://github.com/lengyeltyler/genesis-phil/tree/phil-final-blue-ui-2026-09-17/web",
   "assets": {
-    "app.2066ec79935a77b1d121c13e93a0f4b1ffaae808e4709d56a4e363371f6ec820.js": "2066ec79935a77b1d121c13e93a0f4b1ffaae808e4709d56a4e363371f6ec820",
-    "catalog-manifest.json": "21c57e33a7b82fe88e64094758fd2fd3193f84ede1ba4c4e090762e0286b4092",
+    "app.f064a062ecd321ac8ec8d8d4d9a17259f60cb99a6d00fd1130d8f560009fcee1.js": "f064a062ecd321ac8ec8d8d4d9a17259f60cb99a6d00fd1130d8f560009fcee1",
+    "style.d2ffe415a933ea8398fa2a9351699aaf2bceae0d01dff7809efe6dae4d9e9c64.css": "d2ffe415a933ea8398fa2a9351699aaf2bceae0d01dff7809efe6dae4d9e9c64",
+    "index.html": "46ce3f00c8b32324931a0de5a01d61d72ff87adbbcb638dd10c20c758fe16e02",
     "catalog.bin": "0a75a6f8f2c851b14a92dd363bab09aa7a1c987705c69e6badc71f16dde050b5",
-    "index.html": "d6dc28146078eeb475346f1d655164366445c0f40e1707dee23510b8928f558c",
+    "catalog-manifest.json": "21c57e33a7b82fe88e64094758fd2fd3193f84ede1ba4c4e090762e0286b4092",
     "phil-logo.png": "1d9f5122d996fd5ce1631c09d2bffe86f19f77251561299ae439e9b351b83d0e",
-    "release.json": "e0c5391d81571c2f1900f7a1db3659a8e2997269501700bf8e28bc13902176ed",
-    "style.ec4240609a828988fa939fd9ddfdd398edabbfa74155c3bba37f30a31a395cd2.css": "ec4240609a828988fa939fd9ddfdd398edabbfa74155c3bba37f30a31a395cd2"
+    "release.json": "a144387db6c9fdec2c0a746df7903949c6f190337f7e4ea3bda2d7ddb29a9b77"
   },
   "origin": "https://phil.tylerlengyel.com",
   "mainnetMinting": "public",
-  "acceptance": "NOT REQUIRED \u2014 owner explicitly waived an additional mint",
+  "acceptance": "No additional Mainnet mint for the owner-authorized UI audit",
   "acceptanceTransactionHash": null,
   "newAcceptanceMintPerformed": false,
   "focusedTests": {
-    "passed": 79,
-    "failed": 0
+    "uniquePassed": 74,
+    "failed": 0,
+    "note": "60 focused Web/UI checks and 14 Desktop verifier checks; 11 overlapping UI/content checks passed again after the heading edit."
   },
-  "liveBalanceAndUnsignedWithdrawalReviews": "PASS",
-  "desktop": "unchanged; Build 93 remains public; Build 95 installer unpublished",
+  "desktop": "Build 96",
   "genesisContracts": "unchanged",
   "liveStatusURL": "https://phil.tylerlengyel.com/release-status.json",
-  "finalLiveTag": "phil-web-mainnet-live-2026-09-17",
-  "finalLiveTagURL": "https://github.com/lengyeltyler/genesis-phil/tree/phil-web-mainnet-live-2026-09-17",
-  "sourceSnapshotNote": "publicSourceCommit/publicSourceTag identify the unchanged runtime export in the historical pre-public snapshot; finalLiveTag identifies the synchronized public-live metadata."
+  "finalLiveTag": "phil-final-blue-ui-2026-09-17",
+  "finalLiveTagURL": "https://github.com/lengyeltyler/genesis-phil/tree/phil-final-blue-ui-2026-09-17"
 }

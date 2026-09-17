@@ -109,14 +109,6 @@ async function refreshLaunch() {
     /* Remains closed on every unavailable or invalid policy. */
   }
   const allowed = !!vault && network.canExecute(vault.header.account);
-  const message =
-    launch.stage === "public"
-      ? "Genesis Mainnet minting is open. Each Genesis Phil account can mint once."
-      : allowed
-        ? "Owner acceptance is open for this account only. Public minting remains paused."
-        : "Public Mainnet minting is paused. Do not fund this account yet.";
-  $("launch-message").textContent = message;
-  $("guide-stage").textContent = message;
   $("funding-help").textContent = allowed
     ? "Review your selected Phil for a current gas estimate before funding. Send only enough ETH to this account to cover the transaction."
     : "Funding is paused for this account. Do not send ETH until minting is open.";
@@ -535,11 +527,7 @@ async function startup() {
   void refreshBalance();
   show("loading", false);
   show("application", true);
-  status(
-    launch.stage === "public"
-      ? "Genesis Phil is open. Each Genesis Phil account can mint once."
-      : "Ready for setup. Public Mainnet minting is paused.",
-  );
+  status("");
   $("next-step-action").addEventListener("click", () => {
     renderNextStep();
     focusNext();
@@ -680,12 +668,6 @@ async function startup() {
         status(
           "Approval submitted once. Check confirmation before taking another action.",
         );
-    }),
-  );
-  $("refresh-launch").addEventListener("click", () =>
-    run(async () => {
-      await refreshLaunch();
-      status("Release status refreshed.");
     }),
   );
   $("check-chain").addEventListener("click", () =>

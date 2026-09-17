@@ -2,23 +2,19 @@
 
 369 fully on-chain Phils on Ethereum Mainnet. Find a Phil, review the exact action, and approve it with your account's protected authority. Mint price is 0 ETH; Ethereum network fees apply. Each valid Genesis account can mint once. This is not a one-person or one-device limit.
 
-- **[Launch Phil Web](https://phil.tylerlengyel.com)** — isolated browser application, with History, the complete 161-post Timeline, and the original Genesis Tutorial. **Ethereum Mainnet minting is open.** Create and verify your backup, check the balance/funding estimate, then review and approve your selected Phil. Wallet balance and ETH withdrawal controls are available.
-- **[Download Desktop 0.3.0, Build 93](https://github.com/lengyeltyler/genesis-phil/releases/download/v0.3.0-build93/Phil-0.3.0-93-macOS-arm64.dmg)** — Apple Silicon macOS, Developer ID signed and notarized.
-- [Verify the available Build-93 installer](docs/VERIFY-DOWNLOAD.md) · [Build-95 source and verification material](desktop/README.md)
-- [Web source and exact release reconstruction](web/README.md) · [Final live tag](https://github.com/lengyeltyler/genesis-phil/tree/phil-web-mainnet-live-2026-09-17) · [Exact Web release identity](web/LIVE-RELEASE.json)
+- **[Launch Phil Web](https://phil.tylerlengyel.com)** — Ethereum Mainnet, with account balance, funding estimates, withdrawal, History, Timeline and Tutorial.
+- **[Download Desktop 0.3.0, Build 96](https://github.com/lengyeltyler/genesis-phil/releases/download/v0.3.0-build96/Phil-0.3.0-96-macOS-arm64.dmg)** — Apple Silicon macOS, Developer ID signed, notarized and stapled.
+- [Verify the installer](docs/VERIFY-DOWNLOAD.md) · [Desktop source and verification](desktop/README.md)
+- [Web source and reconstruction](web/README.md) · [Final source tag](https://github.com/lengyeltyler/genesis-phil/tree/phil-final-blue-ui-2026-09-17) · [Web release identity](web/LIVE-RELEASE.json)
 - [Release manifest](release-manifest.json) · [Checksums](SHA256SUMS) · [Release status](release-status.json)
 
-## Build 95
+## Final UI release
 
-Build 95 source and verification material are public, but its installer release remains a draft after GitHub upload failures. Build 93 remains the available installer. This does not block the independent Web release.
+Desktop Build 96 and Web preserve the Build-93 visual hierarchy and canonical logo, use the exact #C9E3FF light-blue accent, and retain Rolls. Web's Genesis-open announcements are removed. History is headed **Phils-Story**; Story and Timeline controls are unchanged. Warning/error colors stay distinct.
 
-Build 95 restores the Build-93 visual system while retaining Build 94's functional/security source. The only functional addition is the owner-requested session Rolls counter. No changes to identity, custody, Keychain, backup/restore, signing, account derivation, contract bindings, provider/bundler configuration, art generation, recipe binding, Wings, journals or ambiguous-submission handling. See the [exact five-file review](docs/BUILD95-CHANGES.md).
+Desktop engineering source: `776be1735a3bcb457d7bf02e1e5a44b1cad6eed9`, tree `80c90c52238c934d704b7b6382fb740f8c79f40c`. Its only changes from Build 95 are the stylesheet and build number. Web changes are limited to accents, announcement removal/dead code, one matching UI test, and the owner-requested History heading. No custody, account derivation, backup, passkey, provider/bundler, contract, artwork, recipe, transaction authorization or journal logic changed. [Exact UI audit](docs/FINAL-UI-AUDIT.md).
 
-Engineering source: `e3911123f5d6f5b093f52ea08f60526238a8029e`, tree `e100b5198a185a3aec00774f17cb06f761ce6304`. The public export is a source subset plus verification tools, with every original file mapped by hash and Git blob; it has a different repository commit/tree. [Public source tag](https://github.com/lengyeltyler/genesis-phil/tree/v0.3.0-build95-source).
-
-Installer SHA-256: `3c088ac24248ae3f7812ae8f3723282e6f536f80fedfede236164c96f7ebb4cf`.
-
-Publisher: **Developer ID Application: Tyler Lengyel (B342738S82)**. Hardened Runtime, Apple notarization, stapling and Gatekeeper verified. Full source-to-package reconstruction and comparison passed, including Electron and the native helper. Credential-free self-build startup remains unqualified because of macOS Team-ID library validation; the public Build-93 signed installer is the available runnable application. Build-95 package verification used the internally retained signed installer; it does not establish public installer availability. No protection was disabled to make a local copy launch.
+Installer SHA-256: `9575bd6696f9c15f56ecd3e49511564068b78c0d4aa36e3c74422f3e8401f908`. Publisher: **Developer ID Application: Tyler Lengyel (B342738S82)**. Complete public-source-to-package comparison, Hardened Runtime, signatures, notarization, staples and Gatekeeper passed. Credential-free self-build startup remains unqualified because of macOS Team-ID library validation; use the official signed installer for normal operation. No protection was disabled.
 
 ## Mainnet contracts
 
@@ -28,13 +24,13 @@ Publisher: **Developer ID Application: Tyler Lengyel (B342738S82)**. Hardened Ru
 
 This release does not modify or redeploy contracts. Browser passkeys unlock a separate Ethereum signing key; Web encrypted backups and Desktop backups are not interchangeable. Classical cryptography underlies the current authorization path. Post-quantum security and one-human uniqueness are research goals, not current product guarantees.
 
-The root release manifest and checksum files describe the available Build-93 download and current metadata. Build-95 hashes and notarization evidence remain in [the archived artifact manifest](docs/historical-build95-release-manifest.json); its intended download URL is not an availability claim. Another Web acceptance mint was explicitly waived by the owner; no new acceptance transaction was submitted.
+The root manifests and checksums describe Build 96 and the final live Web release. No additional Mainnet transaction was performed for this UI audit, as instructed by the owner. Automated flow regressions and source equivalence do not constitute a new end-to-end Mainnet mint.
 
 ## Historical releases and source tags
 
-The historical `phil-web-completion-2026-09-17` tag remains at `ee5c853a61868d06e92c4984b5faa5f8aaed97d3`, recording the pre-public state. The new `phil-web-mainnet-live-2026-09-17` tag records public Mainnet, the owner waiver and the same engineering/runtime identity.
+The historical `phil-web-completion-2026-09-17` tag remains at `ee5c853a61868d06e92c4984b5faa5f8aaed97d3`, recording the pre-public state. The historical `phil-web-mainnet-live-2026-09-17` tag records the preceding public release. The final blue UI is identified by `phil-final-blue-ui-2026-09-17` and `v0.3.0-build96-source`. Build 95 remains a historical draft with no installer asset.
 
-Build 93 and Build 94 artifacts remain unchanged. The historical public `v0.3.0-build93` tag points to commit `67b0b7c58943c5446019b34f173255b7dfa4846b`, also used by Build 88. Its source archive contains old download documentation, not the Build-93 application source. That tag has not been moved. Use the new Build-95 source tag and file maps for current verification.
+Build 93 and Build 94 artifacts remain unchanged. The historical public `v0.3.0-build93` tag points to commit `67b0b7c58943c5446019b34f173255b7dfa4846b`, also used by Build 88. Its source archive contains old download documentation, not the Build-93 application source. That tag has not been moved. Use the Build-96 source tag and file maps for current verification.
 
 The separate [P.C. repository](https://github.com/lengyeltyler/P.C.) is the historical controlled Sepolia beta, not this Genesis Mainnet Web release. Earlier Phil art and proof experiments remain historical projects.
 

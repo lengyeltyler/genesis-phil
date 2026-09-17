@@ -1,0 +1,523 @@
+{
+  "previousToReplacement": {
+    "web/apps/phil-web/public/style.css": {
+      "colors": {
+        "#d3c4ff": {
+          "replacement": "#C9E3FF",
+          "occurrences": 1
+        },
+        "#e2d7ff": {
+          "replacement": "#C9E3FF",
+          "occurrences": 3
+        },
+        "#d8c9fa": {
+          "replacement": "#C9E3FF",
+          "occurrences": 3
+        },
+        "#ddd3fa": {
+          "replacement": "#C9E3FF",
+          "occurrences": 1
+        },
+        "#e7def6": {
+          "replacement": "#C9E3FF",
+          "occurrences": 2
+        },
+        "#9582b6": {
+          "replacement": "#C9E3FF",
+          "occurrences": 1
+        },
+        "#9a83bb": {
+          "replacement": "#C9E3FF",
+          "occurrences": 1
+        },
+        "#34313f": {
+          "replacement": "#C9E3FF33",
+          "occurrences": 1
+        },
+        "#454052": {
+          "replacement": "#C9E3FF33",
+          "occurrences": 1
+        },
+        "#514a5f": {
+          "replacement": "#C9E3FF55",
+          "occurrences": 1
+        },
+        "#544b65": {
+          "replacement": "#C9E3FF55",
+          "occurrences": 1
+        },
+        "#44364f": {
+          "replacement": "#C9E3FF33",
+          "occurrences": 1
+        },
+        "#5d4b72": {
+          "replacement": "#C9E3FF55",
+          "occurrences": 2
+        },
+        "#655277": {
+          "replacement": "#C9E3FF55",
+          "occurrences": 2
+        },
+        "#403748": {
+          "replacement": "#C9E3FF33",
+          "occurrences": 1
+        },
+        "#21183155": {
+          "replacement": "#C9E3FF14",
+          "occurrences": 1
+        },
+        "#1c1925": {
+          "replacement": "#C9E3FF0D",
+          "occurrences": 1
+        },
+        "#211c2b": {
+          "replacement": "#C9E3FF14",
+          "occurrences": 1
+        },
+        "#30273d": {
+          "replacement": "#C9E3FF22",
+          "occurrences": 1
+        },
+        "#342844": {
+          "replacement": "#C9E3FF22",
+          "occurrences": 1
+        },
+        "#211a2c": {
+          "replacement": "#C9E3FF14",
+          "occurrences": 2
+        },
+        "#1c1725": {
+          "replacement": "#141414",
+          "occurrences": 1
+        },
+        "#141319": {
+          "replacement": "#141414",
+          "occurrences": 1
+        },
+        "#141019": {
+          "replacement": "#141414",
+          "occurrences": 1
+        },
+        "#0c0b10": {
+          "replacement": "#0c0c0c",
+          "occurrences": 2
+        },
+        "#181020": {
+          "replacement": "#08080b",
+          "occurrences": 1
+        },
+        "#f4f2fa": {
+          "replacement": "#f4f4f4",
+          "occurrences": 5
+        },
+        "#b8b3c4": {
+          "replacement": "#b8b8b8",
+          "occurrences": 1
+        },
+        "#c1bbcd": {
+          "replacement": "#c1c1c1",
+          "occurrences": 1
+        }
+      },
+      "classification": "UI / STYLE ONLY; obsolete banner selector cleanup"
+    },
+    "desktop/apps/philcore-desktop/production/ui/style.css": {
+      "colors": {
+        "#d3c4ff": {
+          "replacement": "#C9E3FF",
+          "occurrences": 1
+        },
+        "#e2d7ff": {
+          "replacement": "#C9E3FF",
+          "occurrences": 3
+        },
+        "#d8c9fa": {
+          "replacement": "#C9E3FF",
+          "occurrences": 2
+        },
+        "#ddd3fa": {
+          "replacement": "#C9E3FF",
+          "occurrences": 1
+        },
+        "#e7def6": {
+          "replacement": "#C9E3FF",
+          "occurrences": 1
+        },
+        "#9582b6": {
+          "replacement": "#C9E3FF",
+          "occurrences": 1
+        },
+        "#9a83bb": {
+          "replacement": "#C9E3FF",
+          "occurrences": 1
+        },
+        "#34313f": {
+          "replacement": "#C9E3FF33",
+          "occurrences": 1
+        },
+        "#454052": {
+          "replacement": "#C9E3FF33",
+          "occurrences": 1
+        },
+        "#514a5f": {
+          "replacement": "#C9E3FF55",
+          "occurrences": 1
+        },
+        "#544b65": {
+          "replacement": "#C9E3FF55",
+          "occurrences": 1
+        },
+        "#44364f": {
+          "replacement": "#C9E3FF33",
+          "occurrences": 1
+        },
+        "#5d4b72": {
+          "replacement": "#C9E3FF55",
+          "occurrences": 1
+        },
+        "#655277": {
+          "replacement": "#C9E3FF55",
+          "occurrences": 2
+        },
+        "#403748": {
+          "replacement": "#C9E3FF33",
+          "occurrences": 1
+        },
+        "#21183155": {
+          "replacement": "#C9E3FF14",
+          "occurrences": 1
+        },
+        "#1c1925": {
+          "replacement": "#C9E3FF0D",
+          "occurrences": 1
+        },
+        "#211c2b": {
+          "replacement": "#C9E3FF14",
+          "occurrences": 1
+        },
+        "#30273d": {
+          "replacement": "#C9E3FF22",
+          "occurrences": 1
+        },
+        "#342844": {
+          "replacement": "#C9E3FF22",
+          "occurrences": 1
+        },
+        "#211a2c": {
+          "replacement": "#C9E3FF14",
+          "occurrences": 1
+        },
+        "#1c1725": {
+          "replacement": "#141414",
+          "occurrences": 1
+        },
+        "#141319": {
+          "replacement": "#141414",
+          "occurrences": 1
+        },
+        "#141019": {
+          "replacement": "#141414",
+          "occurrences": 1
+        },
+        "#0c0b10": {
+          "replacement": "#0c0c0c",
+          "occurrences": 2
+        },
+        "#181020": {
+          "replacement": "#08080b",
+          "occurrences": 1
+        },
+        "#f4f2fa": {
+          "replacement": "#f4f4f4",
+          "occurrences": 4
+        },
+        "#b8b3c4": {
+          "replacement": "#b8b8b8",
+          "occurrences": 1
+        },
+        "#c1bbcd": {
+          "replacement": "#c1c1c1",
+          "occurrences": 1
+        }
+      },
+      "classification": "UI / STYLE ONLY; obsolete banner selector cleanup"
+    }
+  },
+  "exactBlueUsageLocations": {
+    "web/apps/phil-web/public/style.css": [
+      {
+        "selector": ":root",
+        "declaration": "--line:#C9E3FF33",
+        "line": 1
+      },
+      {
+        "selector": ":root",
+        "declaration": "--accent:#C9E3FF",
+        "line": 1
+      },
+      {
+        "selector": "body",
+        "declaration": "background:radial-gradient(ellipse at 85% 0,#C9E3FF14,transparent 45%),#08080b",
+        "line": 1
+      },
+      {
+        "selector": ".network",
+        "declaration": "border:1px solid #C9E3FF33",
+        "line": 1
+      },
+      {
+        "selector": ".network",
+        "declaration": "background:#C9E3FF0D",
+        "line": 1
+      },
+      {
+        "selector": ".network",
+        "declaration": "color:#C9E3FF",
+        "line": 1
+      },
+      {
+        "selector": "input,select",
+        "declaration": "border:1px solid #C9E3FF55",
+        "line": 1
+      },
+      {
+        "selector": "button",
+        "declaration": "border:1px solid #C9E3FF55",
+        "line": 1
+      },
+      {
+        "selector": "button",
+        "declaration": "background:#C9E3FF14",
+        "line": 1
+      },
+      {
+        "selector": "button:hover:not(:disabled)",
+        "declaration": "background:#C9E3FF22",
+        "line": 1
+      },
+      {
+        "selector": "button:hover:not(:disabled)",
+        "declaration": "border-color:#C9E3FF",
+        "line": 1
+      },
+      {
+        "selector": "button.primary:hover:not(:disabled)",
+        "declaration": "background:#C9E3FF",
+        "line": 1
+      },
+      {
+        "selector": "button.primary:hover:not(:disabled)",
+        "declaration": "border-color:#C9E3FF",
+        "line": 1
+      },
+      {
+        "selector": "nav .active",
+        "declaration": "background:#C9E3FF22",
+        "line": 1
+      },
+      {
+        "selector": "nav .active",
+        "declaration": "border-color:#C9E3FF",
+        "line": 1
+      },
+      {
+        "selector": ".art-card",
+        "declaration": "border:1px solid #C9E3FF33",
+        "line": 1
+      },
+      {
+        "selector": "#notice",
+        "declaration": "border:1px solid #C9E3FF55",
+        "line": 1
+      },
+      {
+        "selector": "#notice",
+        "declaration": "background:#C9E3FF14",
+        "line": 1
+      },
+      {
+        "selector": "#notice",
+        "declaration": "color:#C9E3FF",
+        "line": 1
+      },
+      {
+        "selector": "dialog",
+        "declaration": "border:1px solid #C9E3FF55",
+        "line": 1
+      },
+      {
+        "selector": "#selectionStatus",
+        "declaration": "color:#C9E3FF",
+        "line": 3
+      },
+      {
+        "selector": ".spinner",
+        "declaration": "border:2px solid #C9E3FF55",
+        "line": 3
+      },
+      {
+        "selector": ".spinner",
+        "declaration": "border-top-color:#C9E3FF",
+        "line": 3
+      },
+      {
+        "selector": "#withdrawForm fieldset",
+        "declaration": "border:1px solid var(--border,#C9E3FF33)",
+        "line": 7
+      },
+      {
+        "selector": "#withdrawForm input[type=\"radio\"]",
+        "declaration": "accent-color:#C9E3FF",
+        "line": 9
+      },
+      {
+        "selector": ".status",
+        "declaration": "border:1px solid #C9E3FF55",
+        "line": 14
+      },
+      {
+        "selector": ".status",
+        "declaration": "background:#C9E3FF14",
+        "line": 14
+      },
+      {
+        "selector": ".status",
+        "declaration": "color:#C9E3FF",
+        "line": 14
+      },
+      {
+        "selector": "#roll-count",
+        "declaration": "color:#C9E3FF",
+        "line": 14
+      }
+    ],
+    "desktop/apps/philcore-desktop/production/ui/style.css": [
+      {
+        "selector": ":root",
+        "declaration": "--line:#C9E3FF33",
+        "line": 1
+      },
+      {
+        "selector": ":root",
+        "declaration": "--accent:#C9E3FF",
+        "line": 1
+      },
+      {
+        "selector": "body",
+        "declaration": "background:radial-gradient(ellipse at 85% 0,#C9E3FF14,transparent 45%),#08080b",
+        "line": 1
+      },
+      {
+        "selector": ".network",
+        "declaration": "border:1px solid #C9E3FF33",
+        "line": 1
+      },
+      {
+        "selector": ".network",
+        "declaration": "background:#C9E3FF0D",
+        "line": 1
+      },
+      {
+        "selector": ".network",
+        "declaration": "color:#C9E3FF",
+        "line": 1
+      },
+      {
+        "selector": "input,select",
+        "declaration": "border:1px solid #C9E3FF55",
+        "line": 1
+      },
+      {
+        "selector": "button",
+        "declaration": "border:1px solid #C9E3FF55",
+        "line": 1
+      },
+      {
+        "selector": "button",
+        "declaration": "background:#C9E3FF14",
+        "line": 1
+      },
+      {
+        "selector": "button:hover:not(:disabled)",
+        "declaration": "background:#C9E3FF22",
+        "line": 1
+      },
+      {
+        "selector": "button:hover:not(:disabled)",
+        "declaration": "border-color:#C9E3FF",
+        "line": 1
+      },
+      {
+        "selector": "button.primary:hover:not(:disabled)",
+        "declaration": "background:#C9E3FF",
+        "line": 1
+      },
+      {
+        "selector": "button.primary:hover:not(:disabled)",
+        "declaration": "border-color:#C9E3FF",
+        "line": 1
+      },
+      {
+        "selector": "nav .active",
+        "declaration": "background:#C9E3FF22",
+        "line": 1
+      },
+      {
+        "selector": "nav .active",
+        "declaration": "border-color:#C9E3FF",
+        "line": 1
+      },
+      {
+        "selector": ".art-card",
+        "declaration": "border:1px solid #C9E3FF33",
+        "line": 1
+      },
+      {
+        "selector": "#notice",
+        "declaration": "border:1px solid #C9E3FF55",
+        "line": 1
+      },
+      {
+        "selector": "#notice",
+        "declaration": "background:#C9E3FF14",
+        "line": 1
+      },
+      {
+        "selector": "#notice",
+        "declaration": "color:#C9E3FF",
+        "line": 1
+      },
+      {
+        "selector": "dialog",
+        "declaration": "border:1px solid #C9E3FF55",
+        "line": 1
+      },
+      {
+        "selector": "#selectionStatus",
+        "declaration": "color:#C9E3FF",
+        "line": 3
+      },
+      {
+        "selector": ".spinner",
+        "declaration": "border:2px solid #C9E3FF55",
+        "line": 3
+      },
+      {
+        "selector": ".spinner",
+        "declaration": "border-top-color:#C9E3FF",
+        "line": 3
+      },
+      {
+        "selector": "#withdrawForm fieldset",
+        "declaration": "border:1px solid var(--border,#C9E3FF33)",
+        "line": 7
+      },
+      {
+        "selector": "#withdrawForm input[type=\"radio\"]",
+        "declaration": "accent-color:#C9E3FF",
+        "line": 9
+      }
+    ]
+  },
+  "note": "Alpha suffixes retain exactly RGB C9E3FF for translucent backgrounds and borders. Functional warning/error values and disabled opacity are unchanged."
+}

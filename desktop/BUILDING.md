@@ -1,4 +1,4 @@
-# Build Phils 0.3.0 (95), build93-visual-restoration
+# Build Phils 0.3.0 (96), build93-light-blue
 
 ## Requirements
 
@@ -10,11 +10,11 @@ Locked npm dependencies: Electron **41.10.3**, esbuild **0.25.12**, TypeScript *
 
 ## Clone and check the public snapshot
 
-For the current documentation edition of the unchanged Build-95 source snapshot (the Build-95 installer remains unpublished):
+For the published source snapshot:
 
 ```sh
-git clone --branch phil-web-mainnet-live-2026-09-17 --single-branch https://github.com/lengyeltyler/genesis-phil.git phils-build95-source
-cd phils-build95-source/desktop
+git clone --branch v0.3.0-build96-source --single-branch https://github.com/lengyeltyler/genesis-phil.git phils-build96-source
+cd phils-build96-source/desktop
 git rev-parse HEAD
 git rev-parse HEAD^{tree}
 git status --porcelain
@@ -58,7 +58,7 @@ node -e "require('./genesis/release/public-source/build-local.cjs').adHoc(requir
 
 Ad-hoc signing uses `codesign --sign -` with Hardened Runtime and only Electron's JIT entitlement on application bundles. It updates the helper's exact local hash before sealing the outer app. Strict signature validation and source/package comparison pass for this local form. It does not confer the official publisher identity or notarization.
 
-**Local startup is not qualified.** The isolated startup attempt was rejected by macOS's dynamic loader: the ad-hoc executable and Electron Framework do not have a trusted Team ID for Hardened Runtime library validation. Therefore this workflow currently supports reconstruction, assembly and comparison, **not a credential-free runnable production app**. Do not interpret successful `codesign --verify` as proof that macOS will launch it. This is an unresolved requirement of the proposed verification workflow, not a defect or mismatch in the internally retained signed Build 95. The public Desktop installer remains Build 93.
+**Local startup is not qualified.** The isolated startup attempt was rejected by macOS's dynamic loader: the ad-hoc executable and Electron Framework do not have a trusted Team ID for Hardened Runtime library validation. Therefore this workflow currently supports reconstruction, assembly and comparison, **not a credential-free runnable production app**. Do not interpret successful `codesign --verify` as proof that macOS will launch it. This is an unresolved requirement of the proposed verification workflow, not a defect or mismatch in the signed distributed Build 96.
 
 We have not disabled library validation, Hardened Runtime, Gatekeeper, quarantine, sandboxing or any product authentication/custody protection. We have not substituted a development entry point or changed `app.isPackaged` checks. The official signed app remains the supported runnable application. A future local-startup solution needs separate qualification while preserving those protections; neither an owner's certificate nor an unqualified alternative signer is part of this package.
 
