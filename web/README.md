@@ -2,7 +2,7 @@
 
 Production: https://phil.tylerlengyel.com
 
-Engineering HEAD `d5b533ba7901f811c1345849bc65ccb5362138f2`.
+Engineering HEAD `f21dfb5450ae70f1077f106db4749b4526fc6b5d`.
 The exact tree, source digest, assets, Worker and configuration are in [reference-release.json](reference-release.json). The public source export contains the browser bundle's complete source dependency set, tests, content, hosting code and pipeline. [ORIGINAL-SOURCE-MAP.json](ORIGINAL-SOURCE-MAP.json) records exact original hashes and sanitizations of owner-specific documentation/output paths. Runtime modules are unmodified.
 
 The app lockfile and separate Wrangler lockfile are pinned. No Desktop runtime or private owner state is needed in the browser build. The supplied catalog is the exact published catalog; it can also be reconstructed using the Desktop export's art sources/compiler and compared byte-for-byte.

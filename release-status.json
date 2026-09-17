@@ -7,8 +7,8 @@
   "contractsIdentityAndExecutionUnchanged": true,
   "web": {
     "origin": "https://phil.tylerlengyel.com",
-    "engineeringHead": "d5b533ba7901f811c1345849bc65ccb5362138f2",
-    "releaseId": "d5b533ba7901f811c1345849bc65ccb5362138f2:4dfda34c9fadfc141ea89b1712cbf75109ad4ba5397497b69604d9934acc3a83",
+    "engineeringHead": "f21dfb5450ae70f1077f106db4749b4526fc6b5d",
+    "releaseId": "f21dfb5450ae70f1077f106db4749b4526fc6b5d:40ea263f669898bbca8a87ed884eccb2e13a1b9b50bb5681d7e6e0c69214a537",
     "stageAtPublication": "closed",
     "liveStatusURL": "https://phil.tylerlengyel.com/release-status.json",
     "historyAndTutorial": "live",
