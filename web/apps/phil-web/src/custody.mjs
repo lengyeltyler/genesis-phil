@@ -361,7 +361,8 @@ export function createCustody({
       if (!isBuiltAuthorization(pkg)) throw Error("WEB_UNTRUSTED_PACKAGE");
       if (
         pkg.presentation.action !== "MINT_PHIL" &&
-        pkg.presentation.action !== "TRANSFER_PHIL"
+        pkg.presentation.action !== "TRANSFER_PHIL" &&
+        pkg.presentation.action !== "WITHDRAW_ETH"
       )
         throw Error("WEB_ACTION_FORBIDDEN");
       if (pkg.profile.mode !== "DESKTOP_GENESIS" || pkg.profile.device !== null)

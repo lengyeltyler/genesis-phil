@@ -4,17 +4,19 @@ Browser-native Genesis client, isolated from the marketing website and Desktop c
 
 The full compatibility, custody, testing and owner-action report is in `../../docs/PHIL_WEB_IMPLEMENTATION.md`; hosting findings are in `../../docs/PHIL_WEB_HOSTING_AUDIT.md`.
 
+User-facing Genesis parity is documented in [PARITY.md](PARITY.md). Wallet/EntryPoint balances and custom/max ETH withdrawal reuse the existing Desktop/shared production logic. Browser custody and backup formats are unchanged. Read `/release-status.json` for the current release-bound public minting state.
+
 ## Local build
 
-Use the repository's pinned Node 26.0.0. On the owner's Mac all builds remain under `a separate build directory`. No production identities, Keychain or live journals are used.
+Use the repository's pinned Node 26.0.0. On the owner's Mac all builds remain under `./.web-build`. No production identities, Keychain or live journals are used.
 
 From repository root:
 
 ```sh
 npm ci --ignore-scripts --prefix apps/phil-web
 node genesis/body2-correction/compile.cjs
-PHIL_WEB_OUTPUT=./.web-preview node apps/phil-web/scripts/build.mjs --preview
-PHIL_WEB_OUTPUT=./.web-preview node apps/phil-web/scripts/preview.mjs
+PHIL_WEB_OUTPUT=./.web-build node apps/phil-web/scripts/build.mjs --preview
+PHIL_WEB_OUTPUT=./.web-build node apps/phil-web/scripts/preview.mjs
 ```
 
 Open `http://localhost:4173`. A preview has a different WebAuthn RP identity and cannot be used as the production origin. Never fund test/preview accounts. Every build needs a fresh output directory. To produce production-origin artifacts, omit `--preview`. The initial deployment still leaves Mainnet minting closed.

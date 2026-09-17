@@ -12,6 +12,8 @@ import state from "../../../genesis/production/state.cjs";
 import funding from "../../../genesis/production/funding.cjs";
 import fees from "../../../genesis/production/bundler-fees.cjs";
 import reconciliation from "../../../genesis/production/reconciliation.cjs";
+import withdrawal from "../../../genesis/production/withdrawal.cjs";
+import balanceReader from "../../philcore-desktop/production/balance.cjs";
 import { buildAuthorization, deriveAccount } from "./protocol.mjs";
 import { random } from "./bytes.mjs";
 
@@ -107,8 +109,12 @@ export function createNetwork(
     return head;
   }
   async function prepare(header, action, choice) {
-    if (!["MINT_PHIL", "TRANSFER_PHIL"].includes(action))
+    if (!["MINT_PHIL", "TRANSFER_PHIL", "WITHDRAW_ETH"].includes(action))
       throw Error("WEB_ACTION_FORBIDDEN");
+    const withdrawing = action === "WITHDRAW_ETH";
+    if (withdrawing && (typeof choice.amountWei !== "string" ||
+      !/^(?:max|[1-9][0-9]{0,77})$/.test(choice.amountWei)))
+      throw Error("GENESIS_WITHDRAWAL");
     const { profile, creation } = deriveAccount(
         config,
         header,
@@ -119,7 +125,7 @@ export function createNetwork(
       deployed = code !== "0x";
     if (deployed && keccak256(code) !== profile.accountCodeHash)
       throw Error("GENESIS_CODE_CHANGED");
-    if (!deployed && action !== "MINT_PHIL")
+    if (!deployed && !["MINT_PHIL", "WITHDRAW_ETH"].includes(action))
       throw Error("GENESIS_OWNER_CHANGED");
     const nonce = String(
       (
@@ -139,6 +145,7 @@ export function createNetwork(
       action,
       ...(action === "MINT_PHIL"
         ? { tokenId: choice.recipeId, nameId: choice.nameId }
+        : withdrawing ? { amountWei: choice.amountWei === "max" ? "1" : choice.amountWei }
         : { tokenId: choice.tokenId }),
       recipient:
         action === "MINT_PHIL"
@@ -162,14 +169,23 @@ export function createNetwork(
       ),
       reader = state.createStateReader({ ...apis, profile });
     await reader.read(provisional, { requireFunds: false });
-    const feeQuote = await funding.liveFunding({
+    let feeQuote = await funding.liveFunding({
       ...apis,
       profile,
       operation: provisional.op,
       accountDeployed: deployed,
       bundlerKind: "public-candide",
       action,
+      principalWei: provisional.presentation.principalWei,
     });
+    if (withdrawing) {
+      const result = await withdrawal.prepareWithdrawal({
+        profile, input, choice, creation: deployed ? null : creation,
+        feeQuote, bundler: apis.bundler, reader,
+      });
+      input.amountWei = result.amountWei;
+      feeQuote = result.feeQuote;
+    }
     if (!feeQuote.withinCap) throw Error("GENESIS_FUNDING");
     const pkg = buildAuthorization(
       profile,
@@ -275,6 +291,10 @@ export function createNetwork(
   }
   return {
     infrastructure,
+    balance: (header) => balanceReader.readBalance({
+      ...apis, account: deriveAccount(config, header, "DESKTOP_GENESIS").profile.account,
+      entryPoint: config.entryPoint,
+    }),
     prepare,
     owned,
     assertFresh,

@@ -1,6 +1,6 @@
 {
-  "engineeringHead": "f21dfb5450ae70f1077f106db4749b4526fc6b5d",
-  "engineeringTree": "12295bee5291aa8e46805a654ed42f7f69704283",
+  "engineeringHead": "ea1c45361cb4d722d5dae21d7241d52aecad1700",
+  "engineeringTree": "3d1e2fc5ca0d79d3db0ff872c06884daa319208d",
   "files": [
     {
       "path": "LICENSE",
@@ -13,10 +13,15 @@
       "sha256": "f1675c22384910719998333e475541e394b729a4a9f72c9568e3717f07984eaa"
     },
     {
+      "path": "apps/phil-web/PARITY.md",
+      "originalSHA256": "bc9e441b8c6daf1f87841981d013526cb18496f1bf0269a075e29f6dd6e16423",
+      "sha256": "bc9e441b8c6daf1f87841981d013526cb18496f1bf0269a075e29f6dd6e16423"
+    },
+    {
       "path": "apps/phil-web/README.md",
-      "originalSHA256": "6fd6d196c277de5333da32058fa8a78d54324c1b5311b752d27af8df5068432a",
-      "sha256": "8b689506a20627b49c88427cbfd88aad221f792f8b04522b4da475c4dac9c26b",
-      "transformation": "Owner-specific documentation/output paths replaced with relative paths; runtime unchanged."
+      "originalSHA256": "1ea9f001e6057346c3c13c4b4e20c207f383ae09ed4f171f1e04442770b0e6e3",
+      "sha256": "1baa4c90c8991111b60eef9649ceaeab472a00c85c516d456dbfad92f7c16702",
+      "transformation": "Owner-specific build/evidence paths replaced with relative public paths; runtime unchanged."
     },
     {
       "path": "apps/phil-web/content/README.md",
@@ -65,8 +70,8 @@
     },
     {
       "path": "apps/phil-web/public/index.html",
-      "originalSHA256": "0c6fe9241468104ea74979c1602aa40d0e16fd1d25562e567bb4987b12cf877e",
-      "sha256": "0c6fe9241468104ea74979c1602aa40d0e16fd1d25562e567bb4987b12cf877e"
+      "originalSHA256": "36428f4b70fce6c4f1feddb759f24f12895240d15f3a69fb49cda69c900598c9",
+      "sha256": "36428f4b70fce6c4f1feddb759f24f12895240d15f3a69fb49cda69c900598c9"
     },
     {
       "path": "apps/phil-web/public/phil-logo.png",
@@ -82,7 +87,7 @@
       "path": "apps/phil-web/scripts/audit-public.mjs",
       "originalSHA256": "fc825a696ab0de1971918bc857aa03ae5764f70629fa4909e1e6a5a12d37f9fb",
       "sha256": "e90e59cb83e127b71385f504876ef1eff0042b9a06a01c07b1dbb8810e6d021d",
-      "transformation": "Owner-specific documentation/output paths replaced with relative paths; runtime unchanged."
+      "transformation": "Owner-specific build/evidence paths replaced with relative public paths; runtime unchanged."
     },
     {
       "path": "apps/phil-web/scripts/build.mjs",
@@ -113,8 +118,8 @@
     },
     {
       "path": "apps/phil-web/src/app.mjs",
-      "originalSHA256": "d474f841680655e6bf819e749a5e1eca8b5572435da8d1f8b07ad7410cb3b676",
-      "sha256": "d474f841680655e6bf819e749a5e1eca8b5572435da8d1f8b07ad7410cb3b676"
+      "originalSHA256": "2dd63d10b8bae209c0622419f82fab7fd437e7f7441942802303829243349902",
+      "sha256": "2dd63d10b8bae209c0622419f82fab7fd437e7f7441942802303829243349902"
     },
     {
       "path": "apps/phil-web/src/browser-crypto.mjs",
@@ -138,8 +143,8 @@
     },
     {
       "path": "apps/phil-web/src/custody.mjs",
-      "originalSHA256": "767229e596e0dda7def3e7d890ed19777ca99d0a5dadc051f75d628005d1d035",
-      "sha256": "767229e596e0dda7def3e7d890ed19777ca99d0a5dadc051f75d628005d1d035"
+      "originalSHA256": "4459b623084f9eec21274e70a6d0c0ef10f72386e29b406ef2fffb9a7a949225",
+      "sha256": "4459b623084f9eec21274e70a6d0c0ef10f72386e29b406ef2fffb9a7a949225"
     },
     {
       "path": "apps/phil-web/src/execution.mjs",
@@ -153,8 +158,8 @@
     },
     {
       "path": "apps/phil-web/src/network.mjs",
-      "originalSHA256": "b4fa6c46ec6b879423976930b4df1543ae2ce6928b152db6ce52b1d5e914096a",
-      "sha256": "b4fa6c46ec6b879423976930b4df1543ae2ce6928b152db6ce52b1d5e914096a"
+      "originalSHA256": "c1aacaeac895a6bb06784305d17e28c95c074e03f9f0e07922825d436999d20c",
+      "sha256": "c1aacaeac895a6bb06784305d17e28c95c074e03f9f0e07922825d436999d20c"
     },
     {
       "path": "apps/phil-web/src/passkey.mjs",
@@ -163,8 +168,8 @@
     },
     {
       "path": "apps/phil-web/src/persisted-package.mjs",
-      "originalSHA256": "256f0221b812a27c56bde0df818600df5907d314a133b6b18eaee74e36c5188f",
-      "sha256": "256f0221b812a27c56bde0df818600df5907d314a133b6b18eaee74e36c5188f"
+      "originalSHA256": "322f58f184ab93708cb73201bacb8419469949c002378b60c8fac48c07553c45",
+      "sha256": "322f58f184ab93708cb73201bacb8419469949c002378b60c8fac48c07553c45"
     },
     {
       "path": "apps/phil-web/src/protocol.mjs",
@@ -175,6 +180,11 @@
       "path": "apps/phil-web/src/release.mjs",
       "originalSHA256": "106722677694bd02ff397a23a9f5fb167f2db88c273b5927b2169ad8ec012a49",
       "sha256": "106722677694bd02ff397a23a9f5fb167f2db88c273b5927b2169ad8ec012a49"
+    },
+    {
+      "path": "apps/phil-web/src/review.mjs",
+      "originalSHA256": "91221ca57b411713896670dbe79b198ec548d7c53c46db97f085f3802023b8fe",
+      "sha256": "91221ca57b411713896670dbe79b198ec548d7c53c46db97f085f3802023b8fe"
     },
     {
       "path": "apps/phil-web/src/selection.mjs",
@@ -197,14 +207,19 @@
       "sha256": "6842a0b12d39db0ec1a80f18031c1a3baef11aaf090ed8f1ce1b7ead6424b2b1"
     },
     {
+      "path": "apps/phil-web/test/balance-review.test.mjs",
+      "originalSHA256": "0bf05f977e06bd7a3cc7441da704242fe57a93f60b1db586eee5a6b039df847c",
+      "sha256": "0bf05f977e06bd7a3cc7441da704242fe57a93f60b1db586eee5a6b039df847c"
+    },
+    {
       "path": "apps/phil-web/test/content.test.mjs",
       "originalSHA256": "dc9720230ac561c00fa65d7714ea004d2a40a574f5f556e115654d9cb10b2133",
       "sha256": "dc9720230ac561c00fa65d7714ea004d2a40a574f5f556e115654d9cb10b2133"
     },
     {
       "path": "apps/phil-web/test/custody.test.mjs",
-      "originalSHA256": "6b0c61e78cafc32296476d92fd106742afd046d2d301ec0641cdefea9c2d47f7",
-      "sha256": "6b0c61e78cafc32296476d92fd106742afd046d2d301ec0641cdefea9c2d47f7"
+      "originalSHA256": "ff907c6df23485e90dd98de199f2ba52fad179f78755ca81475db2f34838de49",
+      "sha256": "ff907c6df23485e90dd98de199f2ba52fad179f78755ca81475db2f34838de49"
     },
     {
       "path": "apps/phil-web/test/hosting.test.mjs",
@@ -245,6 +260,11 @@
       "path": "apps/phil-web/test/welcome.test.mjs",
       "originalSHA256": "92a6ff35e7f531617487679edd8bc39d2da1b0441c7d82c39db6e9409e8b7119",
       "sha256": "92a6ff35e7f531617487679edd8bc39d2da1b0441c7d82c39db6e9409e8b7119"
+    },
+    {
+      "path": "apps/philcore-desktop/production/balance.cjs",
+      "originalSHA256": "a0d2cf81fca9b775de7d274b1558c029b1502f68d940601fc9619f3b5ada5f0a",
+      "sha256": "a0d2cf81fca9b775de7d274b1558c029b1502f68d940601fc9619f3b5ada5f0a"
     },
     {
       "path": "apps/philcore-desktop/production/candidate-public-config.json",
@@ -310,6 +330,11 @@
       "path": "genesis/production/state.cjs",
       "originalSHA256": "62d2f33b7707a2e58fc6ca0333dd588a08f2b7aef10b92e26f410dc4d065848f",
       "sha256": "62d2f33b7707a2e58fc6ca0333dd588a08f2b7aef10b92e26f410dc4d065848f"
+    },
+    {
+      "path": "genesis/production/withdrawal.cjs",
+      "originalSHA256": "0e8abea3b718c0ae9bd596f670526bdfc66f450dd419ba6072984a1bb0caceb4",
+      "sha256": "0e8abea3b718c0ae9bd596f670526bdfc66f450dd419ba6072984a1bb0caceb4"
     },
     {
       "path": "genesis/runtime/account.cjs",

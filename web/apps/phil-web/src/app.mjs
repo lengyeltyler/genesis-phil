@@ -1,5 +1,6 @@
 import { createContentViews } from "./content.mjs";
 import { formatEther } from "ethers";
+import { reviewDetails, withdrawalAmount } from "./review.mjs";
 import qr from "qrcode-generator";
 import artModule from "../../../genesis/production/art.cjs";
 import config from "../../philcore-desktop/production/candidate-public-config.json";
@@ -159,6 +160,9 @@ const errors = {
     "Local vault data is invalid. Stop and use your verified backup in a fresh browser profile.",
   WEB_RESTORE_REQUIRES_FRESH_STORAGE:
     "Restore requires a fresh browser profile without an existing Phil vault.",
+  GENESIS_WITHDRAWAL: "Enter a positive ETH amount with at most 18 decimal places.",
+  GENESIS_WITHDRAWAL_ESTIMATE_CHANGED: "The withdrawal fee changed. Review again for a fresh estimate.",
+  INVALID_ARGUMENT: "Check the recipient Ethereum address and amount.",
   GENESIS_FUNDING:
     "The account needs more ETH for network fees, or the quote exceeds the safety limit.",
 };
@@ -183,7 +187,7 @@ async function run(fn) {
     status(
       ["NotAllowedError", "AbortError"].includes(e.name)
         ? "Device approval was cancelled or unavailable."
-        : errors[e.message] ||
+        : errors[e.message] || errors[e.code] ||
             "This step could not be verified. Nothing will be retried automatically. Check your connection, device approval, or backup and try the step again.",
       true,
     );
@@ -263,6 +267,45 @@ async function syncVault() {
   await refreshAttempts();
   tab(vault.envelopes.ready ? "discover" : "backup");
 }
+async function refreshBalance() {
+  if (!vault) return;
+  $("balance-status").textContent = "Checking both Ethereum services…";
+  try {
+    const value = await network.balance(vault.header);
+    $("wallet-balance").textContent = formatEther(value.balanceWei) + " ETH";
+    $("wallet-deposit").textContent = "EntryPoint deposit: " + formatEther(value.depositWei) + " ETH · Total available: " + formatEther(value.availableWei) + " ETH";
+    $("balance-status").textContent = "Verified using both Mainnet providers at block " + value.block + ". Updated " + new Date(value.observedAtMs).toLocaleTimeString() + ".";
+  } catch (error) {
+    $("wallet-balance").textContent = "Balance unavailable";
+    $("wallet-deposit").textContent = "";
+    $("balance-status").textContent = errors[error.message] || "Balance could not be verified. Refresh to try again.";
+  }
+}
+let fundingTimer;
+async function refreshFunding() {
+  invalidate();
+  clearTimeout(fundingTimer);
+  $("funding-quote").textContent = "Checking current fees and funding…";
+  try {
+    if (!vault?.envelopes.ready) throw Error("WEB_BACKUP_REQUIRED");
+    const { feeQuote: q } = await network.prepare(vault.header, "MINT_PHIL", selected);
+    $("funding-quote").textContent = (q.sufficient ? "Enough ETH appears available for mint gas. " : "Additional ETH needed: " + formatEther(q.additionalWei) + " ETH. ") + "Recommended available: " + formatEther(q.recommendedWei) + " ETH. Estimate expires after 30 seconds; the exact fee is checked again in mint review.";
+    fundingTimer = setTimeout(() => { $("funding-quote").textContent = "Funding estimate expired. Refresh for current fees."; }, Math.max(0, q.observedAtMs + 30000 - Date.now()));
+    await refreshBalance();
+    status("Funding estimate refreshed. No approval or transaction was requested.");
+  } catch (error) {
+    $("funding-quote").textContent = "Funding estimate unavailable. Refresh to try again.";
+    throw error;
+  }
+}
+function confirmedTransaction(result) {
+  const link = $("transaction-link");
+  link.hidden = !/^0x[0-9a-f]{64}$/i.test(result.transactionHash || "");
+  if (!link.hidden) {
+    link.href = "https://etherscan.io/tx/" + result.transactionHash;
+    link.textContent = "View confirmed transaction ↗";
+  }
+}
 async function refreshAttempts() {
   if (!vault) return;
   const attempts = await journal.pending(vault.header.account);
@@ -285,7 +328,9 @@ async function refreshAttempts() {
                 ? "Confirmed on Ethereum."
                 : "The operation failed on Ethereum. Its approval will not be reused.",
             );
+            confirmedTransaction(result);
             await refreshOwned();
+            await refreshBalance();
           } else status("Still unresolved. No new submission was sent.");
           await refreshAttempts();
         }),
@@ -344,39 +389,23 @@ async function prepare(action) {
     if (!token) throw Error("WEB_SELECTION_REQUIRED");
     choice = { ...token, recipient: $("recipient").value.trim() };
   }
+  if (action === "WITHDRAW_ETH") choice = {
+    recipient: $("withdraw-recipient").value.trim(),
+    amountWei: withdrawalAmount($("withdraw-amount").value, $("withdraw-max").checked),
+  };
   status("Checking both Ethereum services and estimating the network fee…");
   const value = await network.prepare(vault.header, action, choice);
   execution.review(value);
   reviewed = value;
-  const p = value.pkg.presentation,
-    display = art.render(BigInt(choice.recipeId), BigInt(choice.nameId));
-  $("review-art").src = display.image;
-  $("review-art").alt = display.name;
-  $("review-title").textContent =
-    action === "MINT_PHIL"
-      ? "Mint " + display.name
-      : "Transfer " + display.name;
-  const pairs = [
-    ["Action", action === "MINT_PHIL" ? "Mint my Phil" : "Transfer this Phil"],
-    ["Network", "Ethereum Mainnet"],
-    ["From account", vault.header.account],
-    ["Recipient", p.recipient],
-    ["Collection", config.genesis],
-    ["Artwork", display.name + " · recipe " + choice.recipeId],
-    ["Mint price", action === "MINT_PHIL" ? "0 ETH" : "Not applicable"],
-    [
-      "Maximum approved network fee",
-      formatEther(value.pkg.authorization.maximumFeeWei) + " ETH",
-    ],
-    [
-      "Recommended available ETH",
-      formatEther(value.feeQuote.recommendedWei) + " ETH",
-    ],
-    [
-      "Additional funding needed",
-      formatEther(value.feeQuote.additionalWei) + " ETH",
-    ],
-  ];
+  const withdrawing = action === "WITHDRAW_ETH";
+  const display = withdrawing ? null : { ...art.render(BigInt(choice.recipeId), BigInt(choice.nameId)), recipeId: choice.recipeId };
+  show("review-art", !withdrawing);
+  if (display) {
+    $("review-art").src = display.image;
+    $("review-art").alt = display.name;
+  } else $("review-art").removeAttribute("src");
+  $("review-title").textContent = withdrawing ? "Withdraw ETH" : (action === "MINT_PHIL" ? "Mint " : "Transfer ") + display.name;
+  const pairs = reviewDetails(value, display);
   $("review-details").replaceChildren(
     ...pairs.flatMap(([key, value]) => {
       const dt = document.createElement("dt"),
@@ -393,6 +422,7 @@ async function prepare(action) {
   $("review-note").textContent =
     action === "MINT_PHIL"
       ? "You pay Ethereum network gas. This account can mint once, permanently. The pictured Phil and its name are fixed in this approval."
+      : withdrawing ? "The exact ETH amount above will be sent to the recipient. The maximum network fee is reserved separately. A small unused gas refund may remain. Ethereum transfers cannot be undone."
       : "The pictured Phil will be sent to the recipient above. Ethereum transfers cannot be undone.";
   show("review", true);
   renderNextStep();
@@ -501,6 +531,8 @@ async function startup() {
   selected = await selection.load();
   if (selected) renderSelected();
   await syncVault();
+  await refreshLaunch();
+  void refreshBalance();
   show("loading", false);
   show("application", true);
   status(
@@ -577,14 +609,14 @@ async function startup() {
   );
   for (const name of ["discover", "account", "owned", "backup"])
     $(name + "-tab").addEventListener("click", () => {
-      if (!working) tab(name);
+      if (!working) { tab(name); if (name === "account") void run(refreshBalance); }
     });
   $("open-restore").addEventListener("click", () => {
     tab("backup");
     $("backup").scrollIntoView();
   });
   $("funding-review").addEventListener("click", () =>
-    run(() => prepare("MINT_PHIL")),
+    run(refreshFunding),
   );
   $("expand-art").addEventListener("click", () => {
     if (!selected) return;
@@ -606,6 +638,23 @@ async function startup() {
   $("review-transfer").addEventListener("click", () =>
     run(() => prepare("TRANSFER_PHIL")),
   );
+  $("withdrawForm").addEventListener("submit", (event) => {
+    event.preventDefault();
+    void run(() => prepare("WITHDRAW_ETH"));
+  });
+  for (const id of ["withdraw-max", "withdraw-custom"]) $(id).addEventListener("change", () => {
+    invalidate();
+    const maximum = $("withdraw-max").checked;
+    show("withdraw-amount-label", !maximum);
+    $("withdraw-amount").disabled = maximum;
+    $("review-withdrawal").textContent = maximum ? "Review withdraw all" : "Review withdrawal";
+  });
+  for (const id of ["withdraw-recipient", "withdraw-amount"]) $(id).addEventListener("input", invalidate);
+  $("refresh-balance").addEventListener("click", () => run(refreshBalance));
+  $("copy-account").addEventListener("click", () => run(async () => {
+    await navigator.clipboard.writeText(vault.header.account);
+    status("Copied your Phil account address.");
+  }));
   $("recipient").addEventListener("input", invalidate);
   $("token").addEventListener("change", invalidate);
   $("cancel").addEventListener("click", () => {
@@ -614,14 +663,17 @@ async function startup() {
   });
   $("approve").addEventListener("click", () =>
     run(async () => {
+      const action = reviewed?.pkg.presentation.action;
       const result = await execution.confirm();
       invalidate();
       await refreshAttempts();
       if (result.status === "confirmed" && result.success) {
         await refreshOwned();
-        tab("owned");
+        await refreshBalance();
+        confirmedTransaction(result);
+        tab(action === "WITHDRAW_ETH" ? "account" : "owned");
         status(
-          "Your Phil is confirmed on Ethereum. Transaction: " +
+          (action === "WITHDRAW_ETH" ? "Withdrawal confirmed on Ethereum. Transaction: " : "Your Phil transaction is confirmed on Ethereum. Transaction: ") +
             result.transactionHash,
         );
       } else

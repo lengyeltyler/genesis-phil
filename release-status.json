@@ -1,17 +1,19 @@
 {
   "version": "0.3.0",
   "build": 95,
-  "status": "signed-notarized-public-release",
+  "status": "signed-notarized-installer-unpublished-upload-failed",
   "releaseURL": "https://github.com/lengyeltyler/genesis-phil/releases/tag/v0.3.0-build95",
   "installerSHA256": "3c088ac24248ae3f7812ae8f3723282e6f536f80fedfede236164c96f7ebb4cf",
   "contractsIdentityAndExecutionUnchanged": true,
   "web": {
     "origin": "https://phil.tylerlengyel.com",
-    "engineeringHead": "f21dfb5450ae70f1077f106db4749b4526fc6b5d",
-    "releaseId": "f21dfb5450ae70f1077f106db4749b4526fc6b5d:40ea263f669898bbca8a87ed884eccb2e13a1b9b50bb5681d7e6e0c69214a537",
+    "engineeringHead": "ea1c45361cb4d722d5dae21d7241d52aecad1700",
+    "releaseId": "ea1c45361cb4d722d5dae21d7241d52aecad1700:e0c5391d81571c2f1900f7a1db3659a8e2997269501700bf8e28bc13902176ed",
     "stageAtPublication": "closed",
     "liveStatusURL": "https://phil.tylerlengyel.com/release-status.json",
     "historyAndTutorial": "live",
-    "acceptance": "pending"
-  }
+    "acceptance": "pending",
+    "balanceAndWithdrawal": "implemented-and-live"
+  },
+  "availableInstallerURL": "https://github.com/lengyeltyler/genesis-phil/releases/download/v0.3.0-build93/Phil-0.3.0-93-macOS-arm64.dmg"
 }

@@ -5,7 +5,7 @@ export function validatePersistedPackage(pkg) {
   try {
     const { profile, presentation: p, authorization: a, op } = pkg;
     if (
-      !["MINT_PHIL", "TRANSFER_PHIL"].includes(p.action) ||
+      !["MINT_PHIL", "TRANSFER_PHIL", "WITHDRAW_ETH"].includes(p.action) ||
       profile.mode !== "DESKTOP_GENESIS" ||
       op.signature !== "0x"
     )
@@ -19,6 +19,7 @@ export function validatePersistedPackage(pkg) {
         action: p.action,
         ...(p.action === "MINT_PHIL"
           ? { tokenId: p.recipeId, nameId: p.nameId }
+          : p.action === "WITHDRAW_ETH" ? { amountWei: p.principalWei }
           : { tokenId: p.tokenId }),
         recipient: p.recipient,
         nonce: op.nonce,

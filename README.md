@@ -3,12 +3,14 @@
 369 fully on-chain Phils on Ethereum Mainnet. Find a Phil, review the exact action, and approve it with your account's protected authority. Mint price is 0 ETH; Ethereum network fees apply. Each valid Genesis account can mint once. This is not a one-person or one-device limit.
 
 - **[Launch Phil Web](https://phil.tylerlengyel.com)** — isolated browser application, with History, the complete 161-post Timeline, and the original Genesis Tutorial. **Public minting is paused pending the one owner acceptance mint on the frozen release.** Do not fund a Web account while its live release status is closed.
-- **[Download Desktop 0.3.0, Build 95](https://github.com/lengyeltyler/genesis-phil/releases/download/v0.3.0-build95/Phil-0.3.0-95-macOS-arm64.dmg)** — Apple Silicon macOS, Developer ID signed and notarized.
+- **[Download Desktop 0.3.0, Build 93](https://github.com/lengyeltyler/genesis-phil/releases/download/v0.3.0-build93/Phil-0.3.0-93-macOS-arm64.dmg)** — Apple Silicon macOS, Developer ID signed and notarized.
 - [Desktop source and verification](desktop/README.md) · [Build](desktop/BUILDING.md) · [Verify the installer](desktop/VERIFYING.md)
 - [Web source and exact release reconstruction](web/README.md)
 - [Release manifest](release-manifest.json) · [Checksums](SHA256SUMS) · [Release status](release-status.json)
 
 ## Build 95
+
+Build 95 source and verification material are public, but its installer release remains a draft after GitHub upload failures. Build 93 remains the available installer. This does not block the independent Web release.
 
 Build 95 restores the Build-93 visual system while retaining Build 94's functional/security source. The only functional addition is the owner-requested session Rolls counter. No changes to identity, custody, Keychain, backup/restore, signing, account derivation, contract bindings, provider/bundler configuration, art generation, recipe binding, Wings, journals or ambiguous-submission handling. See the [exact five-file review](docs/BUILD95-CHANGES.md).
 

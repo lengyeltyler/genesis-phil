@@ -41,6 +41,7 @@
       <p id="status" class="status" role="status" aria-live="polite">
         Loading the verified artwork…
       </p>
+      <a id="transaction-link" hidden target="_blank" rel="noopener noreferrer"></a>
       <div id="loading">Checking this release…</div>
       <aside id="launch-notice" class="warning">
         <span id="launch-message"
@@ -104,7 +105,7 @@
           <nav class="web-nav" aria-label="Phil workspace">
             <button id="discover-tab" class="active">Discover</button
             ><button id="owned-tab">My minted Phil</button
-            ><button id="account-tab">Account &amp; gas</button
+            ><button id="account-tab">Account &amp; funding</button
             ><button id="backup-tab">Recovery &amp; backup</button
             ><button id="lock">Clear approval</button>
           </nav>
@@ -119,6 +120,12 @@
               />
               <div>
                 <p id="address" class="address" tabindex="-1"></p>
+                <button id="copy-account">Copy account address</button>
+                <h3>Wallet balance</h3>
+                <p id="wallet-balance" class="balance" role="status">Loading balance…</p>
+                <p id="wallet-deposit"></p>
+                <p id="balance-status" class="small"></p>
+                <button id="refresh-balance">Refresh balance</button>
                 <p>
                   Your Phil account on Ethereum Mainnet. Mint price: 0 ETH.
                   Ethereum network fees apply.
@@ -129,13 +136,22 @@
                   transaction.
                 </p>
                 <button id="funding-review">Refresh funding estimate</button>
+                <p id="funding-quote" role="status"></p>
               </div>
             </div>
-            <p class="small">
-              No sponsored gas or custodial funding service. Web accounts
-              currently support Phil minting and transfers; ETH withdrawal is
-              not available in this Web interface.
-            </p>
+            <hr><h3>Withdraw ETH</h3>
+            <p>Send unused ETH to an Ethereum address you control. This includes unused EntryPoint deposits. A withdrawal costs a network fee, even before your first mint.</p>
+            <form id="withdrawForm">
+              <label for="withdraw-recipient">Recipient Ethereum address</label>
+              <input id="withdraw-recipient" required spellcheck="false" autocomplete="off" placeholder="0x…">
+              <fieldset><legend>Amount to withdraw</legend>
+                <label><input id="withdraw-max" type="radio" name="withdraw-mode" checked> Withdraw all — gas deducted automatically</label>
+                <label><input id="withdraw-custom" type="radio" name="withdraw-mode"> Choose a custom amount</label>
+              </fieldset>
+              <label id="withdraw-amount-label" hidden>ETH amount <input id="withdraw-amount" inputmode="decimal" autocomplete="off" placeholder="0.001" disabled></label>
+              <button id="review-withdrawal" class="primary">Review withdraw all</button>
+            </form>
+            <p class="small">Phil reserves the maximum network fee automatically and shows exactly what you will receive before approval. A small unused gas refund may remain afterward; withdrawing tiny leftovers may cost more than their value. Keep ETH here if you plan to mint or transfer later.</p>
             <button id="check-chain">Verify Mainnet configuration</button>
           </section>
           <section class="card" id="pending" hidden>

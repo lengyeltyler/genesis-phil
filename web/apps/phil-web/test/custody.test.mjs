@@ -50,7 +50,7 @@ async function fixture(factory = new IDBFactory()) {
     },
   };
 }
-function operation(header) {
+function operation(header, action = "MINT_PHIL") {
   const { profile, creation } = deriveAccount(
       config,
       header,
@@ -60,10 +60,9 @@ function operation(header) {
   return buildAuthorization(
     profile,
     {
-      action: "MINT_PHIL",
-      tokenId: "1",
-      nameId: "160",
-      recipient: profile.account,
+      action,
+      ...(action === "WITHDRAW_ETH" ? { amountWei: "1000000000000000" } : { tokenId: "1", nameId: "160" }),
+      recipient: action === "WITHDRAW_ETH" ? "0x" + "44".repeat(20) : profile.account,
       nonce: "0",
       authorizationId: "0x" + "ab".repeat(32),
       philNonce: "0x" + "cd".repeat(32),
@@ -192,12 +191,12 @@ test("nonce claim is atomic between connections and remains after restart", asyn
 });
 
 test("Mainnet gate blocks before approval; successful fixture submits once and lost response holds nonce", async () => {
-  for (const lost of [false, true]) {
+  for (const action of ["MINT_PHIL", "WITHDRAW_ETH"]) for (const lost of [false, true]) {
     const f = await fixture(),
       header = await f.custody.create("test"),
       backup = await f.custody.exportBackup(password);
     await f.custody.verifyBackup(backup, password);
-    const pkg = operation(header),
+    const pkg = operation(header, action),
       journal = createJournal(f.store);
     let submits = 0;
     const network = {
