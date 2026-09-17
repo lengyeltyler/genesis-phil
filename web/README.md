@@ -2,6 +2,8 @@
 
 Production: https://phil.tylerlengyel.com
 
+[Final immutable live tag](https://github.com/lengyeltyler/genesis-phil/tree/phil-web-mainnet-live-2026-09-17) · [Exact HEAD/tree/build/Worker identity](LIVE-RELEASE.json). The historical `phil-web-completion-2026-09-17` tag is preserved as pre-public evidence, not current launch status.
+
 Engineering HEAD `ea1c45361cb4d722d5dae21d7241d52aecad1700`.
 The exact tree, source digest, assets, Worker and configuration are in [reference-release.json](reference-release.json). The public source export contains the browser bundle's complete source dependency set, tests, content, hosting code and pipeline. [ORIGINAL-SOURCE-MAP.json](ORIGINAL-SOURCE-MAP.json) records exact original hashes and sanitizations of owner-specific documentation/output paths. Runtime modules are unmodified.
 

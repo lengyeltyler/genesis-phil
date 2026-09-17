@@ -1,5 +1,7 @@
 # Desktop Build 94 → Build 95 exact change review
 
+Publication status: Build-95 source and verification inputs are public; the signed/notarized installer remains unpublished after upload failures. Build 93 remains the public download. [Archived Build-95 artifact evidence](historical-build95-release-manifest.json) retains its originally intended installer URL as provenance only.
+
 Baseline HEAD `00f1d574799191e3d4dd0ec8ab0de5e3a1586b64`, tree `93f3e005b460a7811b61b87a46f68c81c858e230`.
 Build 95 HEAD `e3911123f5d6f5b093f52ea08f60526238a8029e`, tree `e100b5198a185a3aec00774f17cb06f761ce6304`.
 

@@ -30,5 +30,8 @@
   "liveBalanceAndUnsignedWithdrawalReviews": "PASS",
   "desktop": "unchanged; Build 93 remains public; Build 95 installer unpublished",
   "genesisContracts": "unchanged",
-  "liveStatusURL": "https://phil.tylerlengyel.com/release-status.json"
+  "liveStatusURL": "https://phil.tylerlengyel.com/release-status.json",
+  "finalLiveTag": "phil-web-mainnet-live-2026-09-17",
+  "finalLiveTagURL": "https://github.com/lengyeltyler/genesis-phil/tree/phil-web-mainnet-live-2026-09-17",
+  "sourceSnapshotNote": "publicSourceCommit/publicSourceTag identify the unchanged runtime export in the historical pre-public snapshot; finalLiveTag identifies the synchronized public-live metadata."
 }

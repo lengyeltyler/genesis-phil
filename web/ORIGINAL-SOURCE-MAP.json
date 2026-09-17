@@ -15,13 +15,14 @@
     {
       "path": "apps/phil-web/PARITY.md",
       "originalSHA256": "bc9e441b8c6daf1f87841981d013526cb18496f1bf0269a075e29f6dd6e16423",
-      "sha256": "bc9e441b8c6daf1f87841981d013526cb18496f1bf0269a075e29f6dd6e16423"
+      "sha256": "090c064873397b089db8bb93cc4137efadfca942514e7af026f0420bb91788ad",
+      "transformation": "Publication documentation synchronized to public Mainnet and explicit owner waiver; original engineering hash retained; runtime unchanged. Owner-specific output paths remain sanitized."
     },
     {
       "path": "apps/phil-web/README.md",
       "originalSHA256": "1ea9f001e6057346c3c13c4b4e20c207f383ae09ed4f171f1e04442770b0e6e3",
-      "sha256": "1baa4c90c8991111b60eef9649ceaeab472a00c85c516d456dbfad92f7c16702",
-      "transformation": "Owner-specific build/evidence paths replaced with relative public paths; runtime unchanged."
+      "sha256": "4f807b214048dc4c79662c34d9eaf37ab7231bc3c9523055e3dec1ace1b632db",
+      "transformation": "Publication documentation synchronized to public Mainnet and explicit owner waiver; original engineering hash retained; runtime unchanged. Owner-specific output paths remain sanitized."
     },
     {
       "path": "apps/phil-web/content/README.md",

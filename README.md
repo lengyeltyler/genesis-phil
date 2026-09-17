@@ -4,8 +4,8 @@
 
 - **[Launch Phil Web](https://phil.tylerlengyel.com)** — isolated browser application, with History, the complete 161-post Timeline, and the original Genesis Tutorial. **Ethereum Mainnet minting is open.** Create and verify your backup, check the balance/funding estimate, then review and approve your selected Phil. Wallet balance and ETH withdrawal controls are available.
 - **[Download Desktop 0.3.0, Build 93](https://github.com/lengyeltyler/genesis-phil/releases/download/v0.3.0-build93/Phil-0.3.0-93-macOS-arm64.dmg)** — Apple Silicon macOS, Developer ID signed and notarized.
-- [Desktop source and verification](desktop/README.md) · [Build](desktop/BUILDING.md) · [Verify the installer](desktop/VERIFYING.md)
-- [Web source and exact release reconstruction](web/README.md)
+- [Verify the available Build-93 installer](docs/VERIFY-DOWNLOAD.md) · [Build-95 source and verification material](desktop/README.md)
+- [Web source and exact release reconstruction](web/README.md) · [Final live tag](https://github.com/lengyeltyler/genesis-phil/tree/phil-web-mainnet-live-2026-09-17) · [Exact Web release identity](web/LIVE-RELEASE.json)
 - [Release manifest](release-manifest.json) · [Checksums](SHA256SUMS) · [Release status](release-status.json)
 
 ## Build 95
@@ -18,7 +18,7 @@ Engineering source: `e3911123f5d6f5b093f52ea08f60526238a8029e`, tree `e100b5198a
 
 Installer SHA-256: `3c088ac24248ae3f7812ae8f3723282e6f536f80fedfede236164c96f7ebb4cf`.
 
-Publisher: **Developer ID Application: Tyler Lengyel (B342738S82)**. Hardened Runtime, Apple notarization, stapling and Gatekeeper verified. Full source-to-package reconstruction and comparison passed, including Electron and the native helper. Credential-free self-build startup remains unqualified because of macOS Team-ID library validation; the official signed installer is the supported runnable application. No protection was disabled to make a local copy launch.
+Publisher: **Developer ID Application: Tyler Lengyel (B342738S82)**. Hardened Runtime, Apple notarization, stapling and Gatekeeper verified. Full source-to-package reconstruction and comparison passed, including Electron and the native helper. Credential-free self-build startup remains unqualified because of macOS Team-ID library validation; the public Build-93 signed installer is the available runnable application. Build-95 package verification used the internally retained signed installer; it does not establish public installer availability. No protection was disabled to make a local copy launch.
 
 ## Mainnet contracts
 
@@ -28,7 +28,11 @@ Publisher: **Developer ID Application: Tyler Lengyel (B342738S82)**. Hardened Ru
 
 This release does not modify or redeploy contracts. Browser passkeys unlock a separate Ethereum signing key; Web encrypted backups and Desktop backups are not interchangeable. Classical cryptography underlies the current authorization path. Post-quantum security and one-human uniqueness are research goals, not current product guarantees.
 
+The root release manifest and checksum files describe the available Build-93 download and current metadata. Build-95 hashes and notarization evidence remain in [the archived artifact manifest](docs/historical-build95-release-manifest.json); its intended download URL is not an availability claim. Another Web acceptance mint was explicitly waived by the owner; no new acceptance transaction was submitted.
+
 ## Historical releases and source tags
+
+The historical `phil-web-completion-2026-09-17` tag remains at `ee5c853a61868d06e92c4984b5faa5f8aaed97d3`, recording the pre-public state. The new `phil-web-mainnet-live-2026-09-17` tag records public Mainnet, the owner waiver and the same engineering/runtime identity.
 
 Build 93 and Build 94 artifacts remain unchanged. The historical public `v0.3.0-build93` tag points to commit `67b0b7c58943c5446019b34f173255b7dfa4846b`, also used by Build 88. Its source archive contains old download documentation, not the Build-93 application source. That tag has not been moved. Use the new Build-95 source tag and file maps for current verification.
 

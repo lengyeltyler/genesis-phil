@@ -1,0 +1,54 @@
+{
+  "schema": 1,
+  "version": "0.3.0",
+  "build": "95",
+  "platform": "macOS arm64",
+  "minimumMacOS": "12.0",
+  "releaseType": "owner-selected-final-release",
+  "sourceHead": "e3911123f5d6f5b093f52ea08f60526238a8029e",
+  "sourceTree": "e100b5198a185a3aec00774f17cb06f761ce6304",
+  "sourceDirty": false,
+  "installer": {
+    "name": "Phil-0.3.0-95-macOS-arm64.dmg",
+    "sha256": "3c088ac24248ae3f7812ae8f3723282e6f536f80fedfede236164c96f7ebb4cf",
+    "bytes": 132866877,
+    "url": "https://github.com/lengyeltyler/genesis-phil/releases/download/v0.3.0-build95/Phil-0.3.0-95-macOS-arm64.dmg"
+  },
+  "applicationInventorySHA256": "7da0c557f6f9f1429457d7aac8aad5cef94eb2c1eb8d6034260ef489b244e3dc",
+  "applicationNotarization": {
+    "id": "64014c25-7b64-4585-9b59-8bf573c59290",
+    "status": "Accepted",
+    "message": "Processing complete"
+  },
+  "dmgNotarization": {
+    "id": "2def12f7-c999-45dc-b763-dcfde56b973a",
+    "status": "Accepted",
+    "message": "Processing complete"
+  },
+  "signatureAndGatekeeper": "PASS",
+  "chainId": 1,
+  "nft": "0x9732f84c54407cd846b3e987594417bcfa30644e",
+  "factory": "0xa3c263c4a0d0dc07b6ea7a8414bd245d98d347f0",
+  "catalogCommitment": "0x28efc1da8b61a09ad8f7963410fc69443cb98181c4cc23f01ef28c2bfa14f41e",
+  "publicConfigurationSHA256": "ff96af7b927ec2520cc3288e819ba260fc89a4cb68a4cb2fe269e048056ccff7",
+  "publicOpensAt": 1789616160,
+  "compatibleIdentityBuilds": [
+    92,
+    93,
+    94,
+    95
+  ],
+  "requiresNewIdentityForBuildsThrough": 91,
+  "changes": [
+    "Restore exact Build-93 presentation while retaining Build-94 functional/security source",
+    "Session Rolls counter counts generated Phils; undo adds none"
+  ],
+  "evidence": {
+    "exactFiveFileDiff": "PASS",
+    "unexpectedFunctionalSecurityChanges": false,
+    "completePublicSourcePackageVerification": "PASS",
+    "verifierTests": 14
+  },
+  "packageRevision": "build93-visual-restoration",
+  "publicSourceTag": "v0.3.0-build95-source"
+}

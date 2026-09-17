@@ -1,4 +1,6 @@
-# Phils Build 95 — independently check the released application
+# Phils Build 95 — source and signed-artifact verification
+
+**Installer status: unpublished.** The signed/notarized Build-95 artifact exists internally and its source/verification material is public, but the installer upload failed. [Build 93 is the available public installer](../docs/VERIFY-DOWNLOAD.md). A hash or successful internal package comparison is not a public download.
 
 This source/input snapshot verifies **Phils 0.3.0, Build 95, package revision build93-visual-restoration**. It does not replace the released application, change contracts, or reset accounts.
 
@@ -12,7 +14,7 @@ This source/input snapshot verifies **Phils 0.3.0, Build 95, package revision bu
 
 Application engineering source: `e3911123f5d6f5b093f52ea08f60526238a8029e`, tree `e100b5198a185a3aec00774f17cb06f761ce6304`.
 
-The public source tag is `v0.3.0-build95-source`. Its new public snapshot commit is distinct from the original engineering commit because private history and unrelated files are intentionally excluded. Verification-tooling changes do not change product source. The public tag/commit, source-file manifest and original-file map identify the export precisely; this is not a claim that the subset has the original whole-repository tree ID.
+The original immutable application-source snapshot is tagged `v0.3.0-build95-source`. This documentation/metadata edition is tagged `phil-web-mainnet-live-2026-09-17`; Desktop application bytes and original source-map bindings are unchanged. Its new public snapshot commit is distinct from the original engineering commit because private history and unrelated files are intentionally excluded. Verification-tooling changes do not change product source. The public tag/commit, source-file manifest and original-file map identify the export precisely; this is not a claim that the subset has the original whole-repository tree ID.
 
 The older public `v0.3.0-build93` tag remains historical: it points to a download-repository commit with Build 88 documentation. The new source tag transparently supersedes it for source verification. Do not use the old tag's source archive as Desktop source. Historical Build 93 and Build 94 DMGs remain unchanged.
 

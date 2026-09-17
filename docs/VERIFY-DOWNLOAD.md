@@ -28,4 +28,4 @@ The digest must match. Ordinary installation does not require Terminal. Never di
 
 This is the owner-authorized branding revision of Build 93, with the new Phil icon. Version 0.3.0 and build number 93 are unchanged, but the installer has been re-signed and notarized and has a new checksum. The preceding installer digest is recorded in the manifest. Contracts, account configuration, artwork and execution code are unchanged. Existing Build 92/93 users can quit Phil and replace the app while preserving their identity and backup.
 
-[Verified contract sources](CONTRACTS.md) are available through Etherscan and Sourcify. GitHub's automatically generated source-code archives contain this download repository, not the Desktop engineering checkout.
+[Verified contract sources](CONTRACTS.md) are available through Etherscan and Sourcify. The historical Build-93 release tag's automatic source archive contains old download documentation, not its engineering checkout. Current `main` also contains the Build-95 source/input export and the exact live Web source, with their separately recorded identities.

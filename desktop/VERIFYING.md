@@ -1,8 +1,8 @@
-# Verify the distributed Build 95 package
+# Verify the retained Build 95 package
 
-Follow [BUILDING.md](BUILDING.md) through dependency installation and Electron setup. Obtain the DMG from the official release, independently of this source checkout:
+**Build 95 installer is not publicly available.** Its upload failed. Public users can download and [verify Build 93](../docs/VERIFY-DOWNLOAD.md). The following Build-95 procedure applies only when the exact retained Build-95 DMG is already available; it cannot verify a Build-93 DMG against Build-95 source.
 
-https://github.com/lengyeltyler/genesis-phil/releases/download/v0.3.0-build95/Phil-0.3.0-95-macOS-arm64.dmg
+Follow [BUILDING.md](BUILDING.md) through dependency installation and Electron setup. Historical successful verification used the internal signed/notarized artifact. Source and verification material are public; this does not imply installer distribution.
 
 ## Canonical complete check
 
@@ -50,4 +50,4 @@ spctl --assess --type execute --verbose=2 "/Volumes/Phil 0.3.0 (95)/Phil.app"
 
 Use the actual mount name if macOS appends a suffix. Expected authority: **Developer ID Application: Tyler Lengyel (B342738S82)**; TeamIdentifier **B342738S82**; bundle identifier **com.philcore.desktop**; Hardened Runtime enabled. The canonical verifier checks exact expected entitlements, not merely a textual claim of signing.
 
-A matching hash identifies the published download; a signature identifies its signer and sealed contents; notarization records Apple's acceptance. None alone proves source correspondence, absence of vulnerabilities or safety of a compromised operating system. The reconstruction/comparison supplies the separate source-to-package evidence, subject to the upstream toolchain trust explained in [REPRODUCIBILITY.md](REPRODUCIBILITY.md).
+A matching hash identifies the exact retained artifact; a signature identifies its signer and sealed contents; notarization records Apple's acceptance. None alone proves source correspondence, absence of vulnerabilities or safety of a compromised operating system. The reconstruction/comparison supplies the separate source-to-package evidence, subject to the upstream toolchain trust explained in [REPRODUCIBILITY.md](REPRODUCIBILITY.md).

@@ -5,8 +5,8 @@
   "packageRevision": "build93-visual-restoration",
   "applicationSourceHead": "e3911123f5d6f5b093f52ea08f60526238a8029e",
   "applicationSourceTree": "e100b5198a185a3aec00774f17cb06f761ce6304",
-  "sourceTag": "v0.3.0-build95-source",
-  "sourceLocation": "https://github.com/lengyeltyler/genesis-phil/tree/v0.3.0-build95-source/desktop",
+  "sourceTag": "phil-web-mainnet-live-2026-09-17",
+  "sourceLocation": "https://github.com/lengyeltyler/genesis-phil/tree/phil-web-mainnet-live-2026-09-17/desktop",
   "toolingVersion": "1.0.0",
   "toolingCommit": "e3911123f5d6f5b093f52ea08f60526238a8029e",
   "dmg": {
@@ -105,5 +105,7 @@
     "sha256": "8961cdb57c95c073ff4770bc9309953832f447575f1a91127010f7b4870884b3",
     "checksumsURL": "https://github.com/electron/electron/releases/download/v41.10.3/SHASUMS256.txt"
   },
-  "sourceFilesSHA256": "edc6b2b7b7b55ded1194a927108f7f58d8401194dfae799b1025f8a34460617d"
+  "sourceFilesSHA256": "ab2778b1851ddd4a4236f71bd9f71f9345788a832df1e64bce37f352060e907f",
+  "originalSourceTag": "v0.3.0-build95-source",
+  "installerPublicationStatus": "unpublished"
 }
