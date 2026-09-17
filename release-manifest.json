@@ -1,61 +1,55 @@
 {
   "schema": 1,
   "version": "0.3.0",
-  "build": "88",
-  "status": "mainnet-preview-owner-mint-and-macbook-proof-pending",
-  "platform": {
-    "architecture": "arm64",
-    "buildTargetMacOS": "12.0",
-    "physicallyExercisedMacOS": "27.0",
-    "olderMacOSDeviceQualification": false,
-    "windows": false,
-    "linux": false,
-    "intelMac": false
+  "build": "93",
+  "platform": "macOS arm64",
+  "minimumMacOS": "12.0",
+  "releaseType": "owner-selected-final-release",
+  "sourceHead": "c559066f4a98859c1b940a2761e8524914ac6f8e",
+  "sourceTree": "fc77615fa8f816fa2995af002e341a84b89fd12f",
+  "sourceDirty": false,
+  "installer": {
+    "name": "Phil-0.3.0-93-macOS-arm64.dmg",
+    "sha256": "fd6307fceb1259eeded60f80fe4e5e2d9f4925eca26efab1b82d433221b582b7",
+    "bytes": 132867684
   },
-  "filename": "Phil-0.3.0-88-macOS-arm64.dmg",
-  "bytes": 132164115,
-  "sha256": "07a7ea20d753c314f8bb59037d884fd6de6475db5006402b92566345b14efc55",
-  "applicationInventorySHA256": "27a71051a9ba94d6169c1f99cb1f1a4428d61bae29f00b7763408556c3e7ce51",
-  "sourceHead": "9b20827db8714296e4a4160602ba5050e8d2ac77",
-  "sourceTree": "396795107e4a045f77ca1624ea065e121ada1bb4",
-  "bundleIdentifier": "com.philcore.desktop",
-  "publisher": "Tyler Lengyel",
-  "teamIdentifier": "B342738S82",
-  "appNotarized": true,
-  "dmgNotarized": true,
-  "gatekeeperAccepted": true,
+  "applicationInventorySHA256": "788415750e9e31703312404f53ae035ae8653b65b61181b9be5848e4f4feee8d",
+  "applicationNotarization": {
+    "id": "39d4a105-952a-4759-90c1-4a772c30f65d",
+    "status": "Accepted",
+    "message": "Processing complete"
+  },
+  "dmgNotarization": {
+    "id": "37b48ccb-d10d-4779-9b84-0f31f5e04c8b",
+    "status": "Accepted",
+    "message": "Processing complete"
+  },
+  "signatureAndGatekeeper": "PASS",
   "chainId": 1,
-  "nft": "0x5519a6faE647bBC91f728420d627f818c77eE39B",
-  "factory": "0x8C0DEC9b3CDC82DC781E7987897BacBdb8Ba823c",
-  "configurationDigest": "15f317f5e4622450d77372fe8aa0bfff1e32d9ae3de9f6e399046d93d68d0fc3",
-  "catalogSHA256": "995806c83e9fbfb1847bed21a2f539dd8865cced5d8e0a672354de5e79bce6c3",
-  "publicMintOpensAt": "2026-09-17T03:45:35Z",
-  "downloadURL": "https://github.com/lengyeltyler/genesis-phil/releases/download/v0.3.0-build88/Phil-0.3.0-88-macOS-arm64.dmg",
-  "contractSourcesArchive": "Phil-Genesis-contract-sources-build88.zip",
-  "contractSourcesSHA256": "d96722b92a4b672fe7012e5a9d91b04beb82318042fa7bd80ccdcb3ba16607fd",
-  "verification": {
-    "focusedDesktopTestsPassed": 51,
-    "semanticAuthorizationTestsPassed": 14,
-    "uniqueNameContractTestsPassed": 6,
-    "launchAllocationTestsPassed": 4,
-    "all8352OnChainNamesMatchDesktopLocalProof": true,
-    "artworkPagesReusedUnchanged": 65,
-    "rendererGasBoundProof": "passed",
-    "uiProgressAndSavedSelectionProof": "passed",
-    "packageSecretAndFixtureScan": "passed",
-    "installedSignedApplicationOpened": true,
-    "deploymentFinalized": true,
-    "deploymentRuntimeHashesVerified": 5,
-    "miniEarlyAccountRegistrationConfirmed": true,
-    "ownerProductionMint": "pending",
-    "macBookProof": "pending",
-    "realMintPerformedByReleasePreparation": false
-  },
+  "nft": "0x9732f84c54407cd846b3e987594417bcfa30644e",
+  "factory": "0xa3c263c4a0d0dc07b6ea7a8414bd245d98d347f0",
+  "catalogCommitment": "0x28efc1da8b61a09ad8f7963410fc69443cb98181c4cc23f01ef28c2bfa14f41e",
+  "publicConfigurationSHA256": "ff96af7b927ec2520cc3288e819ba260fc89a4cb68a4cb2fe269e048056ccff7",
+  "publicOpensAt": 1789616160,
   "compatibleIdentityBuilds": [
-    "88"
+    92,
+    93
   ],
-  "mintAccess": "0xE6567BDBab048fE61151382B3Eec1e4d40F08542",
-  "names": "0xD545961F361848522339bb753dc8e84b1D8D8dFA",
-  "nameCount": 8352,
-  "deploymentTransaction": "0x492d177550a32693954a19a1eb1380478262a96e33f056165c134b79b6330a82"
+  "requiresNewIdentityForBuildsThrough": 91,
+  "changes": [
+    "Withdraw all defaults to available ETH minus maximum network fee",
+    "Custom ETH amount is optional and accepts leading decimal point",
+    "No changes to deployed contracts, configuration or identity/account derivation",
+    "Owner-provided app icon and home-button branding; version and build remain 0.3.0 (93)"
+  ],
+  "evidence": {
+    "localFocusedChecks": 6,
+    "isolatedUIFlows": 5,
+    "realWithdrawal": "owner confirmed on preceding Build 93 package; execution code unchanged",
+    "macBookProof": "owner test pending",
+    "brandingPreview": "visually checked",
+    "executionCodeConfigurationAndArtworkByteIdentical": true
+  },
+  "packageRevision": "branding-1",
+  "supersedesInstallerSHA256": "b00b80ee41a7ed3ee46226667c646e0a8e52934fd177f542e367cee46f629cee"
 }

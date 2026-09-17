@@ -2,30 +2,30 @@
 
 [Back to download](../README.md)
 
-Download only from [this release](https://github.com/lengyeltyler/genesis-phil/releases/tag/v0.3.0-build88). The installer is **Phil-0.3.0-88-macOS-arm64.dmg**, not the automatic source-code archives.
+Use the [Build 93 release](https://github.com/lengyeltyler/genesis-phil/releases/tag/v0.3.0-build93). Download **Phil-0.3.0-93-macOS-arm64.dmg**, not the automatic source-code archives.
 
-- Version: **0.3.0, Build 88**
+- Version: **0.3.0, Build 93**
 - Developer ID publisher: **Tyler Lengyel (B342738S82)**
 - Bundle identifier: `com.philcore.desktop`
-- Size: **132,164,115 bytes**
+- Size: **132,867,684 bytes**
 - SHA-256:
 
 ```text
-07a7ea20d753c314f8bb59037d884fd6de6475db5006402b92566345b14efc55
+fd6307fceb1259eeded60f80fe4e5e2d9f4925eca26efab1b82d433221b582b7
 ```
 
-The app and DMG have passed Apple notarization, stapling and Gatekeeper assessment. These checks establish package identity and Apple acceptance; they do not establish completed Mainnet mint proof or support on every macOS version.
+The app and DMG passed Apple notarization, stapling and Gatekeeper assessment. These establish package identity and Apple acceptance, not support on every macOS version.
 
-Optional checksum check in Terminal:
+Optional Terminal check:
 
 ```sh
-shasum -a 256 "$HOME/Downloads/Phil-0.3.0-88-macOS-arm64.dmg"
+shasum -a 256 "$HOME/Downloads/Phil-0.3.0-93-macOS-arm64.dmg"
 ```
 
-The output must match the digest above. A browser may append a number to duplicate downloads; choose the exact downloaded filename. Ordinary installation does not require Terminal. Never run commands that disable Gatekeeper or remove quarantine.
+The digest must match. Ordinary installation does not require Terminal. Never disable Gatekeeper or remove quarantine.
 
-[Machine-readable release manifest](../release-manifest.json) · [Checksums](../SHA256SUMS.txt)
+[Build-time release manifest](../release-manifest.json) · [Checksums](../SHA256SUMS.txt) · [Current release status](../release-status.json)
 
-The release also provides exact Solidity standard JSON input and corresponding contract sources in **Phil-Genesis-contract-sources-build88.zip**, with compiler settings, deployment addresses and license notices. That optional archive is for inspection, not installation. The private engineering repository and its history are not part of this download repository.
+This is the owner-authorized branding revision of Build 93, with the new Phil icon. Version 0.3.0 and build number 93 are unchanged, but the installer has been re-signed and notarized and has a new checksum. The preceding installer digest is recorded in the manifest. Contracts, account configuration, artwork and execution code are unchanged. Existing Build 92/93 users can quit Phil and replace the app while preserving their identity and backup.
 
-Build 88 includes a new source archive for the unique-name replacement collection. All 65 artwork pages are reused unchanged. Addresses, runtime hashes, compiler input and bootstrap constructor arguments are included; this is not a claim that explorer source verification has completed.
+[Verified contract sources](CONTRACTS.md) are available through Etherscan and Sourcify. GitHub's automatically generated source-code archives contain this download repository, not the Desktop engineering checkout.

@@ -1,0 +1,16 @@
+{
+  "version": "0.3.0",
+  "build": 93,
+  "status": "owner-selected-final-release",
+  "releaseURL": "https://github.com/lengyeltyler/genesis-phil/releases/tag/v0.3.0-build93",
+  "nft": "0x9732F84C54407cd846B3e987594417BcFA30644E",
+  "miniMint": "owner-confirmed",
+  "miniTransfer": "owner-confirmed",
+  "miniWithdrawal": "owner-confirmed",
+  "macBookProof": "pending",
+  "originalBuildManifest": "release-manifest.json",
+  "packageRevision": "branding-1",
+  "installerSHA256": "fd6307fceb1259eeded60f80fe4e5e2d9f4925eca26efab1b82d433221b582b7",
+  "brandingUpdated": true,
+  "contractsIdentityAndExecutionUnchanged": true
+}
