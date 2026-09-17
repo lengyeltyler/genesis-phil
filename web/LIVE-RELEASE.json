@@ -1,22 +1,22 @@
 {
-  "head": "564df2262b7b637aafa3c44bb050794e1656ed36",
-  "tree": "e42c9d6a12e8016200ed9caacfaef8242fe91b55",
-  "sourceDigest": "f5edc72f3833b6dde313053308c5176b0aeaa6778864034e039473ce8232a397",
-  "releaseId": "564df2262b7b637aafa3c44bb050794e1656ed36:a144387db6c9fdec2c0a746df7903949c6f190337f7e4ea3bda2d7ddb29a9b77",
-  "manifestSHA256": "a144387db6c9fdec2c0a746df7903949c6f190337f7e4ea3bda2d7ddb29a9b77",
-  "buildSHA256": "3aa231c091f838f802c217a0022f8bdff8625430abb7bba013113244f45224bc",
+  "head": "b9999937ac216fdb933163262298fab058d95730",
+  "tree": "abcbd9b285b46226cf8042e1b35c0b535af749ba",
+  "sourceDigest": "421b3c671693e40ad9b3a21783c9965c84214c9ebf7d3d09623a0519816bd7b8",
+  "releaseId": "b9999937ac216fdb933163262298fab058d95730:436c8126f58f61f4bd3535fad6c6f59f657a77d055c69c56d27ac77c6c291ab7",
+  "manifestSHA256": "436c8126f58f61f4bd3535fad6c6f59f657a77d055c69c56d27ac77c6c291ab7",
+  "buildSHA256": "f1f93d0fb0f5ef04c238f69c50d0f33b719c24c70adf62f429469a95a6de8343",
   "workerSHA256": "0f7d3df679b9151599e5f3670ce9c1562f2245de1abe228a19f1ff6e5e0ba4a4",
   "buildHashDefinition": "SHA-256 of compact JSON mapping sorted distribution filenames to SHA-256 values, followed by LF",
-  "publicSourceTag": "phil-final-blue-ui-2026-09-17",
-  "publicSourceURL": "https://github.com/lengyeltyler/genesis-phil/tree/phil-final-blue-ui-2026-09-17/web",
+  "publicSourceTag": "phil-story-opening-2026-09-17",
+  "publicSourceURL": "https://github.com/lengyeltyler/genesis-phil/tree/phil-story-opening-2026-09-17/web",
   "assets": {
-    "app.f064a062ecd321ac8ec8d8d4d9a17259f60cb99a6d00fd1130d8f560009fcee1.js": "f064a062ecd321ac8ec8d8d4d9a17259f60cb99a6d00fd1130d8f560009fcee1",
+    "app.4c708f85568e69e11d948347b4d43c9b5ff392040dd06342f112862a365364c1.js": "4c708f85568e69e11d948347b4d43c9b5ff392040dd06342f112862a365364c1",
     "style.d2ffe415a933ea8398fa2a9351699aaf2bceae0d01dff7809efe6dae4d9e9c64.css": "d2ffe415a933ea8398fa2a9351699aaf2bceae0d01dff7809efe6dae4d9e9c64",
-    "index.html": "46ce3f00c8b32324931a0de5a01d61d72ff87adbbcb638dd10c20c758fe16e02",
+    "index.html": "5bf64e5e2f73556e740b2f99d8484c8633c25c0e3d6b98c9dfbb207a8cab8ab9",
     "catalog.bin": "0a75a6f8f2c851b14a92dd363bab09aa7a1c987705c69e6badc71f16dde050b5",
     "catalog-manifest.json": "21c57e33a7b82fe88e64094758fd2fd3193f84ede1ba4c4e090762e0286b4092",
     "phil-logo.png": "1d9f5122d996fd5ce1631c09d2bffe86f19f77251561299ae439e9b351b83d0e",
-    "release.json": "a144387db6c9fdec2c0a746df7903949c6f190337f7e4ea3bda2d7ddb29a9b77"
+    "release.json": "436c8126f58f61f4bd3535fad6c6f59f657a77d055c69c56d27ac77c6c291ab7"
   },
   "origin": "https://phil.tylerlengyel.com",
   "mainnetMinting": "public",
@@ -24,13 +24,19 @@
   "acceptanceTransactionHash": null,
   "newAcceptanceMintPerformed": false,
   "focusedTests": {
-    "uniquePassed": 74,
+    "passed": 5,
     "failed": 0,
-    "note": "60 focused Web/UI checks and 14 Desktop verifier checks; 11 overlapping UI/content checks passed again after the heading edit."
+    "scope": "Content/source fidelity and existing content-hosting checks; no repeated account or transaction qualification"
   },
   "desktop": "Build 96",
   "genesisContracts": "unchanged",
   "liveStatusURL": "https://phil.tylerlengyel.com/release-status.json",
-  "finalLiveTag": "phil-final-blue-ui-2026-09-17",
-  "finalLiveTagURL": "https://github.com/lengyeltyler/genesis-phil/tree/phil-final-blue-ui-2026-09-17"
+  "finalLiveTag": "phil-story-opening-2026-09-17",
+  "finalLiveTagURL": "https://github.com/lengyeltyler/genesis-phil/tree/phil-story-opening-2026-09-17",
+  "change": "Owner-supplied Phils-Story opening replacement only; rest of story and Timeline unchanged",
+  "priorQualification": {
+    "uniquePassed": 74,
+    "failed": 0,
+    "note": "60 focused Web/UI checks and 14 Desktop verifier checks; 11 overlapping UI/content checks passed again after the heading edit."
+  }
 }

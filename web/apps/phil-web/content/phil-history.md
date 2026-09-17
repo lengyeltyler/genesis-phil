@@ -695,12 +695,7 @@ meh.  the goal was to do a Genesis mint for Phil on mainnet where you would 
 **++[Video / GIF in this post or its quoted post](https://x.com/tyler_lengyel/status/2098453730614292798)++**  
 ###   
 ## Phil  
-Phil started as a joke.  
-A Philosoraptor.  
-A dinosaur whose entire purpose was to stare into the distance and ask the kind of stupid question that sometimes becomes less stupid the longer you think about it.  
-In March of 2024, I called him Phil.  
-At the time, Phil wasn't a digital identity, a security system, a smart account, or anything remotely close to what he is today.  
-He was a memecoin on Ethereum Classic.  
+In the beginning, Phil was just a memecoin on Ethereum Classic. He wasn't a digital identity, a security system, a smart account, or anything remotely close to what he is today.
 I created $phil mostly because I wanted to learn.  
 I had been in crypto for a couple of years by then, long enough to watch projects launch, explode, disappear, and be forgotten almost as quickly as they arrived. I was tired of constantly jumping to the next thing, tired of trusting people I didn't really trust, and increasingly interested in understanding how the systems I was using actually worked.  
 So instead of buying another thing somebody else had built, I decided to build something myself.  

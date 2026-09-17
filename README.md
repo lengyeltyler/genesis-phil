@@ -5,14 +5,14 @@
 - **[Launch Phil Web](https://phil.tylerlengyel.com)** — Ethereum Mainnet, with account balance, funding estimates, withdrawal, History, Timeline and Tutorial.
 - **[Download Desktop 0.3.0, Build 96](https://github.com/lengyeltyler/genesis-phil/releases/download/v0.3.0-build96/Phil-0.3.0-96-macOS-arm64.dmg)** — Apple Silicon macOS, Developer ID signed, notarized and stapled.
 - [Verify the installer](docs/VERIFY-DOWNLOAD.md) · [Desktop source and verification](desktop/README.md)
-- [Web source and reconstruction](web/README.md) · [Final source tag](https://github.com/lengyeltyler/genesis-phil/tree/phil-final-blue-ui-2026-09-17) · [Web release identity](web/LIVE-RELEASE.json)
+- [Web source and reconstruction](web/README.md) · [Current source tag](https://github.com/lengyeltyler/genesis-phil/tree/phil-story-opening-2026-09-17) · [Web release identity](web/LIVE-RELEASE.json)
 - [Release manifest](release-manifest.json) · [Checksums](SHA256SUMS) · [Release status](release-status.json)
 
 ## Final UI release
 
-Desktop Build 96 and Web preserve the Build-93 visual hierarchy and canonical logo, use the exact #C9E3FF light-blue accent, and retain Rolls. Web's Genesis-open announcements are removed. History is headed **Phils-Story**; Story and Timeline controls are unchanged. Warning/error colors stay distinct.
+Desktop Build 96 and Web preserve the Build-93 visual hierarchy and canonical logo, use the exact #C9E3FF light-blue accent, and retain Rolls. Web's Genesis-open announcements are removed. History is headed **Phils-Story**; Story and Timeline controls are unchanged. Its opening now uses the owner-approved September 17 wording beginning “In the beginning, Phil was just a memecoin on Ethereum Classic.” Warning/error colors stay distinct.
 
-Desktop engineering source: `776be1735a3bcb457d7bf02e1e5a44b1cad6eed9`, tree `80c90c52238c934d704b7b6382fb740f8c79f40c`. Its only changes from Build 95 are the stylesheet and build number. Web changes are limited to accents, announcement removal/dead code, one matching UI test, and the owner-requested History heading. No custody, account derivation, backup, passkey, provider/bundler, contract, artwork, recipe, transaction authorization or journal logic changed. [Exact UI audit](docs/FINAL-UI-AUDIT.md).
+Desktop engineering source: `776be1735a3bcb457d7bf02e1e5a44b1cad6eed9`, tree `80c90c52238c934d704b7b6382fb740f8c79f40c`. Its only changes from Build 95 are the stylesheet and build number. Web changes are limited to accents, announcement removal/dead code, one matching UI test, and the owner-requested History heading and opening copy. No custody, account derivation, backup, passkey, provider/bundler, contract, artwork, recipe, transaction authorization or journal logic changed. [Exact UI audit](docs/FINAL-UI-AUDIT.md).
 
 Installer SHA-256: `9575bd6696f9c15f56ecd3e49511564068b78c0d4aa36e3c74422f3e8401f908`. Publisher: **Developer ID Application: Tyler Lengyel (B342738S82)**. Complete public-source-to-package comparison, Hardened Runtime, signatures, notarization, staples and Gatekeeper passed. Credential-free self-build startup remains unqualified because of macOS Team-ID library validation; use the official signed installer for normal operation. No protection was disabled.
 

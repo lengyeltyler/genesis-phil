@@ -8,9 +8,9 @@
   "contractsIdentityAndExecutionUnchanged": true,
   "web": {
     "origin": "https://phil.tylerlengyel.com",
-    "engineeringHead": "564df2262b7b637aafa3c44bb050794e1656ed36",
-    "engineeringTree": "e42c9d6a12e8016200ed9caacfaef8242fe91b55",
-    "releaseId": "564df2262b7b637aafa3c44bb050794e1656ed36:a144387db6c9fdec2c0a746df7903949c6f190337f7e4ea3bda2d7ddb29a9b77",
+    "engineeringHead": "b9999937ac216fdb933163262298fab058d95730",
+    "engineeringTree": "abcbd9b285b46226cf8042e1b35c0b535af749ba",
+    "releaseId": "b9999937ac216fdb933163262298fab058d95730:436c8126f58f61f4bd3535fad6c6f59f657a77d055c69c56d27ac77c6c291ab7",
     "stageAtPublication": "public",
     "liveStatusURL": "https://phil.tylerlengyel.com/release-status.json",
     "historyAndTutorial": "live",
@@ -19,10 +19,11 @@
     "acceptance": "additional-mainnet-mint-not-required-for-ui-audit",
     "acceptanceTransactionHash": null,
     "newMintPerformed": false,
-    "buildSHA256": "3aa231c091f838f802c217a0022f8bdff8625430abb7bba013113244f45224bc",
+    "buildSHA256": "f1f93d0fb0f5ef04c238f69c50d0f33b719c24c70adf62f429469a95a6de8343",
     "workerSHA256": "0f7d3df679b9151599e5f3670ce9c1562f2245de1abe228a19f1ff6e5e0ba4a4",
-    "finalLiveTag": "phil-final-blue-ui-2026-09-17",
-    "finalLiveTagURL": "https://github.com/lengyeltyler/genesis-phil/tree/phil-final-blue-ui-2026-09-17"
+    "finalLiveTag": "phil-story-opening-2026-09-17",
+    "finalLiveTagURL": "https://github.com/lengyeltyler/genesis-phil/tree/phil-story-opening-2026-09-17",
+    "contentRevision": "Owner-approved opening replacement, September 17, 2026"
   },
   "build95": {
     "build": 95,

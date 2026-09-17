@@ -1,6 +1,6 @@
 # Phil History and Tutorial
 
-`phil-history.md` is the owner's complete Notes export, supplied for public History. `history.json` preserves the story and all 161 original posts: 98 in 2024, 22 in 2025 and 41 in 2026. Dates/times use America/Denver. Notes formatting is converted to text; wording is not rewritten. SHA-256 of the export: `a40c77ce439fe08ec6df95ed6b0fea1c243791005edafc88b4017031c1343748`.
+`phil-history.md` contains the owner's Notes export with the owner-approved opening replacement dated September 17, 2026. `history.json` preserves that revised story and all 161 original posts: 98 in 2024, 22 in 2025 and 41 in 2026. Dates/times use America/Denver. Only the six opening sentences were replaced with the exact two sentences supplied by the owner; the remaining story and Timeline are unchanged. Original Notes export SHA-256: `a40c77ce439fe08ec6df95ed6b0fea1c243791005edafc88b4017031c1343748` (preserved in Git history). Current revised source SHA-256: `56373647e7c0c35d3017317494f664bba7a83895509a2a3a20affab0720ff325`.
 
 The content renderer uses text nodes, exact allowlisted HTTPS X post/photo URLs, and `noopener noreferrer`. It receives no custody or execution objects. Historical claims remain attributed historical statements. No X embed scripts or copied media are used.
 

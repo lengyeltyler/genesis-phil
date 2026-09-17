@@ -2,12 +2,14 @@
 
 Production: https://phil.tylerlengyel.com
 
-[Final immutable live tag](https://github.com/lengyeltyler/genesis-phil/tree/phil-final-blue-ui-2026-09-17) · [Exact HEAD/tree/build/Worker identity](LIVE-RELEASE.json). The historical `phil-web-completion-2026-09-17` tag is preserved as pre-public evidence, not current launch status.
+[Final immutable live tag](https://github.com/lengyeltyler/genesis-phil/tree/phil-story-opening-2026-09-17) · [Exact HEAD/tree/build/Worker identity](LIVE-RELEASE.json). The historical `phil-web-completion-2026-09-17` tag is preserved as pre-public evidence, not current launch status.
 
-Engineering HEAD `564df2262b7b637aafa3c44bb050794e1656ed36`.
+Engineering HEAD `b9999937ac216fdb933163262298fab058d95730`.
 The exact tree, source digest, assets, Worker and configuration are in [reference-release.json](reference-release.json). The public source export contains the browser bundle's complete source dependency set, tests, content, hosting code and pipeline. [ORIGINAL-SOURCE-MAP.json](ORIGINAL-SOURCE-MAP.json) records exact original hashes and sanitizations of owner-specific documentation/output paths. Runtime modules are unmodified.
 
 The app lockfile and separate Wrangler lockfile are pinned. No Desktop runtime or private owner state is needed in the browser build. The supplied catalog is the exact published catalog; it can also be reconstructed using the Desktop export's art sources/compiler and compared byte-for-byte.
+
+The owner replaced the opening on September 17, 2026. The exact supplied wording is published; the rest of the story and all Timeline posts are unchanged. Five focused content checks and exact public reconstruction passed. Desktop remains Build 96. The 74-test UI release qualification described below belongs to the preceding UI release; no account or transaction ceremony was repeated for this text edit.
 
 ## Reproduce the hosted release
 
