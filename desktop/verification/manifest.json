@@ -1,0 +1,43 @@
+{
+  "status": "DRAFT_REPLACEMENT_REVIEW_ONLY",
+  "entryPoint": "0x0000000071727de22e5e9d8baf0edac6f37da032",
+  "catalogCommitment": "0x28efc1da8b61a09ad8f7963410fc69443cb98181c4cc23f01ef28c2bfa14f41e",
+  "contracts": [
+    {
+      "name": "PhilGenesisDeployment",
+      "artifact": "PhilGenesisDeployment.artifact.json",
+      "standardInput": "f390d254aafac427eeb2e681de022befcc9de2a612a5c921694aeefd9024d1fa.standard-input.json"
+    },
+    {
+      "name": "PhilGenesisNFT",
+      "artifact": "PhilGenesisNFT.artifact.json",
+      "standardInput": "a01b30a6fe33d947383e8fd31627ec6477af2b70a7fa73fa7dbffb336c22d800.standard-input.json"
+    },
+    {
+      "name": "PhilGenesisAccountFactoryV1",
+      "artifact": "PhilGenesisAccountFactoryV1.artifact.json",
+      "standardInput": "f390d254aafac427eeb2e681de022befcc9de2a612a5c921694aeefd9024d1fa.standard-input.json"
+    },
+    {
+      "name": "PhilGenesisMintAccess",
+      "artifact": "PhilGenesisMintAccess.artifact.json",
+      "standardInput": "f390d254aafac427eeb2e681de022befcc9de2a612a5c921694aeefd9024d1fa.standard-input.json"
+    },
+    {
+      "name": "PhilGenesisNames",
+      "artifact": "PhilGenesisNames.artifact.json",
+      "standardInput": "a01b30a6fe33d947383e8fd31627ec6477af2b70a7fa73fa7dbffb336c22d800.standard-input.json"
+    },
+    {
+      "name": "PhilGenesisAccountV1",
+      "artifact": "PhilGenesisAccountV1.artifact.json",
+      "standardInput": "f390d254aafac427eeb2e681de022befcc9de2a612a5c921694aeefd9024d1fa.standard-input.json"
+    },
+    {
+      "name": "PhilGenesisData",
+      "artifact": "PhilGenesisData.artifact.json",
+      "standardInput": "f390d254aafac427eeb2e681de022befcc9de2a612a5c921694aeefd9024d1fa.standard-input.json"
+    }
+  ],
+  "publicDeploymentAuthorized": false
+}

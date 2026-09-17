@@ -1,0 +1,350 @@
+{
+  "engineeringHead": "d5b533ba7901f811c1345849bc65ccb5362138f2",
+  "engineeringTree": "ce198d2e0368d4e080a647fc8efc9ea9bbe37e79",
+  "files": [
+    {
+      "path": "LICENSE",
+      "originalSHA256": "358859ee80f9d8f43ff6d49d1ae09c6d4b7d9d1a4c8728630bf5f03bc45e3b4a",
+      "sha256": "358859ee80f9d8f43ff6d49d1ae09c6d4b7d9d1a4c8728630bf5f03bc45e3b4a"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "originalSHA256": "f1675c22384910719998333e475541e394b729a4a9f72c9568e3717f07984eaa",
+      "sha256": "f1675c22384910719998333e475541e394b729a4a9f72c9568e3717f07984eaa"
+    },
+    {
+      "path": "apps/phil-web/README.md",
+      "originalSHA256": "6fd6d196c277de5333da32058fa8a78d54324c1b5311b752d27af8df5068432a",
+      "sha256": "8b689506a20627b49c88427cbfd88aad221f792f8b04522b4da475c4dac9c26b",
+      "transformation": "Owner-specific documentation/output paths replaced with relative paths; runtime unchanged."
+    },
+    {
+      "path": "apps/phil-web/content/README.md",
+      "originalSHA256": "980b0069b5a21e17b2d3c9520e8ac633f8df06280643977288dd7138bdf58917",
+      "sha256": "980b0069b5a21e17b2d3c9520e8ac633f8df06280643977288dd7138bdf58917"
+    },
+    {
+      "path": "apps/phil-web/content/history.json",
+      "originalSHA256": "488119fd4605c940f2f18d930598f97512fc041d7a30be63764a8043aa329701",
+      "sha256": "488119fd4605c940f2f18d930598f97512fc041d7a30be63764a8043aa329701"
+    },
+    {
+      "path": "apps/phil-web/content/phil-history.md",
+      "originalSHA256": "a40c77ce439fe08ec6df95ed6b0fea1c243791005edafc88b4017031c1343748",
+      "sha256": "a40c77ce439fe08ec6df95ed6b0fea1c243791005edafc88b4017031c1343748"
+    },
+    {
+      "path": "apps/phil-web/hosting/package-lock.json",
+      "originalSHA256": "14503acfaa668ca58773dfcd9ba4d6e9aca397c4f4eb3a0ec036a35495c197c6",
+      "sha256": "14503acfaa668ca58773dfcd9ba4d6e9aca397c4f4eb3a0ec036a35495c197c6"
+    },
+    {
+      "path": "apps/phil-web/hosting/package.json",
+      "originalSHA256": "43ee2778efef86d6fa3427691b9ca3283d4191d132cf46508953e2b37fa7e95f",
+      "sha256": "43ee2778efef86d6fa3427691b9ca3283d4191d132cf46508953e2b37fa7e95f"
+    },
+    {
+      "path": "apps/phil-web/hosting/worker.mjs",
+      "originalSHA256": "0f7d3df679b9151599e5f3670ce9c1562f2245de1abe228a19f1ff6e5e0ba4a4",
+      "sha256": "0f7d3df679b9151599e5f3670ce9c1562f2245de1abe228a19f1ff6e5e0ba4a4"
+    },
+    {
+      "path": "apps/phil-web/hosting/wrangler.template.json",
+      "originalSHA256": "b4c89d2b535d141c0642484c06877e039c4b3ac523dde4e01c85582556e020e5",
+      "sha256": "b4c89d2b535d141c0642484c06877e039c4b3ac523dde4e01c85582556e020e5"
+    },
+    {
+      "path": "apps/phil-web/package-lock.json",
+      "originalSHA256": "fc89a4bbf8313b6c0dc6e1f5e41cc554b3f1a4ca0f241fd1343121480954d204",
+      "sha256": "fc89a4bbf8313b6c0dc6e1f5e41cc554b3f1a4ca0f241fd1343121480954d204"
+    },
+    {
+      "path": "apps/phil-web/package.json",
+      "originalSHA256": "d60391aa59df8aca99d4c8c2542170761008f9e9af718b25d074fdaf20562a0b",
+      "sha256": "d60391aa59df8aca99d4c8c2542170761008f9e9af718b25d074fdaf20562a0b"
+    },
+    {
+      "path": "apps/phil-web/public/index.html",
+      "originalSHA256": "475e70be8ee889feef0d8d57903a8914855cba4e00cf873596b69b7cab7c591b",
+      "sha256": "475e70be8ee889feef0d8d57903a8914855cba4e00cf873596b69b7cab7c591b"
+    },
+    {
+      "path": "apps/phil-web/public/phil-logo.png",
+      "originalSHA256": "1d9f5122d996fd5ce1631c09d2bffe86f19f77251561299ae439e9b351b83d0e",
+      "sha256": "1d9f5122d996fd5ce1631c09d2bffe86f19f77251561299ae439e9b351b83d0e"
+    },
+    {
+      "path": "apps/phil-web/public/style.css",
+      "originalSHA256": "ec4240609a828988fa939fd9ddfdd398edabbfa74155c3bba37f30a31a395cd2",
+      "sha256": "ec4240609a828988fa939fd9ddfdd398edabbfa74155c3bba37f30a31a395cd2"
+    },
+    {
+      "path": "apps/phil-web/scripts/audit-public.mjs",
+      "originalSHA256": "fc825a696ab0de1971918bc857aa03ae5764f70629fa4909e1e6a5a12d37f9fb",
+      "sha256": "e90e59cb83e127b71385f504876ef1eff0042b9a06a01c07b1dbb8810e6d021d",
+      "transformation": "Owner-specific documentation/output paths replaced with relative paths; runtime unchanged."
+    },
+    {
+      "path": "apps/phil-web/scripts/build.mjs",
+      "originalSHA256": "e68b212bef0c8fc82c8ed4a28175f992782eb697a3fe272a9c2df6b6e108cbf4",
+      "sha256": "f89d9dd9791bc9f6451543a03729936e25ea0674b4427d67d34c9ddb4e6a7dea",
+      "transformation": "Owner-specific default output path replaced with ./.web-build; production runtime unchanged."
+    },
+    {
+      "path": "apps/phil-web/scripts/deploy.mjs",
+      "originalSHA256": "c59886687d838f7a4b2e78821bdfc71ece480d706def48e126002be739c14233",
+      "sha256": "c59886687d838f7a4b2e78821bdfc71ece480d706def48e126002be739c14233"
+    },
+    {
+      "path": "apps/phil-web/scripts/preview.mjs",
+      "originalSHA256": "af9ce46beb709fc9e72d1dedac64a96e765b2f55fd626636254426493e479845",
+      "sha256": "f4ffe9ee9a76404377aee641df294463c2c707d8e61e0f9e8a7fffe2d3eeb68d",
+      "transformation": "Owner-specific default output path replaced with ./.web-build; production runtime unchanged."
+    },
+    {
+      "path": "apps/phil-web/scripts/set-launch-stage.mjs",
+      "originalSHA256": "3bbf67d6c26bda5c4ebd550164cc1401b5c9b4ffc6c5949f187b857edeee813f",
+      "sha256": "3bbf67d6c26bda5c4ebd550164cc1401b5c9b4ffc6c5949f187b857edeee813f"
+    },
+    {
+      "path": "apps/phil-web/scripts/verify-build.mjs",
+      "originalSHA256": "55398cd28286b1e324866f0b4f93a3d2c7bcab9e94ca7c098ad9f749f57f9f4c",
+      "sha256": "55398cd28286b1e324866f0b4f93a3d2c7bcab9e94ca7c098ad9f749f57f9f4c"
+    },
+    {
+      "path": "apps/phil-web/src/app.mjs",
+      "originalSHA256": "d474f841680655e6bf819e749a5e1eca8b5572435da8d1f8b07ad7410cb3b676",
+      "sha256": "d474f841680655e6bf819e749a5e1eca8b5572435da8d1f8b07ad7410cb3b676"
+    },
+    {
+      "path": "apps/phil-web/src/browser-crypto.mjs",
+      "originalSHA256": "d847c21487b5ca52348407f100989f68a3b5d69e0d3326879b89ef8994202c17",
+      "sha256": "d847c21487b5ca52348407f100989f68a3b5d69e0d3326879b89ef8994202c17"
+    },
+    {
+      "path": "apps/phil-web/src/buffer.mjs",
+      "originalSHA256": "cf6e07e419542f44f2c64eb520c4b69f0b6c616f6fdcd0d44c519d551d700e70",
+      "sha256": "cf6e07e419542f44f2c64eb520c4b69f0b6c616f6fdcd0d44c519d551d700e70"
+    },
+    {
+      "path": "apps/phil-web/src/bytes.mjs",
+      "originalSHA256": "80d064d603e6a735f1526b3db27d94762fb3c87ea44bc88e324e125a148d9cc4",
+      "sha256": "80d064d603e6a735f1526b3db27d94762fb3c87ea44bc88e324e125a148d9cc4"
+    },
+    {
+      "path": "apps/phil-web/src/content.mjs",
+      "originalSHA256": "253d6bb4ea4e5cb7f6be7ef8e113129c4fcfcae0a1f378dc5d8ca8eefdd0128d",
+      "sha256": "253d6bb4ea4e5cb7f6be7ef8e113129c4fcfcae0a1f378dc5d8ca8eefdd0128d"
+    },
+    {
+      "path": "apps/phil-web/src/custody.mjs",
+      "originalSHA256": "767229e596e0dda7def3e7d890ed19777ca99d0a5dadc051f75d628005d1d035",
+      "sha256": "767229e596e0dda7def3e7d890ed19777ca99d0a5dadc051f75d628005d1d035"
+    },
+    {
+      "path": "apps/phil-web/src/execution.mjs",
+      "originalSHA256": "8ff83fe0b12a534631dc4f22c6cd29216e197ffb89b871a60c2bf6dd9f27c462",
+      "sha256": "8ff83fe0b12a534631dc4f22c6cd29216e197ffb89b871a60c2bf6dd9f27c462"
+    },
+    {
+      "path": "apps/phil-web/src/launch.mjs",
+      "originalSHA256": "d0bb0bdf66f0245a5043aa36d0b173b86379c4e61ef82141be31d42969392bd3",
+      "sha256": "d0bb0bdf66f0245a5043aa36d0b173b86379c4e61ef82141be31d42969392bd3"
+    },
+    {
+      "path": "apps/phil-web/src/network.mjs",
+      "originalSHA256": "b4fa6c46ec6b879423976930b4df1543ae2ce6928b152db6ce52b1d5e914096a",
+      "sha256": "b4fa6c46ec6b879423976930b4df1543ae2ce6928b152db6ce52b1d5e914096a"
+    },
+    {
+      "path": "apps/phil-web/src/passkey.mjs",
+      "originalSHA256": "0c9c1153930a7e5c21cd762c4142b7bd2791b1edf6302ecce245d807e357a77d",
+      "sha256": "0c9c1153930a7e5c21cd762c4142b7bd2791b1edf6302ecce245d807e357a77d"
+    },
+    {
+      "path": "apps/phil-web/src/persisted-package.mjs",
+      "originalSHA256": "256f0221b812a27c56bde0df818600df5907d314a133b6b18eaee74e36c5188f",
+      "sha256": "256f0221b812a27c56bde0df818600df5907d314a133b6b18eaee74e36c5188f"
+    },
+    {
+      "path": "apps/phil-web/src/protocol.mjs",
+      "originalSHA256": "7cd0db31f6fa9232acc2f40cf1a9ccd47076d6fb44db97d226bc219d18617dba",
+      "sha256": "7cd0db31f6fa9232acc2f40cf1a9ccd47076d6fb44db97d226bc219d18617dba"
+    },
+    {
+      "path": "apps/phil-web/src/release.mjs",
+      "originalSHA256": "106722677694bd02ff397a23a9f5fb167f2db88c273b5927b2169ad8ec012a49",
+      "sha256": "106722677694bd02ff397a23a9f5fb167f2db88c273b5927b2169ad8ec012a49"
+    },
+    {
+      "path": "apps/phil-web/src/selection.mjs",
+      "originalSHA256": "213f80187380051e04a576a00a0e808755bff04e91a6f2e4fe296999c7cfc9eb",
+      "sha256": "213f80187380051e04a576a00a0e808755bff04e91a6f2e4fe296999c7cfc9eb"
+    },
+    {
+      "path": "apps/phil-web/src/storage.mjs",
+      "originalSHA256": "b20b3ee7cc3239d3e976607e88c7660c5e30b566ab6b614263084bfa6ee64ec1",
+      "sha256": "b20b3ee7cc3239d3e976607e88c7660c5e30b566ab6b614263084bfa6ee64ec1"
+    },
+    {
+      "path": "apps/phil-web/src/welcome.mjs",
+      "originalSHA256": "e4a5c5be8b01e70e4da2871b775b206b0b5e03924424dc58691660c6047a0eeb",
+      "sha256": "e4a5c5be8b01e70e4da2871b775b206b0b5e03924424dc58691660c6047a0eeb"
+    },
+    {
+      "path": "apps/phil-web/test/artwork.test.mjs",
+      "originalSHA256": "6842a0b12d39db0ec1a80f18031c1a3baef11aaf090ed8f1ce1b7ead6424b2b1",
+      "sha256": "6842a0b12d39db0ec1a80f18031c1a3baef11aaf090ed8f1ce1b7ead6424b2b1"
+    },
+    {
+      "path": "apps/phil-web/test/content.test.mjs",
+      "originalSHA256": "dc9720230ac561c00fa65d7714ea004d2a40a574f5f556e115654d9cb10b2133",
+      "sha256": "dc9720230ac561c00fa65d7714ea004d2a40a574f5f556e115654d9cb10b2133"
+    },
+    {
+      "path": "apps/phil-web/test/custody.test.mjs",
+      "originalSHA256": "6b0c61e78cafc32296476d92fd106742afd046d2d301ec0641cdefea9c2d47f7",
+      "sha256": "6b0c61e78cafc32296476d92fd106742afd046d2d301ec0641cdefea9c2d47f7"
+    },
+    {
+      "path": "apps/phil-web/test/hosting.test.mjs",
+      "originalSHA256": "9fc0212cfbc834ece4571dcc3521f75f91dd2c64541194e9df38604b6a976533",
+      "sha256": "9fc0212cfbc834ece4571dcc3521f75f91dd2c64541194e9df38604b6a976533"
+    },
+    {
+      "path": "apps/phil-web/test/integrity.test.mjs",
+      "originalSHA256": "92937289f569bfc586ac80cc95d06065f7457d6453eefe5028242d82e26db9a8",
+      "sha256": "92937289f569bfc586ac80cc95d06065f7457d6453eefe5028242d82e26db9a8"
+    },
+    {
+      "path": "apps/phil-web/test/launch.test.mjs",
+      "originalSHA256": "048544041f05f08df77dd10b1f8a69ea348a10bdf5ffa5b69805de00f14b26c0",
+      "sha256": "048544041f05f08df77dd10b1f8a69ea348a10bdf5ffa5b69805de00f14b26c0"
+    },
+    {
+      "path": "apps/phil-web/test/local-contract.cjs",
+      "originalSHA256": "86cf7fc9df207ac82dcccd06e78f3148b9535be583b71a8901764c8a7832508a",
+      "sha256": "86cf7fc9df207ac82dcccd06e78f3148b9535be583b71a8901764c8a7832508a"
+    },
+    {
+      "path": "apps/phil-web/test/passkey.test.mjs",
+      "originalSHA256": "dbef45ef48d59610fd7bdf2855f902d4eb6eb7dde42771cf3f7dbcf813cd5a95",
+      "sha256": "dbef45ef48d59610fd7bdf2855f902d4eb6eb7dde42771cf3f7dbcf813cd5a95"
+    },
+    {
+      "path": "apps/phil-web/test/protocol.test.mjs",
+      "originalSHA256": "9af68c34e7e205695677702493c303d806a9b826baaf83e6f93aeed395b97d8b",
+      "sha256": "9af68c34e7e205695677702493c303d806a9b826baaf83e6f93aeed395b97d8b"
+    },
+    {
+      "path": "apps/phil-web/test/selection.test.mjs",
+      "originalSHA256": "45e9835b92378cfcd460f3968df053fb5a216dc4b3bd8ce942fabefb5bcaedc4",
+      "sha256": "45e9835b92378cfcd460f3968df053fb5a216dc4b3bd8ce942fabefb5bcaedc4"
+    },
+    {
+      "path": "apps/phil-web/test/welcome.test.mjs",
+      "originalSHA256": "92a6ff35e7f531617487679edd8bc39d2da1b0441c7d82c39db6e9409e8b7119",
+      "sha256": "92a6ff35e7f531617487679edd8bc39d2da1b0441c7d82c39db6e9409e8b7119"
+    },
+    {
+      "path": "apps/philcore-desktop/production/candidate-public-config.json",
+      "originalSHA256": "ff96af7b927ec2520cc3288e819ba260fc89a4cb68a4cb2fe269e048056ccff7",
+      "sha256": "ff96af7b927ec2520cc3288e819ba260fc89a4cb68a4cb2fe269e048056ccff7"
+    },
+    {
+      "path": "genesis/THIRD_PARTY_NOTICES.md",
+      "originalSHA256": "b4b0b66a6ee2bcd8463d1b70f26d34fc1fa7d984b32f0c4ffda4f2931761189d",
+      "sha256": "b4b0b66a6ee2bcd8463d1b70f26d34fc1fa7d984b32f0c4ffda4f2931761189d"
+    },
+    {
+      "path": "genesis/optimization/scripts/lz4.cjs",
+      "originalSHA256": "6df283bed9ed2186c170130d84842cc98d122346219ea31929aa1a00ed62c7ba",
+      "sha256": "6df283bed9ed2186c170130d84842cc98d122346219ea31929aa1a00ed62c7ba"
+    },
+    {
+      "path": "genesis/owner-art/color-families.json",
+      "originalSHA256": "35b1e7842664fe4fef0f47e29f9b04273fbad38931d71f11867b52fdda586eb2",
+      "sha256": "35b1e7842664fe4fef0f47e29f9b04273fbad38931d71f11867b52fdda586eb2"
+    },
+    {
+      "path": "genesis/preview/funding.cjs",
+      "originalSHA256": "b330546c63997f47bfeffab2d681f6ada53c824136dfa1787e27f2a2f1b4cb0c",
+      "sha256": "b330546c63997f47bfeffab2d681f6ada53c824136dfa1787e27f2a2f1b4cb0c"
+    },
+    {
+      "path": "genesis/preview/random.cjs",
+      "originalSHA256": "ace78df4f2f63ed84994badfe405dee279f9b7d927fca9a7d806bea57a701d59",
+      "sha256": "ace78df4f2f63ed84994badfe405dee279f9b7d927fca9a7d806bea57a701d59"
+    },
+    {
+      "path": "genesis/production/art.cjs",
+      "originalSHA256": "d8a5c5f85cc6ac94d7fcb446ef1d68057b4bda25f5cff8fafc638f0ec8852f20",
+      "sha256": "d8a5c5f85cc6ac94d7fcb446ef1d68057b4bda25f5cff8fafc638f0ec8852f20"
+    },
+    {
+      "path": "genesis/production/bundler-fees.cjs",
+      "originalSHA256": "69fbb1f9ed06477f10604af62bb0a6f533dcdb7697fb1320959040ca2bcc3ddf",
+      "sha256": "69fbb1f9ed06477f10604af62bb0a6f533dcdb7697fb1320959040ca2bcc3ddf"
+    },
+    {
+      "path": "genesis/production/funding.cjs",
+      "originalSHA256": "a1856a56a303974d727a37bd023d7770dcca76ceb609b6691a47a9798650075a",
+      "sha256": "a1856a56a303974d727a37bd023d7770dcca76ceb609b6691a47a9798650075a"
+    },
+    {
+      "path": "genesis/production/names.cjs",
+      "originalSHA256": "abfb74036c9ba30c764041330d4445f10f156e090558147fd4eb0e31ec9d9674",
+      "sha256": "abfb74036c9ba30c764041330d4445f10f156e090558147fd4eb0e31ec9d9674"
+    },
+    {
+      "path": "genesis/production/reconciliation.cjs",
+      "originalSHA256": "50503bc593e9850fc55788832048651950ecdc58790d4d89fa776bf8cb6f087b",
+      "sha256": "50503bc593e9850fc55788832048651950ecdc58790d4d89fa776bf8cb6f087b"
+    },
+    {
+      "path": "genesis/production/rpc.cjs",
+      "originalSHA256": "64ce7d6004d04437034f0a13e7041c0737049e0a2de43be35d78ae5cbc31cc98",
+      "sha256": "64ce7d6004d04437034f0a13e7041c0737049e0a2de43be35d78ae5cbc31cc98"
+    },
+    {
+      "path": "genesis/production/state.cjs",
+      "originalSHA256": "62d2f33b7707a2e58fc6ca0333dd588a08f2b7aef10b92e26f410dc4d065848f",
+      "sha256": "62d2f33b7707a2e58fc6ca0333dd588a08f2b7aef10b92e26f410dc4d065848f"
+    },
+    {
+      "path": "genesis/runtime/account.cjs",
+      "originalSHA256": "89a3559d3c70331ce1c5112fec690e09f9d8df9e3e9c9314a64456fabd420c7b",
+      "sha256": "89a3559d3c70331ce1c5112fec690e09f9d8df9e3e9c9314a64456fabd420c7b"
+    },
+    {
+      "path": "genesis/runtime/authorization.cjs",
+      "originalSHA256": "73e223e7b372e57ed082748fed0a6edc6e7c2d46b8dba52762b4615f05112087",
+      "sha256": "73e223e7b372e57ed082748fed0a6edc6e7c2d46b8dba52762b4615f05112087"
+    },
+    {
+      "path": "genesis/runtime/names-codec.cjs",
+      "originalSHA256": "a6597153f683b01f80fabbf88b618f370608f088f2a7d686977893474e805176",
+      "sha256": "a6597153f683b01f80fabbf88b618f370608f088f2a7d686977893474e805176"
+    },
+    {
+      "path": "genesis/runtime/recipes.cjs",
+      "originalSHA256": "00302e8bf5555aefebb98fdd90d3b7304457dbbbd70733c4fece0244a2583d8b",
+      "sha256": "00302e8bf5555aefebb98fdd90d3b7304457dbbbd70733c4fece0244a2583d8b"
+    },
+    {
+      "path": "genesis/scripts/final-groups.json",
+      "originalSHA256": "99c6f4ea6ed685be58e8c617543e7bc6ca61613465083df6f7c09e8204f1f391",
+      "sha256": "99c6f4ea6ed685be58e8c617543e7bc6ca61613465083df6f7c09e8204f1f391"
+    },
+    {
+      "path": "genesis/unique-names/catalog.json",
+      "originalSHA256": "00e2720f0021fa38628a400d1cbbf69a87167411730dfab04c3a5b5c24b05387",
+      "sha256": "00e2720f0021fa38628a400d1cbbf69a87167411730dfab04c3a5b5c24b05387"
+    },
+    {
+      "path": "tsconfig.json",
+      "originalSHA256": "5033bd1386706a58f5ebe9e3ee0b82c0a3a2b8d4d3006d0f0779a1f659ec6420",
+      "sha256": "5033bd1386706a58f5ebe9e3ee0b82c0a3a2b8d4d3006d0f0779a1f659ec6420"
+    }
+  ]
+}

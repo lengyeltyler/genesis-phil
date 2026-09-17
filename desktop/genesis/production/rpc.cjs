@@ -1,0 +1,18 @@
+'use strict';
+const {toBeHex,Interface,getAddress}=require('ethers');
+const READ_METHODS=new Set(['eth_chainId','eth_getBlockByNumber','eth_getBlockByHash','eth_getCode','eth_getBalance','eth_getTransactionCount','eth_call','eth_estimateGas','eth_feeHistory','eth_gasPrice','eth_maxPriorityFeePerGas','eth_getTransactionReceipt','eth_getLogs','eth_supportedEntryPoints','pimlico_getUserOperationGasPrice','rundler_maxPriorityFeePerGas','voltaire_feesPerGas','eth_estimateUserOperationGas','eth_getUserOperationReceipt','eth_getUserOperationByHash']);
+function createReadRpc(url,{fetchImpl=fetch,timeoutMs=15000}={}){const u=new URL(url);if(u.protocol!=='https:'||u.username||u.password)throw Error('GENESIS_RPC_CONFIG');let seq=0;return async(method,params=[])=>{if(!READ_METHODS.has(method))throw Error('GENESIS_READ_ONLY');const id=++seq;try{const response=await fetchImpl(u.href,{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({jsonrpc:'2.0',id,method,params}),signal:AbortSignal.timeout(timeoutMs)});if(!response.ok)throw Error();const reader=response.body?.getReader();if(!reader)throw Error();const chunks=[];let size=0;try{while(true){const {done,value}=await reader.read();if(done)break;size+=value.byteLength;if(size>4*1024*1024)throw Error();chunks.push(Buffer.from(value));}}catch(e){await reader.cancel().catch(()=>{});throw e;}finally{reader.releaseLock();}const body=Buffer.concat(chunks,size).toString('utf8');const data=JSON.parse(body);if(data.jsonrpc!=='2.0'||data.id!==id||data.error||!Object.hasOwn(data,'result'))throw Error();return data.result;}catch{throw Object.assign(Error('GENESIS_PROVIDER_UNAVAILABLE'),{code:'GENESIS_PROVIDER_UNAVAILABLE'});}};}
+function unpack(op){const gas=BigInt(op.accountGasLimits),fees=BigInt(op.gasFees),mask=(1n<<128n)-1n;const out={sender:op.sender,nonce:toBeHex(BigInt(op.nonce)),callData:op.callData,callGasLimit:toBeHex(gas&mask),verificationGasLimit:toBeHex(gas>>128n),preVerificationGas:toBeHex(BigInt(op.preVerificationGas)),maxFeePerGas:toBeHex(fees&mask),maxPriorityFeePerGas:toBeHex(fees>>128n),signature:op.signature};if(op.initCode!=='0x'){out.factory=getAddress(op.initCode.slice(0,42));out.factoryData='0x'+op.initCode.slice(42);}if(op.paymasterAndData!=='0x')throw Error('GENESIS_PAYMASTER_FORBIDDEN');return out;}
+async function checkedHead(primary,independent){
+ const [a,b]=await Promise.all([primary('eth_chainId'),independent('eth_chainId')]);if(a!=='0x1'||b!=='0x1')throw Error('GENESIS_CHAIN');
+ const valid=h=>h&&/^0x[0-9a-f]{64}$/i.test(h.hash)&&['number','timestamp','baseFeePerGas'].every(k=>typeof h[k]==='string'&&/^0x[0-9a-f]{1,64}$/i.test(h[k]));
+ const [latest,other]=await Promise.all([primary('eth_getBlockByNumber',['latest',false]),independent('eth_getBlockByNumber',['latest',false])]);
+ if(!valid(latest)||!valid(other))throw Error('GENESIS_FEE_DATA_UNAVAILABLE');
+ const number=BigInt(latest.number)<BigInt(other.number)?latest.number:other.number;
+ const [head,peer]=await Promise.all([BigInt(latest.number)===BigInt(number)?latest:primary('eth_getBlockByNumber',[number,false]),BigInt(other.number)===BigInt(number)?other:independent('eth_getBlockByNumber',[number,false])]);
+ if(!valid(peer)||peer.hash.toLowerCase()!==head.hash.toLowerCase()||['number','timestamp','baseFeePerGas'].some(k=>BigInt(peer[k])!==BigInt(head[k])))throw Error('GENESIS_PROVIDER_DISAGREEMENT');
+ const now=BigInt(Math.floor(Date.now()/1000)),timestamp=BigInt(head.timestamp);
+ if(now-timestamp>120n||timestamp-now>30n)throw Error('GENESIS_FEE_DATA_UNAVAILABLE');
+ return Object.freeze({...head});
+}
+module.exports={createReadRpc,unpack,checkedHead,READ_METHODS:Object.freeze([...READ_METHODS])};

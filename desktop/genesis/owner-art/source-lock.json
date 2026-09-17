@@ -1,0 +1,9 @@
+{
+  "traitCount": 896,
+  "masterSHA256": "96991f5af1f84c629a05775002866ac447e4654a552074197c06d0a0db44d73f",
+  "manifestSHA256": "6e6c8e9c377655b8dd3a4133a4ab33cc2c7189f80ff3d0b23c4fb56e88f07c4c",
+  "variantsSHA256": "70a5efc65365e5c922769713f82802fb3b87200751d8aa6b54abe248b3aed7fa",
+  "baseMasterSHA256": "f7ee3b43bcb15fbf0011b828a7b6555d60005ba4f022dba5d314211a23f8aea1",
+  "body2CorrectionSHA256": "53d3793fdea2831c914387b06ca0758b2dfb0984184180759d8f13ce6b95cc83",
+  "unchangedTraits": 857
+}

@@ -1,0 +1,23 @@
+{
+  "name": "@phil/web",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": "26.0.0" },
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "test:hosting": "node --test test/hosting.test.mjs",
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/preview.mjs"
+  },
+  "dependencies": {
+    "@noble/curves": "1.2.0",
+    "buffer": "6.0.3",
+    "ethers": "6.17.0",
+    "qrcode-generator": "1.4.4"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.12",
+    "fake-indexeddb": "6.0.0"
+  }
+}

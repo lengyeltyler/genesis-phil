@@ -1,0 +1,9 @@
+# Phil History and Tutorial
+
+`phil-history.md` is the owner's complete Notes export, supplied for public History. `history.json` preserves the story and all 161 original posts: 98 in 2024, 22 in 2025 and 41 in 2026. Dates/times use America/Denver. Notes formatting is converted to text; wording is not rewritten. SHA-256 of the export: `a40c77ce439fe08ec6df95ed6b0fea1c243791005edafc88b4017031c1343748`.
+
+The content renderer uses text nodes, exact allowlisted HTTPS X post/photo URLs, and `noopener noreferrer`. It receives no custody or execution objects. Historical claims remain attributed historical statements. No X embed scripts or copied media are used.
+
+The exact owner-supplied `Phil Genesis Tutorial.mp4` is 459107204 bytes; SHA-256 `0721231f121ffc9d3425c79b61fe9e99924b6cffa0f67c94ef3a0000b5288062`. Duration 447.830717 seconds, 1920×1080 H.264/AAC MP4, metadata before media (fast start). No transcoding or replacement. The native player uses same-origin `/media/phil-genesis-tutorial.<SHA256>.mp4`, served from the private `phil-public-media` R2 bucket. Only that object is served. GET/HEAD and bounded byte ranges are supported. CSP adds only `media-src 'self'`. No extra browser dependencies, analytics, external player or service worker.
+
+The 438 MiB video exceeds the 25 MiB Worker static-asset limit and 300 MiB Wrangler/dashboard direct-upload limit. R2 multipart upload preserves the exact file. The marketing site remains GitHub Pages; storing the large video there would unnecessarily couple releases. Private R2 with the existing isolated Worker is the selected delivery path. The video is loaded only on play (`preload="none"`); media failures do not affect account state.

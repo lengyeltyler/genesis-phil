@@ -1,16 +1,17 @@
 {
   "version": "0.3.0",
-  "build": 93,
-  "status": "owner-selected-final-release",
-  "releaseURL": "https://github.com/lengyeltyler/genesis-phil/releases/tag/v0.3.0-build93",
-  "nft": "0x9732F84C54407cd846B3e987594417BcFA30644E",
-  "miniMint": "owner-confirmed",
-  "miniTransfer": "owner-confirmed",
-  "miniWithdrawal": "owner-confirmed",
-  "macBookProof": "pending",
-  "originalBuildManifest": "release-manifest.json",
-  "packageRevision": "branding-1",
-  "installerSHA256": "fd6307fceb1259eeded60f80fe4e5e2d9f4925eca26efab1b82d433221b582b7",
-  "brandingUpdated": true,
-  "contractsIdentityAndExecutionUnchanged": true
+  "build": 95,
+  "status": "signed-notarized-public-release",
+  "releaseURL": "https://github.com/lengyeltyler/genesis-phil/releases/tag/v0.3.0-build95",
+  "installerSHA256": "3c088ac24248ae3f7812ae8f3723282e6f536f80fedfede236164c96f7ebb4cf",
+  "contractsIdentityAndExecutionUnchanged": true,
+  "web": {
+    "origin": "https://phil.tylerlengyel.com",
+    "engineeringHead": "d5b533ba7901f811c1345849bc65ccb5362138f2",
+    "releaseId": "d5b533ba7901f811c1345849bc65ccb5362138f2:4dfda34c9fadfc141ea89b1712cbf75109ad4ba5397497b69604d9934acc3a83",
+    "stageAtPublication": "closed",
+    "liveStatusURL": "https://phil.tylerlengyel.com/release-status.json",
+    "historyAndTutorial": "live",
+    "acceptance": "pending"
+  }
 }

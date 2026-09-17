@@ -1,0 +1,438 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="color-scheme" content="dark" />
+    <title>Phil — Genesis</title>
+    <link
+      rel="stylesheet"
+      href="__CSS__"
+      integrity="__CSS_SRI__"
+      crossorigin="anonymous"
+    />
+    <script
+      type="module"
+      src="__JS__"
+      integrity="__JS_SRI__"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <a class="brand" href="/" aria-label="Phil home"
+        ><img
+          class="brand-icon"
+          src="/phil-logo.png"
+          width="48"
+          height="48"
+          alt=""
+        />Phil<span>GENESIS</span></a
+      ><span class="network">Ethereum Mainnet</span
+      ><nav class="top-nav" aria-label="Main navigation">
+        <a href="#phil" data-page="phil" aria-current="page">Phil</a>
+        <a href="#history" data-page="history">History</a>
+        <a href="#tutorial" data-page="tutorial">Tutorial</a>
+        <button id="open-guide">How it works</button>
+      </nav>
+    </header>
+    <main>
+      <section id="phil-page" aria-label="Phil">
+      <p id="status" class="status" role="status" aria-live="polite">
+        Loading the verified artwork…
+      </p>
+      <div id="loading">Checking this release…</div>
+      <aside id="launch-notice" class="warning">
+        <span id="launch-message"
+          >Mainnet minting is paused. Do not fund a new account until this
+          release is open.</span
+        >
+        <button id="refresh-launch">Refresh release status</button>
+      </aside>
+      <div id="application" hidden>
+        <section id="onboarding">
+          <p class="eyebrow">YOURS TO DISCOVER. YOURS TO OWN.</p>
+          <h1>Find your Phil.</h1>
+          <p class="intro">
+            369 fully on-chain Phils. Reroll freely until one feels like you.
+            Your latest choice is saved in this browser.
+          </p>
+          <div class="columns">
+            <div class="card">
+              <h2>Create Phil account</h2>
+              <p>
+                Your identity controls one Phil smart account. Protect it with a
+                passkey on this device.
+              </p>
+              <label for="label">Name</label
+              ><input id="label" maxlength="80" autocomplete="off" />
+              <p class="small">
+                Your passkey unlocks a separate Ethereum signing key. Requires
+                passkey encryption support and device verification. There is no
+                password-only fallback.
+              </p>
+              <button id="create" class="primary">Create Phil account</button>
+              <p>
+                <button id="open-restore">
+                  Restore an existing Phil account
+                </button>
+              </p>
+            </div>
+            <aside class="card">
+              <h2>Mint price: 0 ETH</h2>
+              <p>
+                You pay the Ethereum network fee, including your account’s first
+                on-chain setup. Rerolling is free and local.
+              </p>
+              <p>
+                A preview is not a reservation. A selected Phil can be minted by
+                another person before your transaction confirms.
+              </p>
+              <p class="warning">
+                Each Genesis Phil account can mint once. This is not a
+                one-person or one-device limit. Every transaction requires your
+                approval.
+              </p>
+            </aside>
+          </div>
+        </section>
+        <aside class="next-step" aria-label="Your next step">
+          <p id="next-step-copy"></p>
+          <button id="next-step-action">Create Phil account</button>
+        </aside>
+        <div id="workspace" hidden>
+          <nav class="web-nav" aria-label="Phil workspace">
+            <button id="discover-tab" class="active">Discover</button
+            ><button id="owned-tab">My minted Phil</button
+            ><button id="account-tab">Account &amp; gas</button
+            ><button id="backup-tab">Recovery &amp; backup</button
+            ><button id="lock">Clear approval</button>
+          </nav>
+          <section id="account-panel" class="card" hidden>
+            <h2 id="account-label"></h2>
+            <div class="account">
+              <img
+                id="qr"
+                width="132"
+                height="132"
+                alt="Ethereum Mainnet address QR code"
+              />
+              <div>
+                <p id="address" class="address" tabindex="-1"></p>
+                <p>
+                  Your Phil account on Ethereum Mainnet. Mint price: 0 ETH.
+                  Ethereum network fees apply.
+                </p>
+                <p id="funding-help">
+                  Review your selected Phil for a current gas estimate before
+                  funding. Send only enough ETH to this account to cover the
+                  transaction.
+                </p>
+                <button id="funding-review">Refresh funding estimate</button>
+              </div>
+            </div>
+            <p class="small">
+              No sponsored gas or custodial funding service. Web accounts
+              currently support Phil minting and transfers; ETH withdrawal is
+              not available in this Web interface.
+            </p>
+            <button id="check-chain">Verify Mainnet configuration</button>
+          </section>
+          <section class="card" id="pending" hidden>
+            <h2>Check an earlier approval</h2>
+            <p>
+              An unresolved approval blocks new signing. Reloading does not
+              retry it. Do not restore elsewhere to bypass this hold.
+            </p>
+            <ul id="pending-list"></ul>
+          </section>
+          <section id="studio">
+            <div class="art-layout">
+              <div class="art-card">
+                <img
+                  id="art"
+                  width="420"
+                  height="420"
+                  alt="Your selected Phil"
+                /><button
+                  id="expand-art"
+                  class="art-expand"
+                  type="button"
+                  aria-label="Expand artwork"
+                  title="Expand artwork"
+                >
+                  <svg
+                    aria-hidden="true"
+                    viewBox="0 0 24 24"
+                    width="22"
+                    height="22"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M14 4h6v6M20 4l-7 7M10 20H4v-6M4 20l7-7" />
+                  </svg>
+                </button>
+              </div>
+              <aside>
+                <p class="eyebrow">PHILS · 369 TOTAL</p>
+                <h1 id="phil-name">A Phil for you.</h1>
+                <p id="roll-count" class="small" aria-live="polite">Rolls: 0</p>
+                <p class="small">
+                  Every new Phil gets its own name. Artwork and name stay
+                  together. Minted names are unique; previews do not reserve
+                  them.
+                </p>
+                <p>Keep rerolling. There’s no limit and no charge.</p>
+                <p id="selection-status" class="small"></p>
+                <div class="actions">
+                  <button id="keep">Keep this Phil</button
+                  ><button id="undo" disabled>Undo last reroll</button>
+                </div>
+                <div class="actions">
+                  <button id="reroll">Reroll</button
+                  ><button id="roll10">Roll 10</button
+                  ><button id="roll100">Roll 100</button
+                  ><button id="review-mint" class="primary" disabled>
+                    Mint this Phil
+                  </button>
+                </div>
+                <p class="small">
+                  Batch rolls keep only the final Phil. Intermediate rolls
+                  cannot be selected or recovered. Rolls counts generated Phils
+                  in this session; undo adds no roll.
+                </p>
+                <p>
+                  Mint price: <strong>0 ETH</strong><br />Ethereum network fee
+                  shown before authorization.
+                </p>
+                <details open>
+                  <summary>Traits</summary>
+                  <p id="recipe" class="mono"></p>
+                  <ul id="traits"></ul>
+                </details>
+                <p class="small">
+                  Wings have a 1-in-5,000 probability per official Phil reroll.
+                  Unlimited rerolls do not imply a guaranteed collection-wide
+                  rarity.
+                </p>
+              </aside>
+            </div>
+          </section>
+          <section id="owned-panel" hidden>
+            <h2>My minted Phil</h2>
+            <p id="owned-status">
+              Refresh ownership using both Mainnet providers.
+            </p>
+            <button id="refresh-owned">Refresh ownership</button>
+            <div id="owned-list"></div>
+            <div class="card" id="transfer" hidden>
+              <h3>Transfer Phil</h3>
+              <label for="token">Phil number</label
+              ><select id="token"></select
+              ><label for="recipient">Recipient Ethereum address</label
+              ><input
+                id="recipient"
+                autocomplete="off"
+                spellcheck="false"
+                placeholder="0x…"
+              /><button id="review-transfer" class="primary">
+                Review transfer
+              </button>
+            </div>
+          </section>
+        </div>
+        <section class="card" id="backup" hidden>
+          <h2>Recovery &amp; backup</h2>
+          <p id="backup-status">
+            Your browser storage is not a backup. A saved encrypted file and its
+            recovery passphrase let you restore the same Phil account.
+          </p>
+          <label for="backup-password"
+            >Recovery passphrase — at least 16 characters</label
+          ><input
+            id="backup-password"
+            type="password"
+            minlength="16"
+            maxlength="1024"
+            autocomplete="off"
+          />
+          <p class="warning">
+            Keep a strong, unique recovery passphrase separately from the file.
+            Losing both the local vault and a usable backup loses access. Phil
+            cannot reset it. Phil Web backups cannot currently be imported into
+            the Mac app.
+          </p>
+          <div class="actions">
+            <button id="export">Export encrypted backup</button>
+          </div>
+          <label for="backup-file">Saved Phil Web backup</label
+          ><input
+            id="backup-file"
+            type="file"
+            accept=".json,application/json"
+          />
+          <div class="actions">
+            <button id="verify">Verify my saved backup</button
+            ><button id="restore">Restore in this fresh browser</button>
+          </div>
+        </section>
+      </div>
+      </section>
+      <section id="history-page" class="content-page" hidden aria-labelledby="history-title">
+        <p class="eyebrow">A DINOSAUR. A QUESTION. A JOURNEY.</p>
+        <h1 id="history-title" tabindex="-1">The story of Phil.</h1>
+        <p class="intro">From a Philosoraptor to Genesis. In Tyler’s words.</p>
+        <nav class="web-nav" aria-label="History views">
+          <button id="story-tab" aria-pressed="true" class="active">Story</button>
+          <button id="timeline-tab" aria-pressed="false">Timeline</button>
+        </nav>
+        <div id="history-story" class="card story-prose"></div>
+        <div id="history-timeline" hidden>
+          <p class="small">Original posts, oldest to newest. Dates and times use America/Denver. These are historical words and ideas, not current product guarantees. Media links open X; media files are not archived here.</p>
+          <nav id="history-milestones" class="milestones" aria-label="Milestones"></nav>
+          <div class="timeline-filters card">
+            <label for="timeline-year">Year</label>
+            <select id="timeline-year"><option value="all">All years</option><option>2024</option><option>2025</option><option>2026</option></select>
+            <label for="timeline-search">Search the timeline</label>
+            <input id="timeline-search" type="search" maxlength="200" placeholder="A word, an idea, a Phil…" />
+            <p id="timeline-count" class="small" aria-live="polite"></p>
+          </div>
+          <div id="timeline-entries"></div>
+        </div>
+      </section>
+      <section id="tutorial-page" class="content-page" hidden aria-labelledby="tutorial-title">
+        <p class="eyebrow">WATCH PHIL COME TO LIFE.</p>
+        <h1 id="tutorial-title" tabindex="-1">Phil Genesis Tutorial</h1>
+        <p class="intro">The original Phil Genesis walkthrough.</p>
+        <div class="card">
+          <video id="tutorial-video" controls playsinline preload="none" width="1920" height="1080" aria-label="Phil Genesis Tutorial"></video>
+          <p><a id="tutorial-open" target="_blank" rel="noopener noreferrer">Open video ↗</a></p>
+          <p class="small">7 minutes 28 seconds · 1080p · 438 MB. The video loads when you press play.</p>
+        </div>
+      </section>
+    </main>
+    <footer class="web-footer">
+      <p>
+        Donations:
+        <button id="donation" title="Copy donation name">
+          tylerlengyel.eth
+        </button>
+        💙
+      </p>
+      <p id="release" class="mono"></p>
+      <a href="/release.json">Release manifest</a> ·
+      <a href="https://github.com/lengyeltyler/genesis-phil" rel="noopener noreferrer"
+        >Phil source ↗</a
+      >
+      <p class="small">
+        A website can change between visits. Asset hashes make releases
+        inspectable; they do not protect against a compromised publisher. Use
+        only phil.tylerlengyel.com for production.
+      </p>
+    </footer>
+    <dialog id="review" aria-labelledby="review-title">
+      <button id="review-close" aria-label="Close review">×</button>
+      <h2 id="review-title"></h2>
+      <img
+        id="review-art"
+        class="review-art"
+        width="240"
+        height="240"
+        alt="Exact Phil being reviewed"
+      />
+      <dl id="review-details"></dl>
+      <p id="review-note"></p>
+      <p id="review-policy">Fresh passkey and device approval are required.</p>
+      <p class="small">
+        Fees and state are checked again before approval. If this review
+        expires, review again. The app never silently chooses a different Phil
+        or recipient.
+      </p>
+      <details>
+        <summary>Advanced verification</summary>
+        <p id="operation-hash" class="mono"></p>
+      </details>
+      <div class="actions">
+        <button id="approve" class="primary" disabled>
+          Authorize with passkey confirmation</button
+        ><button id="cancel">Cancel review</button>
+      </div>
+      <p>
+        Authorizing submits one UserOperation. If submission is ambiguous, check
+        its status before taking any further action.
+      </p>
+    </dialog>
+    <dialog id="artwork-viewer" aria-labelledby="artwork-title">
+      <button id="artwork-close" aria-label="Close enlarged artwork">×</button>
+      <h2 id="artwork-title">Your Phil</h2>
+      <img id="enlarged-art" alt="Your selected Phil" />
+    </dialog>
+    <dialog id="replace-selection" aria-labelledby="replace-title">
+      <h2 id="replace-title">Keep your chosen Phil?</h2>
+      <p>
+        Your current choice is saved in this browser. Continuing will allow
+        rerolling again. You can undo a single reroll. Batch rolls have no undo
+        and keep only their final result. This does not reserve artwork
+        on-chain.
+      </p>
+      <button id="stay-selection" class="primary">Keep my choice</button
+      ><button id="allow-reroll">Continue browsing</button>
+    </dialog>
+    <dialog
+      id="welcome-guide"
+      aria-labelledby="welcome-title"
+      aria-describedby="welcome-intro"
+    >
+      <button
+        id="close-guide"
+        autofocus
+        class="guide-close"
+        aria-label="Close getting started guide"
+      >
+        Close
+      </button>
+      <p class="eyebrow">Your first Phil</p>
+      <h2 id="welcome-title">Helloooooooo</h2>
+      <p id="welcome-intro">Four simple steps to your Genesis Phil.</p>
+      <ol class="guide-steps">
+        <li>
+          <h3>Create your Phil account</h3>
+          <p>
+            Create your secure Phil account on this device. Protect it with a
+            passkey and your device approval.
+          </p>
+        </li>
+        <li>
+          <h3>Back it up</h3>
+          <p>
+            Save and verify your encrypted Phil backup somewhere safe. Keep its
+            recovery passphrase separately. You need both to recover your
+            account if you lose browser access.
+          </p>
+        </li>
+        <li>
+          <h3>Add ETH for gas</h3>
+          <p>
+            Minting your Phil costs 0 ETH, but Ethereum requires network gas.
+            Check the fee estimate and send enough ETH to your Phil account to
+            cover the transaction.
+          </p>
+        </li>
+        <li>
+          <h3>Roll, find &amp; mint your Phil</h3>
+          <p>
+            Roll until you find your Phil. Review it, approve the mint and make
+            it yours on Ethereum.
+          </p>
+        </li>
+      </ol>
+      <p id="guide-stage" class="warning">
+        Minting is paused. Do not send funds until this release is open.
+      </p>
+      <button id="welcome-go" class="primary">Let's Go</button>
+    </dialog>
+  </body>
+</html>

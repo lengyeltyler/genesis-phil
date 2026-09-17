@@ -1,0 +1,5022 @@
+[
+  {
+    "path": ".gitignore",
+    "sha256": "af59451a9da20e61453550326ee241cd7aeaa64bf560fb07a5c18bc18d603cac",
+    "mode": 420
+  },
+  {
+    "path": ".node-version",
+    "sha256": "e8e8584c09cc1d8fbb12fbf9c0f6f84053223ab8a236a5230c3c9b20ff1a017a",
+    "mode": 420
+  },
+  {
+    "path": ".npmrc",
+    "sha256": "17d94a92c1a3434e2b158659c06fe4ee2ddb7d5776a13018665810d1723b1460",
+    "mode": 420
+  },
+  {
+    "path": "BUILDING.md",
+    "sha256": "a2439ee03a1b33aca351e32467a3bb68abc0048472ef5fc9486f47f3e00296f3",
+    "mode": 420
+  },
+  {
+    "path": "LICENSE",
+    "sha256": "358859ee80f9d8f43ff6d49d1ae09c6d4b7d9d1a4c8728630bf5f03bc45e3b4a",
+    "mode": 420
+  },
+  {
+    "path": "LICENSES/Account-Abstraction-GPL-3.0.txt",
+    "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+    "mode": 420
+  },
+  {
+    "path": "LICENSES/GPL-3.0-only.txt",
+    "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+    "mode": 420
+  },
+  {
+    "path": "ORIGINAL-SOURCE-MAP.json",
+    "sha256": "def78e01f9fc3de92dc52733d6d06b37c5af47e31c0716bd208d19d8c48f540c",
+    "mode": 420
+  },
+  {
+    "path": "README.md",
+    "sha256": "bc04c4e8736d3303379cb2192cdd4892b002c5a54a444e0016c30c42a79e955e",
+    "mode": 420
+  },
+  {
+    "path": "REPRODUCIBILITY.md",
+    "sha256": "c19f134588e3395117737cbfbd734f3adcc3bb5f2f40016f647dadf2a83d9e5b",
+    "mode": 420
+  },
+  {
+    "path": "THIRD_PARTY_NOTICES.md",
+    "sha256": "f1675c22384910719998333e475541e394b729a4a9f72c9568e3717f07984eaa",
+    "mode": 420
+  },
+  {
+    "path": "VERIFYING.md",
+    "sha256": "45c080a88cc7e2893c89a4220caa9aa99ee01f72d49bdc695b8098f2b117e168",
+    "mode": 420
+  },
+  {
+    "path": "apps/philcore-desktop/native/macos-user-presence/PhilCoreUserPresenceHelper.swift",
+    "sha256": "9652626bb427c9a111283ef1588802c763fccaaf6226c9ac8e0b453642289b5c",
+    "mode": 420
+  },
+  {
+    "path": "apps/philcore-desktop/production/account.cjs",
+    "sha256": "ffd8f3e5a2b6df99889ef7a9ad68a18bfc86f9461f834a604af32b96b2201772",
+    "mode": 420
+  },
+  {
+    "path": "apps/philcore-desktop/production/assets/Phil.icns",
+    "sha256": "7046a4da18a130905f957d6d01060227a3d225d39afd26ad3220e7f64d12ad56",
+    "mode": 420
+  },
+  {
+    "path": "apps/philcore-desktop/production/attempt-status.cjs",
+    "sha256": "de969c9f7ebb842400a0aa4b9438a67dd4423e77b41d347a6ef20297a2b1e7e5",
+    "mode": 420
+  },
+  {
+    "path": "apps/philcore-desktop/production/backend.cjs",
+    "sha256": "a7b98e63556b19e6b118e0450701eee474a5432c222968f9096e84faa3df9e09",
+    "mode": 420
+  },
+  {
+    "path": "apps/philcore-desktop/production/backup-file.cjs",
+    "sha256": "c25abb162b8f3fae9b4720be8e0f7058e52261fa3671f7242a95e34be9193320",
+    "mode": 420
+  },
+  {
+    "path": "apps/philcore-desktop/production/balance.cjs",
+    "sha256": "a0d2cf81fca9b775de7d274b1558c029b1502f68d940601fc9619f3b5ada5f0a",
+    "mode": 420
+  },
+  {
+    "path": "apps/philcore-desktop/production/build.cjs",
+    "sha256": "dccde4915b13d381df27ec54440c35bf0edc33bc6968539b97743eba9293d267",
+    "mode": 420
+  },
+  {
+    "path": "apps/philcore-desktop/production/candidate-public-config.json",
+    "sha256": "ff96af7b927ec2520cc3288e819ba260fc89a4cb68a4cb2fe269e048056ccff7",
+    "mode": 420
+  },
+  {
+    "path": "apps/philcore-desktop/production/custody-host.cjs",
+    "sha256": "3be9752ed6e5129a6db82e73594c740e9b395ac785246e90f8faedb7a9d357db",
+    "mode": 420
+  },
+  {
+    "path": "apps/philcore-desktop/production/import-backup-v1.cjs",
+    "sha256": "d8628c5247fbc88556eca6aa4c92fc3fef28319eac95121a833d77d319404dbd",
+    "mode": 420
+  },
+  {
+    "path": "apps/philcore-desktop/production/main.cjs",
+    "sha256": "41ce592a2289f6d341790c1519ce2ee492478e5291b3a6faddebf21f3c1b646d",
+    "mode": 420
+  },
+  {
+    "path": "apps/philcore-desktop/production/namespace.cjs",
+    "sha256": "798d11ac4f39add29aafdc50b31b6c6214b97d0d44b9567ba1d871674aa998d1",
+    "mode": 420
+  },
+  {
+    "path": "apps/philcore-desktop/production/png-export.cjs",
+    "sha256": "0b049a5ef02ab2fcac669c059993d3d77d1832fd35e10fb686ffee7621db4009",
+    "mode": 420
+  },
+  {
+    "path": "apps/philcore-desktop/production/preload.cjs",
+    "sha256": "655694da027a7b9b4fcae552b43d9a0088d8eb9d57538db8d0613ba13616abfa",
+    "mode": 420
+  },
+  {
+    "path": "apps/philcore-desktop/production/provider-store.cjs",
+    "sha256": "bca1c816d337c8beaa523b2b8792e7ceabe42cc280296efe8b619c8b007a6d56",
+    "mode": 420
+  },
+  {
+    "path": "apps/philcore-desktop/production/release-version.cjs",
+    "sha256": "3bbee7baf0c6b46608877bb67b538495baa7a6c70284303785c75abc3a6aa9bf",
+    "mode": 420
+  },
+  {
+    "path": "apps/philcore-desktop/production/release-version.json",
+    "sha256": "a51f6f8a20dacc1c3607ac7165046b1ecb3e0b497127a0e53ac3981e37923afd",
+    "mode": 420
+  },
+  {
+    "path": "apps/philcore-desktop/production/selection-store.cjs",
+    "sha256": "e9914f442756bc7f61b0a446e2fb7b7ad24c24531f947813c2102bdde8840cea",
+    "mode": 420
+  },
+  {
+    "path": "apps/philcore-desktop/production/ui/app.js",
+    "sha256": "e8b42e43d4202be94c59eec6a8149627a4ec581ba7b24ea5919244ce49c6ff6f",
+    "mode": 420
+  },
+  {
+    "path": "apps/philcore-desktop/production/ui/index.html",
+    "sha256": "13e7a0d378373f02cab986b051c0a13910993cbcf90a0300d7112deb793c82af",
+    "mode": 420
+  },
+  {
+    "path": "apps/philcore-desktop/production/ui/phil-logo.png",
+    "sha256": "1d9f5122d996fd5ce1631c09d2bffe86f19f77251561299ae439e9b351b83d0e",
+    "mode": 420
+  },
+  {
+    "path": "apps/philcore-desktop/production/ui/png-export.html",
+    "sha256": "4a5bd0932fdc03e8520942c7cb77745d79ca1d736ab85a2433a9bc45d3c5c728",
+    "mode": 420
+  },
+  {
+    "path": "apps/philcore-desktop/production/ui/png-export.js",
+    "sha256": "11ff19c347394f2f9e79b760943c87864b0322b47e75e6d0ff9310ddf7a6fd3a",
+    "mode": 420
+  },
+  {
+    "path": "apps/philcore-desktop/production/ui/style.css",
+    "sha256": "beed7dd88e149d9fe9f151c15d4e61502794dd40f5145148cdc11a0c013d9801",
+    "mode": 420
+  },
+  {
+    "path": "apps/philcore-desktop/src/main/macos-user-presence.cjs",
+    "sha256": "e977a44e2dc858e2fc5257e95d8b64caf0b14cbde45cf3a5cf3fbc9a58197b6d",
+    "mode": 420
+  },
+  {
+    "path": "apps/philcore-desktop/src/main/platform-bound-custody.cjs",
+    "sha256": "878b7d8c4bdf168f388ad5ef040ee9f008bb68f1104e1795c835a8b8caaed32a",
+    "mode": 420
+  },
+  {
+    "path": "apps/philcore-desktop/src/shared/bridge-contract.cjs",
+    "sha256": "11e078bacfb57d63369f3737ec531b26ffeea4cac0d63d551b8e216a06eb5228",
+    "mode": 420
+  },
+  {
+    "path": "docs/reference/ASSET_RIGHTS.md",
+    "sha256": "fe9d7e18c4ce49b3c60daac6ebcd5bbf235fe70fb500e348e8a541c388ee608f",
+    "mode": 420
+  },
+  {
+    "path": "genesis/THIRD_PARTY_NOTICES.md",
+    "sha256": "b4b0b66a6ee2bcd8463d1b70f26d34fc1fa7d984b32f0c4ffda4f2931761189d",
+    "mode": 420
+  },
+  {
+    "path": "genesis/body2-correction/catalog-report.json",
+    "sha256": "00158f45cfc2d461ff86a9e8f9ae122397a235de76158955d0f0babe74164c81",
+    "mode": 420
+  },
+  {
+    "path": "genesis/body2-correction/compile.cjs",
+    "sha256": "bae1293785e5aeb35c1274d5ed977417657f8a2dfec681bc0fb3c3f1268538b5",
+    "mode": 420
+  },
+  {
+    "path": "genesis/body2-correction/emit.py",
+    "sha256": "bc9e5ab47bdfc31b148556777233ab5b7f099bf551fd84aa6570a3f2cdd2a14e",
+    "mode": 420
+  },
+  {
+    "path": "genesis/body2-correction/inputs/Body2.svg",
+    "sha256": "53d3793fdea2831c914387b06ca0758b2dfb0984184180759d8f13ce6b95cc83",
+    "mode": 420
+  },
+  {
+    "path": "genesis/body2-correction/inputs/base-catalog-manifest.json",
+    "sha256": "7ac282956702df804bac7612c43c886d0516daeffc92be9decd90cbcdc96c714",
+    "mode": 420
+  },
+  {
+    "path": "genesis/body2-correction/inputs/base-catalog.bin",
+    "sha256": "995806c83e9fbfb1847bed21a2f539dd8865cced5d8e0a672354de5e79bce6c3",
+    "mode": 420
+  },
+  {
+    "path": "genesis/body2-correction/inputs/base-paths.json",
+    "sha256": "c86a76c70bf84e25664d404057afb14f9530f15e271d88d677e3948a1bba75c8",
+    "mode": 420
+  },
+  {
+    "path": "genesis/body2-correction/owner-approval.json",
+    "sha256": "37b92ca42a03362d1a342c93501130729e0eb8647791817f5b63a5b87e7047b3",
+    "mode": 420
+  },
+  {
+    "path": "genesis/contracts/PhilGenesisAccountFactoryV1.sol",
+    "sha256": "be8d1b938927c6095854cc18a9469358b7dae42dc1d3396df24e7a18cdadfb28",
+    "mode": 420
+  },
+  {
+    "path": "genesis/contracts/PhilGenesisAccountV1.sol",
+    "sha256": "c901d5c4cb299092477636cd53a70742902151e665b182c77686884c721fb65a",
+    "mode": 420
+  },
+  {
+    "path": "genesis/contracts/PhilGenesisArtCommitment.sol",
+    "sha256": "7bbed92a665c019fe9470d71f937ca62d8861d41acb8255ffcaef4f58db0822e",
+    "mode": 420
+  },
+  {
+    "path": "genesis/contracts/PhilGenesisData.sol",
+    "sha256": "eea8dbfdf341763d0974c30d312ef905fcb634024bea41c57221735773001e8d",
+    "mode": 420
+  },
+  {
+    "path": "genesis/contracts/PhilGenesisDeployment.sol",
+    "sha256": "fc32480cbb3c4447332f157cebaaaea44c0655eff37292d4afe0eba744557beb",
+    "mode": 420
+  },
+  {
+    "path": "genesis/contracts/PhilGenesisLZ4.sol",
+    "sha256": "5ac01683be7be6d58d3d9ae70c9c82fd12e04f63ac3a110df8c0c5ae6624a7ee",
+    "mode": 420
+  },
+  {
+    "path": "genesis/contracts/PhilGenesisMintAccess.sol",
+    "sha256": "fc2e5b5da5962fbc042f6647e8453250c6f02a6db8889ffdc8554e619de6339c",
+    "mode": 420
+  },
+  {
+    "path": "genesis/contracts/PhilGenesisNFT.sol",
+    "sha256": "7567dc2a2709eaa37b2044675638a3860cde51cf70ba751a601582c0593a50c9",
+    "mode": 420
+  },
+  {
+    "path": "genesis/contracts/PhilGenesisNames.sol",
+    "sha256": "213491039be445c0bdd571e8c7ae884aed94d868be5fb1696d7cd8d571ccc654",
+    "mode": 420
+  },
+  {
+    "path": "genesis/contracts/PhilGenesisRecipes.sol",
+    "sha256": "d11dc61874240b250d62672148b73624d32aacb06d4b1a4dc78549cb613e485a",
+    "mode": 420
+  },
+  {
+    "path": "genesis/contracts/PhilGenesisRenderer.sol",
+    "sha256": "c028ce1481316c8526307c6233aa2e23b48a9467e01675dd79c19e600b03c041",
+    "mode": 420
+  },
+  {
+    "path": "genesis/contracts/test/ArtFixtures.sol",
+    "sha256": "74b789caa74ab9396e6763901f2064df13008a68c2112ddd047f80246647839d",
+    "mode": 420
+  },
+  {
+    "path": "genesis/contracts/test/Fixtures.sol",
+    "sha256": "97e5aeeb60883a7f6e71e6bf219e50b2f65e9a9d0754785da778584b0f163715",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-manifest.json",
+    "sha256": "6e6c8e9c377655b8dd3a4133a4ab33cc2c7189f80ff3d0b23c4fb56e88f07c4c",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/000-BgTurquoise.svg",
+    "sha256": "7f23c78c69ee2005af1ca65f9e15629d460e355782391053674cc2dd50ccf7bf",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/001-BgBrown.svg",
+    "sha256": "683f51a2c20512e2804ce01102073692a9bda43b5a1071635085fc36930bcf18",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/002-BgTeal.svg",
+    "sha256": "9605b3ec17fbb0c63dc16492ded60d218224ed32d37186ab4dc6e3ae2d7b02f2",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/003-BgEspresso.svg",
+    "sha256": "3a919e7a5ae42b6fc5d2a38630f7a0db1f1c480dafde5a39e6cd412cdc452424",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/004-BgCoral.svg",
+    "sha256": "8251b78efa96963eb18102a090d714701297cb5429bc53a88f9605d834918f3c",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/005-BgOnyx.svg",
+    "sha256": "3e34c86f02ea98692bf96d37bb821a594eb2a04923f294097bb508e90761e53d",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/006-BgPurple.svg",
+    "sha256": "79ec6ecef0a9d5d5d9be9ebf7039ff6802aef97d0507fb208ca6fc5a0040d058",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/007-BgGrape.svg",
+    "sha256": "f0d41450ac388ef9352f57d3e41f15920abb9423073462140d85e512d9ef29e4",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/008-BgBubblegum.svg",
+    "sha256": "60f550cfe3913f98cdd8d6fdd7de04ec3415fc183fd56cc30f9f1e2aa139eb23",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/009-BgSkyBlue.svg",
+    "sha256": "456353f47e2aa9d7dbf1e58ee0b580a8c81ffcff1ab7485e5cadc6626a0a20ff",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/010-BgMidnight.svg",
+    "sha256": "4d15761f159cf0ecb7d78b6575a5fc49a163859514b9fcf5e45a94c561c2ec6e",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/011-BgSaphire.svg",
+    "sha256": "f1ff237c64672567788502fe1b94a78e04de732937868e1dd71e12c2cb9568fa",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/012-BgGreen.svg",
+    "sha256": "2809b13e3af5b77cf985d88c77452b771b71a90bdbe1780fb63141cb7797fecb",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/013-BgRed.svg",
+    "sha256": "be68691412f8dcfc7123e0a315ab860cc9166ab6d5a9383758a50040213a2ec4",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/014-BgWhite.svg",
+    "sha256": "eb2156512485520c50cf5728661ba8b58f28bd77be519aaec56676da5b76f720",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/015-Bg369.svg",
+    "sha256": "d5bbad9be45fc97387568ca141b3194f9946852e036892dac0ba10b1cc8b339f",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/016-Nebula7Turquoise.svg",
+    "sha256": "5fb15e6a1c3a79903e96e096bbe51d43ad3b8b2d15f1e5f8512b86735a78c2c3",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/017-Nebula7Brown.svg",
+    "sha256": "5b3858605913ed11de05b60f8e6b5b5b9a1c66654516589871ecab44343a57aa",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/018-Nebula7Teal.svg",
+    "sha256": "6b9abe12bced387e8c83bd49cc3b085e96241e9c324fa9c53244add2bf4aae44",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/019-Nebula7Espresso.svg",
+    "sha256": "70fcd19f4af58db492d20bee220f99f7b056486b6a25a4cce15f4baff932854d",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/020-Nebula7Coral.svg",
+    "sha256": "86846fb7ce1834effe93f75e88655daf5a0646eb4c44e4b3b30772f94616249b",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/021-Nebula7Onyx.svg",
+    "sha256": "512528d4a2926c75c8ee62134b48dd55da8b3ab7aee2cb5f97bc3e4bf0441d4e",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/022-Nebula7Purple.svg",
+    "sha256": "46b2edcc951d28fa3ba13a0fee86556645e9f962c5ed42f9bf57be6f44408ea8",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/023-Nebula7Grape.svg",
+    "sha256": "964091548a803007017ac5ce2401da902dcdbca7f1c9de2b365588a15abe080e",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/024-Nebula7Bubblegum.svg",
+    "sha256": "636df233cf5de79b899f2a1b9e4efbb67effa3435dc7ac37735c549d50a24d38",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/025-Nebula7SkyBlue.svg",
+    "sha256": "d143e6fcd5c9afb8cf196c6d45f0e76b018590be74580da4c4a9da78d8d4b054",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/026-Nebula7Midnight.svg",
+    "sha256": "814ec5c72a0e8c83b81198d0ca6d1344a265705a1d60fd886ffbec7b53f8ebf2",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/027-Nebula7Saphire.svg",
+    "sha256": "0484882c4ad12463a287b564d85112f34eff51132b600a608334f2af0dd02a87",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/028-Nebula7Green.svg",
+    "sha256": "5c4b40e1a1c599443a6475cf380f8ba2003d01898810b90ccfd6c149bce84a38",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/029-Nebula7Red.svg",
+    "sha256": "fde0772663e84032078b8b4f3781e07f6f70ec56607821231c62515ad77ee418",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/030-Nebula7White.svg",
+    "sha256": "dadb4286209cdbacecba2e84497b45d29befea90ef9d13a995d4bcc078c86554",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/031-Nebula7369.svg",
+    "sha256": "c2feeb6281ac98903689d676e01a7e9bd9a55a6bfe67aef9622f546e532e73f3",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/032-Nebula6Turquoise.svg",
+    "sha256": "f2c5c4f0fd884c1cde0da5c2331edb7aaf8708ae87303a6217cc9eaff766f202",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/033-Nebula6Brown.svg",
+    "sha256": "11dfe04171218aad49bb82dd9275f90e3fafe5cbb336ff68c7c0d9c1e86f8a97",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/034-Nebula6Teal.svg",
+    "sha256": "416ac8b44d95a16d354e77fbb55ad6b50701ddddad52947ce48e53f14df1caef",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/035-Nebula6Espresso.svg",
+    "sha256": "8daf33709ed0988e07f0070cd888be343b618674c79907d6d28f5bfcbbeae533",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/036-Nebula6Coral.svg",
+    "sha256": "39bee55a2eca65db222c4c1ca6ef44c8190de759816644a52e2aa47e1237ff96",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/037-Nebula6Onyx.svg",
+    "sha256": "4815dbeb1c15bb1f1481450a112db68bdc5445a584dcd40bb7634d6373539e2b",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/038-Nebula6Purple.svg",
+    "sha256": "1a3e9b0ef457cbbdc25ce8e3a262cd49bda2f7b6185f9507111adcfc150a1b7d",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/039-Nebula6Grape.svg",
+    "sha256": "0cd6b4a55c70c7526ec8abb51145e30a56daa700c0cbc26884aea9012b2dd57e",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/040-Nebula6Bubblegum.svg",
+    "sha256": "a500302a680cf0eca8ecad19d2dec91734b4134c8eecbaf6e2cc072fef7ab3cc",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/041-Nebula6SkyBlue.svg",
+    "sha256": "eb2ae5e4ee46846e8f4a3b2f2984257f80365046fd6202dddb4ea61864e0dc76",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/042-Nebula6Midnight.svg",
+    "sha256": "e58e758519a3dae35da73d14249a57d398376202e7cb8cb4db6b94f32dee0498",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/043-Nebula6Saphire.svg",
+    "sha256": "1dd33c1c637b51629325068467b3351ce4641170c4d81510d33b1458e9f9db73",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/044-Nebula6Green.svg",
+    "sha256": "ecf64bebcfda3d1d5363e4905fd3e732ced38110cfb50733a212b08a8f8cb37b",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/045-Nebula6Red.svg",
+    "sha256": "266a41313ab4108a53e6df97cd2b634541f47964d74aa13ba1120b10e604c9fa",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/046-Nebula6White.svg",
+    "sha256": "2c1344600d36795ad5efc2fed476de4683a32060ff79bd4548b1aab23282acca",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/047-Nebula6369.svg",
+    "sha256": "cda5580748d6646c7f8e069342bf18291f2799025b824782b6f766e9c8e250fc",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/048-Nebula5Saphire.svg",
+    "sha256": "73714a6805108e19de5efc251be01d2ebf4f44872d01a4b60c759478062651a7",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/049-Nebula5Red.svg",
+    "sha256": "4e16967d763900c592d9633018369ed925a224ee2ed33aa59de5edeafa4fa3eb",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/050-Nebula5Turquoise.svg",
+    "sha256": "acd3faa7a8103d4b695419a4a3d0b3bc37ae5429536b6878b5011ad3d13a1569",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/051-Nebula5Green.svg",
+    "sha256": "cdd56aba957cc24e7edf418946d9e322c849cf76c40445093e9dff3087d014a1",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/052-Nebula5Midnight.svg",
+    "sha256": "864545fc64662c44e982cab5ec2878773bb246597133464a6a62d11387230991",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/053-Nebula5SkyBlue.svg",
+    "sha256": "63857d8a6ee4c0d47820ee7a326db4841279132042ce75076a5d1db2e0d1bee2",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/054-Nebula5Bubblegum.svg",
+    "sha256": "74b096d9c68a456a05d3a9b3ffbeef231709ce189aa21484a9b06faf5af23ef0",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/055-Nebula5Grape.svg",
+    "sha256": "1e1f4f1f73b878590637a639e0c99e37af7cad98ecb92f67109a35e20bffbe38",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/056-Nebula5Purple.svg",
+    "sha256": "a423c8cd5f770f31f3d33d8484200c1e96bd5dba64a571655529a56f013f7963",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/057-Nebula5Onyx.svg",
+    "sha256": "90110bbe7fcb5d93debb36529c2554f8d4435ae03dbf4d99249634706070ec48",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/058-Nebula5Espresso.svg",
+    "sha256": "f008c3cb3b36ff0a3c8192e76f00d2f0303f0be38661fd2422fb0c2a956df104",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/059-Nebula5Teal.svg",
+    "sha256": "1f205c5f121472b15c135aef7d889c942ed62b3370e65fc73874d8a651ec857e",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/060-Nebula5Brown.svg",
+    "sha256": "77c4646fa959e79434abad4117eece96e6ba1a70a2ea0b4f6b636a88663ff34e",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/061-Nebula5Coral.svg",
+    "sha256": "9d236f7dbeabb633462151b1f3628cd9c66d737b6d653125260b60e2333c9e2c",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/062-Nebula5White.svg",
+    "sha256": "f00caddd615e541b459801a9544a1fec161c5488e8fe9b9df6b12192fd1df47e",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/063-Nebula5369.svg",
+    "sha256": "1a3f56a683e7039f779705f325f835ec5fa9e5d665cdf48edff0ce473693482c",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/064-Nebula4Coral.svg",
+    "sha256": "3c1468139002a3c19e093a3d8109b02dd322d38e9cd02c12228445270c3cfa26",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/065-Nebula4Turquoise.svg",
+    "sha256": "cebf3b0a4d662bac3d1c4e5f8a6f0f71e752d57f94e35ad20df2bf2f746482c0",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/066-Nebula4Brown.svg",
+    "sha256": "24a1561757b42a188a0778a82d1e8826d2d8a8b1c4e894a34ba90a598b3a7369",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/067-Nebula4Teal.svg",
+    "sha256": "2c1ec213da345f7da24e62146419a37c7e6711bdbfdf0fdd033443b70095a410",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/068-Nebula4Espresso.svg",
+    "sha256": "f1a496508863d3e79f9761351f4fa628b177afc99dcf3e6a6cc6bec0d1b8c4dd",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/069-Nebula4Onyx.svg",
+    "sha256": "ffc7f9e2b8ad47315884ebba642f44c4632952bce4dd0a333c40e1788a5a9a33",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/070-Nebula4Purple.svg",
+    "sha256": "ab5d024ac63615045d14db9fcbfd68c88ee6709f3003a014057114e59a029146",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/071-Nebula4Grape.svg",
+    "sha256": "9422132bf056ff1b6532b6db0d88c18885abce486ab1f1f211a32f3015792091",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/072-Nebula4Bubblegum.svg",
+    "sha256": "1ff4e9b82180ca73abf8c13426fe6b6578f187e24d1d98cbe572b49d277b9469",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/073-Nebula4SkyBlue.svg",
+    "sha256": "864b675214e81383fa0c83275211be7f86696f15ec8889a18cfb4fc014f88792",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/074-Nebula4Midnight.svg",
+    "sha256": "0ff1a96548f8e80f446e7bb68ac4b7a39960b10eac91b3755e5021f40ef97f54",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/075-Nebula4Saphire.svg",
+    "sha256": "1ce472e92a87f74c84075ec6d2a4c1cdb78489b8670747ee3b700aab53dc580f",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/076-Nebula4Green.svg",
+    "sha256": "a345df8a179d09b1d6cd959e6370353178980b9037c684a74ade202463e98d4a",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/077-Nebula4Red.svg",
+    "sha256": "59ce1745033ee6055f0f2eba58341411daaa1b1e29fbb236dc6fd034cb2d948b",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/078-Nebula4White.svg",
+    "sha256": "6f57e0c6585819db5a302f1510f54511ac45287153821ca296bd70bf9639e053",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/079-Nebula4369.svg",
+    "sha256": "7680f627813d5a514e7fe0622f86160b0aa9e4e722137ef3699166902c5fc742",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/080-Nebula3Onyx.svg",
+    "sha256": "181b8483df26b689bdbd92e3ab6cc757d721fce62dc28b2d740d4ec17dd0710c",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/081-Nebula3Turquoise.svg",
+    "sha256": "083b172ce998f44e1988de716785af92d9d0d9429fcd31e3e5a338c85fc19f54",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/082-Nebula3Brown.svg",
+    "sha256": "05e11bc8427d857879db23317b328144ee94f78c81c6a03dd96ab779cd655391",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/083-Nebula3Teal.svg",
+    "sha256": "959195b1b4c6eb54b4bfa58a5fdd09f00c7ed03c6f4c2317f8f17ee5caf3979f",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/084-Nebula3Espresso.svg",
+    "sha256": "164e9f1b848af42d451feffff48ed467e16ab7a676379f3d91681f1fae38dc06",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/085-Nebula3Coral.svg",
+    "sha256": "7f973567ab3536d85c83ae326bffd8e6308b5e2a332afa5792f2da7bb1d70915",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/086-Nebula3Purple.svg",
+    "sha256": "71bb93fa66e510f83eb873ec8b1477f80ecc77b73d614f0fc51538a41c3c456b",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/087-Nebula3Grape.svg",
+    "sha256": "8cec4504c06f9fb2db34e6b692421d627340d0e1308df9256fc507b2604a8ec7",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/088-Nebula3Bubblegum.svg",
+    "sha256": "af441e5e21794fa1d04ee8356dc175704513bf4d592f2910b0bac7ea7cd1025b",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/089-Nebula3SkyBlue.svg",
+    "sha256": "1069f9e31d6032d0fecf949a0dbc49eb2b1cf27e39ad0bb33c32c7bf6fef518c",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/090-Nebula3Midnight.svg",
+    "sha256": "d7087ce0d8d43595ac2d010ae9a6b6ab8e582236260f8ce8492b26550e73084d",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/091-Nebula3Saphire.svg",
+    "sha256": "a016664a7dc6c05dd81febd4ecbb0e11cd735eb679618ea145ba03ae88f8b217",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/092-Nebula3Green.svg",
+    "sha256": "d96260b067fbe4f831d5ff55af49644784c842a7ded485867e188686b4da4eca",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/093-Nebula3Red.svg",
+    "sha256": "b7cc6b8b51559951231600119eda06646d2c2dc71c0fc1f976c64592582f769c",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/094-Nebula3White.svg",
+    "sha256": "3727edc9a1b0ad2f33fda089b38a491724ba80f1cd26d51712ab883f4036626e",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/095-Nebula3369.svg",
+    "sha256": "7f2edfdd398ad7cfafd511e39a81d75147cccd38a0e59c6ff51ad9cfd073edea",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/096-Nebula2Midnight.svg",
+    "sha256": "ccae0f15f1e2cea6f5252390df57a8058fc9da1e230653d5aefb65ecacce4393",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/097-Nebula2Turquoise.svg",
+    "sha256": "c85a6919ed8b166732d989e5fc1c7b52966c6b6f56b279f26d24aab64d1e9e3e",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/098-Nebula2Brown.svg",
+    "sha256": "21f6e2047610307c06f1ac10870d04d0631ed8a1f5cd6ef7cf20bf1a8badfcf7",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/099-Nebula2Teal.svg",
+    "sha256": "97ed3d9803c4d4360a850bde635850bd3f35980c2a47fe4f51a550c57adc4fc6",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/100-Nebula2Espresso.svg",
+    "sha256": "d55dff963dc142095aeca550185636038fda6b70644fce91c50a592a5c946e18",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/101-Nebula2Coral.svg",
+    "sha256": "337aab295aac5fd961af37592a86374f797c36229b0802d27e79828f6ada5e54",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/102-Nebula2Onyx.svg",
+    "sha256": "342f764a4ad30a3d670a632e75e02a835182aa6557b67ece84f0fd4b77e95b40",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/103-Nebula2Purple.svg",
+    "sha256": "769bb3226a65697d5a5763ae73787df716a2ddcba03bc902d1b7decb77c44fda",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/104-Nebula2Grape.svg",
+    "sha256": "8b4317fd030f742f7a3784210f58367951f73b9f1acef915784ed39a05c578e1",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/105-Nebula2Bubblegum.svg",
+    "sha256": "7b2bb36be435e3a4b834e0d23d9d253263e27990a14bbf2c4bf567cca46b1e2b",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/106-Nebula2SkyBlue.svg",
+    "sha256": "be3e54ab6cede06f3a8abff913683f62d2a40f6a4a7e45806852cd331277803c",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/107-Nebula2Saphire.svg",
+    "sha256": "b2dcb9e59f2c543bab9ad8cb2e843c43da6e4be337e3880d11b8c6cd6be7c447",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/108-Nebula2Green.svg",
+    "sha256": "e3fd86bf407f791f37777295ae54821bf1f6b044747ec6866e5721fa7404cc34",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/109-Nebula2Red.svg",
+    "sha256": "e7096ae338646b6e73c305f0adf5077fb5834b386a432d4ab1c342a497e69257",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/110-Nebula1Turquoise.svg",
+    "sha256": "31703c06cde29448cfa3b59f9c99458366e285c3673eb7135b91b61fd0470ac6",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/111-Nebula1Purple.svg",
+    "sha256": "8e083f095d6d3066997bd90fbe5b386704cb4dd6979a4020c6406812453e6284",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/112-Nebula1Brown.svg",
+    "sha256": "29b0353f4ee9bbecfdab29e24a895837f3af679f06efb0adf6796f2595dd1807",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/113-Nebula1Teal.svg",
+    "sha256": "d53c8ea8216c64f4d25c30bf1ebe00f6bb63372fa0034e754e637fa2ea8c781a",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/114-Nebula1Espresso.svg",
+    "sha256": "45bb4f65c822b7c89d9825d9a025556b970c894980c5ce594eba94c82427c7f5",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/115-Nebula1Coral.svg",
+    "sha256": "892eeb7fce8a2222db2b3ca6a9cfcf75b435402e22259895767c67d1bed898d9",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/116-Nebula1Onyx.svg",
+    "sha256": "a5f2ab391e9a9abe5319098b98485107772bda845451f8ab6588db4fc2574811",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/117-Nebula1Grape.svg",
+    "sha256": "b71038d4420b5931660fed81afbe8c8f06e4dc044071547a0ff89927d7ee7d46",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/118-Nebula1Bubblegum.svg",
+    "sha256": "d52e95310826a25dc49930a78a352e4a8e7a38e233dfc92147125aea4c8a6456",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/119-Nebula1SkyBlue.svg",
+    "sha256": "9e4746468b46128113b36136494498a0d13e0ee9a4045326fc259ed7c7c72608",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/120-Nebula1Midnight.svg",
+    "sha256": "eed4faf09cd927bb07d91da87470d88a66e522d382ff6e39374cac7123358192",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/121-Nebula1Saphire.svg",
+    "sha256": "34c5f62dead7d3e603d18d86b789910f001f0d788387bef164cc3c2f3dff8778",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/122-Nebula1Green.svg",
+    "sha256": "4bc59218cfd14f6d2af3af86c803bc99e3d9df61bcdcc138fb759a1f40a823e4",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/123-Nebula1Red.svg",
+    "sha256": "448daf98673a427a36c992e07f497e55b77efe5ac4b69396ef4637ff0f4c753f",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/124-StarsTurquoise.svg",
+    "sha256": "d139c2a2c033a5de1100e24ad7ee90986408997d5dae1463acc2755a779ee78a",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/125-StarsBrown.svg",
+    "sha256": "fa434f465702ce4662da1ebe447c8a4038f0f4523627ae68d097707c5fae3fbd",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/126-StarsTeal.svg",
+    "sha256": "e975d79706dceeee9fabef695540168e8d47d9a84226d55af5587eb588a7bbb4",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/127-StarsEspresso.svg",
+    "sha256": "30eddd371525b93808aecf068e13df82da8321c98585f929bd7a456cde7870d4",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/128-StarsCoral.svg",
+    "sha256": "1595147519285122fe5afb1138757a8312ff8c3192b89c19199dea4f07a71186",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/129-StarsOnyx.svg",
+    "sha256": "a19f24aa41a484776f1af2d990309b1f0fcbae66dd6cb534b685d0a318126838",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/130-StarsPurple.svg",
+    "sha256": "0155e0abd853e8595de39aec943382295687669b645f468ef73c3030c66833d0",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/131-StarsGrape.svg",
+    "sha256": "7a14e0b7321fa82610f0580529828ade23b6df52e1280dba05709d19cbae47d5",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/132-StarsBubblegum.svg",
+    "sha256": "47c5d087fe7a4221473138f1bffe9611b637e2e533e7f71c9120488d096df68e",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/133-StarsSkyBlue.svg",
+    "sha256": "6a3aa88bcb590b6311b5e9b363223a1fc50c725a59c9d5c60ab807d6a5ba45ea",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/134-StarsMidnight.svg",
+    "sha256": "bf73fc680bf30f24174a0be43b2d25aac609289d6466f98f44eff338f0fd2ed9",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/135-StarsSaphire.svg",
+    "sha256": "5a36fafb195304b90a8151b463a9c8e7cfe1fa2e10b0d2c39d84587f71ef75e2",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/136-StarsGreen.svg",
+    "sha256": "2487bcc9e8ca4f2054f2fba872a4a0a6285d6c9f10ee4a26e98253abfb0d9c17",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/137-StarsRed.svg",
+    "sha256": "d5351751b8c204d70ee4e3ecda896223291ca57583fe31ab23435163da64de9e",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/138-StarsWhite.svg",
+    "sha256": "7f396b9d51299d18eb0828bf88a431c5feb570008b750611c649152d33c61d91",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/139-Stars369.svg",
+    "sha256": "6595e14d6c85ea60d705c09d9bf63afe8cad9795ec89103a43a221cef40116f6",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/140-Spiral4Purple.svg",
+    "sha256": "b685e2f146b279bb8c7f4b61b227022d36385e7bb1d68171486f9ff153776954",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/141-Spiral4Saphire.svg",
+    "sha256": "49080dd513e7be066e0f014369461b2558b70534e9289e2a77be33d58a86ad76",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/142-Spiral4Green.svg",
+    "sha256": "01d8550e70f144a5b9dc40b7124b168fb45fed5707361518b71a7db565a164c5",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/143-Spiral4Midnight.svg",
+    "sha256": "354e85ebebd617fd9a1b293ff54cba0164ad0e114c1745f4d314225814ef6907",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/144-Spiral4SkyBlue.svg",
+    "sha256": "a29c5d985c71b79510e38a4df59b3fa5eb3bbedb4dd78d5dbbf3894f6c09db07",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/145-Spiral4Bubblegum.svg",
+    "sha256": "f53353f6143a55cdd2236306279825751fa51161b29a548d95d0a1c2b6696b6e",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/146-Spiral4Grape.svg",
+    "sha256": "a696e4eac5383873684628b67bd0c097794be0bdcf87113cccbf19b4c12cbe08",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/147-Spiral4Purple-2.svg",
+    "sha256": "a061b4a82ead22f1b6135dabc55649df8d435e9962528268818a867c0ab863c7",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/148-Spiral4Onyx.svg",
+    "sha256": "07481f9ecc690e01baf8de9f22559e78a9a4525a84dc09f585d21a2c9b79b6c1",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/149-Spiral4Espresso.svg",
+    "sha256": "164a3343a8db86dc0697479aac0e83f29dbca943afdba794baa51c344f9b38d5",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/150-Spiral4Teal.svg",
+    "sha256": "3eeff6258d0d591d5415a1aa9400b09755d30a26e5d925929b946780a81847d7",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/151-Spiral4Brown.svg",
+    "sha256": "50d3a1e4e26fa49687beb5d6ff21b70cdf60f48533f8aaed329e7277f8b5ee9d",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/152-Spiral4Coral.svg",
+    "sha256": "95d49e8b9cb070db55b2a6b32ee3db08433d2d3d295593748adcedcd6fb927f8",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/153-Spiral4Red.svg",
+    "sha256": "fd94bab4722eb1e5ecbf52c34ec8c237f9d23dd666f92f0730f4fc8f063ecf31",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/154-Spiral4White.svg",
+    "sha256": "22e501284e28a4fc4b1730d95bfc62ccb5451e59d0c2896d07d62c3b026b91f2",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/155-Spiral4369.svg",
+    "sha256": "f9638d91fd26904a94283dc212534e12a7964d107d6178bbbebdb26efdc8904c",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/156-Spiral3Midnight.svg",
+    "sha256": "f7c75e1abc8fc06c9f50c9d79c754457a559e677e6e2e2efc47b8776a83d6f68",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/157-Spiral3SkyBlue.svg",
+    "sha256": "6eda67c636c736e976efe700b381c0091950b9401d0d2b54a68b377e980e81cc",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/158-Spiral3Bubblegum.svg",
+    "sha256": "3cdfdb18b4370cf6ce2208551b84f05b7543f19b1209f112b2055d04659a33e2",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/159-Spiral3Saphire.svg",
+    "sha256": "b89985656013e2e6fd7a0a424af482581d88b4c6cacd44563be6a09a1c7c727f",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/160-Spiral3Green.svg",
+    "sha256": "43a9c6cd0f923415c5e82511feb97de5f60fcf179ac5be8dd105fa977233e89b",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/161-Spiral3Grape.svg",
+    "sha256": "cfedbe98d25f2c52c1af76a7ea5dcffa98af5127fa49db37fbd9dcb18d10d18f",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/162-Spiral3Purple.svg",
+    "sha256": "191241f8b48ef7339855fbc191fddad07df8cc8f139db97c28440a9f2ea89605",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/163-Spiral3Onyx.svg",
+    "sha256": "52132d2e88dd3af999d773e1b616b1ab69076ffec0ebf664f248e4d3cf9e5c9c",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/164-Spiral3Coral.svg",
+    "sha256": "d69c9e1ead6c4ceeb5d212d9e31c0b1ef64baa55729ae9bac86e2215ad5ed3df",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/165-Spiral3Espresso.svg",
+    "sha256": "e7d3513b9aa77accfc3dfa3560da5b78f1478e049ae6bdcf6d74c458da09f283",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/166-Spiral3Teal.svg",
+    "sha256": "f6b90e2b980405b48ba15fdbcde4af67491f0eefc692952cd940f90e0c50a243",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/167-Spiral3Brown.svg",
+    "sha256": "ab142c91d0803fe7699132dabc70d03256602ffce2fb6e5dcf9ac791eef72023",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/168-Spiral3Turquoise.svg",
+    "sha256": "9631d8106ce7d6f242cdf2f592f1f3c917d01c24f0d915650360c3e3f7bcbd41",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/169-Spiral3Red.svg",
+    "sha256": "a23f11ed4bab1c53105b146506cfd3c5c480f93666570d394942fd610cd3b604",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/170-Spiral3White.svg",
+    "sha256": "66cb4a828748c6744daec95c2a5c6e8d0c117e8a062b48502f92532741ac5ff9",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/171-Spiral3369.svg",
+    "sha256": "1b2c0fc2012e01e2aa337f5fd8913b3d320d6c52cb9d16d951c0e52cd16b17c2",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/172-Spiral2Green.svg",
+    "sha256": "18c6e8a17074f2503a413b5a8593cab14377b2d34abf5ac39e98e1b6e5947a1f",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/173-Spiral2Saphire.svg",
+    "sha256": "13b97c1ac4b4d19c5c1e71faaf3cc296df580c8886976f5b590658a19cfcfa81",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/174-Spiral2Midnight.svg",
+    "sha256": "f32c4e012d0470ae7befbad2f5bd33c8a06f62ea46acbd3de9c0912a81abb50f",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/175-Spiral2SkyBlue.svg",
+    "sha256": "8d3a79457099f02ec154e880cf9790a64335f68b843984afd57c5282088756c6",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/176-Spiral2Bubblegum.svg",
+    "sha256": "bfeae372406f0e79cff538c04d6340c67ea49a70b7931b1b952983920ecc05f4",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/177-Spiral2Grape.svg",
+    "sha256": "a2d744eb6fea17a84a0302c41f7bfcb266a23d4dd5f7a7586f4f683ef410ad2b",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/178-Spiral2Purple.svg",
+    "sha256": "f2b105d7c8e4eb86558f41aefa86e442f1a024d0b67735f315b1938dd70fbac5",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/179-Spiral2Onyx.svg",
+    "sha256": "a5697884a1d0be3d26e155e44581259c7fcfcac6ee2830a578daf53042d005dd",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/180-Spiral2Coral.svg",
+    "sha256": "3f5ab5fa0ca5395d68e28e1e15d6c6b67d26b67cb9a636219d14015bf7b68ee6",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/181-Spiral2Espresso.svg",
+    "sha256": "cc36378ff25f3cfb5071140563b3e93e274b06c6c925681b9d5d73845f673f10",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/182-Spiral2Teal.svg",
+    "sha256": "0cee97bb6c8ed50915d8393a097772dad3831a80615e55346c8b69b34382c1af",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/183-Spiral2Brown.svg",
+    "sha256": "245d7fbc81485d5295d0f6f0274bfb71c388ce4427d33f5dc0f7973501d38b55",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/184-Spiral2Turquoise.svg",
+    "sha256": "375f98d4094f2ccb5ae8d64b3f22bf4389db48b19fe8607a42eff74d17e89a36",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/185-Spiral2Red.svg",
+    "sha256": "2a5926948bd7319a8e68bf15b87fe0e50ef5b3ecea55aaf878e727dddcb4c3bf",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/186-Spiral2White.svg",
+    "sha256": "5d86ad1d58acd955d6ef6b683f29faff156cd9e3024ca3d874406630c818ae6a",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/187-Spiral2369.svg",
+    "sha256": "9528679a0a174d4dfa45542641d462cf38a1e07eda562ec777b6cc2f40490493",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/188-Spiral1Turquoise.svg",
+    "sha256": "e832caab9fc44bfce288c69feccb8afbfab8b5b7be236d72da7fef23afef54eb",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/189-Spiral1Saphire.svg",
+    "sha256": "a260e4c38b199f67a30efb2d93d3d72cc0ce81f3cd57c3affa41d253271025fe",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/190-Spiral1Green.svg",
+    "sha256": "f5b697d5dd728ccebaa37729e94fc05ed51884da54ace4624062898240bd0ec4",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/191-Spiral1Midnight.svg",
+    "sha256": "edd431191e9cdd3ea1ee6c2f01aafe5e64e6e968d0ac9dd42db37bf739bfbd17",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/192-Spiral1SkyBlue.svg",
+    "sha256": "695ed0826669c33e337125eede39ac5a8d6f794f14e40d6cfc8ac1be7425d026",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/193-Spiral1Bubblegum.svg",
+    "sha256": "541fb46bbb5e1bdc0baee2f98f0e6753f41f1a2d418b2e827795c2af197d81be",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/194-Spiral1Grape.svg",
+    "sha256": "4e44dfdf408f86e69b3cd1ff60c95ad906244fcb46e0744218e11a32c9642272",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/195-Spiral1Purple.svg",
+    "sha256": "795719150196bf09ee7b2b02efe1330a0db70eaab8b1920bdfbbaeef83d13352",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/196-Spiral1Onyx.svg",
+    "sha256": "4812064effbb09e580f11541e85f910fc6feafb8f3e8a89eab9d198b669fefbc",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/197-Spiral1Espresso.svg",
+    "sha256": "98592183054b57420fe2b64fa5daaeae011db99145a6fc5d6d78120d47c00a73",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/198-Spiral1Teal.svg",
+    "sha256": "17224c5d9d7466c9445780368f55fb063411d90ce39581a480c51280aa3307bf",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/199-Spiral1Brown.svg",
+    "sha256": "8db64d18ba07cc1b00f0c63e307cb7f2684af5b87c82670d261e012ab9f04a08",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/200-Spiral1Coral.svg",
+    "sha256": "7dcfb6fdef86c49dc9a0d35d925f12a0f86250a1f8eb015a21b3c64347b51495",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/201-Spiral1Red.svg",
+    "sha256": "60f52cead5b6a32f68c2e34ce0a13a89016ad8b8ab3e83626dbc0ba51beb970a",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/202-Spiral1White.svg",
+    "sha256": "3ed0bad70fc4ac192fa1e6a59dee0468a5efc203c29b23dde8d4184b2785719a",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/203-Spiral1369.svg",
+    "sha256": "f69b73ef926001b25bc7c6287dc35867ccbefa59c8f82fb81461a019087cd3a5",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/204-DustTurquoise.svg",
+    "sha256": "705b16121a0e86c589dad06843002711318572d80b6ed544983322636663e154",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/205-DustBrown.svg",
+    "sha256": "f055e620a103fb314f2df724bd55d9520d58225e2b411d6fb62d02b0dfe7df3f",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/206-DustTeal.svg",
+    "sha256": "6f4b5e10ac087906342df67767cf5c53bbafc580413f671de19d2d299ba6409e",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/207-DustEspresso.svg",
+    "sha256": "91dc7d1e24802ca412a2ab8b671c1aa2cf401e4c90d48bd2b857850e44bbded6",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/208-DustCoral.svg",
+    "sha256": "35bd58eb200aa77963b6c56a5b7e0a044f2ec26fcf2c9ed41980b86ff86f49a0",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/209-DustPurple.svg",
+    "sha256": "b6774a355233baa95df140f19c59fb2b25814126f6dc3d9ee9f624c262934192",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/210-DustOnyx.svg",
+    "sha256": "c8c62eae4feed2f2664a5c17536af5de6cbaabf3ed56b8630f33376ef406396b",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/211-DustGrape.svg",
+    "sha256": "decd4c5cd547e485def800c858af2177c5f7723935cb7f16d832ab443915490e",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/212-DustBubblegum.svg",
+    "sha256": "64f998b708c7abf7ecac8f063369ae7c406d652c36ce6d63f8bc7820bf869827",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/213-DustMidnight.svg",
+    "sha256": "d2b0e3c8dfca6a109598526f0ab6b58926e3160da76bf231c730b293477c5fda",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/214-DustSaphire.svg",
+    "sha256": "361f3d7aa5e8d561736b475f60078388d48a200152d21209b3b241b366be32a8",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/215-DustGreen.svg",
+    "sha256": "5b1ecc7f8d010a273f2fe206af25d15a43cc9ffb88c9822f175dc44046bd398d",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/216-DustSkyBlue.svg",
+    "sha256": "d5152627af7e58e96a54f418eb715c696eb45f29941360964ba9a4173ae7b1a0",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/217-DustRed.svg",
+    "sha256": "dd558f08c9221a4bbd8ec752550941e07c4625335b18b01bb2302d982bf2fdcf",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/218-DustWhite.svg",
+    "sha256": "19b080c17e44aefa83e0b271d459b7932a67976a97cf9da30d78b6c441051807",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/219-Dust369.svg",
+    "sha256": "7553d642581ee32321e38eecd2324dc0d70b7b97d7edbb08e02b7d5d4bb6e01b",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/220-OverlayBubblegum69.svg",
+    "sha256": "c7245b0b2023bfd6dcb9108f2a5b73cc06e55f613414895591a87c7f50dc56a9",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/221-OverlayGreen69.svg",
+    "sha256": "9cc12d418e67a3aafa0730f0fa3bee08a22e05a86438510c44f6159d4350b4d9",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/222-OverlaySaphire69.svg",
+    "sha256": "93ba9e91aad20063e682516301ad0a57dc91a62cee112ba470f48d80ca4e4b45",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/223-OverlaySkyBlue69.svg",
+    "sha256": "4808ad6b26390aa870d23b9305e0453e1d3dc22dffc3016a9ec2e15331079827",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/224-OverlayGrape69.svg",
+    "sha256": "5bd82ac882d394f044bc7af149f018ad73a3290808c61a8c03c0aa194fa8b6c7",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/225-OverlayPurple69.svg",
+    "sha256": "9760206f566a0411217d013e79883bffb6ef3e191f922f74f8a0b37cd21c13f4",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/226-OverlayOnyx69.svg",
+    "sha256": "d27d54244b533f6e3a1d7715493452b496d7269c5b6dcb35f16f294320aa7b77",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/227-OverlayCoral69.svg",
+    "sha256": "9b3e1ece29e8bc2bb92b946449eab4cceda687e526fa007f495862442f759cd5",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/228-OverlayEspresso69.svg",
+    "sha256": "d942151008e8c5ad5ecb3df7e983f890dff93467a72bcf6f7ee475ec287078a5",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/229-OverlayTeal69.svg",
+    "sha256": "3a0ca11acfa694460e350162d326888a30fb4cf1f5153458f4418748021770f6",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/230-OverlayBrown69.svg",
+    "sha256": "27727e0b2f364e6e5b061e0c0629ed3fc00d2bc30118911f5bdd644c3a6351e8",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/231-OverlayTurquoise69.svg",
+    "sha256": "eaadc691c7beaa721c5900bbcdeee402196fe41eb3d3025c668bdab6af883e9e",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/232-OverlayMidnight69.svg",
+    "sha256": "fafe4c2be460dc18273c7a76da050df6b1b78447709ab0cefc0b4cf64d660230",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/233-OverlayRed69.svg",
+    "sha256": "8700546fb840e2ca5228c92164e07e26fcd89ec13dc38f8444fb6bd87235918b",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/234-OverlayWhite69.svg",
+    "sha256": "1fcf3a90afe5891a71422119aa8c3c3045e32c28921f38a4ea63ef38fe82c3f4",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/235-Overlay36969.svg",
+    "sha256": "7ac7765ffedab626eb639ee918f08c9e0839e16efd39389c1a974274a236992b",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/236-OverlayMidnight42.svg",
+    "sha256": "d9fb6a9ac64c963d725b685fc76874cc62561c2a3289bc5928d849a7aa7d12df",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/237-OverlayTurquoise42.svg",
+    "sha256": "05b258fbd46aff48d581014c6fb7fd96cbbb43b3bdf33ef13a0dda4cab75a03f",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/238-OverlayBrown42.svg",
+    "sha256": "f073c7ba8c0ff44fb86aed5e9ec3a171a0fa615e6f86997058fd8affeb690af5",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/239-OverlayTeal42.svg",
+    "sha256": "c3ea13cb0dd8fddea22375cfc20773372ed416b49931d5796a75bb77c23e2bb0",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/240-OverlayEspresso42.svg",
+    "sha256": "f9809160872898925ad198608bc52526d0f891ba992ba0c3158e6dd119a95b90",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/241-OverlayCoral42.svg",
+    "sha256": "07605e1dfa65336872d1c52d46246e2b3b9ca7ac30841e19ba622ceed4957115",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/242-OverlayOnyx42.svg",
+    "sha256": "666ca66fee13a33b9469a3eafcdf8b4e170c8d45bb334675e4599edbee438dc1",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/243-OverlayPurple42.svg",
+    "sha256": "8ae9578925808fcf6316d9aba5b9a5fac54e1d3305571f2d7f151fd2b4008ce6",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/244-OverlayGrape42.svg",
+    "sha256": "4e88e60d8cdb887c83eb6961ef9e4fa0ac0a5234835f8f8e3fe9f696aaa827e6",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/245-OverlayBubblegum42.svg",
+    "sha256": "162e535fd07b03af0d109a0fefda2e56bdab94eae9cef215bf5a9eaa3961825c",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/246-OverlaySkyBlue42.svg",
+    "sha256": "be45e390840106ad09866ed6f8b08c402300563a22f7ab1d90720b2f65f6794b",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/247-OverlaySaphire42.svg",
+    "sha256": "1ec41168f6b1965a2c237c0753594bbd459b09a3101bf0e884ed470c3ebe4074",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/248-OverlayGreen42.svg",
+    "sha256": "db5e0a51718d25eb9b165913adc39b066bcbe87d9d5af6e9fc0ee479c52136a5",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/249-OverlayRed42.svg",
+    "sha256": "250c1633a2ed4b35429ccffc28955e17571a3af44ac83cf856d88406f26358b4",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/250-OverlayWhite42.svg",
+    "sha256": "a60c0986eb2745d74bb695a7eeeb699a0fa8819ad4982d6cf6d585b16e636473",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/251-Overlay36942.svg",
+    "sha256": "5f6752b059e3e03ef82a6c40a18fb118345e0a02ca0ed2ea53dc69346244e169",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/252-OverlayGreen33.svg",
+    "sha256": "8a8c13551c52dfabac9b82da0d678b5d34cf6b259b75ff711da5877f0b2d0888",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/253-OverlaySaphire33.svg",
+    "sha256": "b939835bfd11ae021f4981a9be180c407ba7e73a84bc71e4dbf213127ddb6603",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/254-OverlaySkyBlue33.svg",
+    "sha256": "33098836abee197eb740f83c6fae5c42b6ed3fa6afaf39f779999accf1380339",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/255-OverlayBubblegum33.svg",
+    "sha256": "26b32af8b71d3ca657a4b22491d8e4bdbe3f2a56238f70ba9e4f95a915cb61a6",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/256-OverlayGrape33.svg",
+    "sha256": "62dbc75eb98cafa1cb53b54381cb2ca04d42ec9ff20fd7724e99124fd4cb80cf",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/257-OverlayPurple33.svg",
+    "sha256": "9a19a5e82ce972157c9da2824acef56f3c945e7a6f0f25bd6f7118135bb02046",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/258-OverlayOnyx33.svg",
+    "sha256": "ddfba0128ca6021b4503a410c72da6d65af2987a787840769c7375d6ed195c43",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/259-OverlayCoral33.svg",
+    "sha256": "11ccec15b46391fc0759b656d0e2c459d81bd487beafbe9cb5b5c03025d7cf0b",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/260-OverlayEspresso33.svg",
+    "sha256": "4dbdce7ebd4aecb3ceb9308ae48af8cdbe7797c75ba3bda41b4a6edd46ded850",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/261-OverlayTeal33.svg",
+    "sha256": "8a56efa3e8c6370a2df97b28c1537d2b113783b31283e61019e8ce3559d44380",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/262-OverlayBrown33.svg",
+    "sha256": "9e7e163dd9fdfd7e5421ad1a100cc75fc7300feda0c883c4d79061e2657cf1bb",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/263-OverlayTurquoise33.svg",
+    "sha256": "af864bf0d1831406aa57ac486e00c4a8a4d2f99672c2579634e0b3eafc16db09",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/264-OverlayMidnight33.svg",
+    "sha256": "8d12f4443c17e6d21f28d3a1cb0a9550f8d0d421ec339bc0d7300ca71e5d4cf0",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/265-OverlayRed33.svg",
+    "sha256": "203cb46e6bf48c185c2bdb1558ac4402d875c9681008fa1022a7b854b34e6e52",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/266-OverlayWhite33.svg",
+    "sha256": "773bc524b50d3f7e7b5f7cc2dff57d154b92c33f63d0b154d084f0be774d2999",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/267-Overlay36933.svg",
+    "sha256": "9f51135ab18901f4ecf8cfa60af77bef4de5a2913469e58f84975860c3459e79",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/268-Wings2Brown.svg",
+    "sha256": "6d8df2c541dbd91943af212abe019fd73a82e167a37a5a2e72f85381e9579ea4",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/269-Wings2Coral.svg",
+    "sha256": "47b25f08c5b1542b0190e9804507bb3e8c2edaf7e48c892d9c1ea380fc0601ec",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/270-Wings2Teal.svg",
+    "sha256": "4e907b4da00c976e47d75c28a780cb9dbbdc96c09e2a414a000aafcc720aedbb",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/271-Wings2Espresso.svg",
+    "sha256": "f116f62dc05c6149bbc53502b47095ea4f723fe03ea25311943827eadbced5a1",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/272-Wings2Onyx.svg",
+    "sha256": "f721b5ee1581740fae7e156f8a91efe2e21d6e346e465850a00196da3b813d4c",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/273-Wings2Purple.svg",
+    "sha256": "f3e3bc111dbc1a70821e2f729cd3b3c56b772003c59febae0721ef9b21954557",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/274-Wings2Grape.svg",
+    "sha256": "0cb21acaf4890e1abf0003445230b1c371936711378739dfa8524bca40f37179",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/275-Wings2Bubblegum.svg",
+    "sha256": "27a1d2d880be939620b5fd0c5da1b026ff21bd6cbba9efdaa7067cd9afbcc9c8",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/276-Wings2SkyBlue.svg",
+    "sha256": "876b5bb6b532dd3faa5f7b6ceffdd41b458f90091bf2ea9817bf502433e9b709",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/277-Wings2Midnight.svg",
+    "sha256": "d21c8a67c9281c4f41bf3bf8cbd68dd1dc1260915fd4752f945281d304c8c60a",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/278-Wings2Green.svg",
+    "sha256": "4e5f69bc6b673490d83069877bcd9c37ab3bbd53bceb214b7b87b9c3d86b7ce3",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/279-Wings2Saphire.svg",
+    "sha256": "88a3d3c17caeca087738eba164310c1b2bcaf336829ed0fd76e5a5699506dcbb",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/280-Wings2Turquoise.svg",
+    "sha256": "09eaa7918572a58eb1fbf32aa834959fe71dca8adb4c25b4fc805093d97d9bd3",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/281-Wings2Red.svg",
+    "sha256": "644ffa870b7c7ac4e41f64a4c0bbd35f9dd68acffdce09d3f3e48b3f411b195b",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/282-Wings2White.svg",
+    "sha256": "7e951ee5817c55b94bb8fa67a62ad947256bbe965bd6950fd6d37fc89dc26e76",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/283-Wings2369.svg",
+    "sha256": "0c385f9ac033b3a64d079f765ba86f7b567384372479ffaf98832c825d0ccc64",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/284-Wings1Coral.svg",
+    "sha256": "5c86bd3887f72f299ccbec5fdce52bcfb3ff2c21092184ca559b0c0514f62bbe",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/285-Wings1Brown.svg",
+    "sha256": "ff16511bedde9ae6b98c4781856b6bb117a7c96c75f51496c6b69fbcb1d8d6a2",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/286-Wings1Teal.svg",
+    "sha256": "9bf5f16ef661bdc788941ac0a5505f344e5b5266dd426ce53cdfce3a9cb6f949",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/287-Wings1Espresso.svg",
+    "sha256": "0fd04385d5486e9dc95cba4ff26a12f6c4b9abd41abfbe08e299e7a6d0252dfd",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/288-Wings1Onyx.svg",
+    "sha256": "f72bd0ff65ad08b6831195b9564fd6f65f711289b045637ce160f4d757c22215",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/289-Wings1Purple.svg",
+    "sha256": "80dfddd7a7746639c9283bb8307e11de959483b47e3f7ad26d6b4cc7478b02f6",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/290-Wings1Grape.svg",
+    "sha256": "136f153967dfd25c0d484beab35e2511933bb75fa7af564034dd15f9e48da372",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/291-Wings1Bubblegum.svg",
+    "sha256": "2f2aa6b446742eb8a317e9d16736a8588036c11fe5bc56221f70f06e16ccbd29",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/292-Wings1SkyBlue.svg",
+    "sha256": "fb30050c31b7ae4b38bb6afb114e8cf472225b9de1dd0242b4e99dcc4a5edb4e",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/293-Wings1Midnight.svg",
+    "sha256": "bada4ce2a4a0194fd748440c23acebf7e1036e43f219e41e50c7e4f7fda5f33e",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/294-Wings1Green.svg",
+    "sha256": "45e5614a010a6c2cb309dfc49437678ad57c8be28286eac11778cf42fc05d77e",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/295-Wings1Saphire.svg",
+    "sha256": "0723b3d96e132a70915688530c266f43d70c531f2a00bc74e30132ed042e38eb",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/296-Wings1Turquoise.svg",
+    "sha256": "8c99d1ffa6c650460f45c4ec4c35a91834e2b6223e3b01b914d71d8b471b601b",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/297-Wings1Red.svg",
+    "sha256": "337401e35e5e7f55529aa1e73541e2a7295813c857b0fd3f4d6dc02753e30c57",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/298-Wings1White.svg",
+    "sha256": "9c589af3624308b1d01867c7d45e3b6bf801c923e5229ab056e82612b76758de",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/299-Wings1369.svg",
+    "sha256": "5159c817039657992aaf5a8c9a79c44fccec4b36a34cdcb59b39ac237d9665f9",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/300-BodyGreen.svg",
+    "sha256": "69bbd7a817bc05e7decdee2c7f3d6cef6e208d51ce9e5e31b25f00ad47fdd327",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/301-BodySaphire.svg",
+    "sha256": "de8696593df399394dad2789e431c7b767862ad0cd3b63bd0437a72bbba70b2f",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/302-BodyMidnight.svg",
+    "sha256": "5c194b09010163f547c6347f5d21b4fb84a339c7a684fd7b89b19fba7988ed10",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/303-BodyBubblegum.svg",
+    "sha256": "95c30878a5f689c3c227c9c9c8cccdc615afd35c08c22ff348c812e8b7d82814",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/304-BodyGrape.svg",
+    "sha256": "4f7ed96c1a9fb9c8c5234016fee4684c930822beae0278ab9d9e80fdb7c9c3c0",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/305-BodyPurple.svg",
+    "sha256": "7120f7ffab6019b23460bb6977d79a4c000246affe7b631c9a5c02a46928a505",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/306-BodyOnyx.svg",
+    "sha256": "e00d33c92f52bc772b01815905afd4b547288490fdc9cf632eba7c81fae9b38e",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/307-BodyCoral.svg",
+    "sha256": "5e58547cd02cfc1ae90cc1eb8e5ff56d9fd3376cebaf2979e4e2cde20382edd0",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/308-BodyEspresso.svg",
+    "sha256": "ac18e6537212361028b5654ff4fc8b0f0ed8b55bc6fa93e5c692a394c01f1569",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/309-BodyTeal.svg",
+    "sha256": "7317d623f7972bbba0abc3d8ca24ce13ddea5b6d9242ae969b4726fc7f011a2b",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/310-BodyBrown.svg",
+    "sha256": "aee2b8eadb4d5ccc249b262473d7a780651ad9b0af246a222967e718051a943f",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/311-BodyTurquoise.svg",
+    "sha256": "dc15850cb938758cc14241a813628bdcd204f38751d5a1bf46e181b5ac1487b0",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/312-BodySkyBlue.svg",
+    "sha256": "b4c547137765a9f5a3201563cff297818209f30f48962230c330243a6abbd3c0",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/313-BodyRed.svg",
+    "sha256": "cce2ca613001a1b538094c32bb86e00a5c95c88217c2f7d744dbf7ba58c47177",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/314-BodyWhite.svg",
+    "sha256": "4558e2f0a2d30841e58e1777a055a57d86265920df350e9e8e55596ec439cf15",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/315-Body369.svg",
+    "sha256": "6afd47b4652faae9ce6b8451f0ef13ea91a01a8d052fdf1a7384ec2457a647e0",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/316-Body1Green.svg",
+    "sha256": "2bd7dab9791f1aa0990a80741de05954c89bce3df28702e7ddac5be1b7fabb94",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/317-Body1Red.svg",
+    "sha256": "e4e7e52dabe51522eb2591661628fd4d16d59304043e21803ac4d87c772a7286",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/318-Body1Turquoise.svg",
+    "sha256": "b961fbd709a669454197517d18b9ff950feb9e21657bb91bc6ae57c554b5aba2",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/319-Body1Saphire.svg",
+    "sha256": "192b75dd2bb99f2bd01caefdeb7fd5e9122fcb475ea42550678f0005766e29a2",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/320-Body1Midnight.svg",
+    "sha256": "ff682d1dfb9245b1a6c459b2b91453a346ec7b1ff84bf90958a3a27b34722a63",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/321-Body1SkyBlue.svg",
+    "sha256": "3653e41511438c8b569b55032e356592c0b7520ffca9efda0c043ceecdab5b9c",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/322-Body1Bubblegum.svg",
+    "sha256": "9d18274c4093686810bcd08b5b95f35bbf9031e42b76d88eedc14ce1afcef9a6",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/323-Body1Grape.svg",
+    "sha256": "c25a8afc00af3c1aa604167b3745678e8f1a694635b32df2e8ef209172acb0f1",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/324-Body1Purple.svg",
+    "sha256": "9fb3aea7ab20160a360ed982679e03aca2333164502c2df7f7390c4b67de60f4",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/325-Body1Onyx.svg",
+    "sha256": "b8bbb1f0570a2c081a4c65166d35f1be5084f5bc112a99c312287fcce1886db6",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/326-Body1Espresso.svg",
+    "sha256": "e2a7706e5b06381629349cc82416a14af2caf4d19efd12c33c6e00538df21f4a",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/327-Body1Teal.svg",
+    "sha256": "96061647198c5212b89ac7a67e46f0454d1df352a0f1d64eadd9998fdba4bd70",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/328-Body1Brown.svg",
+    "sha256": "f6550aacefb2ce7ed9b65fc759cc7ecd99b3ba4e02e97925d1780a03a1a8e276",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/329-Body1Coral.svg",
+    "sha256": "a286825021a266fe1ac682e07692a7801b3597a548e02a4f59e1f65542d93636",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/330-Body1White.svg",
+    "sha256": "c92bfd77bed39b823d1e2236db1ce3ef207ae763933680bc456404eae4e9e4e8",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/331-Body1369.svg",
+    "sha256": "7e7a9d66ddfa80138aec319aaf07eced4dc7e7d9a48c506a14b059c4bab48fc1",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/332-Body2Brown.svg",
+    "sha256": "5406c633963dd8f97d1b0080d966be0686a39ce924b9d145ac66b4290e0256bc",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/333-Body2Turquoise.svg",
+    "sha256": "adba7f994a40ecf9f599ebd51bc682a08b0d7312ef43a2c7c22128edb93a4b27",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/334-Body2Teal.svg",
+    "sha256": "c4e003f2a4980393be5afdac08d93413392bceb17471669253b52ec84a5f9c95",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/335-Body2Espresso.svg",
+    "sha256": "ecaa0882bd2ec4f8caf792c828288c2dc87bb3b438cbad9d8783557dcd6c5748",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/336-Body2Coral.svg",
+    "sha256": "7ffceaac1f662ae144aa5e67afaa24f36187d1c08fda9b047b22f1d6a1894082",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/337-Body2Onyx.svg",
+    "sha256": "dd219d9064e53837a467cc25af44a668d87ca4695f77130b257768fde37c7c20",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/338-Body2Purple.svg",
+    "sha256": "c223daf0cf76e5f4f526b9d290ce3e827de030158a808421d5ee767878a44f8e",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/339-Body2Grape.svg",
+    "sha256": "c502f60f8d03d9e3e59877800ea84329cb352407160f07a2f8d50a341131f335",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/340-Body2Bubblegum.svg",
+    "sha256": "2c09aa298ffe8c19a94b1c008d5b8dca7fa78359062ac4c897b11e57e04c77a1",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/341-Body2SkyBlue.svg",
+    "sha256": "bd88e833bc4520ef5f2125487091ac3f16dc842eb7bc3553301bd0deda75c44d",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/342-Body2Midnight.svg",
+    "sha256": "94b7af45ba2dd47bb9544a835ac0f7ea94920778d8bfb47dbd631ceeee1378ff",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/343-Body2Saphire.svg",
+    "sha256": "a164882cb56bcbaa50af800e0324fe1037b938dbcab7da173324e9740980ff19",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/344-Body2Green.svg",
+    "sha256": "0ba156998a0866a83773475d1e75f745efc38f4a60b0214d987b11a4893b85b8",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/345-Body2Red.svg",
+    "sha256": "f77c55f7a5a157943bdbfc64cc4be6f5926859d9819edda7fd8f4dc53fa1cd7b",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/346-Body2White.svg",
+    "sha256": "7505265eea3090307375be0907a8b892a3f377c62370b09722a226be8c25c6a2",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/347-Body2369.svg",
+    "sha256": "385f990ed2860537d19904658cde8f5f98fd92e38117ec1edb113a440fc97c1b",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/348-Body3Midnight.svg",
+    "sha256": "a0c9f456e575048bffac0eca5bccd3b84702d3289548dfd1c0d23bbbd7949ad7",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/349-Body3SkyBlue.svg",
+    "sha256": "98c4dd615f067ef148dfe7c949bd5d72eaf42e4c12c04c7a0fb5f962f06b0922",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/350-Body3Bubblegum.svg",
+    "sha256": "ca6638078d0015ad6fd5c3234e33924f39442cd293898194a3260594c6be8ffd",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/351-Body3Turquoise.svg",
+    "sha256": "4f7f0ae002b195dbf70d017dddeb1a7147406f2980bdf360f90b6a7793b001ac",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/352-Body3Brown.svg",
+    "sha256": "32453e736ee1622ff682be3c738f2fea843ff191d24190e332922ff205173abf",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/353-Body3Teal.svg",
+    "sha256": "8de6fcd99ca609f6d77f2b9fe18cd5401470d9020d654ef3e72021e46069bb8a",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/354-Body3Espresso.svg",
+    "sha256": "ca041242f9198d1839d123132986d270b251c9af9a41875de0563df5c1e6d707",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/355-Body3Coral.svg",
+    "sha256": "7b38d0067a4bff6dab660dbdc443aad69b6d134ec9829b1e0ab3a80659d2f400",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/356-Body3Onyx.svg",
+    "sha256": "66620f6e7f185b009e832f7223787b11751d2e9dda9aac63986cf7250779b04f",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/357-Body3Purple.svg",
+    "sha256": "d44ccf2ef625a94f94d894d4ab50d4b7f2b58f817be5781841a806237093cbba",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/358-Body3Grape.svg",
+    "sha256": "e41845a1c08e9aaed86654e7c2973e634d3d28d3b3aaf20ee32eb494faca0ead",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/359-Body3Saphire.svg",
+    "sha256": "4bac043324cff60d0b52897f53abb5a23c8a286d1ba33a2185b0e4c89148f92b",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/360-Body3Green.svg",
+    "sha256": "bcd6ca111f8108f102af946c71dd7a664cff31a92013c77012bdf3c52568ee94",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/361-Body3Red.svg",
+    "sha256": "e26bb3ce7f78e48b3cb6c83a90e42bd312ad0c71934f7fad7792012b75cb6021",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/362-Body3White.svg",
+    "sha256": "753cbe8e708080b238faff205006b0edc609b4111a1d9d91e08abc11ce799479",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/363-Body3369.svg",
+    "sha256": "7e1725693c72ff43750934f8e3628d9736aed7a2c452b25d869403ff97f76642",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/364-Body4Purple.svg",
+    "sha256": "ac738208c769a5525b011f5977602bc301d4c19951758cbb476b767db774be13",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/365-Body4Saphire.svg",
+    "sha256": "1c1ff578b77cf476715c64e0802b012b0c253954f62603ea3a8c8a91a0221f1a",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/366-Body4Green.svg",
+    "sha256": "39f45ed5967da76124862829586e3952410bab2532aa2b3fff280d4f95d5e47b",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/367-Body4Turquoise.svg",
+    "sha256": "d87cd6cd6f85b068f84b399cb93260b9f4fc024cd8bf38072077813610cc6226",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/368-Body4Brown.svg",
+    "sha256": "433ca73d8798b6302926cb2cc02254115bcd1c626add999b881104fb22967747",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/369-Body4Teal.svg",
+    "sha256": "0de1025b4357b7398752a1dff08da92e8b16a88d7089795f081e8850c1c4f96c",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/370-Body4Espresso.svg",
+    "sha256": "b8e68b5b70a91debbb652f3c5acf2938f2ca43532400d7cbdb0eb4907c7a76cd",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/371-Body4Onyx.svg",
+    "sha256": "12b7b25677f6ae919baa1fb0f3e94c87e527efd873e9503738f9b3f0b7bd726c",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/372-Body4Grape.svg",
+    "sha256": "f5ab497eb5941549573cb4e45b3af4f7231a841896d9128052d205204830cf8c",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/373-Body4Bubblegum.svg",
+    "sha256": "e77ba200e2cffec006e0f5fafb8f0e2f5ef7befd590588deab3ca4a323a02e24",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/374-Body4SkyBlue.svg",
+    "sha256": "087aeabd1f8118e17734cf0f0d1bf0cc27de95cb322b55bf9070e9ff99937035",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/375-Body4Midnight.svg",
+    "sha256": "e628aa80d34ae2daa76ac9874c2714e137d3be245f1ca892ffce46b0f67c9131",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/376-Body4Red.svg",
+    "sha256": "17156a96e8a8305dd74e53410c740664d45550c2b7176923192f720e639cf582",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/377-Body4White.svg",
+    "sha256": "b8f02580904476b2dc023a56707a233ecb4af8fb945177385fadca198b418ab9",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/378-Body4369.svg",
+    "sha256": "1c0b9796720504059c01471104881b3ea40cc051f9c508e2621ab323d5638562",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/379-HaloCoral.svg",
+    "sha256": "b1e214ee2ca30c0a3a80d15dd1a67a20106ca58dd4cd249ffe15f5640463d676",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/380-HaloBrown.svg",
+    "sha256": "9127a75c7b7db829344b0562f529fd652c7f54f77ab3c892ea0ca662e1f115d4",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/381-HaloTeal.svg",
+    "sha256": "0ce9fcae3f2ae166aa8d2022e294853213c66dae59f5ec3ec04ceaaba866dfdf",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/382-HaloEspresso.svg",
+    "sha256": "edc36e9ef3c69ca5392b14e207e14f7eca378db5c7d1bad0753a57ca197645fd",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/383-HaloOnyx.svg",
+    "sha256": "3364eef1e03b1b947d4dd44604d1b22ec4c745694da135f669b2b20900cc0a04",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/384-HaloPurple.svg",
+    "sha256": "c2f1901cda40fb2a15614ef0b537ab06cbcd8f65159940918f3b2f518a54ad1a",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/385-HaloGrape.svg",
+    "sha256": "8e38744d0f1b0c874e46ef598361fcaedd1a6524f408cd567a1558d696d853e6",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/386-HaloBubblegum.svg",
+    "sha256": "f573d9a0e6aac927cd6e9e872e7a1b69d423e3a20212fd329f3367fb8c8df3fa",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/387-HaloSkyBlue.svg",
+    "sha256": "4642dbd2e84ec77d7232aaa9739cc39d44bb3d8e7a68cba02ce7cd9f4bbe1982",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/388-HaloMidnight.svg",
+    "sha256": "9d34b4aa230aa7d75d8a36d153ddd6ad29f6ada275d945204c07f40ff4e6fad1",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/389-HaloGreen.svg",
+    "sha256": "dabbecf078817d0ba8f5dd6b79d8b075719b70c0e35f8c05e5d2dda73d782cb2",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/390-HaloSaphire.svg",
+    "sha256": "ebdb8af86ebf8b751056c86a9c4fe46f4220f31bb7615e43717069e8ebd7a49b",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/391-HaloTurquoise.svg",
+    "sha256": "68039b30bc4911af49d5ca43ce73d40f235ebf1e16b8512796e52725f54e74ce",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/392-HaloRed.svg",
+    "sha256": "6c3252e2ab1ed927443fc0f21c82227f478b78040a907767a4f4c727880832e8",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/393-HaloWhite.svg",
+    "sha256": "4114337de0d0dc096d93f0a0706912bcd18509756276889f87302b2f5257a038",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/394-Halo369.svg",
+    "sha256": "5c6035442b72f457e9ef367f0fae0b1c36a81758aa8386bd08e772e354113f95",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/395-Spikes4Grape.svg",
+    "sha256": "6f29a7d143e141614398c3c14a44211e2be3edb8873e3cc50b84e684f7804a51",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/396-Spikes4Grape-2.svg",
+    "sha256": "99c32b2ba59da4f51192a282234f50dc61914d841eb9ecc17677cedda3fce055",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/397-Spikes4Grape-3.svg",
+    "sha256": "564d872117319ab61bb95525b7ef1b22bb4824a50d619c6bba0ea4bfeb31f57c",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/398-Spikes4Grape-4.svg",
+    "sha256": "9eb757e0c277507281c8908981f864824a54fe02a1732e9f3b823321653ea52b",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/399-Spikes4Grape-5.svg",
+    "sha256": "a1b0fb1dde03f88096857ed8d886a4b5f9d9b3b0810a0fada6ab2648ee3c03af",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/400-Spikes4Grape-6.svg",
+    "sha256": "cb786a834e11ce67da1f316454f70c72b95d29d11d2f468363c9c1de041daaed",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/401-Spikes4Grape-7.svg",
+    "sha256": "ab2bd55eb71aaa1faebc5c2a35ea3762c81cc36944610fcb69befd4c84b88581",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/402-Spikes4Grape-8.svg",
+    "sha256": "38bca35f223cf822f8be78fadc197fe5207ca97bf1344d110ebf0f49fe291141",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/403-Spikes4Grape-9.svg",
+    "sha256": "25d7bddb733a8f1a99bfe03a743d3ae1f9fe9a09f05cab2458c4eb5fd3efe4f9",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/404-Spikes4Grape-10.svg",
+    "sha256": "73385d40417f979ed025df33f2f4398c12992ba41940f2b2e0c5cf0d53805e9f",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/405-Spikes4Grape-11.svg",
+    "sha256": "fa89c4e43e846ae2d37fa6c140527cb4ba1337be3359a870086c4dda94a4ed44",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/406-Spikes4Grape-12.svg",
+    "sha256": "948c5f4923c65793bbd109629ef859b74337dd0525f2b17d5d3ddad0221d6923",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/407-Spikes4SkyBlue.svg",
+    "sha256": "4f329265439ff11f6d51e7a44ac48fc2746372cd18cfad1192acf365a51bf788",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/408-Spikes4Red.svg",
+    "sha256": "5eb1c741bbb4bcf678cef57d0341f973813555de8be82567e376cd215a534ec1",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/409-Spikes4White.svg",
+    "sha256": "14c0dd16ce323014a58a4c4835ffebfb6d328389a13e9ca60fb0161905c68554",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/410-Spikes4369.svg",
+    "sha256": "48aa31658c09f930070b9936b471120b58b80562ce35b1c267c0112059323c5c",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/411-AfroTurquoise.svg",
+    "sha256": "1b6864f0ddce1b7db3cc000a0c2dd14810813dd82ce76541e03d7cef8ea3c98d",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/412-AfroSaphire.svg",
+    "sha256": "0bc706c7957803a013681c8999be0979f3589e0c9d2cef2403d1c9ea0b09af6f",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/413-AfroGreen.svg",
+    "sha256": "c325b65e99178373ae36301521af52d5ee2266d48e6d3ca3a8a7a47750d5ed4a",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/414-AfroMidnight.svg",
+    "sha256": "21009fd6b8c92ef4cc1c54253b989ecf40724583103517195008b6163d08c212",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/415-AfroSkyBlue.svg",
+    "sha256": "c66c3ac6261d0c8613f0ae0b77fbf59e09f8c3233537a1707a7bae5d8ff1029f",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/416-AfroBubblegum.svg",
+    "sha256": "82b24f189e92787db496ad0746134c317a59f7c0bfcb871d80e7b3f1a9322c9e",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/417-AfroGrape.svg",
+    "sha256": "f7ac3f4eec18f16a583d5386e14893d3bc8193b75c1d0b0c2e5ff779b0092d82",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/418-AfroPurple.svg",
+    "sha256": "284888e41d7dd3f76a1666b31cc52c0d8a7dbd8dfebc93c800f5f1d7bceb5958",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/419-AfroOnyx.svg",
+    "sha256": "b3acaddaf48376857455e71485c526c9116460601bd23656a715fd1668455fed",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/420-AfroEspresso.svg",
+    "sha256": "9199024f497183b1197cc53463add0174e9599b1243a179eec22f1f168494e68",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/421-AfroTeal.svg",
+    "sha256": "bfd880bea6112239228d352aec21cfd9387fa549c5099a73d71620021b1e14c0",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/422-AfroBrown.svg",
+    "sha256": "8623fd82ed9a6f26d1b78a7d68eee8ad27a119d67bd83ee374fbd4c2c17f61bf",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/423-AfroCoral.svg",
+    "sha256": "076e81b07a88223a2cae5539ac042b0d7b8a83157936bc6221d7ce005e48039a",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/424-AfroRed.svg",
+    "sha256": "bd5fa6af08e06995b92006ff4a05da8f8f2adce3b2a22eaa301e53ca7501fe0a",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/425-AfroWhite.svg",
+    "sha256": "35efb9fcf8bc88fbe46376b304ec6df2c9b63bdc9e698109b866ba6c3573f120",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/426-Afro369.svg",
+    "sha256": "1efcf75940fa057554d825e8e7cf0fc750bdf3e43389fb3f766e0321eabb7b80",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/427-Spikes2Coral.svg",
+    "sha256": "69bf3721fad1515ab94c6a7316c5f40b4dc956475787bef99c18bf9a5014d446",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/428-Spikes2Brown.svg",
+    "sha256": "769885580453561d454e3d2f2b09d3626ff586c7a1d229ccb533b33bfbe7c294",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/429-Spikes2Teal.svg",
+    "sha256": "018ecd8af8fc9b13c4a4abb20e90a16e7326e08a21fcf0a06ef652994944a20d",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/430-Spikes2Espresso.svg",
+    "sha256": "61fa5a7bac23898facef24c440bd500a80dd9fe26d53713432d0cc8de6672594",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/431-Spikes2Onyx.svg",
+    "sha256": "c0fb004b76bb52efd94685b0cab3c9fd73f42cb94bbf3bb25305f4fc0180c297",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/432-Spikes2Purple.svg",
+    "sha256": "b78e26834457a7b9ee7d1290379bdf25a8184357881da09a5514875d53398bfa",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/433-Spikes2Grape.svg",
+    "sha256": "c71e59a3d367cd5cecdcae7454727ceb2c48d41d3d4b8cce572ed732fe0b2b4b",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/434-Spikes2Bubblegum.svg",
+    "sha256": "c939b29d22c9384646d2a97da2095a649eedcbbbd8a2cdde7e9c73c7bab53984",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/435-Spikes2SkyBluebb.svg",
+    "sha256": "a3c10611c014932e33d524834bd28f1c816e265bf165024106e3f15463c38ba6",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/436-Spikes2Midnightbb.svg",
+    "sha256": "6a04ccf7a8542e78f9b21ec572824fcea8b8e9588e9c22a96f92c1b4c4e4177c",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/437-Spikes2Green.svg",
+    "sha256": "9810b71c308b099e30ca04353dd4202a7064a67d68065d2d01529ddeec70e7f0",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/438-Spikes2Saphire.svg",
+    "sha256": "3fdb1d42c2966c89784890c85dfb58d4ec837e8ac4dca85f9d441e7ddcc841cb",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/439-Spikes2Turquoise.svg",
+    "sha256": "8a432578631ca048ae7a8673df242e9273562d6f66a9ebc823a54a1f9c9312e1",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/440-Spikes2Red.svg",
+    "sha256": "119421ef45519f9320c9ca135d3a3680cdb6ccc3c19af4780f153b2ca141a941",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/441-Spikes2White.svg",
+    "sha256": "c38f8ce76f193b96706aabe7165aa6efda0e911afa04aa45749c5d3f11caf724",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/442-Spikes2369.svg",
+    "sha256": "2082df5e10747bd0cd6f965b3177ededd677c3a1c4b798b0b4a0093a4f4920a1",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/443-HornsCoral.svg",
+    "sha256": "aeae54db4de4cc910327d0a8c82599052dc9fe84edb259f9e6fa5462e66f634c",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/444-HornsBrown.svg",
+    "sha256": "540e3e1bbfc0a34929da5be1cccbbaeae6c497fa9b689779db6ec391540b3d9a",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/445-HornsTeal.svg",
+    "sha256": "67788af99b585cdc5db4e28e7f130810fda12194b2046f2533ac02cd807f2bcf",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/446-HornsEspresso.svg",
+    "sha256": "a47af8e464a430660582a1e2c81aaf3de96a0357ec8ac96e5f62eb34113eb892",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/447-HornsOnyx.svg",
+    "sha256": "01f60dcabbb6ab249aac38fd17e5ca3094865d3edc65d2d14e2547c4d67d1d77",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/448-HornsPurple.svg",
+    "sha256": "fa1033b56eb826fae1750dee8912e31b6bda7b8966c55ba43af06a4570f8fdb6",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/449-HornsGrape.svg",
+    "sha256": "f861787ef451349bc395cc823ac51af789c2861dde06a017e26efb08ca6b79bf",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/450-HornsBubblegum.svg",
+    "sha256": "df01174ea7b361a1b3ad3ab92a72d2af5447bb869f63c4dbd31a0a9917076625",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/451-HornsSkyBluebb.svg",
+    "sha256": "cd3881215e5020a23059c4d3d0692d962f1bf8f40ea402309df1239ffc416e3e",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/452-HornsMidnight.svg",
+    "sha256": "4fd7e5ac970a7c0943c22dde391b06ed3890a9a644f96a16124a1609c792aa4e",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/453-HornsGreen.svg",
+    "sha256": "47d4bc286a3062292cec4b5a2c9f008f1d4f47c6e379c810b6d344098f98f679",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/454-HornsSaphire.svg",
+    "sha256": "66b9f8332012b08849176e81d7d36b6fbaf4cf785501859aab750083c0d201c8",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/455-HornsTurquoise.svg",
+    "sha256": "272dc4d32e10218369b7ca78410f8c9c1da260650acf703ccd851e2dc83c09a4",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/456-HornsRed.svg",
+    "sha256": "1e9314e53e9b338f9972b459d228638b4c091f5b7593c8a07e829c15b49bbc8e",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/457-HornsWhite.svg",
+    "sha256": "1f710df5768c65158acd108e886a7f7f7389dbca162a0e8d952abed64f54afbe",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/458-Horns369.svg",
+    "sha256": "e9185934ea75e7b4b2d35719d00e07db4a721f1e6eabbbc5edccf54bd07c9637",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/459-Teeth2Teal.svg",
+    "sha256": "c3771875351346e750ec792422b3aa6afb9b88686f07574bdb28144400077d58",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/460-Teeth2Turquoise.svg",
+    "sha256": "ce7868296e4f7bb6fb4749d936df14aa8a9897102e076f7677a80a1caed40cad",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/461-Teeth2Brown.svg",
+    "sha256": "fc120c5477be0c64fbecac75606acfa6b6b5068e483be9a2e15db7324f3402fa",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/462-Teeth2Espresso.svg",
+    "sha256": "ba72ed0886237b766f48a53866d1fde1201e8ea4d949c14bdd50bf918653f03e",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/463-Teeth2Coral.svg",
+    "sha256": "2ec0a2daae81762397f5d3335054337d7f6c106eb12377bce7c121ffec232e23",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/464-Teeth2Onyx.svg",
+    "sha256": "778189ad3c7a2cdd598a8d992c437d31fd47ad5266714c096d24b02621290cd3",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/465-Teeth2Purple.svg",
+    "sha256": "e830a4edb07088328e29da76e05d6b5aac6f3ab62416ec869bf1a653e6360d81",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/466-Teeth2Grape.svg",
+    "sha256": "fc8827ed97b1ed5e5b3d36fe737e267c53b4b84f0681f0518d4c36927d3a3078",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/467-Teeth2Bubblegum.svg",
+    "sha256": "3dfed83e264fa8351e6e8d8e8f20fe586277a475c7933b9260f76b3e4a5e34c9",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/468-Teeth2SkyBlue.svg",
+    "sha256": "c0af8c450c8df4bda3b43ca94fcd08d70f95b18e4c6d4344688ac89b72f1c727",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/469-Teeth2Midnight.svg",
+    "sha256": "e68c5da5c74c6fb37ebe8dcb26ab63bd3136350966a1bcf7ffe792d8462166c9",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/470-Teeth2Saphire.svg",
+    "sha256": "0dcfceef5b7655d63f2704b8cdd13f72fb766c9febcc8b3a63ea8f8c9a93bf56",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/471-Teeth2Green.svg",
+    "sha256": "0534506ce3b81a71f50cfe5732bcc64f2571665ff5dada73f21353e99d8f0ad5",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/472-Teeth2Red.svg",
+    "sha256": "8309ace86b64577c0b3c88cb61e229829bf5eb7b89395e4eb757852e0f27d96e",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/473-Teeth2White.svg",
+    "sha256": "359a026d7760049a50d2e08e7273bd96b0fd5570de0bf829268f563bb247f08e",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/474-Teeth2369.svg",
+    "sha256": "e8269bff3db0383267110dd7aea770421d0cf94ae9bcec7778076f13305ab8c1",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/475-TeethPurple.svg",
+    "sha256": "846339b92dbfb24e510b76a160bb4005abdb5eb4fb5df3da184a51acaed6efd3",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/476-TeethGreen.svg",
+    "sha256": "a0da4f37f2de17eb4090d986ed06a58faeb3ebcca1be0870823f352e203cd415",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/477-TeethSaphire.svg",
+    "sha256": "42b3373c421b9d7ba9c61bee520f1741637fa901036ccca110ffe526489dde5a",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/478-TeethMidnight.svg",
+    "sha256": "0756b8cae26eb6a843b6d8f674d2849013e0c7f0e76ff456a65116dd916f9a96",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/479-TeethBubblegum.svg",
+    "sha256": "a4881bc9bb00ea17a9156d9132d4551da309a13a47b8bbcff877a2fd329b4cde",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/480-TeethCoral.svg",
+    "sha256": "0ce59c01fe6b36c652f2c52b7ef266cb32a1a971c1dea7dcf1bca2d7d14e22cb",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/481-TeethTurquoise.svg",
+    "sha256": "645bc00d9c70d2b6808588c700e89d109981d5581be98bce111c4b68a95f14e8",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/482-TeethTeal.svg",
+    "sha256": "413cdf9317611744bdb43885710a0be45a83257c0c99ea93f602ef717bd90938",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/483-TeethBrown.svg",
+    "sha256": "1a225e9c28cbcc280114e63cd9912c7f6bfbea90639521aa1a013b67eba13e3d",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/484-TeethEspresso.svg",
+    "sha256": "da4831bbfe1af73c1c38978f68e4ee82368476c381933fe2254715bc6f573b2b",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/485-TeethOnyx.svg",
+    "sha256": "4424565c031277cd8ddeca0f6db7b1b4f22641127df97aaa94499a9b0039f79a",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/486-TeethGrape.svg",
+    "sha256": "61808cc8461f161c5121909dbf44b16c1d1654fb8426fb3f028b110d2f751aad",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/487-TeethSkyBlue.svg",
+    "sha256": "0027e597dcaaee07a5209da214059b44d636410d082e349de0e1ae669f710b3a",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/488-TeethRed.svg",
+    "sha256": "f9eb7d6fd34808617df7ef425623ffa52a6b328ae0a9b75410e50b9d5878f7f9",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/489-TeethWhite.svg",
+    "sha256": "2adb0c68c96f79f97715658aafdf9146731575b64400c1c994fb83fdddf8cdb4",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/490-Teeth369.svg",
+    "sha256": "a3d630b11c056a91c126f029d40c1ef52ad71af21f0de6897ff7521a6846283e",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/491-WhiskersTurquoise.svg",
+    "sha256": "1c74781f9e5b93ad806361f6361a90b9876b7463dc9349f3c023ede306a8da3d",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/492-WhiskersSaphire.svg",
+    "sha256": "d3ce83614b49aa4c3b7126fa362202f2772932489500153e41005638ab411bf3",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/493-WhiskersGreen.svg",
+    "sha256": "1a74a9f0987fe028ab57c3ac63437f366786b84a3c0a7430f013d39d086e9544",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/494-WhiskersMidnight.svg",
+    "sha256": "cd5c49c3db0b26cf3da9a5b1e3f838fdf74f4c5a4caee552eb58751418552339",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/495-WhiskersSkyBlue.svg",
+    "sha256": "8d5199efd2bf6c259c66c9314c0c391ba042b6945ed68f3a888e5e5aca030654",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/496-WhiskersBubblegum.svg",
+    "sha256": "5f407e0668ddffc003f81e283d5132c46063abd5dd95fbf9767601ca915c14c4",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/497-WhiskersGrape.svg",
+    "sha256": "53c12a3859b726f6e3122296554d0ef29bb205dba3c5c8fd30f7a347db623484",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/498-WhiskersPurple.svg",
+    "sha256": "7385b61eeb86784261e0f68eea8af2210abdcd1913a2717abcbb63381a665934",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/499-WhiskersOnyx.svg",
+    "sha256": "a769ea0090d628c4ca8a4b2abb6cab751f82e1b05f6f75ecc826ac819b9b9958",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/500-WhiskersEspresso.svg",
+    "sha256": "6b7ac498e5f83dcf5cbb42f2f8ad7510a8c004aa652c2747a475a439bb5cea15",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/501-WhiskersTeal.svg",
+    "sha256": "ab658fffe4eb0def2b77962282b4c20a58a0d5c570f018c38ea21efb1f24420a",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/502-WhiskersBrown.svg",
+    "sha256": "34a449476db176b6697c72134b5fd40befcd340229f4a7f02539fb5cd43d869f",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/503-WhiskersCoral.svg",
+    "sha256": "cd9cfbcee25dde3d81dfc0026ae24d04a6fa5ec8101166bafb1721087cb187c2",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/504-WhiskersRed.svg",
+    "sha256": "45a100c1bc39b69412dd4bac9e6256b429ada7b75778ddcd5490a2d7248d05af",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/505-WhiskersWhite.svg",
+    "sha256": "50b9486397dbad6e3a57bd9e9ef1a9e9d465ba40a52bd71337511f63e6dc13e8",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/506-Whiskers369.svg",
+    "sha256": "3caaa020a2d634502802b51c9a042ac4ebb7ce8232496333f0e1f1fe2699995a",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/507-Jaw_Nose2Turquoise.svg",
+    "sha256": "5e9777bf2dc7e4bcb9c859333ac59d68720d66036cdcd8ee12b4a55b0b352791",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/508-Jaw_Nose2Coral.svg",
+    "sha256": "010f5bf1ef307dd27f35b99fbb9f4222dca61d4b52728b2b1bb6b159b32a153e",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/509-Jaw_Nose2Bubblegum.svg",
+    "sha256": "d30ba1a1e2101358f526feddb0f0fdaacce10a1f72cd5bb20a9dbe6e846078b4",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/510-Jaw_Nose2Green.svg",
+    "sha256": "994c9e393ec9b1223d5c854b2152ab17cce4a5b7a4bef10c00298ada1a2f2392",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/511-Jaw_Nose2Brown.svg",
+    "sha256": "753a0e301dbfc6f1dd71875929ba8e772a62277181634efeeb41abc9d1499057",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/512-Jaw_Nose2Teal.svg",
+    "sha256": "22160522ae87391609b9a237406ea87886ef58494326a41e775ac48c34981f88",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/513-Jaw_Nose2Espresso.svg",
+    "sha256": "8efed0339937ffbddc116467dd201d744f2cb3cb79b15feefb5cdc7f74912a5f",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/514-Jaw_Nose2Onyx.svg",
+    "sha256": "608328424eda35ce5392ed4d248c575a6acaffa548133897c39431ebe565709e",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/515-Jaw_Nose2Purple.svg",
+    "sha256": "d4878c7bbfa97b9ca547d4c53e11af66a62b5295e16cb7492fc37c59659c18b9",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/516-Jaw_Nose2Grape.svg",
+    "sha256": "a600b5323efad5a99fcbc4a05da7cc7fb3efad5b1b9da74b89a55331532f1045",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/517-Jaw_Nose2SkyBlue.svg",
+    "sha256": "9b38f2fb41a7124d84b5e0565160638cfb8dfb2d855022b8a48ad3affbdb9efd",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/518-Jaw_Nose2Midnight.svg",
+    "sha256": "b5088b8eb5cfc918e650f6f118c1e4dad7bc141717ca8e1af079071fb62626d4",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/519-Jaw_Nose2Saphire.svg",
+    "sha256": "22dba4950280a585ce6aea9a7b6a084e13560aa343dac5f0da7c0171d010404d",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/520-Jaw_Nose2Red.svg",
+    "sha256": "50ce8273d76662e23fe52f1e6bae0bba8ad5cfde7ea90239d4cbfebcfac71652",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/521-Jaw_Nose2White.svg",
+    "sha256": "e663321385bf8954738f29351b3a86b304dd3c42f29f9d2bd7693cf91ab9a477",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/522-Jaw_Nose2369.svg",
+    "sha256": "f3a57663767681794339609d086130cc55f7c0170f0aa37f7d8546af62639b6a",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/523-Jaw_Nose1Turquoise.svg",
+    "sha256": "e708c654a0ce79d67a05ac346f34cd1d604608e4238f56e9e5b58410f70d7bd0",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/524-Jaw_Nose1Saphire.svg",
+    "sha256": "889b73e292f181888d38d5f5b470cb038183a7d773120c5b5d2763a16bd36861",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/525-Jaw_Nose1Green.svg",
+    "sha256": "80d3a63844c2a53aab8006511ac22862f812766f9598bb4bb9d6101cf4a3b874",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/526-Jaw_Nose1Midnight.svg",
+    "sha256": "2f28f716f7387d8267289314be9bbabaa80c2bf037f36f2e61b53409f0adb334",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/527-Jaw_Nose1SkyBlue.svg",
+    "sha256": "10babf905c202c92a0d8b73c9e475981944c29546ec2c8b13f54230a64ccc6b9",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/528-Jaw_Nose1Bubblegum.svg",
+    "sha256": "40724dc844739df19ad16a7f7cbb24c85f9f7c1acfa7cc6557e4eb416249cd22",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/529-Jaw_Nose1Grape.svg",
+    "sha256": "bdfb61b77b054e63504da5fd3ff95305fb826fbc36386af76029670d7bf3f74d",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/530-Jaw_Nose1Purple.svg",
+    "sha256": "71eee93530611ae78cb914a5134f632780e04861d7a327caa4e7650eb27705db",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/531-Jaw_Nose1Onyx.svg",
+    "sha256": "7cebde12f808d4897f4c600a5d4a74625ab2939992c1e64db5b5b7725a518fab",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/532-Jaw_Nose1Espresso.svg",
+    "sha256": "99a3e967a71369539663ac5ed4ed4474fbce27955cdfbdf18faaa58388acfd36",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/533-Jaw_Nose1Teal.svg",
+    "sha256": "4c4a5095dc5ed417b434f4cab78dcf22dc40cdcd47438bfa9a652cff5126f199",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/534-Jaw_Nose1Brown.svg",
+    "sha256": "fe13277a00b37b913e49992e3d1965c487009a18b68f8ac309f548625fb4cfde",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/535-Jaw_Nose1Coral.svg",
+    "sha256": "3ebdb10662881f5bf1754d318c8794dc949d70df97846c22f1902ef182aec015",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/536-Jaw_Nose1Red.svg",
+    "sha256": "6b5aefa9a50d78e587838d137a89e14b08470d0a0bc8aa39caa8c62d96f76540",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/537-Jaw_Nose1White.svg",
+    "sha256": "142530ec23c9209f54c62d2ea22c566079355d42af6541969c8e7d16443bbcb1",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/538-Jaw_Nose1369.svg",
+    "sha256": "1083cebd43423ed8103594eee9d08ce719f1bf08ddf713071a86622cc8650cf5",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/539-LazerCoral.svg",
+    "sha256": "41c199120eef2e7e0084e24f6830c2c34aa2bd4bd7872daa1a3dde2353d69cd9",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/540-LazerBrown.svg",
+    "sha256": "d591d39200cc424b27a0dab46dc3946b930db7e8e310bb306e42e663d9aa903d",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/541-LazerTeal.svg",
+    "sha256": "fba9d955c54a39436ce47a283884abd6478768c77fb233626c78c2b1d32c8beb",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/542-LazerEspresso.svg",
+    "sha256": "28fab1288b1e06f9579b405fb5ac2563682c869248ce9f9e8546f024bd869532",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/543-LazerOnyx.svg",
+    "sha256": "3f77879e34ce5c7235fbcf3c3b0611952c676eb6963899c8a7dd5c7fca742ae9",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/544-LazerPurple.svg",
+    "sha256": "a03d630f936b8ea130907cdc0880ae417e62f259305513c7497ad2035bef8340",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/545-LazerGrape.svg",
+    "sha256": "3f90179d86b28c836f89df1751fec55aa7700405c8f8697cc18025649c03b42f",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/546-LazerBubblegum.svg",
+    "sha256": "8a8440e2cec8cb9aedeaf23dfb040a08bd5fc573daea88aa6bddcf364a20f30c",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/547-LazerSkyBlue.svg",
+    "sha256": "8917d89141256c679d9ec937545e4ff77592b2645ef3cdb80e69959b128fa575",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/548-LazerMidnight.svg",
+    "sha256": "78a066da0bf3b7fbd0522fcb33196cc6bb670a6cfacef1b0af9906a226c72c83",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/549-LazerGreen.svg",
+    "sha256": "eb5b3f04a1679942b4c8bc9348ca75edc9bad50b75a2c961944589c86dffeef1",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/550-LazerSaphire.svg",
+    "sha256": "d5bb5086c547a6f7ea03c70ff6649c31de67111b66bf94d889c873e41fd22d88",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/551-LazerTurquoise.svg",
+    "sha256": "728dbceff27504dbbbf4725d9b080296fe11cb6e09fe4be86a2d25fa38cfdd36",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/552-LazerRed.svg",
+    "sha256": "f54b106641e490d7b434d463e09fd494e8f9a0c467d588dc956d920c12c0ea4c",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/553-LazerWhite.svg",
+    "sha256": "ab3b04900c873627dfca13f13d62ee2fd6b399176de4f6457eef525f660dd8a8",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/554-Lazer369.svg",
+    "sha256": "17b3044cc598927951abb8e01b6b5f8ed03ff0aa8ddb3a0ab91d7a9aa8b7a763",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/555-Eyes3Turquoise.svg",
+    "sha256": "8a52da125d796125d3b055904c3c5884d242f88d67b594e7de7d4f34a10d161a",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/556-Eyes3Brown.svg",
+    "sha256": "db7407b40ab3a089da9538bf5c6857d1c24355c94e66bc4ea2096c42803cfedd",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/557-Eyes3Teal.svg",
+    "sha256": "b7f76e8bfc61f646ec76a043e2b6d6119ec7c7ca7878ca016f8647282b617a12",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/558-Eyes3Espresso.svg",
+    "sha256": "da474705b3b7a18f22b7b878bc02a484ddbbb6d24e76d4ddf472f83feb42c249",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/559-Eyes3Coral.svg",
+    "sha256": "0ab09f6eea1e30f020ce56117946234dfdef19263aac0e5c105522b9e135e17d",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/560-Eyes3Onyx.svg",
+    "sha256": "8d9a3e4cd13efd3d645c5327972cb2ee4c96bc83c603f44ad2ea71b90e4b91a7",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/561-Eyes3Purple.svg",
+    "sha256": "006869d2883e89920ac293a1ae40f25133c1facd850d9d83c2e530010d4b933b",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/562-Eyes3Grape.svg",
+    "sha256": "4d7dee9bc13cfabfc6900335c8dc109da2a56c6ea3a9380042e86aad122a9ba6",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/563-Eyes3Bubblegum.svg",
+    "sha256": "b666ec522b98c7dc5132cd0ca810ed26d97002bed7e89d2fdf4ea474b3f452f1",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/564-Eyes3SkyBlue.svg",
+    "sha256": "cb12524bac0b6fafc582337ab8b12c6dfdf7665ce51798cde71e9a526bc4d317",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/565-Eyes3Midnight.svg",
+    "sha256": "6da8483495847fc08b9eb6562f33a95a5b8316a89fba703e4600fe44e64d1a31",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/566-Eyes3Saphire.svg",
+    "sha256": "406d4244c898ca181c44df55c25c066c96e378b44dea3bbcd1e179c2dd846e57",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/567-Eyes3Green.svg",
+    "sha256": "9497e750337879c2ee05457eb41e7cb37f8554314fcb3a44dec6ddcea9799d9f",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/568-Eyes3Red.svg",
+    "sha256": "9e7d8110581166dc0d70f5f979b1515ce06000a5fe734f5a7ff13ae84183d7b2",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/569-Eyes3White.svg",
+    "sha256": "ed63d8e851891f39bf8a3bc9cf796c781ed66d42ecacb7af8583b5962385a4f3",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/570-Eyes369.svg",
+    "sha256": "0d3d1b6956bd452a12ecc702fbfb1a82c913d80ffc698ab158b322ef0d26c851",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/571-Eyes2Green.svg",
+    "sha256": "5e4f44919518a24367813d6fffa4ddb66df4ed9d5d64d8fa3272996576c626be",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/572-Eyes2Saphire.svg",
+    "sha256": "cb3bd8f4bd2ff64accc04403db96a719ac8dc992d489ac667421511c28affa9d",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/573-Eyes2Midnight.svg",
+    "sha256": "9bef720a382a837aca03b977f41d8706033a7926b37c108d12964b303d94471d",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/574-Eyes2SkyBlue.svg",
+    "sha256": "8c70f279815f858ee8b1bf77e35557a4655cd648b36e863412dc03b16ff2a04f",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/575-Eyes2Purple.svg",
+    "sha256": "fe5be20e94f661f93675fe66532e9db67c5e3b11846db80ce39b2182c732a70a",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/576-Eyes2Grape.svg",
+    "sha256": "14ca9e6d422c208e2f38cb76f48bdfa2c310ed15155c05fabb25b5d8b5161575",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/577-Eyes2Onyx.svg",
+    "sha256": "c8608b51a962d1f338220691f24b6c18b0e23f2a4020a4379f30610dfa69ae89",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/578-Eyes2Coral.svg",
+    "sha256": "52ea3c468eb01889552efd3c515f82f3236249c165dcc88cd2ec9678691ac8e1",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/579-Eyes2Espresso.svg",
+    "sha256": "84338fed73dc50b547d1e50a50ef4e7880056dddf7ad10343ff53d93cf73abb7",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/580-Eyes2Teal.svg",
+    "sha256": "4b30b697a0f5f4d7f0c047b3dd82b0728f3c449cf4637df9d132ff8776798e86",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/581-Eyes2Brown.svg",
+    "sha256": "66036698bf671ad7e8faa18fa487f5db0eac9a8f6fa6179c6ab12626fae0bb55",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/582-Eyes2Bubblegum.svg",
+    "sha256": "926676cd7713d8f5bfd19547fa5c527209e2b9c5f1bee21fc5d0fc7fba93ed7e",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/583-Eyes2Turquoise.svg",
+    "sha256": "441f208c2f67d5188443e73d3aef9d1704cccba1cb1309a1ed24854c5c579a71",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/584-Eyes2Red.svg",
+    "sha256": "6aaf6c8c53c81fa0243ff98bcbbfdc976b017222dff4351d5095b50018d813b3",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/585-Eyes2White.svg",
+    "sha256": "5640d752bdfdcc8004e34613e0361b9bcb81adbdf91e8e522c92258ff8e13d7a",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/586-Eyes2369.svg",
+    "sha256": "0368dd3d669931954f155e2cac8a6a84f87bbe91707c343710cc5a60a1fc291b",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/587-Eyes1Midnight.svg",
+    "sha256": "3f81a85875edf146c9733b46dace6c4bbeed83a7a236aee376a518ebd6070a20",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/588-Eyes1Green.svg",
+    "sha256": "a6058a0c7ea7aae853d684f001b9afbd9bb4814b09559fc0ea355984cc15d80b",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/589-Eyes1Bubblegum.svg",
+    "sha256": "94d26ba7302d243f7324e6a2163a2b0c31f9361a5a82c7f449eb532bc24ebf2f",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/590-Eyes1Saphire.svg",
+    "sha256": "02aa5bbb79130986aa78e5c621f021382d05bf365c49469a6fcd69c5ced1d0d1",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/591-Eyes1SkyBlue.svg",
+    "sha256": "5dcfbfa74e4d5f8a987a3ba8466388fa3f630ab13874e6bb9f312d02fcf9cd56",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/592-Eyes1Grape.svg",
+    "sha256": "25f5e6e7c241a4c480c1da043edca6e4037c91b9fc476fc30df4b7be695d446e",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/593-Eyes1Purple.svg",
+    "sha256": "35f8f750c55018c661fd8fde832c1d76dcffeef3f4d75fbbb1070aee853b60e8",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/594-Eyes1Onyx.svg",
+    "sha256": "3d8711b2731d6f16aa4fcc64782621b7aae23814ff6035311f88263f9524e419",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/595-Eyes1Coral.svg",
+    "sha256": "758e64d1a28b000eb0e964c7ee4996049e37535f36e81034717fb284877c2477",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/596-Eyes1Espresso.svg",
+    "sha256": "284bdc2fbd7d139fac37f4da1250ec28789c8df6ae765c3d427779431cfc2769",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/597-Eyes1Teal.svg",
+    "sha256": "100832fcc876b0db7a5a2aad3c56ebfcdebb076fd0c7c704c930efdd5d9e00b9",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/598-Eyes1Brown.svg",
+    "sha256": "28308072d9232f04d7974848618858f406231360989125c20e5a5a4b00bb44c7",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/599-Eyes1Turquoise.svg",
+    "sha256": "56de9cd8799814af226831d7f2500c5e2296ee71bc9ffbf3b3de6d8ac70e08c0",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/600-Eyes1Red.svg",
+    "sha256": "eaf7f4b8f010065a72811af36c54ab0be5fb69859bc06a31b8e0440125e99718",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/601-Eyes1White.svg",
+    "sha256": "f1a1d9111236e893151668b1f1ae3065e9533d90c35fb1988c5bff9d95d81f45",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/602-Eyes1369.svg",
+    "sha256": "7f2fac10935a9321d09bb662babee658055667bb2db4fb9aef4ad62b097b094c",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/603-HoodieRed.svg",
+    "sha256": "98dd01cdae0a7e9e2a086c87b7951e1d2096891b563e59b6baae54237136e062",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/604-HoodieTurquoise.svg",
+    "sha256": "1f749fc016a8e37321098a8081cb37cb5cbe1549016a2a5adf8efd92f3053130",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/605-HoodieSaphire.svg",
+    "sha256": "b098b8089bd7f79b4d9279333ffaa3304262e888a1916c860c38fd4da0ec7f53",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/606-HoodieGreen.svg",
+    "sha256": "eeda9f47cb6f87027b66fcf0ff9f062f69b3056d9847074a11f1f8fa0cac2156",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/607-HoodieMidnight.svg",
+    "sha256": "b487e20fc1cb8c30711ba2bb67a5c0f8cbcb319cb0a7f6f22d01ad817b6f5e6c",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/608-HoodieSkyBlue.svg",
+    "sha256": "57879176af9c26b699e65cc6caace9b04a32c2d2bc5cd269202e7c5e5e7c7e77",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/609-HoodieBubblegum.svg",
+    "sha256": "fcc3aea02e952487554dcb1b4033ee5514d270774cd540ee5b8f0becc5069eac",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/610-HoodieGrape.svg",
+    "sha256": "f25f4cae1897fe23c3bc661c3feeb4d043a2bf57f6f30457df57832f35863395",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/611-HoodiePurple.svg",
+    "sha256": "244b94486db328e24476a4a2e14aae6fe57caef393019b61d474852bafc2e39f",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/612-HoodieOnyx.svg",
+    "sha256": "6c7fc15d7316a4bccc6c708e30ace513fe0a5062cca83da818e22d9677c63a4c",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/613-HoodieEspresso.svg",
+    "sha256": "8675bc89660bdfa50aa163b8b62a875c79203514fb40fad26c91879b770fc3a4",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/614-HoodieTeal.svg",
+    "sha256": "f2828fbc2de4a1883a95d01898281ac6d8f659a9aeea33f68845041ec757017c",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/615-HoodieBrown.svg",
+    "sha256": "33fb32ab78fb930e71de4011597ef8057c83c89c13766f2d660a02ebfaedd1c9",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/616-HoodieCoral.svg",
+    "sha256": "7e037e84ee9268ea782058de265869f1ecacfcba3548827bce6c98e3b5d4bfdc",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/617-HoodieWhite.svg",
+    "sha256": "53c7ea78c71375d4ee9ce46592f332561d338a1dbe05d1cdf1d395675085ea0b",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/618-Hoodie369.svg",
+    "sha256": "d29b571ca9f7a468f157ac962bf0d69d495ad7eb380ba5e637c2fce92d9936e9",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/619-TankBubblegum.svg",
+    "sha256": "958e2fb076dd0782fe7be6b59f51c9905fa26a5b0a33ee38b21909bfe33f612a",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/620-TankRed.svg",
+    "sha256": "72e81e160e53d8bdea04150088d4cf751d154586009c215fd18d489618c4225b",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/621-TankTurquoise.svg",
+    "sha256": "f54b241f540cb604d229a3f7e9112508dc9437870c0440c11c70171f8eb76cc2",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/622-TankSaphire.svg",
+    "sha256": "b124a983616e64163465a045d5b0cf0ccd823939a41a693e0274d36a70121c97",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/623-TankGreen.svg",
+    "sha256": "316ca095ce3e64a70ef5d100ec5854ae9e7d3a2f2b4a2ab76f026aea6681d0eb",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/624-TankMidnight.svg",
+    "sha256": "f73fb6b6d6d1a5d33763b1d50769718ce1329da98dbbaea1b564fbef38c25017",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/625-TankSkyBlue.svg",
+    "sha256": "d0487a20b2e20248fb14a15c9cba55996d18363d7ca8cdea576be5a5a6477129",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/626-TankBubblegum2.svg",
+    "sha256": "eec0e3676bd3f893a4b86fb80092f57a4a7e7637f9b396e3f74d2574c93c5a99",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/627-TankGrape.svg",
+    "sha256": "57038cfc3a5f090fe4584068b6cc68febd22e1df3e4463832abb960dc962e778",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/628-TankPurple.svg",
+    "sha256": "9dabb5f913734e61e35f3a4ca9f20aeaa530e731dd6fa1699a29085935b91d2b",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/629-TankOnyx.svg",
+    "sha256": "f6d1d265d99c73ac853232c892003879b6c220a82b143fa11d080402693f2af8",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/630-TankEspresso.svg",
+    "sha256": "8084a3570cc0b59378a5b63e4471b09f7fbe76faaa941adea97fc46bb6d8d55a",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/631-TankTeal.svg",
+    "sha256": "8293ef7ca6d599635598cc8549d4543ae8d63ae431223e71088e514bac360284",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/632-TankBrown.svg",
+    "sha256": "95c1a848d1d1a4bed862ff8e31c05abfb932e56143f143ed54f0f1f903f50dc3",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/633-TankCoral.svg",
+    "sha256": "ed85f9ba84878d46a91d4a059bb467f8f6fb3953bde290640c4fe380620a1bec",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/634-TankWhite.svg",
+    "sha256": "ecf3c94f031d83a37e3a8ed81339f2019fe60e74e40435eb64428141c5a4f6e6",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/635-Tank369.svg",
+    "sha256": "1c118a5bc148ab066de3f212524886fa74b237c06bf6e01d926a7600bcce83ae",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/636-ShirtBubblegum.svg",
+    "sha256": "8f2f9dd76753349895f5911ff50de193f24f8a9ecc93cead8c81433ba8e5e818",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/637-ShirtCoral.svg",
+    "sha256": "f36e5955adc427b35b9d7835a9c6e1385626873ee407d0005a86cae13b28066b",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/638-ShirtPurple.svg",
+    "sha256": "8fdb7932477c7aa2cdd6e7c7d6e4ae53e5b634e856da007c93a2cac8585fe135",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/639-ShirtGreen.svg",
+    "sha256": "51204dbef59aaf413a09502099e7fef14e8b029e8009837af69026b0f1cccced",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/640-ShirtSaphire.svg",
+    "sha256": "4e25ffb053141781acf20d6d2105f4a42c4e21e492f04e4fa886cf6918e70c66",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/641-ShirtMidnight.svg",
+    "sha256": "807dfd70b0ea056c9380449edc1cc54f9a79520b14bbdc8dc7be65345e38d101",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/642-ShirtSkyBlue.svg",
+    "sha256": "0d978f48da15cc2ee8fe32400a5a96c5710043b19c2a9e4949d23ebc5151047d",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/643-ShirtGrape.svg",
+    "sha256": "c47d011ff08c2e2178eff734e1654025a428f8e81343a71d82339c0e37b59e79",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/644-ShirtOnyx.svg",
+    "sha256": "47c2cb2883c55754524c56573a6a858f20a6ae22c1b09b723d25f59e79305448",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/645-ShirtEspresso.svg",
+    "sha256": "2fe580b8f6f6456b940d1e3708b8f7cd06ff3fcfab1a42b265b815ac0af290a0",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/646-ShirtTeal.svg",
+    "sha256": "049a28b74025ec59c799e8b4dc6cfa9f145acba09e12500b01c44129592e4f14",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/647-ShirtBrown.svg",
+    "sha256": "61f7e7276b4d704847b62418ddc8e9b17b988d89fa695514812b1aa4080c3626",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/648-ShirtTurquoise.svg",
+    "sha256": "99498706e861b2a75fa4682407ae0a90afd0d087866d5e3e104201125e447679",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/649-ShirtRed.svg",
+    "sha256": "0a7b1b5da5b459cf8064928720e3adf50c865a4181141514f174a2565860aaff",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/650-ShirtWhite.svg",
+    "sha256": "3118da11829896df869ec3bf42415b7e21e608517c6fac78ffb1c902669f3916",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/651-Shirt369.svg",
+    "sha256": "e3c8c75340b880d2cc7a2bd6995aeae9fbc997b127355cdf50a5476bebbfb327",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/652-BgTurquoise2.svg",
+    "sha256": "46fdba5be172f252aa58e6abb1dc1808dcd936708e2cecb67f829be879388fd0",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/653-BgBrown2.svg",
+    "sha256": "c89ae1c62c2734c20695ad872769a9ab2bb620e2e587acc25052b4838c37e23e",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/654-BgTeal2.svg",
+    "sha256": "35d126910519646ccaa52b40c1919eaea42c62b50cf5a312f5075d56551c9ba2",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/655-BgEspresso2.svg",
+    "sha256": "9c2e73a829f8b2c8fb15ad8a8d9203708fd22c35f8df91d058e2b45ec3fd171d",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/656-BgCoral2.svg",
+    "sha256": "1c348cbb086f5e59f1dd9e229c9c282cc8d32ddc35baecbdb65fb2b48e585913",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/657-BgOnyx2.svg",
+    "sha256": "fb7429cd3ca033d77e26b5719d570a2f8d385598762eaa5948416ae33bcec5d1",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/658-BgPurple2.svg",
+    "sha256": "08e500a4a2d72646ab13f36cf901d9607b6370e725a195d748ebcc2e6db99f46",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/659-BgGrape2.svg",
+    "sha256": "ead49e9bd2df0de3572b132e63c65dd0ce17d16bed2b3bb9f3161c3134dd8b69",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/660-BgBubblegum2.svg",
+    "sha256": "249212bd07ef022061fa52711168aace054a4dff0179e646a038126bf9c01ec5",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/661-BgSkyBlue2.svg",
+    "sha256": "b382f75b4de076dc0fd82657f931db924dcf93ed19ebbd3189b2df8582e376f0",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/662-BgMidnight2.svg",
+    "sha256": "743658edad55b7e244885b71613d41c6ea697348b75d8cada10ece8383cf2b8f",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/663-BgSaphire2.svg",
+    "sha256": "236f4f5bbc20f04b4bea1ff0aa8888d2a153804d6836005d25a712a16fd4559d",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/664-BgGreen2.svg",
+    "sha256": "dbff1097dafa916a821522243ff4ae75e7deb09d8ec9a53e1a4c64033b3fab7f",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/665-BgRed2.svg",
+    "sha256": "baeff99d8e12fd6ded8f36ffc9b48eb3105623ca9055d38d644b625239b80c57",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/666-BgWhite2.svg",
+    "sha256": "caa7119b6f89f52f3f007b8cc1dd44b5a6b2f7700f8ae818e7d28b2d2d3b591d",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/667-Bg3692.svg",
+    "sha256": "805dddb83dac6f3ecf3fdb8c5315f5d48c3e7ed0ae48337ac221f8978e38148d",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/668-StarsTurquoise2.svg",
+    "sha256": "d926c275df3a8f8a998543a5d19b46915f98787183d20b2515ee21fc12fcbd22",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/669-StarsTurquoise3.svg",
+    "sha256": "1da15b760a7a3290013b19f3d2443155e2acd2dbd0b6b7cb629f14a1d91e7c2f",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/670-StarsBrown2.svg",
+    "sha256": "a66bd59e9a8523572ac8ca5a6fa08fde5b067e4d7a03f5dfd252955fc989ff60",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/671-StarsBrown3.svg",
+    "sha256": "3824e1697ae1233e594cc6a92939f594868e0535f842e86b362e78767bc1c10e",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/672-StarsTeal2.svg",
+    "sha256": "470febb0dd45e2dd48cbf9b2693e710946a7daa7647bc515031e01059857555a",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/673-StarsTeal3.svg",
+    "sha256": "9b770a1d172ae806ba104684c5c56774fc44a9f6eaacc3f21f27f2c61a34ce96",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/674-StarsBubblegum2.svg",
+    "sha256": "7f23f531038b5e4d34eee2e4d571aba83a9028a6543c3d612e7a5720d2bc3764",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/675-StarsRed2.svg",
+    "sha256": "379e33f42d9426420c930f47da8371d0ead28155e1054ac6b1502a3bac9a8803",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/676-BodyGreen2.svg",
+    "sha256": "747d897e38d25b30c481c1698a392f677535b65ef669f60a9636d6294018ffb8",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/677-BodySaphire2.svg",
+    "sha256": "351e5766f3a8305302413d09faaac0c02b4beb0e0fdc58e076f24f147a6410d4",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/678-BodyBubblegum2.svg",
+    "sha256": "81c8e4ccafd0bedbdf7c3426763f3ea2a2e3778101d2f724b78fa4b662a459d7",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/679-BodyGrape2.svg",
+    "sha256": "7e651e0b4b1b27448498d8181fac9828d29c12ba863c986201913999a581b5dc",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/680-BodyPurple2.svg",
+    "sha256": "ad4f032c4fe0dea09a936d755de49828ad4d2e9f7735c7bb79522380a96592b1",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/681-BodyOnyx2.svg",
+    "sha256": "0fc3d424f8513eca1123b61a2ec0171a84fdb164066967d5c5308bcadaaec556",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/682-BodyCoral2.svg",
+    "sha256": "e2f5cffed1227fe7a08d137e489cf18ab8935c65338482993f594182fb249841",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/683-BodyEspresso2.svg",
+    "sha256": "cb4dfec2592abedeef0978a3f127d8f96190c8a96c7f9861df24f8db3d0b5d8e",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/684-BodyTeal2.svg",
+    "sha256": "62c3fd7857fa1fc9a89b804bd2014f351e39e667eaf5d4917146034c3ae777e7",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/685-BodyBrown2.svg",
+    "sha256": "c8841a7ec27157e019688d6fe56b07b62a1d3ac95f972e6229c8a785e64a17e6",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/686-BodyTurquoise2.svg",
+    "sha256": "4bad8eba68b3390da27d1ef8e86c9078e4ca54b83371b78b9da2c05a9edf6a18",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/687-BodySkyBlue2.svg",
+    "sha256": "8f07c15d0b7a084283249f3e909b4c57a6b7f8fc1180ec59fe83f7a3e2aa3de7",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/688-BodyRed2.svg",
+    "sha256": "80302d289d71df6bc0fbe0d96b3171065c64c8cc349d9ea937ef92854a8a2393",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/689-Body2Brown2.svg",
+    "sha256": "e98951b3839ef10f1b3701a3199c27428ba0e696ca60515c88962447c84cc519",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/690-Body2Teal2.svg",
+    "sha256": "5eeef6d93f15658bef3d1a59c45a0247f959e6c7670a664934e953c4f4e1a75c",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/691-Body2Teal3.svg",
+    "sha256": "293cc1f48526d71c5123c97b8cd5a01c3857469999594fb584d30f82e7dd65a4",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/692-Body2Espresso2.svg",
+    "sha256": "65bcfabbd8a389c7eddddb5c7637a82612160a7d97bb9cbb59f072b38998f34b",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/693-Body2Espresso3.svg",
+    "sha256": "f401d40e130aa009f17613028d0377d8bd97edaaf2e89b58da329097cfe0ee67",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/694-Body2Coral2.svg",
+    "sha256": "5322d28b79c46dd848fedf2579c987856914a6d13c5655ef12e06a5a6b4029d1",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/695-Body2Coral3.svg",
+    "sha256": "9aba487943cf893713b4e0ec30231e97e6b6e7d7a3ced5ca49a087d610843297",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/696-Body2Onyx2.svg",
+    "sha256": "d6a54c178b05d6e46a3e0c74ff886ccc6e6561732c4cc8df59a83bdf69d209f5",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/697-Body2Purple2.svg",
+    "sha256": "11d4d2414292a2595ff240949278e837ba8e183c603df6a1c35ef004a0942630",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/698-Body2Purple3.svg",
+    "sha256": "e702586e76012a8da4e2d5c9ddb2dfd6fe0c6f0106ed6dabdc4531a542e91ba1",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/699-Body2Grape2.svg",
+    "sha256": "19fdd177a65401c05a19290a5485d335d92b64f7315945f3f74a7b4887b80094",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/700-Body2Grape3.svg",
+    "sha256": "476dd5170658e6703a31e4b15fd3f989b410d50893b513b863ef08600d552b6f",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/701-Body2Bubblegum2.svg",
+    "sha256": "31b0635840530cef381a0fc62daaebcaa55b192405e91cf0311abe0315d15774",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/702-Body2Bubblegum3.svg",
+    "sha256": "fbd911c81902d631618e303ac49fab01aca11f07b98cb7f3ccca89de00586af0",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/703-Body2SkyBlue2.svg",
+    "sha256": "88e353a37b7b7864647e79c53ee88a88cc6c0f3c3872bb731a58bd10fe264aeb",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/704-Body2SkyBlue3.svg",
+    "sha256": "7e4dbeeee5ab456c3107320a2fa1fbaa416eb17b2fbaeac524baf2b402f338e4",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/705-Body2Midnight2.svg",
+    "sha256": "49f488d6c186bfdae4a09cc2fe84234fa933c9e59919e9cd1cad4e6f9e0a36f0",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/706-Body2Saphire2.svg",
+    "sha256": "1966bf1ab5a70de46229d301924e6321e13d002ccd352fe5cb0484be82cae903",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/707-Body2Saphire3.svg",
+    "sha256": "b8a8279c91e25da25ad5cef420a43135751351cd912fa224a68dd57617513b12",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/708-Body2Green2.svg",
+    "sha256": "b2527b6523098ea350b5cb8c48a368cd193767383c660581e4b1a3043b71a752",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/709-Body2Red2.svg",
+    "sha256": "e13139c423239e1a6659df420038c8abae050376c7d5cbe379c3af4180c9e715",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/710-Body2White2.svg",
+    "sha256": "8d96fd536ae026ddfae14077535b4dcb40444c068538eff2816dab2ab1b591f1",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/711-Body23692.svg",
+    "sha256": "a829ee2c7045060dee099443b2344f65b916543c81f45e37dd21c863c5cac142",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/712-HaloCoral2.svg",
+    "sha256": "8f89461a15f57d2d78e70659daf501cfe991ee2f06fc54975c06da42f1a0428a",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/713-HaloBrown2.svg",
+    "sha256": "75e5c0f28d782ad2fb1b60e31cc23867269105ba93f2c3a09838ebdde29cec8a",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/714-HaloTeal2.svg",
+    "sha256": "67000b42eb4bfc9559220d788f763495e313616a03fa391e7228c3f50813c051",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/715-HaloEspresso2.svg",
+    "sha256": "2fe17f2f51ea7dfb28371a56366c9643e2e4193223d3e63dca253479f8994685",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/716-HaloOnyx2.svg",
+    "sha256": "60b76ac0e64109d113953fec37d61653a1c678af1208fe453ad2d8172ffa6743",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/717-HaloPurple2.svg",
+    "sha256": "a7c4dd8834b4340d0e986c32d181e360310168670e9d3770af8cb840478f4829",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/718-HaloGrape2.svg",
+    "sha256": "bf713abba5b67641749c2297115012a5eb13b7cf24b8a1a45b6a1051b1920715",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/719-HaloBubblegum2.svg",
+    "sha256": "1589932a7eedf006d014bf5a4aedc5c89e2a2abbf997790827bda9502d0c2a0d",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/720-HaloSkyBlue2.svg",
+    "sha256": "62feca2ff30c02d204c7979c2baee92bd5c5921c789878c0990d50d01a7eb2fa",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/721-HaloMidnight2.svg",
+    "sha256": "31359587c7ce56f2ac04cdefeb73120f66f1746892e9e625bbd36763acd886a4",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/722-HaloGreen2.svg",
+    "sha256": "c3af67628b86f83951f224bd9dbefa3b09f12f34b6b1fbf53d44d9ddfb515510",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/723-HaloSaphire2.svg",
+    "sha256": "fa4a667233a1c42214a8403737cb06a582365c00e1526dfc57e586226603b059",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/724-HaloTurquoise2.svg",
+    "sha256": "6e5893fd7c91e197fbd797dedd5c734ed3aebd8e534c24ab01cb4be9637bf352",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/725-HaloRed2.svg",
+    "sha256": "961b3a3923a0d210f4b9e5bc1e8b5cbac3ff1145d3e252f08a4de5edc74f6211",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/726-HaloWhite2.svg",
+    "sha256": "8038b01fc52b592bd6725504b6ded13a483d8ce34b36068ffed719caf4b017c8",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/727-Halo3692.svg",
+    "sha256": "f4b5492dc8f9e3a55391e1065dde757e3a8aec480c77a48385ef4e5246893901",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/728-Spikes2Coral2.svg",
+    "sha256": "f7c39837891385fc2aad70c77c814b3bab9ba34aeb0332c11a6b6657b38bf274",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/729-Spikes2Brown2.svg",
+    "sha256": "6bae8244fac8c11135e01b231e8a986c4158d531035b7ef63ccd06ead79c3736",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/730-Spikes2Teal2.svg",
+    "sha256": "4f97210805ee2a6d2ab7815bb8fc7252492c56590b9b1c8afed86ad0c8e98d80",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/731-Spikes2Espresso2.svg",
+    "sha256": "849f5acaec694743534ac2ad24f97c1ba773a6cab5bc6d40ea53652cc4cb6318",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/732-Spikes2Onyx2.svg",
+    "sha256": "05eaa949afb314d44aa6344471a549815283e53e225c4d5d6f399ec75b735425",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/733-Spikes2Purple2.svg",
+    "sha256": "2cec1d4216a66384edc204ed0bba008635dc71440ce9dc8563c34d4d7f4f8c70",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/734-Spikes2Grape2.svg",
+    "sha256": "7119f84b7dd0fedf4638b685931ab00ae11589e9947339376d6ce4612fbb9cf6",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/735-Spikes2Bubblegum2.svg",
+    "sha256": "591a1ae93969309f03486d4f8a9b2ec01a481163b61125b05581efc7440d1302",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/736-Spikes2Green2.svg",
+    "sha256": "e3e02fd9a2f1886f2ceda5a939ed2599f8c0414995d44612309fbfeddfd66b1d",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/737-Spikes2Saphire2.svg",
+    "sha256": "7d2db1f0e3cf607f6d3d8a4b7b2a7d120344e14922ed859e0c63c89f9a9bda32",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/738-Spikes2Turquoise2.svg",
+    "sha256": "4b54ca68c0e500f3469da1dbfa5a6442b047817d4660d7a40ef52a207421f74a",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/739-Spikes2Red2.svg",
+    "sha256": "9bf48dfadba41901da53a8c62ecb1cde4c068773a9e330b0dd5ad5914dd7bad5",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/740-Spikes2White2.svg",
+    "sha256": "7e05cde18838cbff38182b40a0d220df8982b3defc034bce13f843b4d8690fd8",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/741-Spikes23692.svg",
+    "sha256": "43e7b9d27b46446b51834f9af3880e83007b0696d423c72a3bef92ffca0e38b2",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/742-HornsCoral2.svg",
+    "sha256": "dd6b22c49fbbedb7c838abfba4b5f440a138a34bd03c5e834f7b4172c7d94453",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/743-HornsBrown2.svg",
+    "sha256": "b5f6b392edf2e0593bb08b7e032b4f4c0cade7dee71f617e860ad99cad0f6edc",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/744-HornsTeal2.svg",
+    "sha256": "d3d0d6754824d540f16c75caead2517fe0dc265e3e171209a260d1b5866cb91e",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/745-HornsEspresso2.svg",
+    "sha256": "4e046b3e308c9162b38f712887ffc4c8e2bed99b2f21c1d52f9bec636112188b",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/746-HornsOnyx2.svg",
+    "sha256": "6bb40f5c919ccd7f9c7ad182e2a1e5d5636457cdf2d6b16d28f48bc30987bb06",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/747-HornsOnyx3.svg",
+    "sha256": "4f1c841b9da3912d9d298efa06fe325351da68ee03244c25c83c44274f5c66dc",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/748-HornsPurple2.svg",
+    "sha256": "0255fc900c15cb82d4f773c6177f975b7b287d8932f5ed7b514249c1216c3427",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/749-HornsGrape2.svg",
+    "sha256": "20b96cecb7ff89e0818732d224e8c90edaf97fe78ac4938e3e45e99ac2a1590c",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/750-HornsBubblegum2.svg",
+    "sha256": "312f30a7f7e4a3bad73479479044243202906507e7d2ca645b20ba6a5ead58ca",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/751-HornsSkyBluebb2.svg",
+    "sha256": "0ac94a234c1d96aa4f75fdcbea4a665ac634115482989edba81bfe3e6b8c8d9b",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/752-HornsMidnight2.svg",
+    "sha256": "a45ba29394988ffbf305e12463137a2fdcbcf67aec50f9cdea4fa81fdcb52120",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/753-HornsGreen2.svg",
+    "sha256": "cc090d4a5604b98f927ff343985486e4c324ac939f1bf791b33493a3d3b50de1",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/754-HornsSaphire2.svg",
+    "sha256": "c08ca8cc35576b42a00ff70793341b62320d9d04fcd8249c2f51235d152be6e2",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/755-HornsTurquoise2.svg",
+    "sha256": "466b36d4cbc157badbe29e7b1729320b5c984961af7688d6ecce30d49c92e8bf",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/756-HornsRed2.svg",
+    "sha256": "50e64bb67711ecd259316bf9b2c6f7696e7c26e2e31c4495ca08b9d6c06e687a",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/757-HornsWhite2.svg",
+    "sha256": "16205bf9fed941b58e6ca52431deb55a3a4bb666917ca7781e393b23aecd370d",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/758-Horns3692.svg",
+    "sha256": "794e4ca5e281c4a115343d7d2e55949d5fd090b9b98bda75fdd8092b6d2f8b53",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/759-Teeth2Teal2.svg",
+    "sha256": "2088100409c1a9b647ff01e76037b7c6262c5c2796e45e0aabbfd1a27357cf4e",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/760-Teeth2Turquoise2.svg",
+    "sha256": "d8b72d95e08dc6f0793b2a4491c3b7f59bba9be94983aa3ad8431c25296ac2cd",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/761-Teeth2Brown2.svg",
+    "sha256": "65462a3a24714a002fc85bff2b724d0a1026af0fb7aefae70d0d6627688049a1",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/762-Teeth2Espresso2.svg",
+    "sha256": "60f3746aa5845ae4d97acd45a9bccd83a0ec94904303fab78f3bb4cd504a4e6e",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/763-Teeth2Coral2.svg",
+    "sha256": "ed4ee2ea8eba24b51aa136cf4c89185b0c1c10abab6d786e676957a57025fcea",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/764-Teeth2Onyx2.svg",
+    "sha256": "e90adae1193c21a6a6a5bb74294e34a4df208221ea1f3be8cd49d1218ca3f1bc",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/765-Teeth2Purple2.svg",
+    "sha256": "81514b4e993afb2ba8577382b90a35fa5b31d77eed534f3f6ca2f683ca39a78c",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/766-Teeth2Grape2.svg",
+    "sha256": "9ffb38c3521f4ac5e0ae8370ef8fe6f643a712e67ae6ec2da67ba753246ffa1c",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/767-Teeth2Bubblegum2.svg",
+    "sha256": "46e6cd68f0967150b85c4b25d5b743706a98c77ba68f5df86190ab1bc76119dc",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/768-Teeth2SkyBlue2.svg",
+    "sha256": "c25e114347e4d03b153abbfe334414af400c19e7c164d8ea04d1e8f46bc97e4d",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/769-Teeth2Midnight2.svg",
+    "sha256": "4713246b3684cca0e444afb773ec1616feddf604497c4cfdbf38ffab9dade0d9",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/770-Teeth2Saphire2.svg",
+    "sha256": "a678a6b8cf19b616d2b289a303e042a752425f2f2605ad8e60de0693b6450a24",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/771-Teeth2Green2.svg",
+    "sha256": "a61744ee989035ff91e61062822f3d9c9db17c0a94c513714620e9bfea2af08b",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/772-Teeth2Red2.svg",
+    "sha256": "103fedc9fc80b4ac623fdb9499b3d3765e17898e9aa2e9afb1e271aa4f184be4",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/773-Teeth2White2.svg",
+    "sha256": "416f79cfd67148908c8c358a86319c85943b337ed8f1f46cd02438ab29bd6c7c",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/774-Teeth23692.svg",
+    "sha256": "2f33257347680feac6cbbc2476d797b0cae17a49cd6463464486f1bf9a9f0da1",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/775-TeethPurple2.svg",
+    "sha256": "6ef5c8b7f44b9f79e3b8044a0f1e2d99f14f0aabd804592ef5bdd5277e3d4478",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/776-TeethGreen2.svg",
+    "sha256": "ea33390a26ce741bcb49c2a08561a3c2512565c54f74024b76ff39e4961dfb83",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/777-TeethSaphire2.svg",
+    "sha256": "a8ab27ab9931d9ec776bccf8b8ac2d8ab676432891863863369eabb822020926",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/778-TeethMidnight2.svg",
+    "sha256": "4abf91a4fe271a845a99860aa58e95508af5c41c1b2361c6d2204dda547f6bb0",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/779-TeethBubblegum2.svg",
+    "sha256": "606e8bd11dd9ebf88c1af6f8958ca21233d37cf35d0504a461b460903aa5ac18",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/780-TeethCoral2.svg",
+    "sha256": "588622e013ccb2b79b0c192a338e4ca95b1131effc8815174e28da23eb8368dc",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/781-TeethTurquoise2.svg",
+    "sha256": "10dd037f0a38976357200ebfcce91b57841131b59d14d547f6c56eeb55a04f92",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/782-TeethTeal2.svg",
+    "sha256": "64249fb3b42e659a72664ffa285d636e693aadc6a951e9d64dbf80a15923213f",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/783-TeethBrown2.svg",
+    "sha256": "6debffe94d2ef1a687f74cb042d0dd0a0fcb8c6514a02a08af5e42b9e1be8e66",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/784-TeethEspresso2.svg",
+    "sha256": "713f18fa2955e892a30b1f1e35b86517b4581a98f4ec835e95e2833420950198",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/785-TeethOnyx2.svg",
+    "sha256": "50a2cfa14de91e2eac3135b532deb553dc0d3742ea6a01f4913469f6a96297d4",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/786-TeethGrape2.svg",
+    "sha256": "c4175f1be54c4fbe81c12085283dea5591d521eb3b3fc00812dce3ece5a0d661",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/787-TeethSkyBlue2.svg",
+    "sha256": "7f51cbe53d902c45ffe8bb3a5f6c86284a30a5202c1ac7f868650a1b609a71be",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/788-TeethRed2.svg",
+    "sha256": "2839677b83968cfb6c685dad4b5710d1664729b5e689ddc8a71d74111b9742e0",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/789-TeethWhite2.svg",
+    "sha256": "e76bf6bc1d692417c88a4caf9daec88f3066a3a4b7a6098d6776f925b1d2a568",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/790-Teeth3692.svg",
+    "sha256": "e4a4c644d1563df8293ea181b3f1c44010bed5b95f249990d9d575cf10431b4f",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/791-Eyes3Turquoise2.svg",
+    "sha256": "91f3b8319494a3a2cd63838cac15e16ca1f864562bd40df9771cc8f3333e2546",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/792-Eyes3Brown2.svg",
+    "sha256": "f2705c415e62214b7ce778d458c0216c01d98f7bd0187aed68f4f2fa092973b2",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/793-Eyes3Teal2.svg",
+    "sha256": "aa70cb7fbadce67477b13879830902cadc5b162b9ddb32780ec0497263c87bcb",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/794-Eyes3Espresso2.svg",
+    "sha256": "d5705da2a67ef6a748d021b864ebc620600f663c226ca082725c2dc7033b9278",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/795-Eyes3Coral2.svg",
+    "sha256": "bd5e22dbe4f3a4201efb3a4f955f56d85935c48ed499ac53738ebd766d86dd0b",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/796-Eyes3Onyx2.svg",
+    "sha256": "8c2a4ee776d37b54bea19467067b3d64db0d89b0e18787a8c4817637bda73db1",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/797-Eyes3Purple2.svg",
+    "sha256": "73f917f4194580e199d82d4abc29a9b5514ef4129be4bf4337ab7692c976aa46",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/798-Eyes3Grape2.svg",
+    "sha256": "a4477630544c269b0533da3113096db6e74b4ae1b8b1b59e8f7a0604d1378244",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/799-Eyes3Bubblegum2.svg",
+    "sha256": "8e29e198083ea5944dc33ce9495f588b5c88a067755b3008ec38080283d9177c",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/800-Eyes3SkyBlue2.svg",
+    "sha256": "7c199bad6c9ceac622091c22ecf2a64ad36ca2e04ef3288426530c91ccde5ab5",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/801-Eyes3Midnight2.svg",
+    "sha256": "777815677ba29f8656934b29ee9eac9eee88a4c3917cc7d2b47e8ada6faa08cd",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/802-Eyes3Saphire2.svg",
+    "sha256": "8325d6817d6ec397d32613329f2bb72c41bfa8420d65f7abcdbb9430eb71adc6",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/803-Eyes3Green2.svg",
+    "sha256": "1b9729a4247da5a6d35c355daf1403345ed364671f149a9d6967eff405305a07",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/804-Eyes3Red2.svg",
+    "sha256": "f39f199f78fed832c7552f5563f751038cf79c1d4a486468c0e5b704f67bdcd7",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/805-Eyes3White2.svg",
+    "sha256": "46f20d162f0fa43f023d4857d2f1f5552ffc3a6a270cc39809776ce2e1ec93c0",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/806-Eyes3692.svg",
+    "sha256": "de60971d9f48245963b225ee8b5299e588fdfdc8ebd16f04e8b85f5c0a8f7e46",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/807-Eyes2Green2.svg",
+    "sha256": "009f7626e355cb73e044f9e94a35fc7727879093b95b29478d66a2e33a3efd3f",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/808-Eyes2Saphire2.svg",
+    "sha256": "53f326fb9267a082923369928f286db49029db57937e3b50c1c983344b19d711",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/809-Eyes2Midnight2.svg",
+    "sha256": "6f578c44bb2a09e756ca555f4b8580842f2c3003d0d01af73965f03df85a7864",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/810-Eyes2SkyBlue2.svg",
+    "sha256": "2a84f124decdb0b1958152c14db3c846dbfbb7949c5402174c9e9a55dde33d9c",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/811-Eyes2Purple2.svg",
+    "sha256": "f216c4306ab16b3a23bd495958d503fac5181904d77df9b00531d38609c751de",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/812-Eyes2Grape2.svg",
+    "sha256": "03857f44860ba6f277f1ccc85c1fd17c10c6325942990b9ecc689fc3efc6f80c",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/813-Eyes2Onyx2.svg",
+    "sha256": "138220db6fd99eafa5acfc164f5d355ea8a909c1cf92b4d978efe719a784af4b",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/814-Eyes2Coral2.svg",
+    "sha256": "43aecf5e8f4087be5ddd1fbdb3a01035d00d150ad6881503dfa304263a912c95",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/815-Eyes2Espresso2.svg",
+    "sha256": "548e41454e66d4bbc044911cf4d3e52d162434b327440f7ae086415b46feed32",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/816-Eyes2Teal2.svg",
+    "sha256": "f97f09d806a2445d457607c9b6b866009e25d14a0166eb7af3c807f5150454ce",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/817-Eyes2Brown2.svg",
+    "sha256": "c9677d7481e25a4f8e33e6ffe93fdfe34b6f8cc988277175c807f3abcd09a49c",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/818-Eyes2Bubblegum2.svg",
+    "sha256": "2076139facc542974387ff7d58baf573cee0b94f9b9ad806b746e95851f49a25",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/819-Eyes2Turquoise2.svg",
+    "sha256": "bc867a4cd00f08fe89c5b0c39475a9ee6e6a9c276a539a44dfd6e66b8dc92535",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/820-Eyes2Red2.svg",
+    "sha256": "098c5ccd9c06182e4e298be89ef8d6a0444aab84c9009ab163ea9917726c9201",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/821-Eyes2White2.svg",
+    "sha256": "676275062e4ccc3c5411dbe466097077de73cbcb038aabf641abafb798d998c2",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/822-Eyes23692.svg",
+    "sha256": "11721e3b06fee38f7cb5df48870ec11fe6a211cddfcc9d55fe23267036770402",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/823-Eyes1Midnight2.svg",
+    "sha256": "d74b860ee1ad6dbb02e9666ac12e9e6b311d810ed92921109c7b0bec88f976a3",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/824-Eyes1Green2.svg",
+    "sha256": "62aa13635a26705f987e1cbb56e0d305859368c2aee4e264c2d505afac67575f",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/825-Eyes1Bubblegum2.svg",
+    "sha256": "b976acd50db1a2fc933e11f41c1c7e8afdd1a9fd081f1c407a35e79e67eeee4e",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/826-Eyes1Saphire2.svg",
+    "sha256": "67d427d813f36c221386295ade9d752c1fa2ed58339ad6100d67a00b34a5c61e",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/827-Eyes1SkyBlue2.svg",
+    "sha256": "a6fda6c034f2f551cd42c2ae98a6d0fdba0d3edd9fd30585a22c0ad8d0dac06c",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/828-Eyes1Grape2.svg",
+    "sha256": "5328d11c1e4fe71b5cd18b1b093e4bdf2d09f19ebc358325459aea44f5ca7232",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/829-Eyes1Purple2.svg",
+    "sha256": "6902f64fc933ab4746c5dca72d44ab68bee4ea76b653efac5f29a1760f61e6d9",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/830-Eyes1Onyx2.svg",
+    "sha256": "c8450d583dbf79e20f4aea8923f4343d1c298e60b9cdd886f40a8df7a3174dbe",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/831-Eyes1Coral2.svg",
+    "sha256": "a4494e067f6853ee4f2a00eec182ce7358bc9e2f83ee0c47f700291146b037ef",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/832-Eyes1Espresso2.svg",
+    "sha256": "1482ee537ca52dd9eb6e4631426f7567dcc9efbd1a0ccaf2e1aa1e7b33533254",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/833-Eyes1Teal2.svg",
+    "sha256": "9e1b0bc4b1a52a06154369c0f0720f1c7b2ce482c00049aa39f5095981dbe2d1",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/834-Eyes1Brown2.svg",
+    "sha256": "65a4d79d24251eac0ca4d8d683d54ffb2afe34c3183101926672ad0588e45780",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/835-Eyes1Turquoise2.svg",
+    "sha256": "47efd7b5b1cec0e7da4a187d482c9b7bf7a8cd7872d6789fcc6f6dba84d38694",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/836-Eyes1Red2.svg",
+    "sha256": "bd9344504d0e74cca30a23257b872a7f003e3532ea65c0420cd0e429a7e81c71",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/837-HoodieRed2.svg",
+    "sha256": "f970e0fbc07c025e4e987f69ce63bf50deab8edf61b566e625e0d55fde55357b",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/838-HoodieRed3.svg",
+    "sha256": "2c264ec3c1179827076980f0dfc1c754e67a82c8791a378cf2d6eed785722289",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/839-HoodieTurquoise2.svg",
+    "sha256": "0ef7a22208eeafb4f41122bdb3e2d57741137a06ccfc590e0ff1e5508b62a388",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/840-HoodieSaphire2.svg",
+    "sha256": "e85d88190817f7ab5a70e5101c9a175f9c6b91a6fccc2ef642ba0e8c56c11edd",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/841-HoodieMidnight2.svg",
+    "sha256": "a3ff923e25c361dfbfd8e4ec4e55063b0ae4e115c8fb73e523f94f01f7d1849f",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/842-HoodieSkyBlue2.svg",
+    "sha256": "abdd02f306bde0933ab149e762c02020572fd889f07e88d266cc1390ac8f5fd2",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/843-HoodieBubblegum2.svg",
+    "sha256": "bf1d52f1209a4adf732c543ee3f7370572db7505d5ab486c556d93feea0d0d3f",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/844-HoodieGrape2.svg",
+    "sha256": "d4c51ac8bc7f593a4c053c10bdc66b28db6887f4f3af7d37cf1c4ec5303befe3",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/845-HoodiePurple2.svg",
+    "sha256": "da1ddb003558c39ac0bb603156f06abe8723010fe9749249f5129158837d676f",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/846-HoodieOnyx2.svg",
+    "sha256": "3f95a69228b5c9fe1542e76dbd1f134c490fced8ac03ef610e1798f97941370a",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/847-HoodieEspresso2.svg",
+    "sha256": "310352d679d8b1423b68dda596574a1309768fecb47f406289b89303ba0b4de6",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/848-HoodieTeal2.svg",
+    "sha256": "d19084bc36e0ddbe2c58a8554d33fdb8a354e5ec9643e1b46a8c48bf6823e345",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/849-HoodieBrown2.svg",
+    "sha256": "0b4edf0f6b4247a8ed6c66bedf9b774da71bffbce4ac39f58c57e1eeaeccdba8",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/850-HoodieCoral2.svg",
+    "sha256": "5a16e78d6f0d0d0895d53f75ae4667f130ab51e7cfd8b1021ee3c3cce9a47b18",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/851-HoodieWhite2.svg",
+    "sha256": "69d2ecbf47513c3c381023b85040c20b0a667edc44b709ea154424f5bf75db7c",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/852-Hoodie3692.svg",
+    "sha256": "c1a7fa98ee13519d5a03054db85def45dfb988a18bbc135fbe001ae525e20e95",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/853-TankBubblegum2-Studio.svg",
+    "sha256": "5f4a310a32807a5d37bafa67b510e8387c28155019650ac9b5292c125a984bbb",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/854-TankBubblegum3.svg",
+    "sha256": "8207a9b186e8b39f2292eae418054c78cfbd0c61360590fba6a4ee7bfd4dc1bc",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/855-TankBubblegum4.svg",
+    "sha256": "9813992e06a367f061f1d96d84011d0ad1e0a051e6304310b1f65f579bbcce73",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/856-TankRed2.svg",
+    "sha256": "be0788acf4674f1e7671e981fb1663d8175b2ae29fe6cacdb60b597b55d79c28",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/857-TankTurquoise2.svg",
+    "sha256": "d0506694e4b185cc52673eaeb3b3cd1c95087af1a19b8a87e543afe149f5e074",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/858-TankSaphire2.svg",
+    "sha256": "06a46aed3955be0162a8ef81c4cda8f75b4b820d195194f2877e4fddb2e9911d",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/859-TankGreen2.svg",
+    "sha256": "a6a31e97aa1862d0df5762b6803764c87fda61085c3740fbe831b3bb05a09ae0",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/860-TankBubblegum23.svg",
+    "sha256": "80c4d57d70c28470c2cc656c4a9da2a00d10d22038b9433077c3005d159be872",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/861-TankGrape2.svg",
+    "sha256": "f4d78da04cebd8f43ca9b6414ac0513c2a444c6d39c545ee882c88c827d88c2e",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/862-TankPurple2.svg",
+    "sha256": "365b7a4862753855dea3d82dc25d9318b42d88bcc27ad178fea5e9e4227958df",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/863-TankPurple3.svg",
+    "sha256": "9582fb3de63a9da47deca73fe8440ba372c0b8a519b0adce48bf4045f9face9c",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/864-TankOnyx2.svg",
+    "sha256": "35a2a5b59f51d3e4b083618f34fccf7c6136d98038db03f9e292208ed150c919",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/865-TankOnyx3.svg",
+    "sha256": "9c309c7684b426507d071f3104242f785d1de8046a3e047bd90edb7450c48c72",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/866-TankEspresso2.svg",
+    "sha256": "da6c68cf7071870fce5b04ed6be9e19a0f3754d4b59b70af088012646776bdf0",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/867-TankTeal2.svg",
+    "sha256": "b31f27f763cee4c1de5e41073ea0e2c1f58ec3cad20e5698fc1ead2fbc8e4c57",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/868-TankBrown2.svg",
+    "sha256": "1e7bed19a29233b0cffc24a62c6b1b43aba1b480a194619673bf4bade07009d8",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/869-TankCoral2.svg",
+    "sha256": "c98c6d324e052ba12aa7e3cc18ccb6b00e29c724b635649940d53ef48220ea6a",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/870-TankWhite2.svg",
+    "sha256": "141d5f3dd81e3dc28be11f9608005218a289780ec9a966a71a8f9acf3933ce0e",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/871-Tank3692.svg",
+    "sha256": "50db6cb675be32533a3674b20017689a3bf6130365a582d1d1f04fbd021b94cd",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/872-Tank3693.svg",
+    "sha256": "a1b80c3cfe0754e408e7fe5d247b3e3cca460d7dd7cc1bd4892a076b53f3ade8",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/873-ShirtBubblegum2.svg",
+    "sha256": "7c37a53fd5aed223cd28433898f84e80618de03667dc2e8f48dbe7f017880bdc",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/874-ShirtCoral2.svg",
+    "sha256": "ecc6264ee6327b62bf94d5fafd57dd484e8caa6185b2e5c4f24c2a51593d3548",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/875-ShirtCoral3.svg",
+    "sha256": "4e2eaa53244057d00016ee310518a6b62818a219304edd955f31e4772261feb5",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/876-ShirtPurple2.svg",
+    "sha256": "3c002a8c58f7e4bc6bed03be0fd0d9ed48722a827dd090bdc9ddad44f0fe674b",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/877-ShirtGreen2.svg",
+    "sha256": "a35451241c6ea413d8ccc8207ae6fcbc04c2d988a7633226d60eadc091bea73e",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/878-ShirtSaphire2.svg",
+    "sha256": "8fdefbcece8d8147751e984f40071db843a1084a56e2810a48fbebc4e7fa9cf9",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/879-ShirtSaphire3.svg",
+    "sha256": "332c9c6053f6cf71b4712a06817a6fc2277aa9a3b36a433c84e24ea01d4c927e",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/880-ShirtMidnight2.svg",
+    "sha256": "66347d5655d83a4ab171567be4c23705c511e844d71552dbeb05da8c95296953",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/881-ShirtSkyBlue2.svg",
+    "sha256": "b2b671d3309b30749c9a1c96161ad62df9a4d3e38765d76900db72a45b078702",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/882-ShirtSkyBlue3.svg",
+    "sha256": "1f15f7f8809c8f52cf4b4387feefba90b5a0ced005ce2bb2c80fd818470ecca0",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/883-ShirtGrape2.svg",
+    "sha256": "1925cd9057a13afe6c5ca21f4899f26ba0063797609aa092b31cbc90b4577ad6",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/884-ShirtGrape3.svg",
+    "sha256": "d03e69d504de7589cf1bb9453e9a0dbbacb4e8117b6ac3bb417c5b70028e2de2",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/885-ShirtOnyx2.svg",
+    "sha256": "a99bfaefb391de0ab6104de55d3ef605aa69f59087ee7226ca5c7236934b6621",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/886-ShirtOnyx3.svg",
+    "sha256": "9b94791f43591cf803402c3c66ca3edab2d0559b1ce8828a77eb509115aa0b6a",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/887-ShirtEspresso2.svg",
+    "sha256": "91d7a6617af0e28c92f2b292765eff8d35bdefddb7a29b24b18c775ce3f8ce28",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/888-ShirtTeal2.svg",
+    "sha256": "59fda230051c5c735536351f3244884611204bcfabf44615a3cd66a2180c1bda",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/889-ShirtBrown2.svg",
+    "sha256": "681530923a97cf57206f3521d41738bf66bff80e840ebc9019bac84e20224dac",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/890-ShirtBrown3.svg",
+    "sha256": "2faf7a6558e375e703d5c5d73aeee84404cf2f68de6c0ae88c4f2964c115e915",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/891-ShirtTurquoise2.svg",
+    "sha256": "335f5ab99abaef9421d47d975729da1a69c7237b95685acb06454bc34123ac0c",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/892-ShirtRed2.svg",
+    "sha256": "ee707b6492bc7254e248794437b2c97f33c7c6dd1e658064c8bcb97cb921bbaf",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/893-ShirtWhite2.svg",
+    "sha256": "1edc7aa9038a68ce4743790329e76ddd169e3827624588722b74ec4500854a5c",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/894-Shirt3692.svg",
+    "sha256": "dd898d457b5dd250685fcd17890e96848d5b9c2f8e15ea7f0cd33d8e24c79447",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/canonical-traits/895-Shirt3693.svg",
+    "sha256": "53bafc7139971aafe5559e97495f3f0cd37b6e3fdbac35089c7f70d1bd0ec778",
+    "mode": 420
+  },
+  {
+    "path": "genesis/final-art/scripts/path_normalize.py",
+    "sha256": "8772ceb37da3205c2ff043f113d493205d51bdcfe033b0f3f2d4161015af9333",
+    "mode": 420
+  },
+  {
+    "path": "genesis/optimization/scripts/compile.cjs",
+    "sha256": "83df4d0107f30005b97a410b54fa7f7de69252a130e3960390ea01d8065779f6",
+    "mode": 420
+  },
+  {
+    "path": "genesis/optimization/scripts/lz4.cjs",
+    "sha256": "6df283bed9ed2186c170130d84842cc98d122346219ea31929aa1a00ed62c7ba",
+    "mode": 420
+  },
+  {
+    "path": "genesis/owner-art/color-families.json",
+    "sha256": "35b1e7842664fe4fef0f47e29f9b04273fbad38931d71f11867b52fdda586eb2",
+    "mode": 420
+  },
+  {
+    "path": "genesis/owner-art/source-lock.json",
+    "sha256": "1e29a8107d6a8b013806135ea4de23890c7382c7465a04ada69dc393e54c43fb",
+    "mode": 420
+  },
+  {
+    "path": "genesis/preview/funding.cjs",
+    "sha256": "b330546c63997f47bfeffab2d681f6ada53c824136dfa1787e27f2a2f1b4cb0c",
+    "mode": 420
+  },
+  {
+    "path": "genesis/preview/random.cjs",
+    "sha256": "723815c1f42e7755a86d1f1e46d30eecf68205a0340c570328df5224208a460b",
+    "mode": 420
+  },
+  {
+    "path": "genesis/production/art.cjs",
+    "sha256": "083a984fb993dfca7da6c9221a041e4a11d0ecc01aa54b48b11a222123b48384",
+    "mode": 420
+  },
+  {
+    "path": "genesis/production/bundler-fees.cjs",
+    "sha256": "69fbb1f9ed06477f10604af62bb0a6f533dcdb7697fb1320959040ca2bcc3ddf",
+    "mode": 420
+  },
+  {
+    "path": "genesis/production/controller.cjs",
+    "sha256": "caff577b6a3cc13ae50454caae7efe478b5df3a2f6d79509fe556991b7bd8d85",
+    "mode": 420
+  },
+  {
+    "path": "genesis/production/funding.cjs",
+    "sha256": "a1856a56a303974d727a37bd023d7770dcca76ceb609b6691a47a9798650075a",
+    "mode": 420
+  },
+  {
+    "path": "genesis/production/names.cjs",
+    "sha256": "9cbdb1db4305795b0680ae91115613aa6e8b343e6134eadd1d47e190182ca39f",
+    "mode": 420
+  },
+  {
+    "path": "genesis/production/reconciliation.cjs",
+    "sha256": "50503bc593e9850fc55788832048651950ecdc58790d4d89fa776bf8cb6f087b",
+    "mode": 420
+  },
+  {
+    "path": "genesis/production/rpc.cjs",
+    "sha256": "64ce7d6004d04437034f0a13e7041c0737049e0a2de43be35d78ae5cbc31cc98",
+    "mode": 420
+  },
+  {
+    "path": "genesis/production/settle-attempt.cjs",
+    "sha256": "7e19c163c3e5478a15130b8f4247514c8527420fc53dd9cd238ed01b59115b05",
+    "mode": 420
+  },
+  {
+    "path": "genesis/production/state.cjs",
+    "sha256": "62d2f33b7707a2e58fc6ca0333dd588a08f2b7aef10b92e26f410dc4d065848f",
+    "mode": 420
+  },
+  {
+    "path": "genesis/production/withdrawal.cjs",
+    "sha256": "0e8abea3b718c0ae9bd596f670526bdfc66f450dd419ba6072984a1bb0caceb4",
+    "mode": 420
+  },
+  {
+    "path": "genesis/release/public-source/build-local.cjs",
+    "sha256": "f83ad52242411bd441069d1d6d56c5338bf02ddefdd20e2d9c4cf31b45fab4d7",
+    "mode": 420
+  },
+  {
+    "path": "genesis/release/public-source/lib.cjs",
+    "sha256": "f279f8117aeab4b947b27ebbd8c4b61ffe26376a5b58898c0c0d639aa65350ce",
+    "mode": 420
+  },
+  {
+    "path": "genesis/release/public-source/reconstruct.cjs",
+    "sha256": "a3aaf851422f77cd9d126768debee617f0875e0f35ca2f332bbfe5c265aff3ad",
+    "mode": 420
+  },
+  {
+    "path": "genesis/release/public-source/setup-electron.cjs",
+    "sha256": "beb79f1e8526a151abdd700b4dfcfb7a4858d82ea123e877a074effec75026c0",
+    "mode": 420
+  },
+  {
+    "path": "genesis/release/public-source/verify.cjs",
+    "sha256": "cb0e1c6a235f895a6021d3677b3ecae1a5ef258294fbe1f3644eb43bb30e85e6",
+    "mode": 420
+  },
+  {
+    "path": "genesis/release/public-source/verify.test.cjs",
+    "sha256": "4b211e7e40a1fb51ab1138e8ead295a3fb8f9bab190e454d2d64f5ace80d6733",
+    "mode": 420
+  },
+  {
+    "path": "genesis/runtime/attempt.cjs",
+    "sha256": "c0fdf7d454b8644c331a8abe8ff958604bbbd5d912247b388e780dd82f759d59",
+    "mode": 420
+  },
+  {
+    "path": "genesis/runtime/authorization.cjs",
+    "sha256": "9608a2700252a5f0922145eb93e98cfae0ce975c95ccb0792f0e5c4b8609744c",
+    "mode": 420
+  },
+  {
+    "path": "genesis/runtime/profile-store.cjs",
+    "sha256": "050077077285d96a73e2e11ca14a8782c9149d69627a47cbc185a503e60f38f0",
+    "mode": 420
+  },
+  {
+    "path": "genesis/scripts/final-groups.json",
+    "sha256": "99c6f4ea6ed685be58e8c617543e7bc6ca61613465083df6f7c09e8204f1f391",
+    "mode": 420
+  },
+  {
+    "path": "genesis/scripts/generate-final-recipes.cjs",
+    "sha256": "beb689a05bc8dd3dab7acd3fd9b8a99032c4bd2c7347a561218da860c066c34d",
+    "mode": 420
+  },
+  {
+    "path": "genesis/scripts/recipes.cjs",
+    "sha256": "2494344f219c0fae9760ecda3c9d309a9cacb44361e1a45ec49814c64c3c31e9",
+    "mode": 420
+  },
+  {
+    "path": "genesis/unique-names/catalog.json",
+    "sha256": "00e2720f0021fa38628a400d1cbbf69a87167411730dfab04c3a5b5c24b05387",
+    "mode": 420
+  },
+  {
+    "path": "package-inventory.json",
+    "sha256": "ab9bb98310e42416c3311d9060d5ff7692c2db5eda56d09465b288d7542cba88",
+    "mode": 420
+  },
+  {
+    "path": "package-lock.json",
+    "sha256": "14735d6df7c6e3bbc1db200734b23c3c6552ff9f1974068dce855f5a6ee4c836",
+    "mode": 420
+  },
+  {
+    "path": "package.json",
+    "sha256": "600b2f7859e43ce46ee6b37e83b9e7708159ea16d1ba27c65d4e7dd8cbec8739",
+    "mode": 420
+  },
+  {
+    "path": "tsconfig.json",
+    "sha256": "5033bd1386706a58f5ebe9e3ee0b82c0a3a2b8d4d3006d0f0779a1f659ec6420",
+    "mode": 420
+  },
+  {
+    "path": "verification/PhilGenesisAccountFactoryV1.artifact.json",
+    "sha256": "231f442890c8f280c163bcb09cfd948a8cdda61f5a8bc072e6db4006befe5d07",
+    "mode": 420
+  },
+  {
+    "path": "verification/PhilGenesisAccountV1.artifact.json",
+    "sha256": "234a3f27f86a96706f9829f34779ca2e2208eef52e10e074393e71731f0ef729",
+    "mode": 420
+  },
+  {
+    "path": "verification/PhilGenesisData.artifact.json",
+    "sha256": "cc5eb736242e3e8e72d9fef85c6d9df32a6e87c31183c2415c37f88a412643fd",
+    "mode": 420
+  },
+  {
+    "path": "verification/PhilGenesisDeployment.artifact.json",
+    "sha256": "6956a57986f3e1cb2234cfe6328fadc3d9549cf5429bd8fb6799e749982953b4",
+    "mode": 420
+  },
+  {
+    "path": "verification/PhilGenesisMintAccess.artifact.json",
+    "sha256": "a78701c8e70ee4244a845dddd9c53eda559ee9d2e40b5ffffc4707da00dc89a5",
+    "mode": 420
+  },
+  {
+    "path": "verification/PhilGenesisNFT.artifact.json",
+    "sha256": "e61c5a8746d225aec3f0ceba9c39d07d173a5d63f69d10b5293dfc405d0b4a74",
+    "mode": 420
+  },
+  {
+    "path": "verification/PhilGenesisNames.artifact.json",
+    "sha256": "1e4d924f2f599b518d339f987aba5d54d1d7e322297461a3db82ead5bde98005",
+    "mode": 420
+  },
+  {
+    "path": "verification/a01b30a6fe33d947383e8fd31627ec6477af2b70a7fa73fa7dbffb336c22d800.standard-input.json",
+    "sha256": "185b27ed9a01f49ee17f576d1fdcd99efb35bca66ded7d8d9776d51c85879425",
+    "mode": 420
+  },
+  {
+    "path": "verification/f390d254aafac427eeb2e681de022befcc9de2a612a5c921694aeefd9024d1fa.standard-input.json",
+    "sha256": "9d3ec8cd378affc98e25fd59daae11f5623416653dbea29e7870c7d81e417848",
+    "mode": 420
+  },
+  {
+    "path": "verification/manifest.json",
+    "sha256": "71fedb323ed32583f63019a224a810ef7cc3c277934748965d1658024ad7b83c",
+    "mode": 420
+  }
+]

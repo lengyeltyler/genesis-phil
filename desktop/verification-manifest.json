@@ -1,0 +1,109 @@
+{
+  "schema": 1,
+  "version": "0.3.0",
+  "build": 95,
+  "packageRevision": "build93-visual-restoration",
+  "applicationSourceHead": "e3911123f5d6f5b093f52ea08f60526238a8029e",
+  "applicationSourceTree": "e100b5198a185a3aec00774f17cb06f761ce6304",
+  "sourceTag": "v0.3.0-build95-source",
+  "sourceLocation": "https://github.com/lengyeltyler/genesis-phil/tree/v0.3.0-build95-source/desktop",
+  "toolingVersion": "1.0.0",
+  "toolingCommit": "e3911123f5d6f5b093f52ea08f60526238a8029e",
+  "dmg": {
+    "name": "Phil-0.3.0-95-macOS-arm64.dmg",
+    "sha256": "3c088ac24248ae3f7812ae8f3723282e6f536f80fedfede236164c96f7ebb4cf",
+    "bytes": 132866877
+  },
+  "dependencyLockSHA256": "14735d6df7c6e3bbc1db200734b23c3c6552ff9f1974068dce855f5a6ee4c836",
+  "packageInventorySHA256": "ab9bb98310e42416c3311d9060d5ff7692c2db5eda56d09465b288d7542cba88",
+  "inventoryAlgorithm": "phil-inventory-v1: lexical depth-first POSIX relative paths; directories, lstat modes, regular file size/SHA256, literal symlink target; JSON UTF-8 pretty printed with 2 spaces and trailing LF",
+  "packageInventoryEntries": 633,
+  "packageInventoryFilesAndLinks": 311,
+  "configurationSHA256": "ff96af7b927ec2520cc3288e819ba260fc89a4cb68a4cb2fe269e048056ccff7",
+  "mainSHA256": "2c6aa82b80fe2dd09b30d48b56c6795b9bb7466ec0568a1b4819db92a24abb85",
+  "mainLegalSHA256": "fcd141e9ef43369980cc49bd4a6452ac40b0b7334147c7da35b2047d1870571a",
+  "catalogSHA256": "0a75a6f8f2c851b14a92dd363bab09aa7a1c987705c69e6badc71f16dde050b5",
+  "catalogManifestSHA256": "21c57e33a7b82fe88e64094758fd2fd3193f84ede1ba4c4e090762e0286b4092",
+  "staticResources": [
+    {
+      "source": "apps/philcore-desktop/production/preload.cjs",
+      "destination": "Contents/Resources/app/preload.cjs",
+      "sha256": "655694da027a7b9b4fcae552b43d9a0088d8eb9d57538db8d0613ba13616abfa"
+    },
+    {
+      "source": "apps/philcore-desktop/production/ui/app.js",
+      "destination": "Contents/Resources/app/ui/app.js",
+      "sha256": "e8b42e43d4202be94c59eec6a8149627a4ec581ba7b24ea5919244ce49c6ff6f"
+    },
+    {
+      "source": "apps/philcore-desktop/production/ui/index.html",
+      "destination": "Contents/Resources/app/ui/index.html",
+      "sha256": "13e7a0d378373f02cab986b051c0a13910993cbcf90a0300d7112deb793c82af"
+    },
+    {
+      "source": "apps/philcore-desktop/production/ui/phil-logo.png",
+      "destination": "Contents/Resources/app/ui/phil-logo.png",
+      "sha256": "1d9f5122d996fd5ce1631c09d2bffe86f19f77251561299ae439e9b351b83d0e"
+    },
+    {
+      "source": "apps/philcore-desktop/production/ui/png-export.html",
+      "destination": "Contents/Resources/app/ui/png-export.html",
+      "sha256": "4a5bd0932fdc03e8520942c7cb77745d79ca1d736ab85a2433a9bc45d3c5c728"
+    },
+    {
+      "source": "apps/philcore-desktop/production/ui/png-export.js",
+      "destination": "Contents/Resources/app/ui/png-export.js",
+      "sha256": "11ff19c347394f2f9e79b760943c87864b0322b47e75e6d0ff9310ddf7a6fd3a"
+    },
+    {
+      "source": "apps/philcore-desktop/production/ui/style.css",
+      "destination": "Contents/Resources/app/ui/style.css",
+      "sha256": "beed7dd88e149d9fe9f151c15d4e61502794dd40f5145148cdc11a0c013d9801"
+    },
+    {
+      "source": "apps/philcore-desktop/production/assets/Phil.icns",
+      "destination": "Contents/Resources/Phil.icns",
+      "sha256": "7046a4da18a130905f957d6d01060227a3d225d39afd26ad3220e7f64d12ad56"
+    }
+  ],
+  "signingIdentity": "Developer ID Application: Tyler Lengyel (B342738S82)",
+  "teamId": "B342738S82",
+  "bundleId": "com.philcore.desktop",
+  "toolchain": {
+    "node": "26.0.0",
+    "npm": "11.12.1",
+    "electron": "41.10.3",
+    "esbuild": "0.25.12",
+    "typescript": "5.9.3",
+    "ethers": "6.17.0",
+    "@noble/curves": "1.2.0",
+    "solc": "0.8.27+commit.40a35a09.Emscripten.clang",
+    "python": "3.9.6 (qualified; stdlib only)",
+    "architecture": "darwin-arm64",
+    "swift": "Apple Swift version 6.4 (swiftlang-6.4.0.34.1 clang-2100.3.34.1)\nTarget: arm64-apple-macosx27.0.0",
+    "sdk": "27.0",
+    "deploymentTarget": "12.0",
+    "linker": "27037.1",
+    "appleToolchainPolicy": "Exact-output comparison is mandatory. A different toolchain is unsupported unless it reproduces the same normalized helper."
+  },
+  "native": {
+    "source": "apps/philcore-desktop/native/macos-user-presence/PhilCoreUserPresenceHelper.swift",
+    "compileFlags": [
+      "-target",
+      "arm64-apple-macos12.0",
+      "-O",
+      "-framework",
+      "LocalAuthentication"
+    ],
+    "normalizedSHA256": "2e5b414da411be6e7f86fe42767c0d6b36e2d49855a03500f824f4b1bdf32437",
+    "normalization": "macho-signature-layout-v1; no UUID, instruction, symbol, path, SDK or arbitrary load-command exclusion"
+  },
+  "electronArchive": {
+    "version": "41.10.3",
+    "name": "electron-v41.10.3-darwin-arm64.zip",
+    "url": "https://github.com/electron/electron/releases/download/v41.10.3/electron-v41.10.3-darwin-arm64.zip",
+    "sha256": "8961cdb57c95c073ff4770bc9309953832f447575f1a91127010f7b4870884b3",
+    "checksumsURL": "https://github.com/electron/electron/releases/download/v41.10.3/SHASUMS256.txt"
+  },
+  "sourceFilesSHA256": "edc6b2b7b7b55ded1194a927108f7f58d8401194dfae799b1025f8a34460617d"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "phil-web",
+  "main": "worker.mjs",
+  "compatibility_date": "2026-09-17",
+  "workers_dev": false,
+  "preview_urls": false,
+  "routes": [
+    {
+      "pattern": "phil.tylerlengyel.com",
+      "custom_domain": true
+    }
+  ],
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS",
+    "run_worker_first": true,
+    "not_found_handling": "none"
+  },
+  "observability": {
+    "enabled": false
+  },
+  "vars": {
+    "PHIL_RELEASE_ID": "UNRELEASED",
+    "PHIL_MINT_STAGE": "closed",
+    "PHIL_ACCEPTANCE_ACCOUNT": ""
+  },
+  "account_id": "9dcffbef319d64d56baa8e259446745d",
+  "send_metrics": false,
+  "r2_buckets": [
+    {
+      "binding": "TUTORIAL",
+      "bucket_name": "phil-public-media"
+    }
+  ]
+}

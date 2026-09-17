@@ -1,0 +1,3775 @@
+[
+  {
+    "path": "Contents",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/CodeResources",
+    "type": "file",
+    "mode": 420,
+    "bytes": 1968,
+    "sha256": "c41580d6b6ef5ebd8cc4218b95811daab7ddf260322077428ca083166b3a14ab"
+  },
+  {
+    "path": "Contents/Frameworks",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Electron Framework",
+    "type": "symlink",
+    "target": "Versions/Current/Electron Framework",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Helpers",
+    "type": "symlink",
+    "target": "Versions/Current/Helpers",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Libraries",
+    "type": "symlink",
+    "target": "Versions/Current/Libraries",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Resources",
+    "type": "symlink",
+    "target": "Versions/Current/Resources",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework",
+    "type": "file",
+    "mode": 493,
+    "bytes": 178984080,
+    "sha256": "d43190ef1325fbde715fcdbd4d91215f89eae0b97de1010ac4ecbaa447abf8f4"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Helpers",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Helpers/chrome_crashpad_handler",
+    "type": "file",
+    "mode": 493,
+    "bytes": 1254608,
+    "sha256": "d0dcc23e090e2afa8b276c61b4ae9c7544c932679e217f22703a26a8494d0d21"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Libraries",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Libraries/libEGL.dylib",
+    "type": "file",
+    "mode": 493,
+    "bytes": 109664,
+    "sha256": "c14f9bd9a6fc497c4cc836cf52d70973c427483232aa21d6a39872f1eb0f34b2"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Libraries/libGLESv2.dylib",
+    "type": "file",
+    "mode": 493,
+    "bytes": 6834768,
+    "sha256": "e2487861c69d41f141b616c3df5080bbf71a5472e2f661c4bb447e0e1bf87be3"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Libraries/libffmpeg.dylib",
+    "type": "file",
+    "mode": 493,
+    "bytes": 2218480,
+    "sha256": "15185697768808e001824714ffc9661fcc3573f73770c45aa611617a09fb7647"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Libraries/libvk_swiftshader.dylib",
+    "type": "file",
+    "mode": 493,
+    "bytes": 16643888,
+    "sha256": "2d8619f023ae2743f85793d77082423ace7063d1a5c4cdb4bb50908ad4f4aeef"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Libraries/vk_swiftshader_icd.json",
+    "type": "file",
+    "mode": 420,
+    "bytes": 110,
+    "sha256": "d717d915e31e7c27948b80b36ab34e2d897888114c5c7d0af835f93eb53e58f5"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/Info.plist",
+    "type": "file",
+    "mode": 420,
+    "bytes": 921,
+    "sha256": "8167fa8e3ef036f00286e366ff582f541e14423d3be362e9a547c1218ebcb6ab"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/MainMenu.nib",
+    "type": "file",
+    "mode": 420,
+    "bytes": 2005,
+    "sha256": "4b2168de2d6d9a09b20faaa23139d5f25f73b2595671de25872d191b6939d819"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/af.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/af.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 607114,
+    "sha256": "cdb01adb76e6e122ebcb6fe7e3fbb0b3d5c55b5ada62f9831d4e381c3e2067d9"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/af_FEMININE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/af_FEMININE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/af_MASCULINE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/af_MASCULINE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/af_NEUTER.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/af_NEUTER.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/am.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/am.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 986311,
+    "sha256": "d1d559ffdee0a6eeae1322c7599f64bfa25182123dc21252d6d514ae0307a2c6"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/am_FEMININE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/am_FEMININE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/am_MASCULINE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/am_MASCULINE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/am_NEUTER.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/am_NEUTER.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ar.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ar.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 1087715,
+    "sha256": "88ef7bcc200962bc3ec9e175091d714855e7fdfbb4372702d3f63ba92aeb0711"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ar_FEMININE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ar_FEMININE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ar_MASCULINE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ar_MASCULINE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ar_NEUTER.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ar_NEUTER.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/bg.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/bg.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 1123883,
+    "sha256": "563d79955c3a3a52efa994220327b06df2330314642a272d6c2b45a7360a8c86"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/bg_FEMININE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/bg_FEMININE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/bg_MASCULINE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/bg_MASCULINE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/bg_NEUTER.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/bg_NEUTER.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/bn.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/bn.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 1448379,
+    "sha256": "68ed874a4ada38b4556a59171910038079196160b484d6a54d5a41482a8d84d4"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/bn_FEMININE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/bn_FEMININE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/bn_MASCULINE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/bn_MASCULINE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/bn_NEUTER.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/bn_NEUTER.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ca.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ca.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 683624,
+    "sha256": "4be788f32b08c1ae22dd972f39d45d354ae980281051b43dffababb8872d9cb5"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ca_FEMININE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ca_FEMININE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ca_MASCULINE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ca_MASCULINE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ca_NEUTER.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ca_NEUTER.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/chrome_100_percent.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 116027,
+    "sha256": "71d86ed5603144986aa96bc00c9b35eaf131672aa525290ec333265e9eb97e36"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/chrome_200_percent.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 187404,
+    "sha256": "86e3b91eca802c2b72237e2f105ad79fbf922b576f58125ced9c9df9f006c83e"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/cs.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/cs.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 710559,
+    "sha256": "352566131b1d14ad07ca8f20dda0cb67430d4a44a6e44fc252e6ca73639823b8"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/cs_FEMININE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/cs_FEMININE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/cs_MASCULINE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/cs_MASCULINE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/cs_NEUTER.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/cs_NEUTER.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/da.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/da.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 638537,
+    "sha256": "201324aab13c5aa42b51e41ea5c9b1fe2e4793eb4d1c243b239385ed8a149a6f"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/da_FEMININE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/da_FEMININE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/da_MASCULINE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/da_MASCULINE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/da_NEUTER.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/da_NEUTER.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/de.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/de.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 684385,
+    "sha256": "9425b6d05545a2920cc9623ae0bb7d52e3b7128bbeafba393513854663bfee0e"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/de_FEMININE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/de_FEMININE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/de_MASCULINE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/de_MASCULINE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/de_NEUTER.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/de_NEUTER.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/el.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/el.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 1236074,
+    "sha256": "2824d298ac12b0455acdc6d81150ae87e85ba7e36241da8143b197b5b0a351f6"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/el_FEMININE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/el_FEMININE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/el_MASCULINE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/el_MASCULINE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/el_NEUTER.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/el_NEUTER.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/en.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/en.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 560597,
+    "sha256": "7519f813e5745d393bb0a782a971955f5b954f3a8ee88b749b46329c49352626"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/en_FEMININE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/en_FEMININE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/en_GB.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/en_GB.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 553676,
+    "sha256": "7148b1e731477a455d35e4d7c4d8d860a7f86967fff18b147a0f2b53c3763447"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/en_GB_FEMININE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/en_GB_FEMININE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/en_GB_MASCULINE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/en_GB_MASCULINE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/en_GB_NEUTER.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/en_GB_NEUTER.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/en_MASCULINE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/en_MASCULINE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/en_NEUTER.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/en_NEUTER.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/es.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/es.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 671296,
+    "sha256": "6a3a2f12e120bd33f39e1c79ac32b63c5ae862c6d7c2c6f9d1af43464ebc3bc3"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/es_419.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/es_419.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 674876,
+    "sha256": "05e5d8ee6b4d2dc6da444d7433728e034d82211333b6cd163d346524429e9b5c"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/es_419_FEMININE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/es_419_FEMININE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/es_419_MASCULINE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/es_419_MASCULINE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/es_419_NEUTER.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/es_419_NEUTER.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/es_FEMININE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/es_FEMININE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/es_MASCULINE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/es_MASCULINE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/es_NEUTER.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/es_NEUTER.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/et.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/et.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 613864,
+    "sha256": "f08ce4bf4bb1794bf14a39c594105819363bab4bf067b1b1e5a59c42df566abe"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/et_FEMININE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/et_FEMININE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/et_MASCULINE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/et_MASCULINE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/et_NEUTER.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/et_NEUTER.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/fa.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/fa.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 1015409,
+    "sha256": "be446fa469e64e34c660c3634c7900b17f65a89b58ffbf9d394e6982a0eb4ddb"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/fa_FEMININE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/fa_FEMININE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/fa_MASCULINE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/fa_MASCULINE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/fa_NEUTER.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/fa_NEUTER.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/fi.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/fi.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 624460,
+    "sha256": "b7107f4cafbb7890fa7c9b1d761d62ec4c800a6ed37560ccb265aa6bae298ed1"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/fi_FEMININE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/fi_FEMININE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/fi_MASCULINE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/fi_MASCULINE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/fi_NEUTER.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/fi_NEUTER.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/fil.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/fil.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 709596,
+    "sha256": "4b232e4d4842b6dbe61e77dd36754915b443f04e4a39267370537dd5b69c4ceb"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/fil_FEMININE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/fil_FEMININE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/fil_MASCULINE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/fil_MASCULINE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/fil_NEUTER.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/fil_NEUTER.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/fr.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/fr.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 729568,
+    "sha256": "a66a12c082d2b23d8be2311b8e6c84db6cf60f7d00b5a60952b08133d5f15715"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/fr_FEMININE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/fr_FEMININE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/fr_MASCULINE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/fr_MASCULINE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/fr_NEUTER.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/fr_NEUTER.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/gu.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/gu.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 1430051,
+    "sha256": "5f3092004ac51e609f7a1487df2c0dcc074e0a8cce5d30b672e34a01eb5a8647"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/gu_FEMININE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/gu_FEMININE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/gu_MASCULINE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/gu_MASCULINE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/gu_NEUTER.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/gu_NEUTER.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/he.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/he.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 887884,
+    "sha256": "76962e66d74769c08eeed8fbc2465e85467f640fc0022f3d26052a4162eff02f"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/he_FEMININE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/he_FEMININE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/he_MASCULINE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/he_MASCULINE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/he_NEUTER.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/he_NEUTER.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/hi.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/hi.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 1513285,
+    "sha256": "4f795ea78ba74e7762331fc8a071caa5ca376488c79a4e91da797fd5ba1e1d5c"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/hi_FEMININE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/hi_FEMININE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/hi_MASCULINE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/hi_MASCULINE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/hi_NEUTER.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/hi_NEUTER.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/hr.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/hr.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 683452,
+    "sha256": "a9a3e8e886e115442242badba4bc143d479e693b793a2b2cad5e06a2a420f1b6"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/hr_FEMININE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/hr_FEMININE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/hr_MASCULINE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/hr_MASCULINE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/hr_NEUTER.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/hr_NEUTER.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/hu.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/hu.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 730852,
+    "sha256": "f2b0997f18f494a58fb318bc7ed2b97f8133331799753ea38d1457294851866e"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/hu_FEMININE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/hu_FEMININE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/hu_MASCULINE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/hu_MASCULINE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/hu_NEUTER.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/hu_NEUTER.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/icudtl.dat",
+    "type": "file",
+    "mode": 420,
+    "bytes": 10822192,
+    "sha256": "1cf67874b5a87a8363a86fb3f81e3cbbed54d389062dab8fb52308d5cf8c8612"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/id.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/id.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 606004,
+    "sha256": "cd49a555280ee3c803462a0d63ade78151ca1e4bde68285a5afbcdf68fb5a788"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/id_FEMININE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/id_FEMININE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/id_MASCULINE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/id_MASCULINE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/id_NEUTER.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/id_NEUTER.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/it.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/it.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 660391,
+    "sha256": "630fb26d5bf8ee0de73ab93bfd6dfb6d0d281dc4fa6d7876d0dafd07eeaee28b"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/it_FEMININE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/it_FEMININE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/it_MASCULINE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/it_MASCULINE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/it_NEUTER.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/it_NEUTER.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ja.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ja.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 804902,
+    "sha256": "69dfca59969d59fa477d1b8167fd86e99f51d546ed3f5295779a2066910439ec"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ja_FEMININE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ja_FEMININE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ja_MASCULINE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ja_MASCULINE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ja_NEUTER.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ja_NEUTER.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/kn.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/kn.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 1642566,
+    "sha256": "a2ea0cda9df9db9ee83df79055740cfe15fc5a623ac27cc4836cbcb621edbd6e"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/kn_FEMININE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/kn_FEMININE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/kn_MASCULINE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/kn_MASCULINE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/kn_NEUTER.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/kn_NEUTER.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ko.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ko.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 682711,
+    "sha256": "cf8478157620bbcda94e86f6d415624a22e0242e432518ef934abf5abec3ea1b"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ko_FEMININE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ko_FEMININE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ko_MASCULINE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ko_MASCULINE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ko_NEUTER.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ko_NEUTER.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/lt.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/lt.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 744490,
+    "sha256": "3df0c84a132a57386a353989d6276c65fb4d39f399115e56a85805d4cb57632e"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/lt_FEMININE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/lt_FEMININE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/lt_MASCULINE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/lt_MASCULINE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/lt_NEUTER.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/lt_NEUTER.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/lv.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/lv.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 741323,
+    "sha256": "9dc6299dd9f46c5b8baa217798fdd9bc8ddb53457fdab4f9fab016a63e311f97"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/lv_FEMININE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/lv_FEMININE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/lv_MASCULINE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/lv_MASCULINE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/lv_NEUTER.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/lv_NEUTER.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ml.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ml.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 1694755,
+    "sha256": "384bce6f43c2ca34dfbf1b71a31805d7756e03bd6f991d563536b9ce3555465b"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ml_FEMININE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ml_FEMININE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ml_MASCULINE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ml_MASCULINE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ml_NEUTER.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ml_NEUTER.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/mr.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/mr.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 1400268,
+    "sha256": "8abfedc0b656c83f2d94448f0f606e5f3f1ddfe376366de891d291d2acd9a47f"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/mr_FEMININE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/mr_FEMININE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/mr_MASCULINE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/mr_MASCULINE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/mr_NEUTER.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/mr_NEUTER.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ms.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ms.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 638079,
+    "sha256": "a91b2f93448c2a34180c21bfbf891d45d7e807a4f8779a03cc970677d1843868"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ms_FEMININE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ms_FEMININE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ms_MASCULINE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ms_MASCULINE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ms_NEUTER.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ms_NEUTER.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/nb.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/nb.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 609334,
+    "sha256": "c9e13bcde19942c6ac735b394a18745555c504a9626434515d6aef3257c6420e"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/nb_FEMININE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/nb_FEMININE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/nb_MASCULINE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/nb_MASCULINE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/nb_NEUTER.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/nb_NEUTER.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/nl.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/nl.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 635025,
+    "sha256": "b188f84b0328eb8ac63e567b31b724a2f24ad416e1db94aaad8a36b72d58abb3"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/nl_FEMININE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/nl_FEMININE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/nl_MASCULINE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/nl_MASCULINE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/nl_NEUTER.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/nl_NEUTER.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/pl.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/pl.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 710166,
+    "sha256": "c228cc720d5464e5b65c0103f81c104fe1bcd0feabd07bf103ca1f424b2a642e"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/pl_FEMININE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/pl_FEMININE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/pl_MASCULINE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/pl_MASCULINE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/pl_NEUTER.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/pl_NEUTER.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/pt_BR.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/pt_BR.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 665154,
+    "sha256": "d5fce3a79ca702619d05fe87dd2c3273e260b5dda7465d8da45e997058ad8b92"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/pt_BR_FEMININE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/pt_BR_FEMININE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/pt_BR_MASCULINE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/pt_BR_MASCULINE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/pt_BR_NEUTER.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/pt_BR_NEUTER.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/pt_PT.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/pt_PT.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 668817,
+    "sha256": "9ea725614acd51cfa909257256bad49b194f8444525d3cb85b6c6f959b9a610e"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/pt_PT_FEMININE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/pt_PT_FEMININE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/pt_PT_MASCULINE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/pt_PT_MASCULINE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/pt_PT_NEUTER.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/pt_PT_NEUTER.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/resources.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 6786349,
+    "sha256": "ac70738176c94160076d1e1ed76e0f09ba415f2681ce40fd8133355e35f8db6b"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ro.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ro.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 694322,
+    "sha256": "dcc0ab625bde0b75dcee10d6b1dd1f8aa2ade430539513e97f98a3dfef55a695"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ro_FEMININE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ro_FEMININE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ro_MASCULINE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ro_MASCULINE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ro_NEUTER.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ro_NEUTER.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ru.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ru.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 1150759,
+    "sha256": "68e9f4246e0f909993a24a783e18aaf3bdcb501d081eef83a95e1ce8fa83ea4f"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ru_FEMININE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ru_FEMININE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ru_MASCULINE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ru_MASCULINE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ru_NEUTER.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ru_NEUTER.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/sk.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/sk.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 722555,
+    "sha256": "efd34c083d1ba483101c1f30acd0f54b2b4b2d57888ed69ce2b3b92daa21589b"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/sk_FEMININE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/sk_FEMININE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/sk_MASCULINE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/sk_MASCULINE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/sk_NEUTER.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/sk_NEUTER.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/sl.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/sl.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 691991,
+    "sha256": "56031c173aeaf7d8946ffea07edf9f5a01ec4642279f6c83b543b7950fc3bf4f"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/sl_FEMININE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/sl_FEMININE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/sl_MASCULINE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/sl_MASCULINE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/sl_NEUTER.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/sl_NEUTER.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/sr.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/sr.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 1063726,
+    "sha256": "a86d3ff1593a6461f55b604be2d8d7a027b553efec973c2fbac9c685517f4337"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/sr_FEMININE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/sr_FEMININE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/sr_MASCULINE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/sr_MASCULINE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/sr_NEUTER.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/sr_NEUTER.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/sv.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/sv.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 616665,
+    "sha256": "fcbe1ddc1edeb2d28dd2c02716de3bd54f52c2512be0ed472ac0ac18fa45a092"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/sv_FEMININE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/sv_FEMININE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/sv_MASCULINE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/sv_MASCULINE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/sv_NEUTER.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/sv_NEUTER.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/sw.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/sw.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 655187,
+    "sha256": "9c1f77c7a1c247f4d5deea2c10acbe330d6e6cb8baab29bc73fd7c743d35fc67"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/sw_FEMININE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/sw_FEMININE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/sw_MASCULINE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/sw_MASCULINE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/sw_NEUTER.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/sw_NEUTER.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ta.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ta.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 1686286,
+    "sha256": "38089999e8e61cfd5118c350baff7d50ca05ffda80823fbc03b18fb0bdb416de"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ta_FEMININE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ta_FEMININE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ta_MASCULINE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ta_MASCULINE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ta_NEUTER.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ta_NEUTER.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/te.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/te.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 1557270,
+    "sha256": "3136c22a82a81c44dc944e7776f625c20b8ff99a80b199913e23aafdbff633a3"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/te_FEMININE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/te_FEMININE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/te_MASCULINE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/te_MASCULINE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/te_NEUTER.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/te_NEUTER.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/th.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/th.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 1305330,
+    "sha256": "59346b278ad59b56b3f79407018c23edda1f4262625e1549992790a6502a7074"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/th_FEMININE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/th_FEMININE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/th_MASCULINE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/th_MASCULINE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/th_NEUTER.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/th_NEUTER.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/tr.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/tr.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 665534,
+    "sha256": "df507785e5580f66d129ed6b5ed46646b6e49e59c8c6af95c5ab6fe1cc9cf8e4"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/tr_FEMININE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/tr_FEMININE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/tr_MASCULINE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/tr_MASCULINE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/tr_NEUTER.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/tr_NEUTER.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/uk.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/uk.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 1159962,
+    "sha256": "66358c7bd148fa622106169efc7e0c22a1e3a105deb623fa975534089631b05f"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/uk_FEMININE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/uk_FEMININE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/uk_MASCULINE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/uk_MASCULINE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/uk_NEUTER.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/uk_NEUTER.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ur.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ur.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 998996,
+    "sha256": "4ed2fbd072a2a860bf3f33af8f2392cfec8f74491a91463849ea5bcb4f612e1a"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ur_FEMININE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ur_FEMININE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ur_MASCULINE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ur_MASCULINE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ur_NEUTER.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ur_NEUTER.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/v8_context_snapshot.arm64.bin",
+    "type": "file",
+    "mode": 420,
+    "bytes": 715208,
+    "sha256": "7cdac4bac906ba3b1a6f8142a768f093bf469550d8bc74ebd90f3d2c2d42d732"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/vi.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/vi.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 789235,
+    "sha256": "5ee8a2174aef5d9aebbe1f200e37a293f11502121e47829515a3f45008c03b42"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/vi_FEMININE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/vi_FEMININE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/vi_MASCULINE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/vi_MASCULINE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/vi_NEUTER.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/vi_NEUTER.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/zh_CN.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/zh_CN.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 565239,
+    "sha256": "1ec540e9fd60356b220057b30cdeb0025274930143ee983b282af876bff7e07d"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/zh_CN_FEMININE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/zh_CN_FEMININE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/zh_CN_MASCULINE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/zh_CN_MASCULINE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/zh_CN_NEUTER.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/zh_CN_NEUTER.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/zh_TW.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/zh_TW.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 557777,
+    "sha256": "4e14cc8e9c35ae2bb949a3d1074faf749d24a6f3bab7876e53ec26b9261d6372"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/zh_TW_FEMININE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/zh_TW_FEMININE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/zh_TW_MASCULINE.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/zh_TW_MASCULINE.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/zh_TW_NEUTER.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/zh_TW_NEUTER.lproj/locale.pak",
+    "type": "file",
+    "mode": 420,
+    "bytes": 18,
+    "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/_CodeSignature",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/_CodeSignature/CodeResources",
+    "type": "file",
+    "mode": 420,
+    "bytes": 85744,
+    "sha256": "c27f64a8777a00990d5ceff66f1f01b546b1552ed07b4fc49a125a1a6726cde5"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Framework.framework/Versions/Current",
+    "type": "symlink",
+    "target": "A",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Helper (GPU).app",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Helper (GPU).app/Contents",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Helper (GPU).app/Contents/Info.plist",
+    "type": "file",
+    "mode": 420,
+    "bytes": 945,
+    "sha256": "b15dfac720fc3eaf65c2200b63cd29e1ef203a027aed1c4216ddca613acdce97"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Helper (GPU).app/Contents/MacOS",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Helper (GPU).app/Contents/MacOS/Electron Helper (GPU)",
+    "type": "file",
+    "mode": 493,
+    "bytes": 221152,
+    "sha256": "f30be94db0f33bc47772240fd7e5d6267a16843d4f1ed817785c68d5069bc44d"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Helper (GPU).app/Contents/PkgInfo",
+    "type": "file",
+    "mode": 420,
+    "bytes": 8,
+    "sha256": "82502191c9484b04d685374f9879a0066069c49b8acae7a04b01d38d07e8eca0"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Helper (GPU).app/Contents/_CodeSignature",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Helper (GPU).app/Contents/_CodeSignature/CodeResources",
+    "type": "file",
+    "mode": 420,
+    "bytes": 2200,
+    "sha256": "6686de10a28a2fe11b36cbb86dcbacc827cfc4ea116b4dabf1845e5aee629e9b"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Helper (Plugin).app",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Helper (Plugin).app/Contents",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Helper (Plugin).app/Contents/Info.plist",
+    "type": "file",
+    "mode": 420,
+    "bytes": 948,
+    "sha256": "89798c4cc59529109a8a78733786560a27189695d99e792a75381411bf53b231"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Helper (Plugin).app/Contents/MacOS",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Helper (Plugin).app/Contents/MacOS/Electron Helper (Plugin)",
+    "type": "file",
+    "mode": 493,
+    "bytes": 221152,
+    "sha256": "9e71917f6650c17f69333685ed2e60b99b9a147a2f6d39588e3c1f0535337950"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Helper (Plugin).app/Contents/PkgInfo",
+    "type": "file",
+    "mode": 420,
+    "bytes": 8,
+    "sha256": "82502191c9484b04d685374f9879a0066069c49b8acae7a04b01d38d07e8eca0"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Helper (Plugin).app/Contents/_CodeSignature",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Helper (Plugin).app/Contents/_CodeSignature/CodeResources",
+    "type": "file",
+    "mode": 420,
+    "bytes": 2200,
+    "sha256": "6686de10a28a2fe11b36cbb86dcbacc827cfc4ea116b4dabf1845e5aee629e9b"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Helper (Renderer).app",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Helper (Renderer).app/Contents",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Helper (Renderer).app/Contents/Info.plist",
+    "type": "file",
+    "mode": 420,
+    "bytes": 950,
+    "sha256": "ccc1ae8eb0b2562e7f9ea81436718cd12d80d0aa1a43f23836a188fddecb7e40"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Helper (Renderer).app/Contents/MacOS",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Helper (Renderer).app/Contents/MacOS/Electron Helper (Renderer)",
+    "type": "file",
+    "mode": 493,
+    "bytes": 221152,
+    "sha256": "72c14c72bb83b8742873bdf816e49ce061867fabb86aabe241080ce99608e9da"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Helper (Renderer).app/Contents/PkgInfo",
+    "type": "file",
+    "mode": 420,
+    "bytes": 8,
+    "sha256": "82502191c9484b04d685374f9879a0066069c49b8acae7a04b01d38d07e8eca0"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Helper (Renderer).app/Contents/_CodeSignature",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Helper (Renderer).app/Contents/_CodeSignature/CodeResources",
+    "type": "file",
+    "mode": 420,
+    "bytes": 2200,
+    "sha256": "6686de10a28a2fe11b36cbb86dcbacc827cfc4ea116b4dabf1845e5aee629e9b"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Helper.app",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Helper.app/Contents",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Helper.app/Contents/Info.plist",
+    "type": "file",
+    "mode": 420,
+    "bytes": 939,
+    "sha256": "a016eded754b5e64864432451df73982f17ad8b5ac308d2ebb8794e3c1f5e651"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Helper.app/Contents/MacOS",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Helper.app/Contents/MacOS/Electron Helper",
+    "type": "file",
+    "mode": 493,
+    "bytes": 221152,
+    "sha256": "a705ef4f953144f7808236b19d1755ac567c119d76a3bc6b1957a0e101d9e4c7"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Helper.app/Contents/PkgInfo",
+    "type": "file",
+    "mode": 420,
+    "bytes": 8,
+    "sha256": "82502191c9484b04d685374f9879a0066069c49b8acae7a04b01d38d07e8eca0"
+  },
+  {
+    "path": "Contents/Frameworks/Electron Helper.app/Contents/_CodeSignature",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Electron Helper.app/Contents/_CodeSignature/CodeResources",
+    "type": "file",
+    "mode": 420,
+    "bytes": 2200,
+    "sha256": "6686de10a28a2fe11b36cbb86dcbacc827cfc4ea116b4dabf1845e5aee629e9b"
+  },
+  {
+    "path": "Contents/Frameworks/Mantle.framework",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Mantle.framework/Mantle",
+    "type": "symlink",
+    "target": "Versions/Current/Mantle",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Mantle.framework/Resources",
+    "type": "symlink",
+    "target": "Versions/Current/Resources",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Mantle.framework/Versions",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Mantle.framework/Versions/A",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Mantle.framework/Versions/A/Mantle",
+    "type": "file",
+    "mode": 493,
+    "bytes": 107072,
+    "sha256": "b00ac3dd6bbf529848b76630a87e3806ceae8caff9691cf198bc971407798b37"
+  },
+  {
+    "path": "Contents/Frameworks/Mantle.framework/Versions/A/Resources",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Mantle.framework/Versions/A/Resources/Info.plist",
+    "type": "file",
+    "mode": 420,
+    "bytes": 1018,
+    "sha256": "ac5c3b1c6777d392cab7394eeb6ef973ea5737ea13f8af865eb5fc7e00001bab"
+  },
+  {
+    "path": "Contents/Frameworks/Mantle.framework/Versions/A/_CodeSignature",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Mantle.framework/Versions/A/_CodeSignature/CodeResources",
+    "type": "file",
+    "mode": 420,
+    "bytes": 2442,
+    "sha256": "74023448166db9b2db4ddd577454090f6be35c288e6cdf02e0ba77bf9d96f5e7"
+  },
+  {
+    "path": "Contents/Frameworks/Mantle.framework/Versions/Current",
+    "type": "symlink",
+    "target": "A",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/ReactiveObjC.framework",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/ReactiveObjC.framework/ReactiveObjC",
+    "type": "symlink",
+    "target": "Versions/Current/ReactiveObjC",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/ReactiveObjC.framework/Resources",
+    "type": "symlink",
+    "target": "Versions/Current/Resources",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/ReactiveObjC.framework/Versions",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/ReactiveObjC.framework/Versions/A",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/ReactiveObjC.framework/Versions/A/ReactiveObjC",
+    "type": "file",
+    "mode": 493,
+    "bytes": 385232,
+    "sha256": "425e8d4fa731deda50ae1523008afa761eb00b69e799cba278cd249d89d768d1"
+  },
+  {
+    "path": "Contents/Frameworks/ReactiveObjC.framework/Versions/A/Resources",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/ReactiveObjC.framework/Versions/A/Resources/Info.plist",
+    "type": "file",
+    "mode": 420,
+    "bytes": 1138,
+    "sha256": "4ded0fe1f4647f5b1862a2a98998aa7c3ade9bd925d097258e24667c446e7496"
+  },
+  {
+    "path": "Contents/Frameworks/ReactiveObjC.framework/Versions/A/_CodeSignature",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/ReactiveObjC.framework/Versions/A/_CodeSignature/CodeResources",
+    "type": "file",
+    "mode": 420,
+    "bytes": 2442,
+    "sha256": "95920ec9421fbb6d2efe69b0b33724d9e685b6c563f467ec8baa8c0a8df5444a"
+  },
+  {
+    "path": "Contents/Frameworks/ReactiveObjC.framework/Versions/Current",
+    "type": "symlink",
+    "target": "A",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Squirrel.framework",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Squirrel.framework/Resources",
+    "type": "symlink",
+    "target": "Versions/Current/Resources",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Squirrel.framework/Squirrel",
+    "type": "symlink",
+    "target": "Versions/Current/Squirrel",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Squirrel.framework/Versions",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Squirrel.framework/Versions/A",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Squirrel.framework/Versions/A/Resources",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Squirrel.framework/Versions/A/Resources/Info.plist",
+    "type": "file",
+    "mode": 420,
+    "bytes": 1175,
+    "sha256": "f61ab349887360a2d84603ecff17ab6633cb7fe2e8e72861f4e38e9120f472bf"
+  },
+  {
+    "path": "Contents/Frameworks/Squirrel.framework/Versions/A/Resources/ShipIt",
+    "type": "file",
+    "mode": 493,
+    "bytes": 143264,
+    "sha256": "19f225f2d4fff388595260d78c6d26e445139576c41657ec2ed169192d210cc3"
+  },
+  {
+    "path": "Contents/Frameworks/Squirrel.framework/Versions/A/Squirrel",
+    "type": "file",
+    "mode": 493,
+    "bytes": 162528,
+    "sha256": "5c826b24fc107f1c97a5006ffca99c267814173d00dab92801c1162a48f7272f"
+  },
+  {
+    "path": "Contents/Frameworks/Squirrel.framework/Versions/A/_CodeSignature",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Frameworks/Squirrel.framework/Versions/A/_CodeSignature/CodeResources",
+    "type": "file",
+    "mode": 420,
+    "bytes": 2660,
+    "sha256": "c7e6ffef329ad747f7dbfc86a1ac0e19b0e9bf116f615d928b85c41ff48907d0"
+  },
+  {
+    "path": "Contents/Frameworks/Squirrel.framework/Versions/Current",
+    "type": "symlink",
+    "target": "A",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Info.plist",
+    "type": "file",
+    "mode": 420,
+    "bytes": 2448,
+    "sha256": "a109c13bb2129339e905a2b9482193290f4f1f912a9f75a84d6e62b1a0ec2146"
+  },
+  {
+    "path": "Contents/MacOS",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/MacOS/Phil",
+    "type": "file",
+    "mode": 493,
+    "bytes": 52976,
+    "sha256": "9494b30c13c15c0d5d0db54ea86c7080b6b0940676e65dbb8db36575f4b6c541"
+  },
+  {
+    "path": "Contents/PkgInfo",
+    "type": "file",
+    "mode": 420,
+    "bytes": 8,
+    "sha256": "82502191c9484b04d685374f9879a0066069c49b8acae7a04b01d38d07e8eca0"
+  },
+  {
+    "path": "Contents/Resources",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Resources/Phil.icns",
+    "type": "file",
+    "mode": 420,
+    "bytes": 703761,
+    "sha256": "7046a4da18a130905f957d6d01060227a3d225d39afd26ad3220e7f64d12ad56"
+  },
+  {
+    "path": "Contents/Resources/af.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Resources/am.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Resources/app",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Resources/app/GENESIS-THIRD-PARTY-NOTICES.md",
+    "type": "file",
+    "mode": 420,
+    "bytes": 2491,
+    "sha256": "b4b0b66a6ee2bcd8463d1b70f26d34fc1fa7d984b32f0c4ffda4f2931761189d"
+  },
+  {
+    "path": "Contents/Resources/app/LICENSE",
+    "type": "file",
+    "mode": 420,
+    "bytes": 1070,
+    "sha256": "358859ee80f9d8f43ff6d49d1ae09c6d4b7d9d1a4c8728630bf5f03bc45e3b4a"
+  },
+  {
+    "path": "Contents/Resources/app/THIRD_PARTY_NOTICES.md",
+    "type": "file",
+    "mode": 420,
+    "bytes": 9867,
+    "sha256": "f1675c22384910719998333e475541e394b729a4a9f72c9568e3717f07984eaa"
+  },
+  {
+    "path": "Contents/Resources/app/catalog-manifest.json",
+    "type": "file",
+    "mode": 420,
+    "bytes": 608700,
+    "sha256": "21c57e33a7b82fe88e64094758fd2fd3193f84ede1ba4c4e090762e0286b4092"
+  },
+  {
+    "path": "Contents/Resources/app/catalog.bin",
+    "type": "file",
+    "mode": 420,
+    "bytes": 1829832,
+    "sha256": "0a75a6f8f2c851b14a92dd363bab09aa7a1c987705c69e6badc71f16dde050b5"
+  },
+  {
+    "path": "Contents/Resources/app/licenses",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Resources/app/licenses/@adraffy_ens-normalize-1.11.1.txt",
+    "type": "file",
+    "mode": 420,
+    "bytes": 1077,
+    "sha256": "3b458813ab3316b16bf004c4201d4a0583cf615514422dabf4d7c025988d613d"
+  },
+  {
+    "path": "Contents/Resources/app/licenses/@noble_curves-1.2.0.txt",
+    "type": "file",
+    "mode": 420,
+    "bytes": 1109,
+    "sha256": "4f221aee6e072336700c408c68ab3b96a3fc09f6aebe6f48f1bd99e5ef13faec"
+  },
+  {
+    "path": "Contents/Resources/app/licenses/@noble_hashes-1.3.2.txt",
+    "type": "file",
+    "mode": 420,
+    "bytes": 1109,
+    "sha256": "4f221aee6e072336700c408c68ab3b96a3fc09f6aebe6f48f1bd99e5ef13faec"
+  },
+  {
+    "path": "Contents/Resources/app/licenses/LICENSE",
+    "type": "file",
+    "mode": 420,
+    "bytes": 1096,
+    "sha256": "5154e165bd6c2cc0cfbcd8916498c7abab0497923bafcd5cb07673fe8480087d"
+  },
+  {
+    "path": "Contents/Resources/app/licenses/LICENSES.chromium.html",
+    "type": "file",
+    "mode": 420,
+    "bytes": 19132085,
+    "sha256": "7f7b7dbc738503773824915bc87f754fd9f4c5f8f1d9ac22ed971f55f36e8f29"
+  },
+  {
+    "path": "Contents/Resources/app/licenses/aes-js-4.0.0-beta.5.txt",
+    "type": "file",
+    "mode": 420,
+    "bytes": 1081,
+    "sha256": "fca281420c800a4aae284a3b478b48b7a8d83c37285bbf2512bf52a5d597a503"
+  },
+  {
+    "path": "Contents/Resources/app/licenses/dependency-notices.json",
+    "type": "file",
+    "mode": 420,
+    "bytes": 830,
+    "sha256": "430735bc97ac6da95954c998df781ed21b78822bb42e6112e46a12ed939714fc"
+  },
+  {
+    "path": "Contents/Resources/app/licenses/ethers-6.17.0.txt",
+    "type": "file",
+    "mode": 420,
+    "bytes": 1075,
+    "sha256": "44eea86637405118248327fbe9d9fa95d04c7a57221c7e8c155f736db9f1b612"
+  },
+  {
+    "path": "Contents/Resources/app/licenses/tslib-2.7.0.txt",
+    "type": "file",
+    "mode": 420,
+    "bytes": 655,
+    "sha256": "210b19e543130388c68654b7497e967119ce17145f66ab7d85688fbd70f08751"
+  },
+  {
+    "path": "Contents/Resources/app/licenses/ws-8.21.0.txt",
+    "type": "file",
+    "mode": 420,
+    "bytes": 1183,
+    "sha256": "2b29dcfe0d6471f7e8c92c5fb38c9f93edee10330937055440192f1832b1ecef"
+  },
+  {
+    "path": "Contents/Resources/app/main.cjs",
+    "type": "file",
+    "mode": 420,
+    "bytes": 1569312,
+    "sha256": "2c6aa82b80fe2dd09b30d48b56c6795b9bb7466ec0568a1b4819db92a24abb85"
+  },
+  {
+    "path": "Contents/Resources/app/main.cjs.LEGAL.txt",
+    "type": "file",
+    "mode": 420,
+    "bytes": 543,
+    "sha256": "fcd141e9ef43369980cc49bd4a6452ac40b0b7334147c7da35b2047d1870571a"
+  },
+  {
+    "path": "Contents/Resources/app/native",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Resources/app/native/PhilUserPresence",
+    "type": "file",
+    "mode": 493,
+    "bytes": 152784,
+    "sha256": "b868096d3f22584f4a51d20121634c1a4d750687bbfa16eb71e297d89539c568"
+  },
+  {
+    "path": "Contents/Resources/app/package.json",
+    "type": "file",
+    "mode": 420,
+    "bytes": 140,
+    "sha256": "ac65f067b06a8a4a7bc91607c0abf3d52cf5d59c0c2e9b98634fa54efaf04e80"
+  },
+  {
+    "path": "Contents/Resources/app/preload.cjs",
+    "type": "file",
+    "mode": 420,
+    "bytes": 1167,
+    "sha256": "655694da027a7b9b4fcae552b43d9a0088d8eb9d57538db8d0613ba13616abfa"
+  },
+  {
+    "path": "Contents/Resources/app/public-config.json",
+    "type": "file",
+    "mode": 420,
+    "bytes": 36041,
+    "sha256": "ff96af7b927ec2520cc3288e819ba260fc89a4cb68a4cb2fe269e048056ccff7"
+  },
+  {
+    "path": "Contents/Resources/app/release.json",
+    "type": "file",
+    "mode": 420,
+    "bytes": 347,
+    "sha256": "1888450c450745c43d327257b31876e06259227fb2a09030b1c70e863373b937"
+  },
+  {
+    "path": "Contents/Resources/app/ui",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Resources/app/ui/app.js",
+    "type": "file",
+    "mode": 420,
+    "bytes": 32678,
+    "sha256": "e8b42e43d4202be94c59eec6a8149627a4ec581ba7b24ea5919244ce49c6ff6f"
+  },
+  {
+    "path": "Contents/Resources/app/ui/index.html",
+    "type": "file",
+    "mode": 420,
+    "bytes": 12669,
+    "sha256": "13e7a0d378373f02cab986b051c0a13910993cbcf90a0300d7112deb793c82af"
+  },
+  {
+    "path": "Contents/Resources/app/ui/phil-logo.png",
+    "type": "file",
+    "mode": 420,
+    "bytes": 296701,
+    "sha256": "1d9f5122d996fd5ce1631c09d2bffe86f19f77251561299ae439e9b351b83d0e"
+  },
+  {
+    "path": "Contents/Resources/app/ui/png-export.html",
+    "type": "file",
+    "mode": 420,
+    "bytes": 307,
+    "sha256": "4a5bd0932fdc03e8520942c7cb77745d79ca1d736ab85a2433a9bc45d3c5c728"
+  },
+  {
+    "path": "Contents/Resources/app/ui/png-export.js",
+    "type": "file",
+    "mode": 420,
+    "bytes": 595,
+    "sha256": "11ff19c347394f2f9e79b760943c87864b0322b47e75e6d0ff9310ddf7a6fd3a"
+  },
+  {
+    "path": "Contents/Resources/app/ui/style.css",
+    "type": "file",
+    "mode": 420,
+    "bytes": 6121,
+    "sha256": "beed7dd88e149d9fe9f151c15d4e61502794dd40f5145148cdc11a0c013d9801"
+  },
+  {
+    "path": "Contents/Resources/ar.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Resources/bg.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Resources/bn.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Resources/ca.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Resources/cs.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Resources/da.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Resources/de.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Resources/el.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Resources/electron.icns",
+    "type": "file",
+    "mode": 420,
+    "bytes": 272259,
+    "sha256": "5a9a78d54c157f55672afea37037464858a87fd5f276fc8206787f366ed684cf"
+  },
+  {
+    "path": "Contents/Resources/en.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Resources/en_GB.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Resources/es.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Resources/es_419.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Resources/et.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Resources/fa.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Resources/fi.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Resources/fil.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Resources/fr.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Resources/gu.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Resources/he.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Resources/hi.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Resources/hr.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Resources/hu.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Resources/id.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Resources/it.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Resources/ja.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Resources/kn.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Resources/ko.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Resources/lt.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Resources/lv.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Resources/ml.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Resources/mr.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Resources/ms.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Resources/nb.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Resources/nl.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Resources/pl.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Resources/pt_BR.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Resources/pt_PT.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Resources/ro.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Resources/ru.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Resources/sk.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Resources/sl.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Resources/sr.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Resources/sv.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Resources/sw.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Resources/ta.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Resources/te.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Resources/th.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Resources/tr.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Resources/uk.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Resources/ur.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Resources/vi.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Resources/zh_CN.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/Resources/zh_TW.lproj",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/_CodeSignature",
+    "type": "directory",
+    "mode": 493
+  },
+  {
+    "path": "Contents/_CodeSignature/CodeResources",
+    "type": "file",
+    "mode": 420,
+    "bytes": 13355,
+    "sha256": "dd1176bc6e17fe404179265a2962ea58ee602b374bda78f5df95791dde3fb76e"
+  },
+  {
+    "path": "Contents/embedded.provisionprofile",
+    "type": "file",
+    "mode": 420,
+    "bytes": 12288,
+    "sha256": "8c106a942eab55d85a7fc87f8c72e74c3caea0644717c30bb28e75f722f13f8c"
+  }
+]

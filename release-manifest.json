@@ -1,26 +1,27 @@
 {
   "schema": 1,
   "version": "0.3.0",
-  "build": "93",
+  "build": "95",
   "platform": "macOS arm64",
   "minimumMacOS": "12.0",
   "releaseType": "owner-selected-final-release",
-  "sourceHead": "c559066f4a98859c1b940a2761e8524914ac6f8e",
-  "sourceTree": "fc77615fa8f816fa2995af002e341a84b89fd12f",
+  "sourceHead": "e3911123f5d6f5b093f52ea08f60526238a8029e",
+  "sourceTree": "e100b5198a185a3aec00774f17cb06f761ce6304",
   "sourceDirty": false,
   "installer": {
-    "name": "Phil-0.3.0-93-macOS-arm64.dmg",
-    "sha256": "fd6307fceb1259eeded60f80fe4e5e2d9f4925eca26efab1b82d433221b582b7",
-    "bytes": 132867684
+    "name": "Phil-0.3.0-95-macOS-arm64.dmg",
+    "sha256": "3c088ac24248ae3f7812ae8f3723282e6f536f80fedfede236164c96f7ebb4cf",
+    "bytes": 132866877,
+    "url": "https://github.com/lengyeltyler/genesis-phil/releases/download/v0.3.0-build95/Phil-0.3.0-95-macOS-arm64.dmg"
   },
-  "applicationInventorySHA256": "788415750e9e31703312404f53ae035ae8653b65b61181b9be5848e4f4feee8d",
+  "applicationInventorySHA256": "7da0c557f6f9f1429457d7aac8aad5cef94eb2c1eb8d6034260ef489b244e3dc",
   "applicationNotarization": {
-    "id": "39d4a105-952a-4759-90c1-4a772c30f65d",
+    "id": "64014c25-7b64-4585-9b59-8bf573c59290",
     "status": "Accepted",
     "message": "Processing complete"
   },
   "dmgNotarization": {
-    "id": "37b48ccb-d10d-4779-9b84-0f31f5e04c8b",
+    "id": "2def12f7-c999-45dc-b763-dcfde56b973a",
     "status": "Accepted",
     "message": "Processing complete"
   },
@@ -33,23 +34,21 @@
   "publicOpensAt": 1789616160,
   "compatibleIdentityBuilds": [
     92,
-    93
+    93,
+    94,
+    95
   ],
   "requiresNewIdentityForBuildsThrough": 91,
   "changes": [
-    "Withdraw all defaults to available ETH minus maximum network fee",
-    "Custom ETH amount is optional and accepts leading decimal point",
-    "No changes to deployed contracts, configuration or identity/account derivation",
-    "Owner-provided app icon and home-button branding; version and build remain 0.3.0 (93)"
+    "Restore exact Build-93 presentation while retaining Build-94 functional/security source",
+    "Session Rolls counter counts generated Phils; undo adds none"
   ],
   "evidence": {
-    "localFocusedChecks": 6,
-    "isolatedUIFlows": 5,
-    "realWithdrawal": "owner confirmed on preceding Build 93 package; execution code unchanged",
-    "macBookProof": "owner test pending",
-    "brandingPreview": "visually checked",
-    "executionCodeConfigurationAndArtworkByteIdentical": true
+    "exactFiveFileDiff": "PASS",
+    "unexpectedFunctionalSecurityChanges": false,
+    "completePublicSourcePackageVerification": "PASS",
+    "verifierTests": 14
   },
-  "packageRevision": "branding-1",
-  "supersedesInstallerSHA256": "b00b80ee41a7ed3ee46226667c646e0a8e52934fd177f542e367cee46f629cee"
+  "packageRevision": "build93-visual-restoration",
+  "publicSourceTag": "v0.3.0-build95-source"
 }

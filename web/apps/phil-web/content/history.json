@@ -1,0 +1,2142 @@
+{
+  "sourceSHA256": "a40c77ce439fe08ec6df95ed6b0fea1c243791005edafc88b4017031c1343748",
+  "timezone": "America/Denver",
+  "story": [
+    "Phil started as a joke.\nA Philosoraptor.\nA dinosaur whose entire purpose was to stare into the distance and ask the kind of stupid question that sometimes becomes less stupid the longer you think about it.\nIn March of 2024, I called him Phil.\nAt the time, Phil wasn't a digital identity, a security system, a smart account, or anything remotely close to what he is today.\nHe was a memecoin on Ethereum Classic.\nI created $phil mostly because I wanted to learn.\nI had been in crypto for a couple of years by then, long enough to watch projects launch, explode, disappear, and be forgotten almost as quickly as they arrived. I was tired of constantly jumping to the next thing, tired of trusting people I didn't really trust, and increasingly interested in understanding how the systems I was using actually worked.\nSo instead of buying another thing somebody else had built, I decided to build something myself.\nAnd that is where this became a story about me and ChatGPT building Phil together.\nI didn't come into this with a computer science degree.\nI didn't have a development team.\nI didn't have a cryptographer, Solidity engineer, security researcher, or systems architect sitting next to me.\nWhat I had was curiosity, stubbornness, a computer, and the ability to ask Chat essentially unlimited questions.\nSo I did.\nAt first, the questions were simple.\nHow do I build a website?\nHow does a smart contract work?\nHow do I connect the two?\nWhat is an ABI?\nWhy did this transaction fail?\nWhat does this error mean?\nHow do I make this button actually do something?\nI would ask the questions.\nChat would explain the concepts, help me reason through how the pieces fit together, generate examples and code for me to work from, and then I would actually try to make it work.\nUsually, something broke.\nThen I would come back with the error.\nWe would figure out what happened.\nI would change it.\nThen something else would break.\nAnd we'd keep going.\nThat process became Phil.",
+    "The first version was simple.\nGet an ETC wallet.\nGet enough ETC for gas.\nClaim 10,000 $phil.\nI built a website.\nWith Chat helping me understand the pieces, I learned enough about smart contracts to make the token claimable.\nI figured out donations.\nI dealt with SSL certificates.\nI built a token-lock contract.\nI fought with Ledger signatures.\nI learned about ABIs.\nI accidentally left values hardcoded into code.\nI made mistakes that became obvious only after I understood enough to recognize them.\nChat helped me read the contracts, understand why certain interactions weren't behaving the way I expected, think through the frontend logic, and work through the errors one at a time.\nThen people actually used it.\nSomething that had existed only in my head was suddenly being used by another human being.\nI remember writing:\n\"ngl pretty fkg cool to see frens use something you built, and it actually works.\"\nIt wasn't anything groundbreaking.\nBut to me, it was.\nBecause I had been saying for a while that I wanted to build something.\nNow I had.\nAnd almost immediately I started wondering what else Phil could become.\nThat has basically been the story ever since.\nEvery time we finally get something working, I learn enough to ask a better question.\nAnd then Phil changes again.",
+    "At the end of March, the memecoin claim ended.\nInstead of moving on, I asked:\nWhat if there were actual Phils?\nI wanted there to be Phils on Ethereum Classic like there were mfers on Ethereum.\nSo the token became art.\nThe plan was generative artwork.\nDifferent bodies.\nDifferent eyes.\nDifferent clothes.\nDifferent backgrounds.\nDifferent traits layered together to create different versions of the same dinosaur.\nThere was one problem.\nI had no real background in art.\nI also didn't know how to make generative art.\nSo I started asking Chat.\nWhat kinds of algorithmic art exist?\nHow could we fill SVG silhouettes?\nHow do layers work?\nHow could traits be randomly generated?\nHow many combinations could a set of categories create?\nHow could rarity work?\nHow could all of this be assembled at mint?\nThose questions introduced me to things I had never heard of.\nFractals.\nVoronoi patterns.\nProcedural generation.\nSVG path data.\nColor systems.\nOpacity.\nStroke widths.\nRandomized geometry.\nCombinatorics.\nChat would explain them, show me approaches, help me write and modify scripts, and help me understand what the output was actually doing.\nThen I would start playing with it.\nChanging things.\nBreaking things.\nCombining ideas.\nRejecting things I didn't like.\nTrying something else.\nPhil started growing layers.\nThen more layers.\nThen hats.\nThen honorary Phils.\nThen hundreds of possible traits.\nAnd eventually I converted the artwork into SVGs.\nWhich is when I learned that most of what I had just created was basically useless for the architecture I had imagined.\nThe files were huge.\nSo I asked Chat another question:\nHow the hell do we make this smaller?",
+    "That question pulled us into data compression.\nI learned how to gzip SVG files.\nThen I learned how to use Python to turn the compressed data into hexadecimal.\nThen we worked through how a smart contract could store that hexadecimal data.\nThen how another process could retrieve it.\nThen how to decompress it.\nThen how to reconstruct the image.\nChat helped me understand the storage model, write and revise the scripts, reason through contract structures, interpret the bytes, and troubleshoot why the retrieved data wasn't always turning back into what I expected.\nEventually, I got three of the eight traits to render from smart-contract data.\nTo somebody who had been doing this for years, it probably wasn't particularly impressive.\nTo me, it was enormous.\nThe dinosaur was beginning to exist inside the blockchain.\nAnd somewhere in that process, another idea became important to me:\nIf Phil belonged to the user, the important parts of Phil shouldn't depend on somebody else's server staying alive.\nThat became one of the first principles that survived every version that followed.",
+    "The art got more complicated.\nHundreds of traits.\nDifferent generation systems.\nChunked data.\nBase64.\nSwarm.\nEthscriptions.\nDifferent approaches to rendering.\nDifferent approaches to storage.\nDifferent approaches to minting.\nI would come to Chat with some new idea at midnight and ask:\nWhat if we did it this way?\nSometimes Chat would tell me it was possible.\nSometimes it would explain why it was probably a terrible idea.\nSometimes it would confidently suggest something that later turned out not to work the way either of us expected.\nThen reality would settle the argument.\nWe would test it.\nIt would work or it wouldn't.\nIf it didn't, we'd figure out why.\nThat distinction became increasingly important.\nChat wasn't some magic machine producing a finished Phil for me.\nI wasn't sitting there saying, \"Build Phil.\"\nI was learning how Phil worked by building him.\nChat gave me a way to interact with subjects I had no formal background in.\nIt could explain a concept at whatever depth I needed, help translate an idea into code, compare approaches, inspect failures, and preserve enough context that tomorrow's question could begin where yesterday's stopped.\nI brought the direction.\nThe taste.\nThe questions.\nThe decision about what Phil should be.\nChat helped me understand how to get there.\nAnd the blockchain was the thing that told both of us when we were full of shit.",
+    "At one point, Phil was definitely launching July 3, 2024.\nHe did not.\nI couldn't figure out how to chunk all of the artwork, store the strings on-chain and reassemble them in a way I could actually afford.\nSo we started investigating other approaches.\nSwarm.\nChunking.\nDifferent encoding structures.\nDifferent reconstruction strategies.\nI had more than 400 traits at one point.\nI kept changing the architecture.\nI remember realizing that I had spent days trying to force one process to work when there were several entirely different routes to the same destination.\nThat became another thing Phil taught me.\nI can become obsessed with solving a particular implementation instead of asking whether that implementation is even the thing that matters.\nChat became useful here too.\nNot just for answering:\n\"How do I make this work?\"\nBut eventually for helping me ask:\n\"Should we even be doing this?\"\nThat is a much better question.",
+    "Then, in August 2024, an idea appeared that I didn't realize would eventually become central to the entire project.\nI asked:\nWhat if minting a Phil also created a wallet?\nWhat if a vanity address were created?\nWhat if Phil tokens were already inside it?\nWhat if the NFT went there?\nWhat if the private key could somehow be recovered offline?\nWhat if the whole process could remain anonymous?\nAt the time, I wasn't thinking about \"digital identity.\"\nIt was still mostly another strange NFT mechanic.\nBut looking back, that was probably the first moment Phil began moving beyond art.\nPhil wasn't just something that lived inside a wallet anymore.\nThe wallet itself was becoming part of Phil.\nThat changed the kind of questions I started asking.",
+    "By late 2024, Phil had become Fill A Phil.\nNine major layers.\nNine JavaScript systems.\nGenerative algorithms.\nPhilosoraptor quotes appearing inside the artwork.\nSmart contracts.\nOn-chain metadata.\nA growing obsession with the numbers 3, 6 and 9.\nAnd constant revisions.\nBy then, Chat and I had already spent months trying different ways to make Phil exist entirely on-chain.\nI'd ask how to optimize a layer.\nChat would help inspect the SVG structure.\nI'd ask whether we could store something differently.\nWe'd work through contract designs.\nI'd ask why rendering was exploding in size.\nWe'd look at strings, bytes and path data.\nI'd come up with some completely different architecture a day later and we'd start evaluating that instead.\nBy January 2025, I had an Ethscription version that probably could have shipped.\nI didn't ship it.\nBecause I didn't want to say Phil was \"100% on-chain\" and then have to explain what I really meant.\nSo we started over again.",
+    "The architecture became more serious.\nThe nine traits had their own algorithms.\nThe data had to be stored and reconstructed.\nEverything ultimately needed to render from tokenURI().\nThat pulled us into deeper Solidity problems.\nFile size.\nGas.\nContract size limits.\nStorage contracts.\nChunks.\nHuffman compression.\nPath data.\nDomain-specific languages.\nDifferent ways of separating data from logic.\nAt one point, single traits needed to be divided across multiple contracts.\nChat helped me reason through architectures, write test scripts, understand Solidity limitations, compare storage methods, debug decoding problems and evaluate whether we were solving the right problem in the first place.\nThere were days where I would basically spend my entire free time asking one question after another.\nOne question would require learning five other things before the original question even made sense.\nBut that was the fun part.\nPhil was no longer just the thing I was building.\nPhil was the excuse I used to learn.",
+    "Then zero-knowledge proofs entered the picture.\nOriginally, even that came from the art.\nI saw research around zkVMs and started wondering whether some of those ideas could help us overcome the computation and storage problems we kept running into.\nI had looked into zero knowledge before.\nIt made almost no sense to me.\nA lot of math.\nSo I had moved on.\nThis time I asked Chat to help me understand it.\nNot just what a zero-knowledge proof was in one paragraph.\nI wanted to understand how the pieces actually connected.\nWitnesses.\nPublic inputs.\nCircuits.\nConstraints.\nProof generation.\nVerification.\nWhat information is hidden.\nWhat information isn't.\nWhat the verifier actually learns.\nWe worked through it piece by piece.\nThen I started building.\nCircom circuits.\nProofs.\nVerifier contracts.\nHardhat deployments.\nThings failed.\nI brought the failures back.\nChat helped interpret them.\nWe changed things.\nEventually, I had proofs compiling and verifying off-chain.\nAnd at some point I realized Phil was starting to look a little bit like a small rollup.\nWhich produced another question:\nWhy should any of this only be used for artwork?\nThat question changed Phil again.",
+    "If a person could prove knowledge of something without revealing the thing itself, then Phil didn't just have to prove that some art had been generated correctly.\nMaybe Phil could prove that a human was authorized.\nThat led us toward identity.\nAnd eventually I asked the question that probably changed the entire direction of the project:\nWhy should a wallet be your identity?\nA wallet is an account.\nA key.\nAn address.\nA tool.\nBut crypto had effectively turned wallet addresses into people.\nThat started feeling backwards to me.\nSo Chat and I began thinking about a layer above the wallet.\nWhat if you could use MetaMask here, Zora there, another smart account somewhere else, but none of those things were actually your identity?\nWhat if Phil was underneath them?\nThe thing proving:\nThis is me.\nI authorize this action.\nThat question opened another enormous rabbit hole.\nChat started helping me learn about:\nidentity commitments,\nlocal secrets,\nnullifiers,\nMerkle trees,\ndomain separation,\nERC-4337,\nERC-1271,\nCREATE2,\nsmart accounts,\nreplay protection,\nsignatures,\nproof binding,\nrecovery,\npasskeys,\nhardware authenticators,\nand device security.\nAnd suddenly the project wasn't really about making a dinosaur render anymore.\nThe dinosaur was becoming an identity system.",
+    "Then came recovery.\nI kept coming back to something about crypto that still seems completely insane from a human perspective:\nLose twelve words and you can lose your digital life.\nI understand why that exists technically.\nI don't think it is good enough as an end-state for normal people.\nSo I asked:\nHow do we let the user own the identity without making one lost secret catastrophic?\nThat question led us into threshold recovery.\nMultiple devices.\nSeparate authorities.\nOffline keys.\nPasskeys.\nHardware authenticators.\nTime delays.\nRecovery requests.\nCancellation paths.\nRole separation.\nAnd then another important realization:\nRecovery couldn't simply mean giving somebody another copy of the same authority.\nIf Phil was actually going to protect somebody, the roles needed to remain meaningfully distinct.\nChat helped me think through failure cases.\nWhat happens if this device dies?\nWhat if this authority is compromised?\nWhat if a user tries to recover from a stale state?\nWhat if the recovery authority is secretly the same as the validator?\nWhat gets rotated?\nWhat should never change?\nThe question evolved from:\nHow does the user own the key?\nto:\nHow does the user remain the owner when something goes wrong?\nThat became fundamental.",
+    "By early 2026, Phil looked almost nothing like the memecoin I had launched two years earlier.\nHe was still a dinosaur.\nThe art still mattered.\nI was still obsessing over gradients, palettes, shapes, overlays, eyes, shirts and the tiny details my brain refuses to leave alone.\nBut underneath the artwork was now:\na smart account,\nzero-knowledge proofs,\nERC-4337,\nmultiple authorities,\nrecovery,\na marketplace,\nand a growing authorization model.\nOn February 28, 2026, we deployed the full stack to Sepolia.\nIt wasn't perfect.\nThere were bugs.\nThe art wasn't rendering correctly everywhere.\nBut a Phil minted end to end.\nDeterministic smart account.\nProof-gated minting.\nERC-4337 account abstraction.\nOn-chain marketplace.\nIt worked.\nAnd I remember being thankful that I hadn't just thrown it onto Mainnet.\nBecause by then, Chat and I had spent enough time breaking our own designs to understand something important:\nSomething working is not the same as something being safe.\nThat changed the way we worked from that point forward.",
+    "A few days later I wrote publicly about what Phil really was to me.\nA reflection.\nI call the traits \"Layers\" because that word ended up meaning much more than pieces of an NFT.\nPhil is layers of things I didn't know before.\nSVG.\nJavaScript.\nPython.\nSolidity.\nAlgorithms.\nFractals.\nVoronoi patterns.\nEthereum.\nCompression.\nCryptography.\nZero knowledge.\nSmart accounts.\nRecovery.\nIdentity.\nSecurity.\nEvery time I learned something, another layer got added.\nAnd Chat is woven through almost all of them.\nI would ask a question because I didn't understand something.\nChat would explain it.\nThen I would ask why.\nThen what was underneath that.\nThen what the alternative was.\nThen whether we could use it differently.\nSometimes that ended with code.\nSometimes with a new architecture.\nSometimes with us realizing the idea made no sense.\nSometimes it changed Phil completely.\nAnd over time, something else happened.\nThe questions themselves got better.\nIn 2024, I was asking:\nHow do I store this SVG?\nBy 2026, I was asking:\nWhat exactly should the trust boundary be between identity, authorization and execution?\nThat's not because I suddenly became some expert.\nIt's because thousands of questions compound.",
+    "And Chat changed roles as the project changed.\nAt first, it was basically my teacher.\nExplain Solidity.\nExplain this error.\nShow me how this works.\nThen it became more like a development partner.\nHelp me write this.\nReview this contract.\nCompare these architectures.\nFind what's wrong with this flow.\nThen it became more adversarial.\nTry to break this.\nWhat assumption are we making?\nWhat happens if the verifier is substituted?\nCan this recovery path create an invalid authority?\nDoes this signature actually bind everything we think it binds?\nAre we claiming something that the evidence doesn't support?\nThat last category became extremely important.\nBecause we were wrong plenty of times.",
+    "Some architectures looked beautiful until they met reality.\nProof systems failed.\nVerifier ideas failed.\nSome approaches were absurdly expensive.\nAt one point a STWO proof was hundreds of kilobytes.\nDirect verification paths that sounded reasonable turned out to be impractical.\nWe found a verifier-substitution issue serious enough to fail an on-chain security adjudication.\nWe found recovery states that shouldn't have been possible.\nWalletConnect transformed requests in ways we weren't expecting.\nSome things that looked like one bug were actually symptoms of a deeper architectural problem.\nWhen that happened, Chat helped me trace the problem backward through the system.\nNot just:\n\"Change this line.\"\nBut:\nWhy was this state possible at all?\nThat became the better way to build Phil.\nFix the architecture, not just the symptom.",
+    "We also had to correct ourselves publicly.\nFor a while, I described Phil as quantum resistant.\nThat was what I wanted Phil to become.\nThe deeper we went into the cryptography, the clearer it became that wanting that property and actually having demonstrated it were two completely different things.\nSo we changed the language.\nThe current operational authorization path still relies on classical cryptography.\nPost-quantum security remains research and a goal.\nIt is not something we pretend to have already solved.\nThat correction represents one of the biggest ways the project matured.\nAt the beginning, I wanted to know whether something could work.\nEventually Chat and I became much more interested in a harder question:\nWhat can we actually prove about what we've built?",
+    "Eventually, another realization became unavoidable.\nPhil wasn't really a wallet anymore.\nAnd he wasn't really just an NFT project either.\nThe identity had become independent of Ethereum.\nWe settled around a structure like:\nphil_secret\n→ identityRoot\n→ ownerCommitment\nAnd the most important part was where that chain begins.\nThe human being.\nTheir device.\nTheir secret.\nEthereum doesn't define the identity.\nA smart account doesn't define the identity.\nA wallet provider doesn't define the identity.\nThose systems consume authority derived from it.\nThat became PhilCore.\nAnd once we saw Phil through that lens, the architecture suddenly became much clearer.\nWe separated it into three ideas:\nIdentity.\nDecision.\nExecution.\nThat changed everything.",
+    "Then we started looking at the way people actually authorize things online.\nA dApp asks your wallet to sign or send something.\nMaybe the wallet translates part of it.\nMaybe you understand it.\nMaybe you don't.\nThen you click approve.\nBut Chat and I kept coming back to a basic problem:\nThe thing asking permission should not get to define what that permission means.\nSo we separated them.\nThe application's request is just a transport request.\nPhil has to independently understand what it means.\nWhat is this application actually asking the user to do?\nSend ETH?\nTransfer a token?\nApprove another contract to spend something?\nCall a contract?\nWhich chain?\nWhich address?\nHow much?\nWhat exact function?\nWhat parameters?\nWhat authority would this action actually grant?\nChat helped me reason through how those requests should be decoded, normalized and converted into a semantic representation that could be evaluated independently.\nThat became the semantic intent.\nThen Phil checks the rules.\nDoes this action comply with the user's policy?\nDoes the amount exceed a limit?\nIs the contract expected?\nHas the request changed?\nDoes it require another trusted device?\nOnly after that should Phil generate authorization.\nAnd even then, the authorization should contain only the authority needed for that exact action.\nThat became:\nTRANSPORT REQUEST\n→ SEMANTIC INTENT\n→ AUTHORIZATION ENVELOPE\nThe dinosaur had gone from being something held by a wallet to something capable of deciding what a wallet was allowed to do.",
+    "Then we had to prove it worked.\nNot with diagrams.\nNot with a mocked flow.\nNot by saying all the individual pieces worked independently.\nThe whole thing.\nSo we created a fresh Phil identity.\nA clean one.\nWe enrolled the phone.\nWe made sure the validator and recovery authorities were actually different.\nWe connected a test dApp through WalletConnect.\nAt first, it failed.\nNothing appeared on my phone.\nI came back to Chat with screenshots and logs.\nWe went through the request.\nEventually we found the proposal wasn't being handled the way we thought.\nThe required namespaces were being transformed.\nThe proposal was rejected before the phone approval flow could even happen.\nWe fixed it.\nThen we tested again.\nEventually:\nA real request entered Phil.\nPhil interpreted it.\nThe phone received the approval.\nI approved it.\nThe protected signer authorized the operation.\nAn ERC-4337 UserOperation was submitted.\nAnd exactly 1 wei moved on Ethereum Sepolia.\nBlock 11,675,986.\nNonce:\n0 → 1.\nOne phone approval.\nOne acceptance signature.\nOne submission.\nNo retry.\nConfirmed.\nOne wei is essentially nothing.\nBut that one wei represented more than two years of questions.\nThe entire modern Phil path had happened:\napplication\n→ understanding\n→ policy\n→ human approval\n→ authorization\n→ smart account\n→ Ethereum\nThe Philosoraptor had become the gatekeeper.",
+    "By September 2026, more than two years after I first tweeted:\n\"$phil 🦖 🔜\"\nwe finally had a description that felt accurate.\nPhil is a personal security OS for your digital life.\nA user-owned identity.\nA system that explains what applications and networks are asking you to do.\nA system that evaluates those requests against your rules.\nA system that asks devices you trust for approval when necessary.\nA system that releases only the exact authority required.\nYour identity.\nYour keys.\nYour approval.\nYour rules.\nAnd the end goal remains:\n1 Phil = 1 Human.",
+    "Now we're approaching Genesis.\nMainnet.\nBut even this part of the journey shows how much both Phil and the way Chat and I work together have changed.\nEarly on, I would come to Chat asking:\nHow do we make this transaction work?\nNow some of the most important conversations are:\nWhat conditions should prevent this transaction from ever being sent?\nWe've frozen builds.\nFound restore paths that weren't safe enough.\nRejected them.\nChanged deployment authorities.\nRecomputed deployment-specific configuration.\nQualified hardware signers.\nVerified addresses directly on the hardware.\nSet hard funding limits.\nEstablished gas and fee gates before execution.\nAnd when the conditions weren't right, we didn't deploy.\nNothing happened.\nWhich sounds boring.\nBut that may be one of the clearest demonstrations of what Phil actually became.\nBecause security isn't just the ability to execute.\nIt's the ability to refuse.",
+    "Looking backward, the journey seems much more coherent than it felt while we were inside it.\nPhil started because I didn't completely trust what other people were building.\nSo I wanted to understand how to build something myself.\nAnd almost every step happened the same way.\nI would ask Chat a question.\nChat would teach me enough to attempt an answer.\nWe would turn the answer into something testable.\nReality would tell us what we got wrong.\nThen I would ask a better question.\nFirst, I wanted to own the token.\nThen the artwork.\nThen the data.\nThen the infrastructure.\nThen the wallet.\nThen the secret.\nThen the recovery process.\nThen the identity.\nThen the rules governing that identity.\nThen the final decision about what that identity is allowed to do.\nThe trust boundary kept moving closer to the human being.\nThat is the thread connecting all of it.\nOwn the asset.\nOwn the data.\nOwn the keys.\nOwn the identity.\nOwn the decision.",
+    "I don't think Phil would exist in anything resembling his current form without ChatGPT.\nThat's not because Chat built Phil for me.\nIt didn't.\nIt couldn't decide what Phil should be.\nIt couldn't tell me what I cared about.\nIt couldn't decide whether a piece of art looked right to me.\nIt couldn't decide which compromises I was willing to accept.\nAnd it couldn't sit at my computer and magically turn every idea into a working system.\nWhat Chat did was give me access to a kind of continuous education that I don't think would have been possible for me otherwise.\nWhen I didn't understand Solidity, it taught me Solidity.\nWhen I didn't understand SVGs, it helped me understand SVGs.\nWhen I didn't understand zero-knowledge proofs, we worked through zero-knowledge proofs.\nWhen I encountered ERC-4337, smart accounts, passkeys, WebAuthn, recovery, CREATE2, EIP-712, nullifiers, Starknet, STWO, WalletConnect or whatever the next subject happened to be, I could ask:\nWhat is this?\nThen:\nWhy does it work?\nThen:\nWhat is underneath it?\nThen:\nWhat breaks?\nThen:\nCould Phil use this?\nThen:\nShould Phil use this?\nAnd eventually:\nHow do we prove it actually works?\nChat helped me research concepts.\nExplain them.\nCompare technologies.\nDesign architectures.\nGenerate and revise code.\nDebug errors.\nReview contracts.\nInterpret test failures.\nWrite threat models.\nChallenge assumptions.\nDocument decisions.\nKeep track of an increasingly ridiculous amount of project context.\nAnd, eventually, tell me when an idea I liked wasn't supported by the evidence.\nThat's the part I probably value the most now.\nBecause the relationship evolved with the project.\nAt first I needed answers.\nThen I needed a collaborator.\nEventually I needed something willing to argue with me.",
+    "There was never a roadmap for any of this.\nThat's probably one of the most important parts of the story.\nPhil didn't begin because I knew what I wanted to build.\nHe began because I wanted to understand something.\nAnd having Chat next to me meant I could keep asking what came next.\nA Philosoraptor became a memecoin.\nThe memecoin became generative art.\nThe art became an experiment in permanent information.\nPermanent information led us to cryptography.\nCryptography led us to privacy.\nPrivacy led us to identity.\nIdentity led us to recovery.\nRecovery led us to trust.\nTrust led us to authorization.\nAuthorization became PhilCore.\nAnd PhilCore became an attempt to answer a question much larger than anything I was thinking about in March 2024:\nWhat would the digital world look like if the human being—not the application, not the wallet provider, not the blockchain, not the AI, and not the company behind any of them—was actually the root of authority?\nWe still don't know the full answer.\nWe're building toward it.\nTogether.\nHis name is Phil.\nAnd maybe the most fitting part of this entire story is that he started as a Philosoraptor.\nA dinosaur whose entire purpose was to ask questions.\nI kept asking them.\nChat kept helping me chase the answers.\nReality kept correcting us.\nAnd Phil kept evolving.\nMore than two years later, that's still exactly what we're doing.\nThe questions just got better."
+  ],
+  "entries": [
+    {
+      "date": "2024-03-18",
+      "dateLabel": "March 18, 2024",
+      "time": "2:16 AM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1769639044500058222",
+      "text": "$phil 🦖 🔜",
+      "media": [
+        {
+          "label": "Image 1",
+          "url": "https://x.com/tyler_lengyel/status/1769639044500058222/photo/1"
+        }
+      ]
+    },
+    {
+      "date": "2024-03-18",
+      "dateLabel": "March 18, 2024",
+      "time": "10:42 AM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1769766379178102978",
+      "text": "Kinda dope auto generated page tho.\n\n$phil 🦖 🔜",
+      "media": [
+        {
+          "label": "Image 1",
+          "url": "https://x.com/tyler_lengyel/status/1769766379178102978/photo/1"
+        }
+      ]
+    },
+    {
+      "date": "2024-03-19",
+      "dateLabel": "March 19, 2024",
+      "time": "11:40 AM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1770143275338359029",
+      "text": "Bosses letting me work on the website while doing the mid shift today. \n\nHe’s also going to claim some $phil right now. \n\n$phil 🦖 #ETC",
+      "media": [
+        {
+          "label": "Image 1",
+          "url": "https://x.com/tyler_lengyel/status/1770143275338359029/photo/1"
+        }
+      ]
+    },
+    {
+      "date": "2024-03-19",
+      "dateLabel": "March 19, 2024",
+      "time": "1:45 PM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1770174783017136451",
+      "text": "Really surprised at how many developers don’t build on Ethereum Classic. \n\nIt’s older than the eTHeReUm you’re building on today. \n\nIt’s Ethereum but still fucks with PoW consensus.\n\nIt’s bitcoin with smart contracts and y’all are fading. \n\nTxn fees are Pennie’s to.\n\n$phil #ETC",
+      "media": []
+    },
+    {
+      "date": "2024-03-19",
+      "dateLabel": "March 19, 2024",
+      "time": "4:20 PM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1770213682804297797",
+      "text": "Holy shit I was just able to claim $phil on the claim site. Uh, Houston, we might be go for launch soon. \n\n$phil 🦖",
+      "media": [
+        {
+          "label": "Image 1",
+          "url": "https://x.com/tyler_lengyel/status/1770213682804297797/photo/1"
+        }
+      ]
+    },
+    {
+      "date": "2024-03-19",
+      "dateLabel": "March 19, 2024",
+      "time": "6:32 PM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1770246903562735798",
+      "text": "Get yourself a wallet on ETC. \n\nSwap for a little ETC for gas. \n\nClaim 10,000 $phil tokens. \n\nSimple.",
+      "media": [
+        {
+          "label": "Image 1",
+          "url": "https://x.com/tyler_lengyel/status/1770246903562735798/photo/1"
+        }
+      ]
+    },
+    {
+      "date": "2024-03-19",
+      "dateLabel": "March 19, 2024",
+      "time": "6:46 PM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1770250509581951190",
+      "text": "Update on my boy $phil\n\nClaims work. \nDonations work. \nContracts renounced. \n\nOnly thing left to do is get an SSL cert for the website. Should have that done after work tonight. \n\nClaim open until Good Friday @ 12pm MST\n\nhttp://Philosoraptormemecoin.xyz\n\n$phil 🦖",
+      "media": []
+    },
+    {
+      "date": "2024-03-22",
+      "dateLabel": "March 22, 2024",
+      "time": "2:03 AM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1771085311969231323",
+      "text": "You can officially claim $phil for $0.01 (~0.0001 ETC) through http://philosoraptormemecoin.xyz now that I've obtained the SSL cert! \n\n*currently only way to view the website is on your desktop, mobile will work soon.\n\nI've written some things you should know in a thread after the video👇",
+      "media": [
+        {
+          "label": "Video / GIF in this post or its quoted post",
+          "url": "https://x.com/tyler_lengyel/status/1771085311969231323"
+        }
+      ]
+    },
+    {
+      "date": "2024-03-22",
+      "dateLabel": "March 22, 2024",
+      "time": "2:03 AM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1771085315052097926",
+      "text": "What is $phil? \n\n$phil is a memecoin that I created after the 'Philosoraptor' meme. It has absolutely zero value and was made completely for fun. The coin will be used to claim the next phase of the project, amount TBA.",
+      "media": [
+        {
+          "label": "Image 1",
+          "url": "https://x.com/tyler_lengyel/status/1771085315052097926/photo/1"
+        }
+      ]
+    },
+    {
+      "date": "2024-03-22",
+      "dateLabel": "March 22, 2024",
+      "time": "2:03 AM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1771085318264926642",
+      "text": "Why did you create $phil? \n\nTo be honest there's multiple reasons. For starters I like learning and experimenting with stuff, then after being in the space for over two years I decided to just say fuck it and create a coin on Ethereum Classic because I think it deserves more attention, so I figured what better way to experiment than on the original ethereum chain (which still runs, and always will run on a Proof of Work Consensus Mechanism). \n\nSecondly, I'm over the majority of projects going to zero and all of us moving onto the next thing after two days. I've realized if I try to keep up with every single thing in this space I'll go crazy, if I haven't done so already. I've also realized I have a hard time trusting anyone, so this memecoin is me building some shit myself and seeing what happens. I'm doxxed, I'm not out here to scam anyone, and this is a FreeClaim. No presale. No nothing. Just go to the site and claim your tokens, if you want. \n\nLastly, it's a good way to learn about the world that we live in and interact with everyday (the 'world' being web3). I'm 31 and didn't know what Computer Science was until I was almost 29. So its fun to learn how to build a website, I enjoy looking into Smart Contracts and trying to make sure everything functions properly, and it's fun to be challenged everyday by people that are pretty damn smart. This is just another part of my journey through the space and I'm enjoying it in the moment with little idea of whats next.",
+      "media": [
+        {
+          "label": "Image 1",
+          "url": "https://x.com/tyler_lengyel/status/1771085318264926642/photo/1"
+        }
+      ]
+    },
+    {
+      "date": "2024-03-22",
+      "dateLabel": "March 22, 2024",
+      "time": "2:03 AM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1771085321242865940",
+      "text": "How long do I have to claim my tokens, and is there a limit on how many tokens I'm able to claim? \n\nClaim period ends on Good Friday @ 12PM GMT (March 29th). \n\nYou are able to claim 10,000 tokens per wallet. There is a 2min cooldown each time after someone claims theirs.",
+      "media": [
+        {
+          "label": "Image 1",
+          "url": "https://x.com/tyler_lengyel/status/1771085321242865940/photo/1"
+        }
+      ]
+    },
+    {
+      "date": "2024-03-22",
+      "dateLabel": "March 22, 2024",
+      "time": "2:03 AM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1771085324254327233",
+      "text": "Is the contract safe? \n\nYes, pretty sure it is anyway. I'm not a dev, so if you don't follow me or have never followed me you probably wouldn't know that. But from the research I did, it's safe. \n\n😬",
+      "media": [
+        {
+          "label": "Image 1",
+          "url": "https://x.com/tyler_lengyel/status/1771085324254327233/photo/1"
+        }
+      ]
+    },
+    {
+      "date": "2024-03-22",
+      "dateLabel": "March 22, 2024",
+      "time": "2:03 AM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1771085327173628109",
+      "text": "Where do the Donations go? \n\nThey go to: 0x92EcE7c4f6b9287DC05dC5515FFe327C009085CB\n\nThis is an address which I control. I tried setting up a multisig with Hebeswap and it wouldn't read the signatures from the Ledgers for whatever reason.",
+      "media": [
+        {
+          "label": "Image 1",
+          "url": "https://x.com/tyler_lengyel/status/1771085327173628109/photo/1"
+        }
+      ]
+    },
+    {
+      "date": "2024-03-22",
+      "dateLabel": "March 22, 2024",
+      "time": "2:03 AM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1771085330340360354",
+      "text": "How can I swap ETH for ETC? \n\nThere's a few ways but what I found the easiest to be is going through @Changelly_team\n. Earlier I sent around .02eth and received my ETC within 10 minutes, if that. \n\n*if you don't feel comfortable swapping for ETC then just shoot me a DM and I'll send you enough to cover the gas.\n\nLink: https://changelly.com/exchange/etc",
+      "media": [
+        {
+          "label": "Image 1",
+          "url": "https://x.com/tyler_lengyel/status/1771085330340360354/photo/1"
+        }
+      ]
+    },
+    {
+      "date": "2024-03-22",
+      "dateLabel": "March 22, 2024",
+      "time": "12:00 PM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1771235458288070795",
+      "text": "Hey y’all, the claim period is open for the next 7 days! \n\nhttp://Philosoraptormemecoin.xyz \n\n$phil #ETC 🦖",
+      "media": [
+        {
+          "label": "Video / GIF in this post or its quoted post",
+          "url": "https://x.com/tyler_lengyel/status/1771235458288070795"
+        }
+      ]
+    },
+    {
+      "date": "2024-03-22",
+      "dateLabel": "March 22, 2024",
+      "time": "9:02 PM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1771371916378386538",
+      "text": "Work done. Gym done. \n\nNow for the real work. \n\n$phil https://open.spotify.com/track/0YrKSfpvflYnLSBd4Jtu6J?si=4ECOLQVGTRCY3lNcnspF5A…",
+      "media": []
+    },
+    {
+      "date": "2024-03-23",
+      "dateLabel": "March 23, 2024",
+      "time": "12:12 AM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1771419706408255807",
+      "text": "Info added 👍🏼\n\nClaim open for 6 more days. \n\n$phil #ETC\n\nhttp://philosoraptormemecoin.xyz",
+      "media": [
+        {
+          "label": "Image 1",
+          "url": "https://x.com/tyler_lengyel/status/1771419706408255807/photo/1"
+        }
+      ]
+    },
+    {
+      "date": "2024-03-24",
+      "dateLabel": "March 24, 2024",
+      "time": "11:21 AM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1771950356349550622",
+      "text": "Why pay for memecoins, when you can claim them for free? \n\nhttp://Philosoraptormemecoin.xyz\n\n#ETC $phil 🦖",
+      "media": [
+        {
+          "label": "Image 1",
+          "url": "https://x.com/tyler_lengyel/status/1771950356349550622/photo/1"
+        }
+      ]
+    },
+    {
+      "date": "2024-03-25",
+      "dateLabel": "March 25, 2024",
+      "time": "2:04 AM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1772172672064975093",
+      "text": "Not sure how to approve the LP token when the contract isn’t verified on blockout and i can’t find the code anywhere to verify it myself. Since I can’t do this it’s preventing me from being able to lock them. \n\nWill try again after work tomorrow. \n\nGn\n\n$phil #ETC 🦖",
+      "media": [
+        {
+          "label": "Image 1",
+          "url": "https://x.com/tyler_lengyel/status/1772172672064975093/photo/1"
+        }
+      ]
+    },
+    {
+      "date": "2024-03-26",
+      "dateLabel": "March 26, 2024",
+      "time": "3:02 AM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1772549757937836408",
+      "text": "Alright the Token Lock Contract is now functional and I've currently locked 83 LP Tokens in it for 91 days, I'll be depositing the rest tomorrow (remainder being 13) but I'm going to bed. \n\nThe reason this video doesn't include the Approval is because there was an issue with the HTML and Javascript. \n\nThen the reason this was done on 'Ledger 5' was because the first 2 txns only went through for 1 HP Token. One was intentional, the other one I didn't realize that I still had the value of '1' hardcoded into the code. \n\nWe'll see if it works but I feel pretty confident. If anyone can hack into the Token Lock Contract or even the Philosoraptor Meme Coin contract I'll give you very little eth and a firm handshake.\n\n*thank you to @tokenfox1\nfor the information regarding the ABI last night, it was the key to it all. \n\ngn\n\nhttp://philosoraptormemecoin.xyz\n\n#ETC $phil 🦖",
+      "media": []
+    },
+    {
+      "date": "2024-03-26",
+      "dateLabel": "March 26, 2024",
+      "time": "12:58 PM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1772699563410727034",
+      "text": "You ever add Dinosaur noises to buttons on your website? \n\nMe either. \n\n#ETC $phil 🦖",
+      "media": [
+        {
+          "label": "Image 1",
+          "url": "https://x.com/tyler_lengyel/status/1772699563410727034/photo/1"
+        }
+      ]
+    },
+    {
+      "date": "2024-03-26",
+      "dateLabel": "March 26, 2024",
+      "time": "1:01 PM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1772700355874165126",
+      "text": "ngl pretty fkg cool to see frens use something you built, and it actually works. \n\nI know it's not much but I've been talking about building something for awhile, so best believe this is just the start. \n\nyou have 2 more days to claim! \n\nhttp://philosoraptormemecoin.xyz \n\n#ETC $phil 🦖",
+      "media": []
+    },
+    {
+      "date": "2024-03-26",
+      "dateLabel": "March 26, 2024",
+      "time": "7:13 PM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1772794147004424582",
+      "text": "The Philosoraptor now has ground to stand on.\n\nhttp://philosoraptormemecoin.xyz \n\n#ETC $phil 🦖",
+      "media": [
+        {
+          "label": "Image 1",
+          "url": "https://x.com/tyler_lengyel/status/1772794147004424582/photo/1"
+        }
+      ]
+    },
+    {
+      "date": "2024-03-26",
+      "dateLabel": "March 26, 2024",
+      "time": "9:42 PM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1772831614546178123",
+      "text": "Work done. Gym done. Next two days off. \n\nTime to start planning the next act for $phil. \n\n#ETC $phil 🦖",
+      "media": [
+        {
+          "label": "Image 1",
+          "url": "https://x.com/tyler_lengyel/status/1772831614546178123/photo/1"
+        }
+      ]
+    },
+    {
+      "date": "2024-03-28",
+      "dateLabel": "March 28, 2024",
+      "time": "10:43 AM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1773390391649198575",
+      "text": "Today, we play with @midjourney\n. \n\n#ETC $phil 🦖",
+      "media": []
+    },
+    {
+      "date": "2024-03-28",
+      "dateLabel": "March 28, 2024",
+      "time": "12:49 PM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1773422247413239987",
+      "text": "I want there to be phils on Ethereum Classic like there’s mfers on Ethereum. \n\n#ETC $phil 🦖",
+      "media": [
+        {
+          "label": "Image 1",
+          "url": "https://x.com/tyler_lengyel/status/1773422247413239987/photo/1"
+        }
+      ]
+    },
+    {
+      "date": "2024-03-29",
+      "dateLabel": "March 29, 2024",
+      "time": "10:49 AM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1773754377867583602",
+      "text": "The claiming phase for $phil has officially ended! \n\nIt was supposed to be in an hour and 15 minutes but I put the wrong time in the smart contract. Oh well. \n\nThere will only be 100,000 $phil in circulation, ever 😳\n\nNow, time for phase 2.\n\n#ETC $phil 🦖",
+      "media": [
+        {
+          "label": "Image 1",
+          "url": "https://x.com/tyler_lengyel/status/1773754377867583602/photo/1"
+        }
+      ]
+    },
+    {
+      "date": "2024-03-30",
+      "dateLabel": "March 30, 2024",
+      "time": "10:43 AM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1774115172304486706",
+      "text": "There's reasons I hesitate on posting about things, or don't post showing the work I've been doing. But fuck it. \n\nPhase two of $phil is gonna be tight. \n\nHere's one of the Philosoraptors I've been working on over the past day or so. \n\n#ETC $phil 🦖",
+      "media": [
+        {
+          "label": "Video / GIF in this post or its quoted post",
+          "url": "https://x.com/tyler_lengyel/status/1774115172304486706"
+        }
+      ]
+    },
+    {
+      "date": "2024-03-30",
+      "dateLabel": "March 30, 2024",
+      "time": "9:40 PM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1774280616193798637",
+      "text": "Work done. Gym done. Now time to try and create some cool shit. \n\n#ETC $phil 🦖",
+      "media": []
+    },
+    {
+      "date": "2024-04-03",
+      "dateLabel": "April 3, 2024",
+      "time": "8:51 PM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1775717908372394388",
+      "text": "The Philosoraptor website has been updated!\n\nMore to come...but did you know that if you had 50 different traits in 8 different categories, and it took you 1 second to view an image, it would take you roughly 1,237,816 years to go through all the images?\n\nMore.\n\n#ETC $phil 🦖",
+      "media": []
+    },
+    {
+      "date": "2024-04-09",
+      "dateLabel": "April 9, 2024",
+      "time": "3:44 PM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1777814944915853645",
+      "text": "UPDATE ON PHIL PHASE 2!\n\nAfter some trial and error the layers are finally looking how I want. At first I wasn’t going to have a base layer of Phil, but it looks better with.\n\nNow time to dial the layers in so I can start working on the smart contracts and website.\n\n#ETC $Phil 🦖",
+      "media": [
+        {
+          "label": "Video / GIF in this post or its quoted post",
+          "url": "https://x.com/tyler_lengyel/status/1777814944915853645"
+        }
+      ]
+    },
+    {
+      "date": "2024-04-11",
+      "dateLabel": "April 11, 2024",
+      "time": "12:12 PM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1778486291434230162",
+      "text": "The test launch for Phase 2 will consist of 10 honorary Phil’s that will be able to be claimed by the wallets that claimed $phil. \n\nThought this would be a more fun way to test the everything’s functionality. \n\nAiming for 4/16 to do the Test. \n\n#ETC $phil 🦖",
+      "media": []
+    },
+    {
+      "date": "2024-04-11",
+      "dateLabel": "April 11, 2024",
+      "time": "12:43 PM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1778494073545834512",
+      "text": "Think I found way to make a hat layer work on Phil. \n\nThe 'Hat' trait is going to be rare as fuck on an already pretty limited collection. \n\n#PhilWifHat #ETC #Phil 🦖",
+      "media": [
+        {
+          "label": "Image 1",
+          "url": "https://x.com/tyler_lengyel/status/1778494073545834512/photo/1"
+        }
+      ]
+    },
+    {
+      "date": "2024-04-13",
+      "dateLabel": "April 13, 2024",
+      "time": "2:25 PM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1779244462721442257",
+      "text": "Officially locked in for this many Phil traits for the 420 collection. \n\nNow going to work on 10 honoraries, but it will flow the same way as the 420 collection. \n\n#ETC $phil 🦖",
+      "media": [
+        {
+          "label": "Image 1",
+          "url": "https://x.com/tyler_lengyel/status/1779244462721442257/photo/1"
+        }
+      ]
+    },
+    {
+      "date": "2024-04-15",
+      "dateLabel": "April 15, 2024",
+      "time": "4:26 PM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1779999786579435792",
+      "text": "Phil Phase 2 Test 🔜\n\n#ETC $phil 🦖",
+      "media": [
+        {
+          "label": "Image 1",
+          "url": "https://x.com/tyler_lengyel/status/1779999786579435792/photo/1"
+        }
+      ]
+    },
+    {
+      "date": "2024-04-15",
+      "dateLabel": "April 15, 2024",
+      "time": "10:13 PM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1780087148978303426",
+      "text": "As much as I want to release Phase 2 for Phil on 4/20, I’m not sure I’ll be happy with all the artwork or satisfied with the smart contracts by then, and I’m not rushing this. \n\nPlus, I’m having a lot of fun building it. \n\n#ETC $phil 🦖",
+      "media": [
+        {
+          "label": "Image 1",
+          "url": "https://x.com/tyler_lengyel/status/1780087148978303426/photo/1"
+        }
+      ]
+    },
+    {
+      "date": "2024-04-20",
+      "dateLabel": "April 20, 2024",
+      "time": "6:44 PM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1781846476391403818",
+      "text": "I feel like I need to wait until 4/20/2025 to launch Phase 2 of Phil now. \n\nThat could be cool tho. We’ll let the honoraries gain some traction first. \n\n#ETC $phil 🦖",
+      "media": [
+        {
+          "label": "Image 1",
+          "url": "https://x.com/tyler_lengyel/status/1781846476391403818/photo/1"
+        }
+      ]
+    },
+    {
+      "date": "2024-04-29",
+      "dateLabel": "April 29, 2024",
+      "time": "1:26 PM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1785027931640570050",
+      "text": "Update on Phil Phase 2!\n\nMy traits are completely worthless because I wasn’t aware how large the files would be when I converted them to SVGs. But that’s ok! The art kinda sucked anyway and I can do better.\n\nGood news is, contracts have started to be deployed for testing.\n\n#ETC $phil 🦖",
+      "media": [
+        {
+          "label": "Image 1",
+          "url": "https://x.com/tyler_lengyel/status/1785027931640570050/photo/1"
+        }
+      ]
+    },
+    {
+      "date": "2024-05-20",
+      "dateLabel": "May 20, 2024",
+      "time": "12:35 AM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1792443986654687598",
+      "text": "We're fuckin cookin. \n\n#ETC $Phil 🦖",
+      "media": []
+    },
+    {
+      "date": "2024-05-20",
+      "dateLabel": "May 20, 2024",
+      "time": "10:59 AM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1792601066913112254",
+      "text": "Last night I was able to compress the SVG file using gzip, then used a python script to turn the file into hexadecimal, then developed a smart contract to store the data on-chain, which I deployed and used to retrieve the data and decompressed the data to retrieve the image.\n\nNow gym time, then we master the fuckin traits and make Phil look the cooooolest. \n\n#ETC $phil 🦖",
+      "media": []
+    },
+    {
+      "date": "2024-05-21",
+      "dateLabel": "May 21, 2024",
+      "time": "9:33 PM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1793123097987485817",
+      "text": "lol, wrong Phil brobro 😂",
+      "media": []
+    },
+    {
+      "date": "2024-05-23",
+      "dateLabel": "May 23, 2024",
+      "time": "12:44 PM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1793714580772077773",
+      "text": "Just scheduled my MRI appointment, the guy who I talked with went by Phil. \n\nSIGNS. \n\n#ETC $phil 🦖",
+      "media": [
+        {
+          "label": "Image 1",
+          "url": "https://x.com/tyler_lengyel/status/1793714580772077773/photo/1"
+        }
+      ]
+    },
+    {
+      "date": "2024-05-23",
+      "dateLabel": "May 23, 2024",
+      "time": "6:21 PM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1793799536109834336",
+      "text": "Was just able to render 3 of the 8 traits from the Smart Contract. Might not seem like much, but this is a big step for Phil 🥹\n\nand ya obviously the sizing and positioning needs to be adjusted but thats simple in comparison to the other tings. \n\n#ETC $phil 🦖",
+      "media": [
+        {
+          "label": "Image 1",
+          "url": "https://x.com/tyler_lengyel/status/1793799536109834336/photo/1"
+        }
+      ]
+    },
+    {
+      "date": "2024-05-28",
+      "dateLabel": "May 28, 2024",
+      "time": "10:59 AM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1795500182966055076",
+      "text": "Getting that gym in now so we can focus on Phil the rest of the day after.\n\n#StayHard",
+      "media": [
+        {
+          "label": "Image 1",
+          "url": "https://x.com/tyler_lengyel/status/1795500182966055076/photo/1"
+        }
+      ]
+    },
+    {
+      "date": "2024-06-03",
+      "dateLabel": "June 3, 2024",
+      "time": "10:32 PM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1797848902021865811",
+      "text": "I told you Phil was being BUILT DIFFERENT. \n\nAt first, we learned how to develop a smart contract, store the traits, and render the image all while remaining 100% on-chain. \n\nNow that we've figured out the process of turning the SVG's into compressed strings and storing the data on-chain, we can focus on the front end. \n\nThe model was based around @AvaStarsNFT which have the traits stored on-chain and are compiled when you used their scrolling mechanism to mint it. That was what I was planning on doing and I had 256 traits, but there were multiple things I didn't plan for. Like the storage cost on 256 traits created on a canvas size larger than 1000px x 1000px, it's just not practical for a guy like me. Plus the artwork kinda sucked so I thought, how can I make it more cost effective for me, and more fun for you....\n\nso this is what I came up with. I've developed the Smart Contract with the help of @OpenAI's ChatGPT where only the '8' Base Layers are stored, I say 8 but the reality is 7 because you'll generate you're own background. Now here's the fun part, you'll go to the website and be able to generate your own trait artwork based on your own prompts, and then when you're satisfied with the final picture, you'll be able to mint the NFT with all the data of the image being converted into a Base64 string and being stored on-chain.\n\nThis is where I'm at in the process, but things can always change, and I might be missing something in the process. For now, I call it, BasedPhil (because of the base64 string). \n\nThis image was generated using the prompt 'Psychedelic' using @Adobe's Photoshop Beta where you can use AI to generate images based on prompts, which is what helped me come up with this idea. \n\nWe're so close. \n\n#ETC $Phil 🦖",
+      "media": [
+        {
+          "label": "Image 1",
+          "url": "https://x.com/tyler_lengyel/status/1797848902021865811/photo/1"
+        }
+      ]
+    },
+    {
+      "date": "2024-06-05",
+      "dateLabel": "June 5, 2024",
+      "time": "3:20 PM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1798464892128657568",
+      "text": "Just sent my cover letter and resume to @AppBreadcrumbs\nin hopes of landing their Business Development Manager position. \n\nWish me luck. \n\nNow in the meantime, we finish creating Phil.\n\n#ETC $phil 🦖",
+      "media": [
+        {
+          "label": "Image 1",
+          "url": "https://x.com/tyler_lengyel/status/1798464892128657568/photo/1"
+        }
+      ]
+    },
+    {
+      "date": "2024-06-08",
+      "dateLabel": "June 8, 2024",
+      "time": "9:57 AM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1799470768692076834",
+      "text": "Just walked it with a homie and enjoyed the view. \n\nNow we run it. \n\nThen we finish Phil. \n\n#ETC $phil 🦖",
+      "media": [
+        {
+          "label": "Image 1",
+          "url": "https://x.com/tyler_lengyel/status/1799470768692076834/photo/1"
+        },
+        {
+          "label": "Image 2",
+          "url": "https://x.com/tyler_lengyel/status/1799470768692076834/photo/2"
+        }
+      ]
+    },
+    {
+      "date": "2024-06-09",
+      "dateLabel": "June 9, 2024",
+      "time": "9:39 PM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1800009758084313097",
+      "text": "Been testing so many things, get ready for Phil bro. I’ll send you the faucet information when it launches so you can get some free $phil to mint Phil \n\nIt’s on Ethereum Classic too.",
+      "media": []
+    },
+    {
+      "date": "2024-06-09",
+      "dateLabel": "June 9, 2024",
+      "time": "9:44 PM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1800011059597840792",
+      "text": "There will be a faucet with like 20k $phil in it so everyone can get a chance to mint their own Phil. \n\n#ETC 🦖",
+      "media": [
+        {
+          "label": "Image 1",
+          "url": "https://x.com/tyler_lengyel/status/1800011059597840792/photo/1"
+        }
+      ]
+    },
+    {
+      "date": "2024-06-10",
+      "dateLabel": "June 10, 2024",
+      "time": "1:09 PM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1800243980216463443",
+      "text": "The gym is always the right answer. \n\nNow to finally finish Phil’s fontend. If only yall knew how many adjustments I’ve made to the scripts 😅\n\n#ETC $phil 🦖",
+      "media": [
+        {
+          "label": "Image 1",
+          "url": "https://x.com/tyler_lengyel/status/1800243980216463443/photo/1"
+        }
+      ]
+    },
+    {
+      "date": "2024-06-12",
+      "dateLabel": "June 12, 2024",
+      "time": "4:01 PM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1801012092901691590",
+      "text": "Phil basically just learned how to walk. It’s a big day. \n\n#ETC $phil 🦖",
+      "media": [
+        {
+          "label": "Image 1",
+          "url": "https://x.com/tyler_lengyel/status/1801012092901691590/photo/1"
+        }
+      ]
+    },
+    {
+      "date": "2024-06-12",
+      "dateLabel": "June 12, 2024",
+      "time": "7:19 PM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1801061710070997406",
+      "text": "What a learning experience.\n\nThe last three days were spent on trying to manipulate these baseLayer SVGs that are stored on-chain, and today I finally was able to get some 'Glitched' Phil traits as the output.\n\nNow to make it a little more robust.\n\n#ETC $phil 🦖",
+      "media": [
+        {
+          "label": "Image in quoted post",
+          "url": "https://x.com/tyler_lengyel/status/1797848902021865811/photo/1"
+        },
+        {
+          "label": "Video / GIF in this post or its quoted post",
+          "url": "https://x.com/tyler_lengyel/status/1801061710070997406"
+        }
+      ]
+    },
+    {
+      "date": "2024-06-14",
+      "dateLabel": "June 14, 2024",
+      "time": "10:03 AM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1801646714366910530",
+      "text": "One of my favorite Phil traits generated so far. This was before i decided to change things up again. \n\n#ETC $phil 🦖",
+      "media": [
+        {
+          "label": "Video / GIF in this post or its quoted post",
+          "url": "https://x.com/tyler_lengyel/status/1801646714366910530"
+        }
+      ]
+    },
+    {
+      "date": "2024-06-15",
+      "dateLabel": "June 15, 2024",
+      "time": "2:49 PM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1802080963876266317",
+      "text": "Phil is inspired by those who came before him. Can’t wait to finish and share it with everyone. \n\nGonna be TIGHT. \n\n#ETC $phil 🦖",
+      "media": [
+        {
+          "label": "Image 1",
+          "url": "https://x.com/tyler_lengyel/status/1802080963876266317/photo/1"
+        }
+      ]
+    },
+    {
+      "date": "2024-06-16",
+      "dateLabel": "June 16, 2024",
+      "time": "9:18 PM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1802541228942037269",
+      "text": "Don’t think I’m going to sleep until Phil’s 100% ready and certain people have a message in their inbox. \n\nThe amount of Phil’s to be minted is still unknown.\n\n#ETC $phil 🦖",
+      "media": [
+        {
+          "label": "Image 1",
+          "url": "https://x.com/tyler_lengyel/status/1802541228942037269/photo/1"
+        }
+      ]
+    },
+    {
+      "date": "2024-06-19",
+      "dateLabel": "June 19, 2024",
+      "time": "3:41 AM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1803362434133979492",
+      "text": "Traits are all generating like they should and the updated smart contract just compiled and is ready for testing. \n\nGoing to sleep but by the end of today Phil may be a go for launch. \n\n#ETC $phil 🦖",
+      "media": [
+        {
+          "label": "Image 1",
+          "url": "https://x.com/tyler_lengyel/status/1803362434133979492/photo/1"
+        }
+      ]
+    },
+    {
+      "date": "2024-06-22",
+      "dateLabel": "June 22, 2024",
+      "time": "10:53 AM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1804558403169079702",
+      "text": "Gonna get some cardio in then praying that I can figure out how to connect the backend server to the front end. \n\nWe’re close, I think, but honestly have no fkg idea at this point cause i keep getting new ideas the more i learn. \n\nFuck it tho, we still ball. \n\n#ETC $phil 🦖",
+      "media": [
+        {
+          "label": "Image 1",
+          "url": "https://x.com/tyler_lengyel/status/1804558403169079702/photo/1"
+        }
+      ]
+    },
+    {
+      "date": "2024-06-22",
+      "dateLabel": "June 22, 2024",
+      "time": "8:35 PM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1804704829996142709",
+      "text": "Yee. \n\n#ETC $phil 🦖",
+      "media": [
+        {
+          "label": "Image 1",
+          "url": "https://x.com/tyler_lengyel/status/1804704829996142709/photo/1"
+        },
+        {
+          "label": "Image in quoted post",
+          "url": "https://x.com/ETCGrantsDao/status/1804690951644107180/photo/1"
+        },
+        {
+          "label": "Image in quoted post",
+          "url": "https://x.com/ETCGrantsDao/status/1804690951644107180/photo/2"
+        }
+      ]
+    },
+    {
+      "date": "2024-06-29",
+      "dateLabel": "June 29, 2024",
+      "time": "11:01 AM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1807097174557094277",
+      "text": "Gm, Phil launches on July 3rd. \n\nLet’s have a day.",
+      "media": [
+        {
+          "label": "Image 1",
+          "url": "https://x.com/tyler_lengyel/status/1807097174557094277/photo/1"
+        },
+        {
+          "label": "Image in quoted post",
+          "url": "https://x.com/tyler_lengyel/status/1806705761336103407/photo/1"
+        }
+      ]
+    },
+    {
+      "date": "2024-07-01",
+      "dateLabel": "July 1, 2024",
+      "time": "4:22 AM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1807721344060015075",
+      "text": "Getting close on figuring out how to chunk Phil and recompile him on the front end. Gonna be a race to July 3rd. \n\nNap time. \n\n#ETC $phil 🦖",
+      "media": []
+    },
+    {
+      "date": "2024-07-02",
+      "dateLabel": "July 2, 2024",
+      "time": "1:34 PM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1808222806594687300",
+      "text": "Update on Phil 🦖\n\nI couldn’t figure out chunking and storing the strings on-chain then compiling them on the front end where I’d actually be able to afford it. \n\nSo yesterday I started implementing @ethswarm into the project and I’m now running a light node in order to store the layers there through the minting process, but the final image will still be stored on-chain. \n\nHave my work cutout for me over the next 24 hours. If I can’t launch the full project, I want to at least launch honoraries tomorrow to honor Assange on his b day. \n\nAnd if you’ve been one of the people I’ve met over past 2 and a half years who’ve made an impact on me, be on the lookout for a DM cause you will be getting early access. \n\n#ETC $phil 🦖",
+      "media": []
+    },
+    {
+      "date": "2024-07-02",
+      "dateLabel": "July 2, 2024",
+      "time": "2:46 PM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1808240751618543616",
+      "text": "first 4 common backgrounds (there will be a bg color behind). \nchunks are compiling correctly. \ncommons will be 1 KB - 50 KB (these four traits are 4kb -12kb)\nlegendaries will be pretty large. \n\ngood thing gas be cheap on ETC. \n\n#pikapika #ETC $phil 🦖",
+      "media": [
+        {
+          "label": "Image 1",
+          "url": "https://x.com/tyler_lengyel/status/1808240751618543616/photo/1"
+        }
+      ]
+    },
+    {
+      "date": "2024-07-03",
+      "dateLabel": "July 3, 2024",
+      "time": "3:18 PM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1808611255994781865",
+      "text": "oh shit. lets go. \n\nused 108 traits out of the 420 to test. now for the next steps. \n\n#ETC $phil 🦖",
+      "media": [
+        {
+          "label": "Video / GIF in this post or its quoted post",
+          "url": "https://x.com/tyler_lengyel/status/1808611255994781865"
+        }
+      ]
+    },
+    {
+      "date": "2024-07-04",
+      "dateLabel": "July 4, 2024",
+      "time": "3:31 PM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1808976856571388084",
+      "text": "I think the most fun will be putting in some more easter eggs when everything’s solidified. I might just add a 10th trait category with .0001% odds of appearing. \n\n#ETC $phil 🦖",
+      "media": []
+    },
+    {
+      "date": "2024-07-04",
+      "dateLabel": "July 4, 2024",
+      "time": "8:52 PM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1809057650333594079",
+      "text": "the chunky phil will come into the wild if/when the 6,969th Phil is minted. \n\nthat means there will be 808 chances to get the one and only chunky Phil trait. \n\nmint will be live for 369 days, but 367 for the majority. \n\n#808kickdrum #ETC $phil 🦖",
+      "media": []
+    },
+    {
+      "date": "2024-07-06",
+      "dateLabel": "July 6, 2024",
+      "time": "12:25 AM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1809473675717951742",
+      "text": "Alright, have 439 traits ready. Going to consolidate in the morning and get the number to 420. But first, sleep. \n\n#ETC $phil 🦖",
+      "media": []
+    },
+    {
+      "date": "2024-07-07",
+      "dateLabel": "July 7, 2024",
+      "time": "11:57 AM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1810010364077097224",
+      "text": "and im sure you can imaging why this is a legendaryColor as well. \n\n#LakeShow #ETC $phil 🦖",
+      "media": [
+        {
+          "label": "Image 1",
+          "url": "https://x.com/tyler_lengyel/status/1810010364077097224/photo/1"
+        },
+        {
+          "label": "Image in quoted post",
+          "url": "https://x.com/tyler_lengyel/status/1810009739306193274/photo/1"
+        }
+      ]
+    },
+    {
+      "date": "2024-07-07",
+      "dateLabel": "July 7, 2024",
+      "time": "11:08 PM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1810179141687181425",
+      "text": "chunking worked. txn costs should be low. \n\nthere will be a faucet with claimable $phil tokens, but not enough for Phil to mint out.\n\nmore testing necessary. but we're close. \n\n#ETC $phil 🦖",
+      "media": [
+        {
+          "label": "Image 1",
+          "url": "https://x.com/tyler_lengyel/status/1810179141687181425/photo/1"
+        }
+      ]
+    },
+    {
+      "date": "2024-07-11",
+      "dateLabel": "July 11, 2024",
+      "time": "11:00 PM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1811626570714329595",
+      "text": "a thing i’ve learned about myself while building Phil is that i spend too long on a process/idea/theory when there’s many routes to the same place.\n\nlike for the past two days i’ve been trying to decompress and recompile chunks that i just need to upload to Swarm a different way.",
+      "media": []
+    },
+    {
+      "date": "2024-08-18",
+      "dateLabel": "August 18, 2024",
+      "time": "9:15 AM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1825189726057603551",
+      "text": "Goal for the next 3 days is figuring out how to develop the smart contract to store the metadata of the ethscription layers while also generating a vanity address with Phil tokens in it when you press ‘mint’. Then finding a way for you to recover the private key offline\n\n🦖",
+      "media": []
+    },
+    {
+      "date": "2024-10-13",
+      "dateLabel": "October 13, 2024",
+      "time": "4:24 PM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1845591530146292160",
+      "text": "phil.",
+      "media": [
+        {
+          "label": "Image 1",
+          "url": "https://x.com/tyler_lengyel/status/1845591530146292160/photo/1"
+        }
+      ]
+    },
+    {
+      "date": "2024-10-14",
+      "dateLabel": "October 14, 2024",
+      "time": "5:39 PM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1845972638440583257",
+      "text": "phil.",
+      "media": [
+        {
+          "label": "Video / GIF in this post or its quoted post",
+          "url": "https://x.com/tyler_lengyel/status/1845972638440583257"
+        }
+      ]
+    },
+    {
+      "date": "2024-10-18",
+      "dateLabel": "October 18, 2024",
+      "time": "11:34 AM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1847330543446479343",
+      "text": "Yee! The way it’s structured right now is the layers themselves are going to be stored on ethereum Classic as ethecriptions then still working on the minting part. Not sure if on chain checker supports Classic yet, tho.\n\nBut regardless the main goal of phil is to be 100% on-chain and the token itself that’s minted using 9 ethecriptions will be storing the metadata (that’s the thought currently anyway)",
+      "media": []
+    },
+    {
+      "date": "2024-10-19",
+      "dateLabel": "October 19, 2024",
+      "time": "10:07 AM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1847670801446957402",
+      "text": "There was going to be a memecoin to go a long with it but now I’m just wanting to do the art side of things and not get in any legal trouble lol but I thought it would be pretty bad ass to make it to when a user mints a Phil, a vanity address is created where the NFT is sent to and simultaneously Phil tokens are sent and then the user is able to claim their wallet offline somehow a long with the seedphrase. Keeping everything 100% anonymous",
+      "media": []
+    },
+    {
+      "date": "2024-10-19",
+      "dateLabel": "October 19, 2024",
+      "time": "10:34 AM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1847677743942578594",
+      "text": "Yaaaaa, I’m right there with ya at this point. And it’s made the past week or so a lot more enjoyable creating as well. Excited to get after it after work today. I have 7 of the 9 html files cookin and I was going to put the philosoraptor quotes on the ‘Top’ (shirt) trait but I don’t like the way it’s coming out so now I’m trying to use them for the ‘Neck’ trait which resembles Matrix code so instead of it being random characters generating it’ll be pulling a random quote from a json in the directory to use instead. \n\nThe amount of changes I’ve made to this project is stupid 🤣",
+      "media": []
+    },
+    {
+      "date": "2024-11-25",
+      "dateLabel": "November 25, 2024",
+      "time": "7:24 PM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1861234522227978368",
+      "text": "Ever mint something in the original ethereum? \n\nPhil 🔜",
+      "media": [
+        {
+          "label": "Video / GIF in this post or its quoted post",
+          "url": "https://x.com/tyler_lengyel/status/1861234522227978368"
+        }
+      ]
+    },
+    {
+      "date": "2024-11-27",
+      "dateLabel": "November 27, 2024",
+      "time": "1:09 AM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1861683682978775289",
+      "text": "guys, GUYS. \n\ni got it down to two txns instead of ten :)\n\nFill your Phil 🔜",
+      "media": [
+        {
+          "label": "Video / GIF in this post or its quoted post",
+          "url": "https://x.com/tyler_lengyel/status/1861683682978775289"
+        }
+      ]
+    },
+    {
+      "date": "2024-11-30",
+      "dateLabel": "November 30, 2024",
+      "time": "2:11 PM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1862967722805764321",
+      "text": "Alright time to get back to Phil.",
+      "media": [
+        {
+          "label": "Image 1",
+          "url": "https://x.com/tyler_lengyel/status/1862967722805764321/photo/1"
+        }
+      ]
+    },
+    {
+      "date": "2024-12-01",
+      "dateLabel": "December 1, 2024",
+      "time": "7:00 PM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1863402897213456736",
+      "text": "Have you ever minted anything on the original ethereum 😬\n\nPhil 🔜",
+      "media": [
+        {
+          "label": "Video / GIF in this post or its quoted post",
+          "url": "https://x.com/tyler_lengyel/status/1863402897213456736"
+        }
+      ]
+    },
+    {
+      "date": "2024-12-04",
+      "dateLabel": "December 4, 2024",
+      "time": "6:59 PM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1864489834200313915",
+      "text": "Its been a good day working on Phil, lotta new additions 😬",
+      "media": []
+    },
+    {
+      "date": "2024-12-07",
+      "dateLabel": "December 7, 2024",
+      "time": "1:06 PM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1865488089826611517",
+      "text": "The topJaw trait was being used so the top of the teeth could be somewhat hidden. After working more with the SVGs it’s not needed, so Phil just became a lot cooler 😎",
+      "media": []
+    },
+    {
+      "date": "2024-12-08",
+      "dateLabel": "December 8, 2024",
+      "time": "5:09 PM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1865911490366074944",
+      "text": "been working on something. \n\n\"Echoes of a Dead Earth\" has inspired the 'Top' trait to Phil. But instead, its the word Space, seemingly locked in a cage. \n\nFill your Phil 🔜",
+      "media": [
+        {
+          "label": "Video / GIF in this post or its quoted post",
+          "url": "https://x.com/tyler_lengyel/status/1865911490366074944"
+        }
+      ]
+    },
+    {
+      "date": "2024-12-17",
+      "dateLabel": "December 17, 2024",
+      "time": "3:37 PM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1869150048963150257",
+      "text": "Ruptured my esophagus so been mia since Friday night. \n\nGetting out of the hospital soon.\n\nCount your blessings. Back to Phil 🔜",
+      "media": []
+    },
+    {
+      "date": "2024-12-20",
+      "dateLabel": "December 20, 2024",
+      "time": "2:29 PM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1870219988503531709",
+      "text": "Fill your Phil is gonna take another year at this rate. \n\nthere's just so many possibilities and things to learn. and it just keeps getting cooler.",
+      "media": []
+    },
+    {
+      "date": "2024-12-21",
+      "dateLabel": "December 21, 2024",
+      "time": "8:32 PM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1870673735734428089",
+      "text": "building Fill your Phil",
+      "media": [
+        {
+          "label": "Video / GIF in this post or its quoted post",
+          "url": "https://x.com/tyler_lengyel/status/1870673735734428089"
+        }
+      ]
+    },
+    {
+      "date": "2024-12-22",
+      "dateLabel": "December 22, 2024",
+      "time": "11:09 PM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1871075591623213451",
+      "text": "i lied, i needed to add one more 'top' trait\n\nnow Phil has a body too :)",
+      "media": [
+        {
+          "label": "Video / GIF in this post or its quoted post",
+          "url": "https://x.com/tyler_lengyel/status/1871075591623213451"
+        }
+      ]
+    },
+    {
+      "date": "2024-12-23",
+      "dateLabel": "December 23, 2024",
+      "time": "8:05 PM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1871391811668955181",
+      "text": "be on the look out for phil after the holidays, just gotta finish up some of the last traits first",
+      "media": [
+        {
+          "label": "Video / GIF in this post or its quoted post",
+          "url": "https://x.com/tyler_lengyel/status/1871391811668955181"
+        }
+      ]
+    },
+    {
+      "date": "2024-12-27",
+      "dateLabel": "December 27, 2024",
+      "time": "1:57 PM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1872748639485083958",
+      "text": "think it’s only fitting to shoot for January 4th for ‘Fill a Phil’ \n\nThat’ll be the 3 year anniversary of me getting rugged beyond belief by @BoredBunnyNFT",
+      "media": []
+    },
+    {
+      "date": "2024-12-27",
+      "dateLabel": "December 27, 2024",
+      "time": "4:34 PM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1872788159500828740",
+      "text": "'Fill a Phil' 🔜\n\nlaunching on ethereum classic",
+      "media": [
+        {
+          "label": "Video / GIF in this post or its quoted post",
+          "url": "https://x.com/tyler_lengyel/status/1872788159500828740"
+        }
+      ]
+    },
+    {
+      "date": "2024-12-27",
+      "dateLabel": "December 27, 2024",
+      "time": "6:32 PM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1872817766744637848",
+      "text": "That’s why I’m basing ‘Fill a Phil’ around the number 369.",
+      "media": []
+    },
+    {
+      "date": "2024-12-28",
+      "dateLabel": "December 28, 2024",
+      "time": "8:10 AM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1873023717187473793",
+      "text": "‘Fill a Phil’ 🔜",
+      "media": [
+        {
+          "label": "Video / GIF in this post or its quoted post",
+          "url": "https://x.com/tyler_lengyel/status/1873023717187473793"
+        }
+      ]
+    },
+    {
+      "date": "2024-12-28",
+      "dateLabel": "December 28, 2024",
+      "time": "8:18 AM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1873025751446122979",
+      "text": "‘Fill a Phil’ launching soon on Ethereum Classic",
+      "media": [
+        {
+          "label": "Video / GIF in this post or its quoted post",
+          "url": "https://x.com/tyler_lengyel/status/1873025751446122979"
+        }
+      ]
+    },
+    {
+      "date": "2024-12-28",
+      "dateLabel": "December 28, 2024",
+      "time": "9:13 AM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1873039529978020057",
+      "text": "'Fill a Phil' 🔜\n\nmatrix Philosoraptor quote generating in galsses on this one: \"\"If whales move silently, do they shape the market with whispers?\"",
+      "media": [
+        {
+          "label": "Video / GIF in this post or its quoted post",
+          "url": "https://x.com/tyler_lengyel/status/1873039529978020057"
+        }
+      ]
+    },
+    {
+      "date": "2024-12-28",
+      "dateLabel": "December 28, 2024",
+      "time": "3:44 PM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1873137966182481942",
+      "text": "‘Fill a Phil’ coming soon to ETC as well",
+      "media": [
+        {
+          "label": "Video / GIF in this post or its quoted post",
+          "url": "https://x.com/tyler_lengyel/status/1873137966182481942"
+        }
+      ]
+    },
+    {
+      "date": "2024-12-28",
+      "dateLabel": "December 28, 2024",
+      "time": "8:50 PM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1873214972110749736",
+      "text": "update: \n\nthe 9th and final javascript file is functional. right now it's titled 'wings', but it could change. \n\nnow i need to create 3 more traits, fine tune all the javascript files, and then rework the Smart Contract to flow with all the updated. \n\nFill a Phil 🔜 (actually)",
+      "media": [
+        {
+          "label": "Video / GIF in this post or its quoted post",
+          "url": "https://x.com/tyler_lengyel/status/1873214972110749736"
+        }
+      ]
+    },
+    {
+      "date": "2024-12-28",
+      "dateLabel": "December 28, 2024",
+      "time": "10:45 PM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1873243826917392444",
+      "text": "the initial buyer of a Phil will receive a 3.69% royalty anytime their Phil is sold on the secondary market. forever.",
+      "media": []
+    },
+    {
+      "date": "2024-12-29",
+      "dateLabel": "December 29, 2024",
+      "time": "1:11 AM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1873280590340075678",
+      "text": "Fill a Phil 🔜",
+      "media": []
+    },
+    {
+      "date": "2024-12-29",
+      "dateLabel": "December 29, 2024",
+      "time": "5:12 PM",
+      "year": "2024",
+      "url": "https://x.com/tyler_lengyel/status/1873522431366946986",
+      "text": "be on the lookout for 'Fill a Phil' at the beginning of the year. launching on ethereum classic. 100% on-chain",
+      "media": [
+        {
+          "label": "Video / GIF in this post or its quoted post",
+          "url": "https://x.com/tyler_lengyel/status/1873522431366946986"
+        }
+      ]
+    },
+    {
+      "date": "2025-01-09",
+      "dateLabel": "January 9, 2025",
+      "time": "5:20 AM",
+      "year": "2025",
+      "url": "https://x.com/tyler_lengyel/status/1877329479183302919",
+      "text": "how i feel building Phil for the past week +",
+      "media": [
+        {
+          "label": "Video / GIF in this post or its quoted post",
+          "url": "https://x.com/tyler_lengyel/status/1877329479183302919"
+        }
+      ]
+    },
+    {
+      "date": "2025-01-17",
+      "dateLabel": "January 17, 2025",
+      "time": "3:14 PM",
+      "year": "2025",
+      "url": "https://x.com/tyler_lengyel/status/1880378249727115520",
+      "text": "Going to read from beginning to end now that I have em all. Need to find breaks in between ‘Fill A Phil’ so I don’t lose my mind. \n\nAnd I have a rocking chair that I picked up for free on the side of the road.\n\nExcited.🤘",
+      "media": [
+        {
+          "label": "Image 1",
+          "url": "https://x.com/tyler_lengyel/status/1880378249727115520/photo/1"
+        }
+      ]
+    },
+    {
+      "date": "2025-01-22",
+      "dateLabel": "January 22, 2025",
+      "time": "1:01 AM",
+      "year": "2025",
+      "url": "https://x.com/tyler_lengyel/status/1881975494876512339",
+      "text": "Apparently I need to start writing again and learn how to make edits. Hopefully I can launch Phil by the weekend and put my focus on doing the artwork for fun surrounding Phases 2 and 3 while going after other passions I have while learning new skills I want to acquire.",
+      "media": []
+    },
+    {
+      "date": "2025-01-22",
+      "dateLabel": "January 22, 2025",
+      "time": "2:07 AM",
+      "year": "2025",
+      "url": "https://x.com/tyler_lengyel/status/1881992140886094099",
+      "text": "No, I’ve been working on an art project called ‘Fill A Phil’ for about 10 months now with no coding knowledge or real art knowledge for that matter, so it’s been a process 🤣 but when I first came into the space over 3 years ago I loved to write about the space and just writing in general so I want to get back to it. Just have to finish this project first",
+      "media": []
+    },
+    {
+      "date": "2025-01-23",
+      "dateLabel": "January 23, 2025",
+      "time": "2:59 PM",
+      "year": "2025",
+      "url": "https://x.com/tyler_lengyel/status/1882548731108524369",
+      "text": "and the Ethscription version of Phil could’ve been released 2-3 weeks ago but I pivoted to the way it’s being structured now because I want there to be absolutely no confusion that this project is 100% on-chain. \n\nit’ll also be compatible with majority of marketplaces if they ever integrate with ETC where the other structure wouldn’t have.",
+      "media": []
+    },
+    {
+      "date": "2025-01-30",
+      "dateLabel": "January 30, 2025",
+      "time": "8:54 PM",
+      "year": "2025",
+      "url": "https://x.com/tyler_lengyel/status/1885174889214087414",
+      "text": "A generative art project called Fill A Phil where the artwork is stored 100% on-chain using the original Ethereum network. It consists of 9 traits, all generated by their own individual algo within said traits path data. \n\nI’ve ran into a lot of challenges but now working on the biggest one, which is getting it back to looking like this while being able to be rendered as a single call from the tokenURI()",
+      "media": []
+    },
+    {
+      "date": "2025-01-31",
+      "dateLabel": "January 31, 2025",
+      "time": "2:44 PM",
+      "year": "2025",
+      "url": "https://x.com/tyler_lengyel/status/1885443988552868342",
+      "text": "Building Phil has been one of the biggest learning curves of my life, one that I could’ve made a lot easier on myself, but easy is never fun.\n\nHowever now that I’m at this phase, it’s obvious it’s going to be like @CyberBrokers_\nand @AvaStarsNFT\nhad a baby, and his name was Phil.",
+      "media": []
+    },
+    {
+      "date": "2025-02-03",
+      "dateLabel": "February 3, 2025",
+      "time": "10:22 AM",
+      "year": "2025",
+      "url": "https://x.com/tyler_lengyel/status/1886465296879284452",
+      "text": "Another day of building Phil, trying to compress and store large file data on the blockchain. Fun times",
+      "media": []
+    },
+    {
+      "date": "2025-02-08",
+      "dateLabel": "February 8, 2025",
+      "time": "10:51 AM",
+      "year": "2025",
+      "url": "https://x.com/tyler_lengyel/status/1888284650562261192",
+      "text": "Phil will be the standard for artwork on Ethereum Classic.",
+      "media": []
+    },
+    {
+      "date": "2025-02-10",
+      "dateLabel": "February 10, 2025",
+      "time": "2:31 PM",
+      "year": "2025",
+      "url": "https://x.com/tyler_lengyel/status/1889064779547091418",
+      "text": "time to move onto the storage Contracts and overall on-chain structure. right now the Domain Specific Logic specs are set up for a simple Phil, will add the art algo's after developing and testing the contracts which will lead to updating the specs again\n\ndoin my happy dance tho\n\n9 traits - 109kb\n~12.12kb/trait\nso gives me at least 10kb to work with on each trait but reality is the wings take up 74kb and bg is 13kb. so the wings will most likely be stored in 3 seperate contracts, 1 for each path. \nnot to mention i still need to see what i can skim off when converting to the DSL hex.",
+      "media": [
+        {
+          "label": "Image 1",
+          "url": "https://x.com/tyler_lengyel/status/1889064779547091418/photo/1"
+        },
+        {
+          "label": "Image 2",
+          "url": "https://x.com/tyler_lengyel/status/1889064779547091418/photo/2"
+        }
+      ]
+    },
+    {
+      "date": "2025-03-02",
+      "dateLabel": "March 2, 2025",
+      "time": "9:55 AM",
+      "year": "2025",
+      "url": "https://x.com/tyler_lengyel/status/1896243014672191869",
+      "text": "Gonna get shit done on Phil today. \n\nProof of Steak",
+      "media": [
+        {
+          "label": "Image 1",
+          "url": "https://x.com/tyler_lengyel/status/1896243014672191869/photo/1"
+        }
+      ]
+    },
+    {
+      "date": "2025-04-17",
+      "dateLabel": "April 17, 2025",
+      "time": "12:15 PM",
+      "year": "2025",
+      "url": "https://x.com/tyler_lengyel/status/1912933025803125234",
+      "text": "it’s always weird when i regain whatever it is that makes me want to go in on Phil again, but it’s back. that giddy excited feeling to research new things to find the best way to create the dopest output.",
+      "media": [
+        {
+          "label": "Image in quoted post",
+          "url": "https://x.com/bright_lightart/status/1912752091602334159/photo/1"
+        }
+      ]
+    },
+    {
+      "date": "2025-06-21",
+      "dateLabel": "June 21, 2025",
+      "time": "1:50 PM",
+      "year": "2025",
+      "url": "https://x.com/tyler_lengyel/status/1936512061326196972",
+      "text": "ok Dors Venabili has been created. \n\nnow maybe i can go finish Phil.",
+      "media": [
+        {
+          "label": "Image 1",
+          "url": "https://x.com/tyler_lengyel/status/1936512061326196972/photo/1"
+        },
+        {
+          "label": "Image 2",
+          "url": "https://x.com/tyler_lengyel/status/1936512061326196972/photo/2"
+        }
+      ]
+    },
+    {
+      "date": "2025-06-30",
+      "dateLabel": "June 30, 2025",
+      "time": "10:27 AM",
+      "year": "2025",
+      "url": "https://x.com/tyler_lengyel/status/1939722474746249365",
+      "text": "ok, so update on Phil.\n\nspent the Friday-Sunday working on the background trait for Phil. last week I saw @VitalikButerin post about @zksync Airbender - which is a zero-knowledge virtual machine that could solve the scaling constraints on mainnet if ever switched from the current EVM to a zkVM.\n\nnow, some months back I spent a night going into zk-proofs but couldn’t understand it for the life of me, lotta maths. but then when I saw this tweet, even though Airbender is being implemented on an L2 currently, my thought process is why can’t I try to use their tech/logic which they’re using for a whole blockchain, and consolidate it into where it’s specific to the background trait, hoping to enable the ability to store more complex and sophisticated SVGs 100% on-chain.\n\nnow, 3 days later, it’s still not working but I know it’s going to. at first, I was confused, really confused, then after about a day and a half it finally started making more sense, and by the end of last night, I got the Circom circuit compiling and proof verifying off-chain, with contracts deployed on Hardhat but ran into issues minting the NFT. honestly probably good to get out and be at work today but really just want to get home and combine the deploy and mint scripts to see if that solves the artifact issue. \n\nanyway, we’re learning, a lot. so that’s fun. \n\nhave a week, y’all.",
+      "media": []
+    },
+    {
+      "date": "2025-07-09",
+      "dateLabel": "July 9, 2025",
+      "time": "12:59 PM",
+      "year": "2025",
+      "url": "https://x.com/tyler_lengyel/status/1943022206990025189",
+      "text": "really excited to share what i’ve been working on with Phil and zk-SNARKs, but Prime week just had to be this week and next, so working 12 outta 14 days gives me little time to do what i actually want to 🫠",
+      "media": []
+    },
+    {
+      "date": "2025-07-23",
+      "dateLabel": "July 23, 2025",
+      "time": "12:29 AM",
+      "year": "2025",
+      "url": "https://x.com/tyler_lengyel/status/1947906911766254073",
+      "text": "found a good stopping point for tonight.\n\nthis isn't close to the final output for the background trait, but its a great place to be.\n\ni also started looking into the process @EtoVass & @0x8BitArt used to store the data for @OnChainAllStars - i'll be following their lead and pivoting from pure SVGs.\n\ni know this is just a bunch of triangles generating on a canvas rn but its a working template that i can build off of. i feel confident its going to lead down the final road for Phil.\n\ngn",
+      "media": [
+        {
+          "label": "Image 1",
+          "url": "https://x.com/tyler_lengyel/status/1947906911766254073/photo/1"
+        }
+      ]
+    },
+    {
+      "date": "2025-07-28",
+      "dateLabel": "July 28, 2025",
+      "time": "12:08 AM",
+      "year": "2025",
+      "url": "https://x.com/tyler_lengyel/status/1949713500177084784",
+      "text": "whenever Phil is finished, itd be fun to try and build a marketplace worth the shit w/ @safe\n\n\ntalk about wanting to throw your computer out of a plane while flying over the Atlantic",
+      "media": []
+    },
+    {
+      "date": "2025-08-10",
+      "dateLabel": "August 10, 2025",
+      "time": "12:02 AM",
+      "year": "2025",
+      "url": "https://x.com/tyler_lengyel/status/1954423022066233817",
+      "text": "this video was surreal to watch. \n\n@VitalikButerin in ‘14 before Ethereum launched talking about zero-knowledge proofs. essentially saying something like what @zksync is doing with Airbender today is the Ultimate “Blockchain” - 11 years ago.\n\nobfuscating info, storing it in a smart contracts, accessing it on the web. that sounds pretty awesome.\n\nalso, i realized what i’m building with Phil is pretty much exactly like a zk-rollup 😂\nbut based on what i know now, it can be more than a single use rollup.\n\nhighly recommend taking the time to watch this. \n\nhttps://youtu.be/Ftl4-danbVA?si=zM6HQ_soxZzFrCZ6…",
+      "media": []
+    },
+    {
+      "date": "2025-08-21",
+      "dateLabel": "August 21, 2025",
+      "time": "7:19 PM",
+      "year": "2025",
+      "url": "https://x.com/tyler_lengyel/status/1958700399289925915",
+      "text": "It's been over a year since the idea of Phil. There was never a concrete idea on paper regarding how I was going to go about the creation of it all. There still isn't a \"concrete\" idea, but the version I've been working on the past few days seems right. Time will tell if it is.",
+      "media": [
+        {
+          "label": "Image 1",
+          "url": "https://x.com/tyler_lengyel/status/1958700399289925915/photo/1"
+        }
+      ]
+    },
+    {
+      "date": "2025-10-30",
+      "dateLabel": "October 30, 2025",
+      "time": "10:29 AM",
+      "year": "2025",
+      "url": "https://x.com/tyler_lengyel/status/1983934381883379715",
+      "text": "Alright, might be able to chill for a day this weekend and get back to Phil and the like. Getting 🤏\n\n(Fucked up a copper pipe tho 😑)",
+      "media": [
+        {
+          "label": "Video / GIF in this post or its quoted post",
+          "url": "https://x.com/tyler_lengyel/status/1983934381883379715"
+        }
+      ]
+    },
+    {
+      "date": "2025-12-09",
+      "dateLabel": "December 9, 2025",
+      "time": "8:13 AM",
+      "year": "2025",
+      "url": "https://x.com/tyler_lengyel/status/1998410556773122375",
+      "text": "Sometimes, you just need to go back to the basics. \n\nOver a year ago I started Phil, with no real \"roadmap\" in mind, other than to try to make something cool and worthy of not just my own standards, but of people i respect and look up to in the space. \n\nLike much else in life, it took on legs of its own while leading me down another path of knowledge and growth. Lately, I've been stuck in my own mind of what direction to go, when reality is: there's levels to this shit. It's a never ending game where the biggest battles are fought internally.\n\nToday, I realize that the biggest thing holding me back is fear. \n\nFear of being rejected. \nFear of it not being good enough. \nFear of failure. \n\nSo fuck all that. It's time to just do it—if for nothing else than to claim victory in order to move onto the next.\n\nMore details 🔜\n\ngm",
+      "media": [
+        {
+          "label": "Image 1",
+          "url": "https://x.com/tyler_lengyel/status/1998410556773122375/photo/1"
+        }
+      ]
+    },
+    {
+      "date": "2025-12-23",
+      "dateLabel": "December 23, 2025",
+      "time": "8:17 AM",
+      "year": "2025",
+      "url": "https://x.com/tyler_lengyel/status/2003485085044298065",
+      "text": "My year spent with @OpenAI\n’s @ChatGPTapp had a lot to do with Phil. Shocker.",
+      "media": [
+        {
+          "label": "Image 1",
+          "url": "https://x.com/tyler_lengyel/status/2003485085044298065/photo/1"
+        },
+        {
+          "label": "Image 2",
+          "url": "https://x.com/tyler_lengyel/status/2003485085044298065/photo/2"
+        },
+        {
+          "label": "Image 3",
+          "url": "https://x.com/tyler_lengyel/status/2003485085044298065/photo/3"
+        },
+        {
+          "label": "Image 4",
+          "url": "https://x.com/tyler_lengyel/status/2003485085044298065/photo/4"
+        }
+      ]
+    },
+    {
+      "date": "2026-01-03",
+      "dateLabel": "January 3, 2026",
+      "time": "10:08 AM",
+      "year": "2026",
+      "url": "https://x.com/tyler_lengyel/status/2007499231070941396",
+      "text": "Made so much progress on Phil over the last couple days that coming to work today is actually a bit refreshing. It’s always nice when I get to deliver packages with foozball on as well. \n\nHave a day y’all.",
+      "media": []
+    },
+    {
+      "date": "2026-01-14",
+      "dateLabel": "January 14, 2026",
+      "time": "7:32 PM",
+      "year": "2026",
+      "url": "https://x.com/tyler_lengyel/status/2011627417153257564",
+      "text": "Creating the index for the Phil layers and tbh thought it was going to be a lot smaller. On the bright side, they’re almost to their final form (maybe).",
+      "media": [
+        {
+          "label": "Video / GIF in this post or its quoted post",
+          "url": "https://x.com/tyler_lengyel/status/2011627417153257564"
+        }
+      ]
+    },
+    {
+      "date": "2026-01-21",
+      "dateLabel": "January 21, 2026",
+      "time": "7:41 PM",
+      "year": "2026",
+      "url": "https://x.com/tyler_lengyel/status/2014166477763420401",
+      "text": "So I ended up deploying locally using Hardhat to test all of the layer storage contracts because I keep running out of eth.\nWith the testing I was finally able to have some fun generating outputs to see what I might've missed. Happy to say only a few small tweaks are necessary but it can all be handled at the code level so the 369 Layers for Phil won't have to be touched again. Knowing the process works and the Layers themselves are good to go it's time to put together the front end and create the minting contract.\nStill a good amount of work to do but for now here's some of my favorite outputs I got during testing...and ngl I wanted to keep generating but I spent an hour so I need to move on, and eat something",
+      "media": [
+        {
+          "label": "Image 1",
+          "url": "https://x.com/tyler_lengyel/status/2014166477763420401/photo/1"
+        },
+        {
+          "label": "Image 2",
+          "url": "https://x.com/tyler_lengyel/status/2014166477763420401/photo/2"
+        },
+        {
+          "label": "Image 3",
+          "url": "https://x.com/tyler_lengyel/status/2014166477763420401/photo/3"
+        },
+        {
+          "label": "Image 4",
+          "url": "https://x.com/tyler_lengyel/status/2014166477763420401/photo/4"
+        }
+      ]
+    },
+    {
+      "date": "2026-01-24",
+      "dateLabel": "January 24, 2026",
+      "time": "5:45 PM",
+      "year": "2026",
+      "url": "https://x.com/tyler_lengyel/status/2015224478553530688",
+      "text": "update on Phil! \n\nthe 369 Layers will still cost some eth to deploy that I don't have rn so the past day and a half I've been working on a true-ish v1 that will be just overall, less.\n\ninstead of storing pre-filled Layers, I stored the outlines of the 13 Layers that make up 1 Phil. this ended up really fucking with the flow compared to how I was doing it for the larger Phil version because now it requires filling the outlines at the time they're displayed on the front end. then, this version wasn't rendering via the tokenURI because the strings too large so it required an ERC-4804 contract, the only downfall is that if the place you're trying to view doesn't have web3:// implemented, it won't display. this is something I still need to look into more to see if there's a better solution but for now it renders without issue in the current setup.\nwith that said, v1 is going to consist of 13 Phil NFTs in this format, not necessarily style. it will allow testing on all lvls of the project on a much smaller scale, ensuring that it functions as it should before moving onto v2.\nthis version will still use the private allowlist that will issue a STARK proof in order to be able to mint, and the 13 addresses that will be on the allowlist will be....... (private) ;). \nit will also have the Avastars style scrolling mechanism, but this will be more so for testing purposes because as it stands the only change will be the fill colors within the layers, but something tells me I'm not going to let myself do that.\none other note on the 4804 implementation, the mint contract is already being built with the CryptoPunks style marketplace implemented so you'll always have a place to buy/sell/bid on a Phi or any of my other work thats released after him.\n\nanyways, I do think these outputs turned out pretty dope. was a little scared the fill functionality wasn't going to work. I can go back in and do complete fills but I kinda dig just the stroke pattern.\n\ncheers!",
+      "media": [
+        {
+          "label": "Image 1",
+          "url": "https://x.com/tyler_lengyel/status/2015224478553530688/photo/1"
+        },
+        {
+          "label": "Image 2",
+          "url": "https://x.com/tyler_lengyel/status/2015224478553530688/photo/2"
+        }
+      ]
+    },
+    {
+      "date": "2026-01-31",
+      "dateLabel": "January 31, 2026",
+      "time": "12:22 PM",
+      "year": "2026",
+      "url": "https://x.com/tyler_lengyel/status/2017679790308766102",
+      "text": "alllllrightty then.\n\nI tried working on a Domain Specific Language for Phil last year and spent a lot of time getting nowhere. Then I read a little bit about the New Alphabet created by Wim Crouwel in 1967 earlier this morning and decided to revisit DSL with Claude.",
+      "media": [
+        {
+          "label": "Image 1",
+          "url": "https://x.com/tyler_lengyel/status/2017679790308766102/photo/1"
+        }
+      ]
+    },
+    {
+      "date": "2026-02-03",
+      "dateLabel": "February 3, 2026",
+      "time": "7:54 PM",
+      "year": "2026",
+      "url": "https://x.com/tyler_lengyel/status/2018880701945479218",
+      "text": "There’s the part of me that wants to just block out everything and focus on finishing Phil.\n\nThen there’s the other part that’s wondering if someone figured out how to manufacture humans, like a long time ago.",
+      "media": []
+    },
+    {
+      "date": "2026-02-04",
+      "dateLabel": "February 4, 2026",
+      "time": "2:55 PM",
+      "year": "2026",
+      "url": "https://x.com/tyler_lengyel/status/2019167860673696108",
+      "text": "Was going through some of my cards earlier, cause you know, Super Bowl and all, and I use different AI’s for different things. Ex. I use @ChatGPTapp for 99% of my technical and Phil related questions, and go down 95% of my rabbit holes with Chat. Then I’ll use @GeminiApp for basic questions or needs that’s are simple and easy where Gemini doesn’t need much context/details to get the job done. So I remember a three years ago or so I was listing some cards on eBay and remember how grueling it was looking up each card, taking pictures, making the eBay sell page, etc. Then today I put 10 cards into Gemini in a single prompt, and not even 10 seconds later it provided all the info I needed. It was insane, but then I just thought how easy it’ll be to just upload all my cards into a file, open up Codex, tell it to read the whole directory of images, give it access to my eBay account, and have it handle the whole process from there, minus the shopping. \n\nSee, this is where AI is taking us. Something that would take me hours I can now create a system where I can just enjoy collecting cards, uploading them to a system I create for myself, and have it fine tuned to not just make this easier and less time consuming, but to also profit the most by having AI monitor market sentiment for 100’s of sports cards.\n\nAnyway, I found out my Sam Darnold Disco from when he was on the Jets is worth like $2, and this Mac Jones Rookie is like a buck fiddy. Let’s see what happens after the SuperBowl.",
+      "media": [
+        {
+          "label": "Image 1",
+          "url": "https://x.com/tyler_lengyel/status/2019167860673696108/photo/1"
+        },
+        {
+          "label": "Image 2",
+          "url": "https://x.com/tyler_lengyel/status/2019167860673696108/photo/2"
+        },
+        {
+          "label": "Image 3",
+          "url": "https://x.com/tyler_lengyel/status/2019167860673696108/photo/3"
+        }
+      ]
+    },
+    {
+      "date": "2026-02-04",
+      "dateLabel": "February 4, 2026",
+      "time": "5:29 PM",
+      "year": "2026",
+      "url": "https://x.com/tyler_lengyel/status/2019206612188066133",
+      "text": "The Art surrounding Phil, I haven't loved or been satisfied with for awhile now, which to me isn't surprising when you understand how all the different Layers came to be. It started with me asking @ChatGPTapp what different types of algorithmic art existed that we could use to generate the layers that would fill the different silhouettes, thus started the journey towards learning about things like Fractals, Voronoi Patterns, different techniques to get the background to resemble that of Space itself, and how to make the colors, opacity, stroke width, and points line up in a way that is as close to perfect as my brain will allow me to get away with. The focus recently has been learning about the technicalities of these different protocols being implemented. With it essentially being a glorified private mint less than a week ago, its now developed into much more in that short period of time. And with the structure getting to a point where more integration starts to become overkill, making the Art something that comes from me and not 100% machine is the priority. Turning chaos into calmness. Riding the wave the rest of the way.",
+      "media": [
+        {
+          "label": "Image 1",
+          "url": "https://x.com/tyler_lengyel/status/2019206612188066133/photo/1"
+        }
+      ]
+    },
+    {
+      "date": "2026-02-04",
+      "dateLabel": "February 4, 2026",
+      "time": "8:05 PM",
+      "year": "2026",
+      "url": "https://x.com/tyler_lengyel/status/2019245902507175956",
+      "text": "Can’t believe it took me so long to finally watch it. Also gonna be reaching out soon about Phil mint, hope you’re having a good start to the year brotha",
+      "media": []
+    },
+    {
+      "date": "2026-02-05",
+      "dateLabel": "February 5, 2026",
+      "time": "9:30 AM",
+      "year": "2026",
+      "url": "https://x.com/tyler_lengyel/status/2019448647365112115",
+      "text": "Phil is just an Art project that uses STARKs as your 2FA while allowing you to remain anonymous from mint, but he shares and is built on the views Vitalik mentions here.\n\nNot only will Phil be minted to a Smart Account that puts your private EOA as the owner, not allowing any transactions to process until you add a second signer, but the STARK proof that’s bound to your private EOA is something you can also use as two-factor authentication by choosing which transactions/functions you want to allow with/without that 2FA key.\n\nThe cool part that’s being integrated now is the Paymaster (4337), making it to where the user can go to the Mint page, scroll, and mint by only signing a transaction saying they own a wallet, no approvals for anything, and as long as a proof is in the system with that wallet bound, the mint will be approved and the user will have clicked 1 button in order to acquire a Quantum-Resistant Future Proof Smart Account. \n\nBut I’m sure something new will come up by the time I get done delivering packages today.",
+      "media": []
+    },
+    {
+      "date": "2026-02-06",
+      "dateLabel": "February 6, 2026",
+      "time": "12:53 PM",
+      "year": "2026",
+      "url": "https://x.com/tyler_lengyel/status/2019861990689177730",
+      "text": "Phil color palettes turning out nicey. And there's probably a lot more that goes into it than you think.\n\nFor these 4 I'm wanting to capture a retro Phil, a black/white Phil, a Pokemon Phil, and a Laker Phil (purple and gold). These color palettes will be integrated into the PhilPalette.sol contract which will fill the layers based on the parameters of the smart contract so you'll get many different variations when scrolling. The rarity system still hasn't been integrated but i like the idea of having the palettes themselves be the common generations, then the rarities becoming the ones that will take colors from each palette to make a truly unique unstructured palette, only showing up a small fraction of the time.",
+      "media": [
+        {
+          "label": "Image 1",
+          "url": "https://x.com/tyler_lengyel/status/2019861990689177730/photo/1"
+        },
+        {
+          "label": "Image 2",
+          "url": "https://x.com/tyler_lengyel/status/2019861990689177730/photo/2"
+        },
+        {
+          "label": "Image 3",
+          "url": "https://x.com/tyler_lengyel/status/2019861990689177730/photo/3"
+        },
+        {
+          "label": "Image 4",
+          "url": "https://x.com/tyler_lengyel/status/2019861990689177730/photo/4"
+        }
+      ]
+    },
+    {
+      "date": "2026-02-06",
+      "dateLabel": "February 6, 2026",
+      "time": "6:21 PM",
+      "year": "2026",
+      "url": "https://x.com/tyler_lengyel/status/2019944599024787852",
+      "text": "Thanks @Olympics\n, I’m going to sound a lot smarter now when I say “I’m using the Scientific Method to build a unique Art project named Phil on the Ethereum Blockchain” when someone asks me what I do in my free time.\n\nHell ya.\n\n*I am re(dacted)",
+      "media": []
+    },
+    {
+      "date": "2026-02-12",
+      "dateLabel": "February 12, 2026",
+      "time": "10:30 PM",
+      "year": "2026",
+      "url": "https://x.com/tyler_lengyel/status/2022181545243730422",
+      "text": "Running my own Ethereum node has always been something I’ve wanted to do, and I’m finally getting the hardware to be able to do it. What this will unlock for Phil means a lot to the premise he’s being built on and I’m so fucking stoked.",
+      "media": []
+    },
+    {
+      "date": "2026-02-18",
+      "dateLabel": "February 18, 2026",
+      "time": "3:18 PM",
+      "year": "2026",
+      "url": "https://x.com/tyler_lengyel/status/2024247234888683593",
+      "text": "This has nothing to do with Phil but the contract and mint for all 5 of these generations on mainnet would be <$1 so now it might need to. The Buddhabrot has been something thats captivated me since I saw it for the first time back in '22. @lukeweaver_eth\nwasn't lying",
+      "media": [
+        {
+          "label": "Video / GIF in this post or its quoted post",
+          "url": "https://x.com/tyler_lengyel/status/2024247234888683593"
+        }
+      ]
+    },
+    {
+      "date": "2026-02-23",
+      "dateLabel": "February 23, 2026",
+      "time": "6:38 PM",
+      "year": "2026",
+      "url": "https://x.com/tyler_lengyel/status/2026109422565576760",
+      "text": "have one CodeX agent deciphering Linear A and another updating my SVG editor to resemble Illustrator while I have Claude reviewing my Phil repo, replicating it, and battle testing it while I try to find the meaning of life.\n\ni think this is how you're supposed to do it but idk.",
+      "media": []
+    },
+    {
+      "date": "2026-02-26",
+      "dateLabel": "February 26, 2026",
+      "time": "9:32 AM",
+      "year": "2026",
+      "url": "https://x.com/tyler_lengyel/status/2027059221368562034",
+      "text": "the test version will be tested this weekend with 13 Phils. need to get the layers situated and color palettes locked (because as you can see they aren't all populating as they should), but its happening. idc\n\nthe main version will be 369 Phils like I've stated, but I like the idea of being able to change the layers whenever I want, and choosing a wallet to be able to mint every 36hrs. Therefor 369 Phils will be in wallets of real people, real collectors, and real artists in the space, without me having to worry about bot-ing or an unfair mint. The other idea I'm thinking of doing is every 13th Phil, instead of assigning it to a wallet, having it open up as a bid, where anyone on Ethereum can bid to gain the opportunity to scroll and mint their own Phil. Whoever wins the bid will win the mint of 1 Phil that they can use whenever they want, but with the Layers changing at any given moment, it adds a layer of fun.\n\ntime for work. have a day.",
+      "media": []
+    },
+    {
+      "date": "2026-02-27",
+      "dateLabel": "February 27, 2026",
+      "time": "10:33 AM",
+      "year": "2026",
+      "url": "https://x.com/tyler_lengyel/status/2027436903784390671",
+      "text": "Phil will allow you to be your own gatekeeper is a banger, imo.",
+      "media": []
+    },
+    {
+      "date": "2026-02-28",
+      "dateLabel": "February 28, 2026",
+      "time": "10:57 PM",
+      "year": "2026",
+      "url": "https://x.com/tyler_lengyel/status/2027986497295827358",
+      "text": "thank the heavens i didn't just send it on mainnet, thank you @tokenfox1 for saving me from most likely throwing my computer out a window today. \n\nat the end of the night, there's still bugs to be worked out, the artwork itself isn't being rendered properly in areas, but i deployed the full Phil stack to Sepolia and minted a Phil end-to-end: deterministic smart account setup, proof-gated minting, ERC-4337 account abstraction, and an on-chain @cryptopunks style marketplace.\n\nbig step forward today. gn 🤘",
+      "media": [
+        {
+          "label": "Image in quoted post",
+          "url": "https://x.com/tyler_lengyel/status/2027795029700579723/photo/1"
+        }
+      ]
+    },
+    {
+      "date": "2026-03-01",
+      "dateLabel": "March 1, 2026",
+      "time": "10:32 AM",
+      "year": "2026",
+      "url": "https://x.com/tyler_lengyel/status/2028161408089628876",
+      "text": "Your posts make my head hurt but happy to know it will only make Phil easier in the future 😂",
+      "media": [
+        {
+          "label": "Image 1",
+          "url": "https://x.com/tyler_lengyel/status/2028161408089628876/photo/1"
+        }
+      ]
+    },
+    {
+      "date": "2026-03-04",
+      "dateLabel": "March 4, 2026",
+      "time": "11:30 AM",
+      "year": "2026",
+      "url": "https://x.com/tyler_lengyel/status/2029263120061911295",
+      "text": "i'm not sure why, but the only thing thats bringing me peace and calmness lately is researching the history about the world before us. my mind is telling me \"do this!\", \"finish Phil!\", but when i sit down and start to work, i have little desire and my heart guides me elsewhere.",
+      "media": [
+        {
+          "label": "Image 1",
+          "url": "https://x.com/tyler_lengyel/status/2029263120061911295/photo/1"
+        },
+        {
+          "label": "Image 2",
+          "url": "https://x.com/tyler_lengyel/status/2029263120061911295/photo/2"
+        }
+      ]
+    },
+    {
+      "date": "2026-03-06",
+      "dateLabel": "March 6, 2026",
+      "time": "9:56 AM",
+      "year": "2026",
+      "url": "https://x.com/tyler_lengyel/status/2029964297477181463",
+      "text": "A quantum resistant smart account with account abstraction that also acts as your digital identity by using STARK proofs as the key that lets you choose what transaction can/can’t be sent with/without the proof. Ideally the proof is generated and lives on the persons phone/hardware where it’s generated but not sure how to get there yet. I call him Phil and it could turn out to be a complete nothing burger, but it’s been a fun learning experience nonetheless.",
+      "media": [
+        {
+          "label": "Image 1",
+          "url": "https://x.com/tyler_lengyel/status/2029964297477181463/photo/1"
+        }
+      ]
+    },
+    {
+      "date": "2026-03-06",
+      "dateLabel": "March 6, 2026",
+      "time": "8:58 PM",
+      "year": "2026",
+      "url": "https://x.com/tyler_lengyel/status/2030130892149346637",
+      "text": "progress from today.\n13 colors in the pallet, each layers 1 color, and there's a minimum of 13 colors per layer to choose from.\nall w/ numbers 3, 6, 9 in the Hex.\neach Phil will range from a min of 9 layers to a max of 13 and will have a min of 3 styles, with a max of 6.",
+      "media": [
+        {
+          "label": "Image 1",
+          "url": "https://x.com/tyler_lengyel/status/2030130892149346637/photo/1"
+        },
+        {
+          "label": "Image 2",
+          "url": "https://x.com/tyler_lengyel/status/2030130892149346637/photo/2"
+        }
+      ]
+    },
+    {
+      "date": "2026-03-06",
+      "dateLabel": "March 6, 2026",
+      "time": "11:06 PM",
+      "year": "2026",
+      "url": "https://x.com/tyler_lengyel/status/2030163175421907334",
+      "text": "a little backstory behind Phil...a loooong 🧵\n\nthe key behind the creation of Phil has everything to do with Layers, which is why i refer to what are normally called \"Traits\" as such. personally, I have no background in creating anything artistic in my life, which is why when I look around at all these amazing people making sick shit in the space, its hard to not compare yourself and think \"I don't belong here\" - in more ways than one.\n\nit's interesting because i've felt this in one way or another my whole life, call imposter syndrome, or call it being a little bitch, but im starting to accept that this may never change. what i do know is the only thing I can control is what I create, what I say, and how i express myself, regardless of what i think other people might think of me, i can only control what i can control, which is myself. it sounds stupid im sure but its been terrifying coming into a world where you don't know anyone or anything, and trying to blend in with people that have already ascended to another lvl. but, its been 4 years now, 4 years of learning and growing, and thats what i plan to keep doing, with no real plan other than to keep doing just that, because learning, even though i feel like a complete retardio at times, its really fucking fun.\n\nso who is Phil? he's a reflection of me, truly. from the art to the backend. every part of him includes something i didn't know about let alone how to explain 4 years ago, which is why, if you've been following along, he's changed shape so many times. in my personal opinion, i think he's only gotten better not just from a visual standpoint, but from an internal as well (the backend). then i reflect on who I was 4 years ago, and see the person i am now, and i look at Phil like its a true representation of me and the journey I've been on since first learning what the fuck a blockchain even is.\n\ni came into this space guns blazing, then was quickly humbled, and have been pretty terrified ever since, but i think the times coming where im no longer living in fear of what others think, maybe because im finally being honest with myself. \nor maybe (and most likely) im just fucking crazy and spend way too much time in my own head.\n\nanyways, with that, if you want to see how the Layers are layered on top of each other to make one of the images you'll see below, keep reading the thread. i hope you like the way Phil's turning out, i think he's getting close to his final form.",
+      "media": [
+        {
+          "label": "Image in quoted post",
+          "url": "https://x.com/tyler_lengyel/status/2030130892149346637/photo/1"
+        },
+        {
+          "label": "Image in quoted post",
+          "url": "https://x.com/tyler_lengyel/status/2030130892149346637/photo/2"
+        }
+      ]
+    },
+    {
+      "date": "2026-03-06",
+      "dateLabel": "March 6, 2026",
+      "time": "11:06 PM",
+      "year": "2026",
+      "url": "https://x.com/tyler_lengyel/status/2030163193415487811",
+      "text": "this next layer really took Phil to the next level aesthetically imo, it just made me look at it like, this fucks. i refer to it as the overlay layer because, well, its literally just an overlay over the all the previous layers. \n\nthis wraps up the background layer, which leads into Phils body.",
+      "media": [
+        {
+          "label": "Image 1",
+          "url": "https://x.com/tyler_lengyel/status/2030163193415487811/photo/1"
+        },
+        {
+          "label": "Image 2",
+          "url": "https://x.com/tyler_lengyel/status/2030163193415487811/photo/2"
+        },
+        {
+          "label": "Image 3",
+          "url": "https://x.com/tyler_lengyel/status/2030163193415487811/photo/3"
+        },
+        {
+          "label": "Image 4",
+          "url": "https://x.com/tyler_lengyel/status/2030163193415487811/photo/4"
+        }
+      ]
+    },
+    {
+      "date": "2026-03-06",
+      "dateLabel": "March 6, 2026",
+      "time": "11:06 PM",
+      "year": "2026",
+      "url": "https://x.com/tyler_lengyel/status/2030163197593043085",
+      "text": "Phil's fill took on a lot of different forms. I'm borderline obsessed with Fractals and Voronoi patterns, but they just didn't feel right within the path data, and trust me, i tried to make it work many many times, but was just never satisfied with how it looked. however the one Phil i did really like was different shapes filling Phil, it kinds reminds me of Scales on a reptile, but more OCD like, which fits me really well. then i started playing with gradients and landed on outputs that i love. then i also included my own artistis style, if you want to call it that, where for as long as i can remember, when i doodle, i just let my hand go and draw random shapes, then i fill in the shapes and leave the paths between the shapes empty. idk why i think it looks so awesome, but. i so 😂\n\n*im also creating these examples as im writing so the combinations might not match up exactly to the previous images cause im getting confused on which ones i combined previously when switching to export each example lmao",
+      "media": [
+        {
+          "label": "Image 1",
+          "url": "https://x.com/tyler_lengyel/status/2030163197593043085/photo/1"
+        },
+        {
+          "label": "Image 2",
+          "url": "https://x.com/tyler_lengyel/status/2030163197593043085/photo/2"
+        },
+        {
+          "label": "Image 3",
+          "url": "https://x.com/tyler_lengyel/status/2030163197593043085/photo/3"
+        },
+        {
+          "label": "Image 4",
+          "url": "https://x.com/tyler_lengyel/status/2030163197593043085/photo/4"
+        }
+      ]
+    },
+    {
+      "date": "2026-03-06",
+      "dateLabel": "March 6, 2026",
+      "time": "11:06 PM",
+      "year": "2026",
+      "url": "https://x.com/tyler_lengyel/status/2030163208619872633",
+      "text": "the last two i'll include together as well because again, I have the first style loaded and ready, with the other 2 types of each still needing to be filled to complete (plus i dont want to give away everything ;)) \n\nthey eyes here aren't even in the final form yet, because you'll notice beghind the glasses lens its just a solid color, which isn't how it'll be in production, but for right now its ok and still doesn't look like complete shit, but still need to figure out exactly what im wanting to do there, and it will most likely have something tio do with how the other two types of Eyes are created as well. \n\nthen for the Top, the final Layer (other than the Specials) this is the 'Shirt', and there will be a Tank and Hoodie as well, at the minimum. This edition specifically has \"Don't be a little bitch.\" written on it in Chalkduster font, because it reminds me watching TV shows growing up, and you would see the students say something or do something considered \"bad\" and they would be punished by having to write a specific sentance over and over again on the chalkboard. This reflects that, but its something i tell myself in every day life, i think its a great saying to live by, personally. i also like the look with no Top, which will be a rare occurrence on generation when scrolling :) then i also left one Phil without the overlay so y'all can see how that looks as well. the possibilities really are endless, wbich is probably another reason i keep iterating on it, because its fun and i seem to keep finding what i think are better outputs than the previous.",
+      "media": [
+        {
+          "label": "Image 1",
+          "url": "https://x.com/tyler_lengyel/status/2030163208619872633/photo/1"
+        },
+        {
+          "label": "Image 2",
+          "url": "https://x.com/tyler_lengyel/status/2030163208619872633/photo/2"
+        },
+        {
+          "label": "Image 3",
+          "url": "https://x.com/tyler_lengyel/status/2030163208619872633/photo/3"
+        },
+        {
+          "label": "Image 4",
+          "url": "https://x.com/tyler_lengyel/status/2030163208619872633/photo/4"
+        }
+      ]
+    },
+    {
+      "date": "2026-03-06",
+      "dateLabel": "March 6, 2026",
+      "time": "11:06 PM",
+      "year": "2026",
+      "url": "https://x.com/tyler_lengyel/status/2030163212407341397",
+      "text": "anyway, this is the last tweet of this way too long thread. i hope you enjoyed learning a bit more about Phil, because i truly enjoyed putting it together, and have really enjoyed building him. the actual minting/backend/technical side of things will be covered later in another thread, but for now, stay tuned and hopefully you see Phil on your timeline sooner rather than later! \n\ngn 🫶",
+      "media": []
+    },
+    {
+      "date": "2026-03-07",
+      "dateLabel": "March 7, 2026",
+      "time": "3:29 PM",
+      "year": "2026",
+      "url": "https://x.com/tyler_lengyel/status/2030410559024435613",
+      "text": "gonna watch the fights, search for Planet X, and prolly work on Phil.\n\nIt’s cool that you can go live to @X\nstraight from @streamlabs\nnow, haven’t done this in a min 🤘🏼",
+      "media": []
+    },
+    {
+      "date": "2026-03-12",
+      "dateLabel": "March 12, 2026",
+      "time": "7:18 AM",
+      "year": "2026",
+      "url": "https://x.com/tyler_lengyel/status/2032083754861121903",
+      "text": "Every time I create a layer with the Bubblegum color for Phil I keep singing “I got thirty-two flavors of that bootylicious bubblegum” and I can’t stop 😭",
+      "media": []
+    },
+    {
+      "date": "2026-03-13",
+      "dateLabel": "March 13, 2026",
+      "time": "5:46 PM",
+      "year": "2026",
+      "url": "https://x.com/tyler_lengyel/status/2032604356806324233",
+      "text": "“There will be times when the work will be thankless; the journey will be arduous; the path\nwill be lonely. But every road to the stars first passes through darkness.”\n\nThe Garden only grows if we water it, openly, together.\n\nChoose success. Choose Eth.\n\nhttps://ethereum.foundation/ef-mandate.pdf",
+      "media": []
+    },
+    {
+      "date": "2026-03-13",
+      "dateLabel": "March 13, 2026",
+      "time": "6:02 PM",
+      "year": "2026",
+      "url": "https://x.com/tyler_lengyel/status/2032608197316587788",
+      "text": "also, after reading the 'Resolving Quandaries' its pretty evident Phil still has a ways to go from a technical and safety standpoint that lets the project be what it's intended from the beginning.\n\nthis will start with posting it to my GitHub in the coming days (hopefully by eod tomorrow) so it can get the input it needs to become what its intended to.\n\none of my biggest issues with it currently is how the \"Private Allowlist\" is set up. ultimately its a free mint and the supply doesn't mean much to me, it could be inifinite, idc, its more so for the ability of a new person coming into the Ethereum ecosystem to be able to create an identity (their wallet with a cool lil dino NFT) where they know that their assets are 100% secure, this means against quantum as well. i'm not nearly smart enough to know when Phil has reached that point and i know there's people in this space that are, so ya, but i will be posting an updated front end of how the layers are looking today or tomorrow which im pretty excited about.",
+      "media": [
+        {
+          "label": "Image 1",
+          "url": "https://x.com/tyler_lengyel/status/2032608197316587788/photo/1"
+        }
+      ]
+    },
+    {
+      "date": "2026-03-13",
+      "dateLabel": "March 13, 2026",
+      "time": "11:42 PM",
+      "year": "2026",
+      "url": "https://x.com/tyler_lengyel/status/2032693840226980244",
+      "text": "there will be a unique Phil for everyone. currently sitting at 893,182,315,305,611,447,334,400 different combinations as it stands.\n\nlotta room to grow.",
+      "media": [
+        {
+          "label": "Image 1",
+          "url": "https://x.com/tyler_lengyel/status/2032693840226980244/photo/1"
+        },
+        {
+          "label": "Image 2",
+          "url": "https://x.com/tyler_lengyel/status/2032693840226980244/photo/2"
+        }
+      ]
+    },
+    {
+      "date": "2026-03-14",
+      "dateLabel": "March 14, 2026",
+      "time": "12:13 AM",
+      "year": "2026",
+      "url": "https://x.com/tyler_lengyel/status/2032701567934279992",
+      "text": "while CodeX re-works things with the updated layers and gets the repo ready for Github, i got an ider for some movement. after reading the ef-mandate today, its pretty clear to me that im not an artist, im not a dev, and im not a wizard, but by putting everything im working on along with my ideas that were influenced by these people out in the open, i can work with all of them if i build something that they would be interested in supporting. so thats what im going to do, and his names still going to be Phil.\n\nmore details 🔜",
+      "media": [
+        {
+          "label": "Image 1",
+          "url": "https://x.com/tyler_lengyel/status/2032701567934279992/photo/1"
+        }
+      ]
+    },
+    {
+      "date": "2026-03-14",
+      "dateLabel": "March 14, 2026",
+      "time": "8:23 AM",
+      "year": "2026",
+      "url": "https://x.com/tyler_lengyel/status/2032824861765284198",
+      "text": "IT WAS SO CLOSE BUT MY DUMBASS FORGOT ABOUT THE BASE BODY SO THE GOOD NEWS IS THERE'S SO MANY MORE UNIQUE PHILS FOR THE FUTURE BUT NEED TO RE-WORK THE FRONT END.\n\nwe're gonna be otay.",
+      "media": [
+        {
+          "label": "Video / GIF in this post or its quoted post",
+          "url": "https://x.com/tyler_lengyel/status/2032824861765284198"
+        }
+      ]
+    },
+    {
+      "date": "2026-03-14",
+      "dateLabel": "March 14, 2026",
+      "time": "8:57 AM",
+      "year": "2026",
+      "url": "https://x.com/tyler_lengyel/status/2032833583031955787",
+      "text": "etc is awesome and if i/we can find a way to work it into Phil where it makes sense im more than down. i love proof of work and the lore behind it, but intertwining the two doesn't make sense to me if everything can live and flow on eth without issue. im sure there's a smart play there, tho",
+      "media": []
+    },
+    {
+      "date": "2026-03-14",
+      "dateLabel": "March 14, 2026",
+      "time": "12:03 PM",
+      "year": "2026",
+      "url": "https://x.com/tyler_lengyel/status/2032880192902017337",
+      "text": "Alright, I've officially fallen in love with Phil, and the @github repo is public, open for comment, disagreement, and the like. \n\nI'll be spending the rest of the day working on additional layers and figuring out how to generate the zk-STARK on the user's device rather than relying on a backend controlled by me.\n\nAnother note: the @cryptopunks marketplace idea is still something I think would be beneficial to implement. Even though all the Phils will be free to mint, it would be cool to allow users to sell any assets held in their Smart Account directly within the Phil flow. That way you don't have to go somewhere else to list an asset for auction or sale. It can all happen in one place that you fully control, while also using a quantum-resistant security model.\n\nGithub repo: https://github.com/lengyeltyler/zkPhil/tree/main…",
+      "media": []
+    },
+    {
+      "date": "2026-03-14",
+      "dateLabel": "March 14, 2026",
+      "time": "9:09 PM",
+      "year": "2026",
+      "url": "https://x.com/tyler_lengyel/status/2033017690647138713",
+      "text": "I found myself researching ICANN, IANA, Top Level Domains (Identity Digital specifically), and how the current world relates to that of the new world being built. It's hard to not put on your tinfoil hat when looking into some of this, but I'm trying to build something and not figure out who killed Kennedy.\n\nWith that, if Phil is built as an App, I think there's a real path for him to be completely decentralized and quantum resistant while allowing the user the ability to own their own data.\n\nThe common theme during conversations I've had with AI is that IPFS or Arweave would be the best route to hosting the site, but I've never liked that idea. I think the files can be stored on-chain, so that's what I'm going to try to do.\n\nThen regarding the RPC provider, I think with whats being worked on by @drakefjustin and others regarding light clients, its only a matter of time before that doesn't have to be relied on by a third party service either.\n\n(photo courtesy of @ChatGPTapp)",
+      "media": [
+        {
+          "label": "Image 1",
+          "url": "https://x.com/tyler_lengyel/status/2033017690647138713/photo/1"
+        }
+      ]
+    },
+    {
+      "date": "2026-03-21",
+      "dateLabel": "March 21, 2026",
+      "time": "11:23 AM",
+      "year": "2026",
+      "url": "https://x.com/tyler_lengyel/status/2035406921763528818",
+      "text": "One Phil = One Human",
+      "media": []
+    },
+    {
+      "date": "2026-06-06",
+      "dateLabel": "June 6, 2026",
+      "time": "10:00 PM",
+      "year": "2026",
+      "url": "https://x.com/tyler_lengyel/status/2063471155307311607",
+      "text": "his name will be Philson when complete, and I'm aware I'll have to create another edition called Philby (pronounced “Phil-bee”) or the Knicks will lose in 7. \n\nto be continued...",
+      "media": [
+        {
+          "label": "Image 1",
+          "url": "https://x.com/tyler_lengyel/status/2063471155307311607/photo/1"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-01",
+      "dateLabel": "September 1, 2026",
+      "time": "6:39 AM",
+      "year": "2026",
+      "url": "https://x.com/tyler_lengyel/status/2094766974631022721",
+      "text": "Phil is a personal security OS for your digital life.\n\nIt gives you a user-owned identity, explains what apps/networks are asking you to do, checks the rules, gets approval from your trusted device, then releases only the exact authority needed.\n\nYour identity. Your keys. Your approval. Your rules.\n\n1 Phil = 1 Human (end goal)\n\nPublic Repo: https://github.com/lengyeltyler/P.C./blob/main/README.md…",
+      "media": []
+    },
+    {
+      "date": "2026-09-11",
+      "dateLabel": "September 11, 2026",
+      "time": "10:48 AM",
+      "year": "2026",
+      "url": "https://x.com/tyler_lengyel/status/2098453730614292798",
+      "text": "meh.\n\nthe goal was to do a Genesis mint for Phil on mainnet where you would actually install the dApp on your phone, but I'm not creating an organization developer account with @Apple\nso I'm just releasing the desktop software that will still allow you to do just that.\n\nmore details 🔜",
+      "media": [
+        {
+          "label": "Video / GIF in this post or its quoted post",
+          "url": "https://x.com/tyler_lengyel/status/2098453730614292798"
+        }
+      ]
+    }
+  ],
+  "milestones": [
+    {
+      "label": "March 2024 · $phil begins",
+      "post": "1769639044500058222"
+    },
+    {
+      "label": "March 2024 · First successful claim",
+      "post": "1770213682804297797"
+    },
+    {
+      "label": "March 2026 · Opening the source",
+      "post": "2032880192902017337"
+    },
+    {
+      "label": "September 2026 · Phil as a personal security OS",
+      "post": "2094766974631022721"
+    }
+  ]
+}

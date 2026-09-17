@@ -1,0 +1,55 @@
+{
+  "schema": 1,
+  "version": "0.3.0",
+  "build": "93",
+  "platform": "macOS arm64",
+  "minimumMacOS": "12.0",
+  "releaseType": "owner-selected-final-release",
+  "sourceHead": "c559066f4a98859c1b940a2761e8524914ac6f8e",
+  "sourceTree": "fc77615fa8f816fa2995af002e341a84b89fd12f",
+  "sourceDirty": false,
+  "installer": {
+    "name": "Phil-0.3.0-93-macOS-arm64.dmg",
+    "sha256": "fd6307fceb1259eeded60f80fe4e5e2d9f4925eca26efab1b82d433221b582b7",
+    "bytes": 132867684
+  },
+  "applicationInventorySHA256": "788415750e9e31703312404f53ae035ae8653b65b61181b9be5848e4f4feee8d",
+  "applicationNotarization": {
+    "id": "39d4a105-952a-4759-90c1-4a772c30f65d",
+    "status": "Accepted",
+    "message": "Processing complete"
+  },
+  "dmgNotarization": {
+    "id": "37b48ccb-d10d-4779-9b84-0f31f5e04c8b",
+    "status": "Accepted",
+    "message": "Processing complete"
+  },
+  "signatureAndGatekeeper": "PASS",
+  "chainId": 1,
+  "nft": "0x9732f84c54407cd846b3e987594417bcfa30644e",
+  "factory": "0xa3c263c4a0d0dc07b6ea7a8414bd245d98d347f0",
+  "catalogCommitment": "0x28efc1da8b61a09ad8f7963410fc69443cb98181c4cc23f01ef28c2bfa14f41e",
+  "publicConfigurationSHA256": "ff96af7b927ec2520cc3288e819ba260fc89a4cb68a4cb2fe269e048056ccff7",
+  "publicOpensAt": 1789616160,
+  "compatibleIdentityBuilds": [
+    92,
+    93
+  ],
+  "requiresNewIdentityForBuildsThrough": 91,
+  "changes": [
+    "Withdraw all defaults to available ETH minus maximum network fee",
+    "Custom ETH amount is optional and accepts leading decimal point",
+    "No changes to deployed contracts, configuration or identity/account derivation",
+    "Owner-provided app icon and home-button branding; version and build remain 0.3.0 (93)"
+  ],
+  "evidence": {
+    "localFocusedChecks": 6,
+    "isolatedUIFlows": 5,
+    "realWithdrawal": "owner confirmed on preceding Build 93 package; execution code unchanged",
+    "macBookProof": "owner test pending",
+    "brandingPreview": "visually checked",
+    "executionCodeConfigurationAndArtworkByteIdentical": true
+  },
+  "packageRevision": "branding-1",
+  "supersedesInstallerSHA256": "b00b80ee41a7ed3ee46226667c646e0a8e52934fd177f542e367cee46f629cee"
+}

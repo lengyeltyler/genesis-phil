@@ -1,0 +1,7 @@
+node_modules/
+.reconstructed/
+.local-build/
+.reference/
+genesis/optimization/.generated/
+genesis/optimization/evidence/
+__pycache__/
