@@ -2,7 +2,7 @@
 
 369 fully on-chain Phils on Ethereum Mainnet. Find a Phil, review the exact action, and approve it with your account's protected authority. Mint price is 0 ETH; Ethereum network fees apply. Each valid Genesis account can mint once. This is not a one-person or one-device limit.
 
-- **[Launch Phil Web](https://phil.tylerlengyel.com)** — isolated browser application, with History, the complete 161-post Timeline, and the original Genesis Tutorial. **Public minting is paused pending the one owner acceptance mint on the frozen release.** Do not fund a Web account while its live release status is closed.
+- **[Launch Phil Web](https://phil.tylerlengyel.com)** — isolated browser application, with History, the complete 161-post Timeline, and the original Genesis Tutorial. **Ethereum Mainnet minting is open.** Create and verify your backup, check the balance/funding estimate, then review and approve your selected Phil. Wallet balance and ETH withdrawal controls are available.
 - **[Download Desktop 0.3.0, Build 93](https://github.com/lengyeltyler/genesis-phil/releases/download/v0.3.0-build93/Phil-0.3.0-93-macOS-arm64.dmg)** — Apple Silicon macOS, Developer ID signed and notarized.
 - [Desktop source and verification](desktop/README.md) · [Build](desktop/BUILDING.md) · [Verify the installer](desktop/VERIFYING.md)
 - [Web source and exact release reconstruction](web/README.md)

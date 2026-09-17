@@ -9,11 +9,13 @@
     "origin": "https://phil.tylerlengyel.com",
     "engineeringHead": "ea1c45361cb4d722d5dae21d7241d52aecad1700",
     "releaseId": "ea1c45361cb4d722d5dae21d7241d52aecad1700:e0c5391d81571c2f1900f7a1db3659a8e2997269501700bf8e28bc13902176ed",
-    "stageAtPublication": "closed",
+    "stageAtPublication": "public",
     "liveStatusURL": "https://phil.tylerlengyel.com/release-status.json",
     "historyAndTutorial": "live",
-    "acceptance": "pending",
-    "balanceAndWithdrawal": "implemented-and-live"
+    "acceptance": "not-required-owner-explicitly-waived-additional-mint",
+    "balanceAndWithdrawal": "implemented-and-live",
+    "acceptanceTransactionHash": null,
+    "newMintPerformed": false
   },
   "availableInstallerURL": "https://github.com/lengyeltyler/genesis-phil/releases/download/v0.3.0-build93/Phil-0.3.0-93-macOS-arm64.dmg"
 }

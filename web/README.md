@@ -19,7 +19,7 @@ node apps/phil-web/scripts/verify-build.mjs "$PWD/.web-build"
 
 The public reconstruction verifies the source-file map, retains the frozen engineering identity, and requires every produced asset, Worker and complete release manifest to match the reference. It was run from freshly installed public dependencies and passed exact comparison. The exported source is a subset, so the ordinary engineering build command would derive a different Git identity; use the reconstruction command above to verify this specific live release.
 
-`release.json.mainnetEnabled` describes compiled capability, **not the live public gate**. Read https://phil.tylerlengyel.com/release-status.json for the current release-bound `closed`, account-specific `acceptance`, or `public` state. At initial publication this release is **closed**, pending the single owner acceptance mint. The existing fresh account has already been created, backup-verified and funded; no repeat setup is required.
+`release.json.mainnetEnabled` describes compiled capability, **not the live public gate**. Read https://phil.tylerlengyel.com/release-status.json for the current release-bound `closed`, account-specific `acceptance`, or `public` state. The live gate is **public**. The owner explicitly waived an additional acceptance mint after reporting prior mints. No new mint was signed or submitted for this completion release; no prior mint is represented as a test of these exact bytes. Public activation changed operational gate bindings only, without rebuilding the application or changing its Worker code.
 
 ## Content and hosting
 
@@ -29,4 +29,4 @@ The exact original Tutorial MP4 is streamed through the same origin from private
 
 79 focused tests passed, including the Web suite and shared withdrawal/state checks. Balance and withdrawal reuse canonical Desktop/shared readers, preparation, authorization and receipt matching. The browser action allowlist now includes the existing WITHDRAW_ETH semantic action; passkey wrapping, encrypted backups and the once-only execution controller are unchanged. [Exact parity scope](apps/phil-web/PARITY.md). The original security headers and service-worker prohibition remain enforced.
 
-For development/deployment details, see [the application README](apps/phil-web/README.md). Production publication uses a separately pinned Wrangler pipeline; do not deploy an export or rebuild during acceptance. The owner acceptance/public gate transition must use the already-frozen qualified production output.
+For development/deployment details, see [the application README](apps/phil-web/README.md). Production publication uses a separately pinned Wrangler pipeline; do not deploy an export or rebuild during acceptance. The public gate transition used the already-frozen qualified production output. The frozen engineering notes describe the originally planned acceptance sequence; the owner waiver superseded that operational requirement.
