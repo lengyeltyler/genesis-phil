@@ -60,11 +60,30 @@ export function createExecution({
           )
             throw Error("GENESIS_SIGNER");
           fresh();
-          await journal.transition(record, "signing_started", "signed");
+          record = await journal.transition(
+            record,
+            "signing_started",
+            "signed",
+          );
           await network.assertFresh(pkg);
           fresh();
-          await journal.transition(record, "signed", "submission_started");
-          await network.submit({ ...pkg.op, signature }, pkg);
+          record = await journal.transition(
+            record,
+            "signed",
+            "submission_started",
+          );
+          const submitted = await network.submit({ ...pkg.op, signature }, pkg);
+          if (
+            submitted?.status !== "pending" ||
+            submitted.userOperationHash !== pkg.userOperationHash
+          )
+            throw Error("WEB_RECONCILIATION_REQUIRED");
+          record = await journal.transition(
+            record,
+            "submission_started",
+            "submitted",
+            submitted,
+          );
           return await reconcile(record);
         } catch (error) {
           // A claimed nonce is deliberately left blocked after every ambiguity.
@@ -75,14 +94,29 @@ export function createExecution({
     );
   }
   async function reconcile(record) {
+    if (["signing_started", "signed"].includes(record.state)) {
+      const retired = await journal.retire(record, record.state, {
+        reason: "definitely_not_submitted",
+        userOperationHash: record.pkg.userOperationHash,
+      });
+      return {
+        status: "retired",
+        reason: retired.resolution.reason,
+        userOperationHash: record.pkg.userOperationHash,
+      };
+    }
+    if (!["submission_started", "submitted"].includes(record.state))
+      throw Error("WEB_RECONCILIATION_REQUIRED");
     const result = await network.reconcile(record.pkg);
     if (result.status === "confirmed")
       await journal.transition(
         record,
-        "submission_started",
+        record.state,
         result.success ? "confirmed" : "reverted",
         result,
       );
+    else if (result.status === "retirable")
+      await journal.retire(record, record.state, result);
     return result;
   }
   return { review, cancel, confirm, reconcile };

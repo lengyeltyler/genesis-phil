@@ -2,7 +2,7 @@
 
 [Back to download](../README.md)
 
-Build 96 uses the finalized Build 92 deployment on Ethereum Mainnet. Updating the withdrawal interface did not replace contracts.
+Build 97 uses the finalized Build 92 deployment on Ethereum Mainnet. Updating the withdrawal interface did not replace contracts.
 
 | Contract | Address and source | Etherscan status |
 |---|---|---|

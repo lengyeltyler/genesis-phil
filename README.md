@@ -1,20 +1,20 @@
 # Phil Genesis
 
-369 fully on-chain Phils on Ethereum Mainnet. Find a Phil, review the exact action, and approve it with your account's protected authority. Mint price is 0 ETH; Ethereum network fees apply. Each valid Genesis account can mint once. This is not a one-person or one-device limit.
+369 fully on-chain Phils on Ethereum Mainnet. Find a Phil, review the exact action, and approve it with your account's protected authority. Mint price is 0 ETH; Ethereum network fees apply. Each valid Genesis account can mint once.
 
-- **[Launch Phil Web](https://phil.tylerlengyel.com)** — Ethereum Mainnet, with account balance, funding estimates, withdrawal, History, Timeline and Tutorial.
-- **[Download Desktop 0.3.0, Build 96](https://github.com/lengyeltyler/genesis-phil/releases/download/v0.3.0-build96/Phil-0.3.0-96-macOS-arm64.dmg)** — Apple Silicon macOS, Developer ID signed, notarized and stapled.
+- **[Launch Phil Web](https://phil.tylerlengyel.com)** — Ethereum Mainnet with balance, funding estimates, withdrawal, History, Timeline and Tutorial.
+- **[Download Desktop 0.3.0, Build 97](https://github.com/lengyeltyler/genesis-phil/releases/download/v0.3.0-build97/Phil-0.3.0-97-macOS-arm64.dmg)** — Apple Silicon macOS, Developer ID signed, notarized and stapled.
 - [Verify the installer](docs/VERIFY-DOWNLOAD.md) · [Desktop source and verification](desktop/README.md)
-- [Web source and reconstruction](web/README.md) · [Current source tag](https://github.com/lengyeltyler/genesis-phil/tree/phil-story-opening-2026-09-17) · [Web release identity](web/LIVE-RELEASE.json)
+- [Web source and reconstruction](web/README.md) · [Build 97 remediation evidence](docs/BUILD97-REMEDIATION.md)
 - [Release manifest](release-manifest.json) · [Checksums](SHA256SUMS) · [Release status](release-status.json)
 
-## Final UI release
+## Build 97 security remediation
 
-Desktop Build 96 and Web preserve the Build-93 visual hierarchy and canonical logo, use the exact #C9E3FF light-blue accent, and retain Rolls. Web's Genesis-open announcements are removed. History is headed **Phils-Story**; Story and Timeline controls are unchanged. Its opening now uses the owner-approved September 17 wording beginning “In the beginning, Phil was just a memecoin on Ethereum Classic.” Warning/error colors stay distinct.
+Build 97 fixes the confirmed Web and Desktop availability/state-machine defects found in the September 18 deep audit. A definitely unsubmitted operation can be retired safely; an ambiguous provider delivery remains held. Concurrent deterministic account deployment is accepted only after the complete intended identity is validated. These changes preserve fail-closed and exactly-once authorization.
 
-Desktop engineering source: `776be1735a3bcb457d7bf02e1e5a44b1cad6eed9`, tree `80c90c52238c934d704b7b6382fb740f8c79f40c`. Its only changes from Build 95 are the stylesheet and build number. Web changes are limited to accents, announcement removal/dead code, one matching UI test, and the owner-requested History heading and opening copy. No custody, account derivation, backup, passkey, provider/bundler, contract, artwork, recipe, transaction authorization or journal logic changed. [Exact UI audit](docs/FINAL-UI-AUDIT.md).
+Desktop source `afbf28a60e2591bb1bf306f333c1a39a6cd80378`, tree `64b43fc7be826e978e833420f51cf6cd13a99952`. Web source `a4b24164bb65b242650a64bb0b76795e1bd84a83`, tree `28a0d26f1610fad3703e41eec6a387f765549223`. The qualification passed 239/239 checks; the independent public verifier passed complete source-to-package comparison and 14 tamper-rejection tests.
 
-Installer SHA-256: `9575bd6696f9c15f56ecd3e49511564068b78c0d4aa36e3c74422f3e8401f908`. Publisher: **Developer ID Application: Tyler Lengyel (B342738S82)**. Complete public-source-to-package comparison, Hardened Runtime, signatures, notarization, staples and Gatekeeper passed. Credential-free self-build startup remains unqualified because of macOS Team-ID library validation; use the official signed installer for normal operation. No protection was disabled.
+Installer SHA-256: `488092e87ef343bbaf288211a6638e4217ab57906323e10a6df4010a8dd0fb77`. Publisher: **Developer ID Application: Tyler Lengyel (B342738S82)**. App and DMG notarization, staples, Hardened Runtime, recursive signatures and Gatekeeper passed. Credential-free self-build startup remains unqualified under macOS Team-ID library validation; use the official signed installer for normal operation. No protection was disabled.
 
 ## Mainnet contracts
 
@@ -22,16 +22,10 @@ Installer SHA-256: `9575bd6696f9c15f56ecd3e49511564068b78c0d4aa36e3c74422f3e8401
 - Factory: [`0xa3c263c4a0d0dc07b6ea7a8414bd245d98d347f0`](https://etherscan.io/address/0xa3c263c4a0d0dc07b6ea7a8414bd245d98d347f0)
 - [Exact configuration and remaining addresses](desktop/apps/philcore-desktop/production/candidate-public-config.json)
 
-This release does not modify or redeploy contracts. Browser passkeys unlock a separate Ethereum signing key; Web encrypted backups and Desktop backups are not interchangeable. Classical cryptography underlies the current authorization path. Post-quantum security and one-human uniqueness are research goals, not current product guarantees.
-
-The root manifests and checksums describe Build 96 and the final live Web release. No additional Mainnet transaction was performed for this UI audit, as instructed by the owner. Automated flow regressions and source equivalence do not constitute a new end-to-end Mainnet mint.
+This release does not modify or redeploy contracts and performs no Mainnet transaction or additional mint. Browser passkeys unlock a separate Ethereum signing key; Web encrypted backups and Desktop backups are not interchangeable. Classical cryptography underlies the current authorization path. Post-quantum security and one-human uniqueness remain research goals.
 
 ## Historical releases and source tags
 
-The historical `phil-web-completion-2026-09-17` tag remains at `ee5c853a61868d06e92c4984b5faa5f8aaed97d3`, recording the pre-public state. The historical `phil-web-mainnet-live-2026-09-17` tag records the preceding public release. The final blue UI is identified by `phil-final-blue-ui-2026-09-17` and `v0.3.0-build96-source`. Build 95 remains a historical draft with no installer asset.
+Build 96 remains immutable at `v0.3.0-build96` and `v0.3.0-build96-source`; `phil-final-blue-ui-2026-09-17` and `phil-story-opening-2026-09-17` retain their historical UI/content evidence. Build 95 remains a historical draft without a published installer. The old public `v0.3.0-build93` tag remains untouched and predates the current source-verification package.
 
-Build 93 and Build 94 artifacts remain unchanged. The historical public `v0.3.0-build93` tag points to commit `67b0b7c58943c5446019b34f173255b7dfa4846b`, also used by Build 88. Its source archive contains old download documentation, not the Build-93 application source. That tag has not been moved. Use the Build-96 source tag and file maps for current verification.
-
-The separate [P.C. repository](https://github.com/lengyeltyler/P.C.) is the historical controlled Sepolia beta, not this Genesis Mainnet Web release. Earlier Phil art and proof experiments remain historical projects.
-
-Source licenses and third-party notices remain in each snapshot. Artwork/branding rights are described in [ASSET_RIGHTS.md](desktop/docs/reference/ASSET_RIGHTS.md).
+Build 97 is identified by `v0.3.0-build97`, `v0.3.0-build97-source`, and `phil-remediation-live-2026-09-19`. Source licenses and third-party notices remain in each snapshot. Artwork and branding rights are described in [ASSET_RIGHTS.md](desktop/docs/reference/ASSET_RIGHTS.md).

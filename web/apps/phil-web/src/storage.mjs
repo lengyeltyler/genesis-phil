@@ -42,6 +42,23 @@ export async function openStore(indexedDB = globalThis.indexedDB) {
       run("readwrite", (s) => {
         s.add(value, key);
       }),
+    claim: (key, value, archiveKey, archive) =>
+      run("readwrite", (s, done, abort) => {
+        const r = s.get(key);
+        r.onsuccess = () => {
+          try {
+            if (r.result === undefined) s.add(value, key);
+            else {
+              const historical = archive(r.result);
+              s.add(historical, archiveKey(r.result));
+              s.put(value, key);
+            }
+            done(value);
+          } catch {
+            abort();
+          }
+        };
+      }),
     all: () =>
       run("readonly", (s, done) => {
         const r = s.getAll();
@@ -81,7 +98,27 @@ export function createJournal(store) {
       pkg: structuredClone(pkg),
       receipt: null,
     };
-    await store.add(record.key, record);
+    const archiveKey = (current) =>
+      "history:" + record.key + ":" + current.pkg.userOperationHash;
+    await store.claim(record.key, record, archiveKey, (current) => {
+      validatePersistedPackage(current?.pkg);
+      if (
+        current?.kind !== "attempt" ||
+        current.key !== record.key ||
+        current.state !== "retired" ||
+        current.pkg.userOperationHash === record.pkg.userOperationHash ||
+        current.pkg.authorization.authorizationId ===
+          record.pkg.authorization.authorizationId ||
+        current.resolution?.userOperationHash !== current.pkg.userOperationHash
+      )
+        throw Error("WEB_ATTEMPT_CHANGED");
+      return {
+        ...current,
+        kind: "attempt_history",
+        activeKey: current.key,
+        key: archiveKey(current),
+      };
+    });
     return record;
   }
   async function transition(record, expected, next, receipt = null) {
@@ -97,9 +134,42 @@ export function createJournal(store) {
       return { ...current, state: next, receipt };
     });
   }
+  async function retire(record, expected, resolution) {
+    if (
+      !["signing_started", "signed", "submission_started", "submitted"].includes(
+        expected,
+      ) ||
+      !resolution ||
+      ![
+        "definitely_not_submitted",
+        "nonce_advanced",
+        "authorization_expired",
+        "valid_account_predeployed",
+      ].includes(resolution.reason) ||
+      resolution.userOperationHash !== record.pkg.userOperationHash
+    )
+      throw Error("WEB_RETIREMENT_INVALID");
+    return store.change(record.key, (current) => {
+      validatePersistedPackage(current?.pkg);
+      if (
+        !current ||
+        current.key !== record.key ||
+        current.state !== expected ||
+        canonicalJSON(current.pkg) !== canonicalJSON(record.pkg)
+      )
+        throw Error("WEB_ATTEMPT_CHANGED");
+      return {
+        ...current,
+        state: "retired",
+        receipt: null,
+        resolution: structuredClone(resolution),
+      };
+    });
+  }
   return {
     claim,
     transition,
+    retire,
     pending: async (account) =>
       (await store.all())
         .filter((x) => x?.kind === "attempt")
@@ -111,8 +181,10 @@ export function createJournal(store) {
               "signing_started",
               "signed",
               "submission_started",
+              "submitted",
               "confirmed",
               "reverted",
+              "retired",
             ].includes(record.state)
           )
             throw Error("WEB_JOURNAL_INVALID");
@@ -121,7 +193,7 @@ export function createJournal(store) {
         .filter(
           (x) =>
             x.pkg.profile.account === account &&
-            !["confirmed", "reverted"].includes(x.state),
+            !["confirmed", "reverted", "retired"].includes(x.state),
         ),
   };
 }

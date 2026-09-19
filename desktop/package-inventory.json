@@ -9,7 +9,7 @@
     "type": "file",
     "mode": 420,
     "bytes": 1968,
-    "sha256": "58cc937a8e81c99673888be25103977914d0731a699cbfe315a606158d418620"
+    "sha256": "e2afb1759760cf87b796e1cbaadc8b1838096a7f677b90869215cdcea76bec95"
   },
   {
     "path": "Contents/Frameworks",
@@ -60,7 +60,7 @@
     "type": "file",
     "mode": 493,
     "bytes": 178984080,
-    "sha256": "bf6b9fa7f53103c688053c74a14fa1e69ea7092eb52b66134ab5926720120789"
+    "sha256": "7403e80d716e5a12aeb36943d73abf6c4d3cfbc79d17c5f797507538461e4011"
   },
   {
     "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Helpers",
@@ -72,7 +72,7 @@
     "type": "file",
     "mode": 493,
     "bytes": 1254608,
-    "sha256": "5c18a5908e84d0b629e2d989da370c53290b00d806314e025b55537c222875ce"
+    "sha256": "10b654500d0c91a6631ad868446b45bce48c12e2faefffaf9eece6bde2e5577a"
   },
   {
     "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Libraries",
@@ -84,28 +84,28 @@
     "type": "file",
     "mode": 493,
     "bytes": 109664,
-    "sha256": "c5bd8f6ad69cf8a895ec4a196465ba56c4e72e0468d058461a57fdbc9edfe788"
+    "sha256": "cfe6e910137580bd39ff597ebf6615676f14b5ef98408722dbb693a91339a01f"
   },
   {
     "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Libraries/libGLESv2.dylib",
     "type": "file",
     "mode": 493,
     "bytes": 6834768,
-    "sha256": "0b8d2ab225297f882cf7e906b51a2bc12602c175998929c31be7ece60d406e3d"
+    "sha256": "1b830bef520b41b212a44a9ad36f8716bf0e918b6999c819ee9775e33f079ebc"
   },
   {
     "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Libraries/libffmpeg.dylib",
     "type": "file",
     "mode": 493,
     "bytes": 2218480,
-    "sha256": "f87afa42ae464f6c44f40d05febe56c8b67b245d5c0c05a5df2f3e0d691cbe16"
+    "sha256": "5be1dcddcee6c5c4233b69afcda4a3d36211f19536eb96179428f082c82d29c3"
   },
   {
     "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Libraries/libvk_swiftshader.dylib",
     "type": "file",
     "mode": 493,
     "bytes": 16643888,
-    "sha256": "b900af97f11c0d9fbcb4cf6d3020506cea11e37288f87e268635c8b72399c862"
+    "sha256": "dda1e3a179ffc091ad2cfa91b09c98ed4f6ffcdc66bcfa2772b27cd9a675b7d8"
   },
   {
     "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Libraries/vk_swiftshader_icd.json",
@@ -2818,7 +2818,7 @@
     "type": "file",
     "mode": 420,
     "bytes": 85744,
-    "sha256": "1e5c1ef6756bd3bb061413ce53f56151a204a64fa690c55d021c85b7f563a6cd"
+    "sha256": "46ac38451f2787571b34ad22b3284cfc05e6f9dff90819e13b329ee44305c2ca"
   },
   {
     "path": "Contents/Frameworks/Electron Framework.framework/Versions/Current",
@@ -2841,7 +2841,7 @@
     "type": "file",
     "mode": 420,
     "bytes": 945,
-    "sha256": "aadf59d67a6e8298748efd06fcfaf5631ff3ef7ee33631c73cdb50fc3fa248a0"
+    "sha256": "89ea405f7bde8b42995463758c5d769d29632593544b22fb2431cf9bb3b2e45f"
   },
   {
     "path": "Contents/Frameworks/Electron Helper (GPU).app/Contents/MacOS",
@@ -2853,7 +2853,7 @@
     "type": "file",
     "mode": 493,
     "bytes": 221152,
-    "sha256": "0d0e692101ce66a64cf1fb0c5c90ea6b27b678603a477af04185ab46be63d463"
+    "sha256": "04efcb5337200e49d859ac17cbd8ff606ce6742be4cebe3acad020bc9e58fac0"
   },
   {
     "path": "Contents/Frameworks/Electron Helper (GPU).app/Contents/PkgInfo",
@@ -2889,7 +2889,7 @@
     "type": "file",
     "mode": 420,
     "bytes": 948,
-    "sha256": "9c1a68f8bb398ebf2cd666ebafad9717fcaac314b8731a2151ec325ed647c51b"
+    "sha256": "2a0dab0e59320f2943a8fd836cea57c5df158f645dc0fe0f5f0cb75ee2f34143"
   },
   {
     "path": "Contents/Frameworks/Electron Helper (Plugin).app/Contents/MacOS",
@@ -2901,7 +2901,7 @@
     "type": "file",
     "mode": 493,
     "bytes": 221152,
-    "sha256": "8fa7ec0e0099f6c6a72264073145db03e5c72fea0938b1ef324926161ac3d977"
+    "sha256": "c50f4b16b35fce9c08a41c20b804d68a5135b6170e9a4d3ca8abd596b1e9da15"
   },
   {
     "path": "Contents/Frameworks/Electron Helper (Plugin).app/Contents/PkgInfo",
@@ -2937,7 +2937,7 @@
     "type": "file",
     "mode": 420,
     "bytes": 950,
-    "sha256": "0298d8740b2cafd46a3cf7a2a2242c780ee081139694cbafe5bdce5ca7302002"
+    "sha256": "1b8b8e03936b8ceafd1609fd25c92a574dcb098180685095882dc9f3c45fd6aa"
   },
   {
     "path": "Contents/Frameworks/Electron Helper (Renderer).app/Contents/MacOS",
@@ -2949,7 +2949,7 @@
     "type": "file",
     "mode": 493,
     "bytes": 221152,
-    "sha256": "06b3ff9418e6dffc71414361d74e47af7427eb29c1fd974398f4fe159eb1ad4c"
+    "sha256": "431e015dbf96de6edf0d95948c8eb36d79fe86c4f1cd322452ca486a8bacfa8d"
   },
   {
     "path": "Contents/Frameworks/Electron Helper (Renderer).app/Contents/PkgInfo",
@@ -2985,7 +2985,7 @@
     "type": "file",
     "mode": 420,
     "bytes": 939,
-    "sha256": "de23b178d214f3bb66bfa4f31e3bfdbe86af00d9dc824c9c676d5e0cba68fe26"
+    "sha256": "8175971cbad22c83076e5d6357f01433e6d4b972fae4d66f3241c028e6c74374"
   },
   {
     "path": "Contents/Frameworks/Electron Helper.app/Contents/MacOS",
@@ -2997,7 +2997,7 @@
     "type": "file",
     "mode": 493,
     "bytes": 221152,
-    "sha256": "bcbc3b0ca35c4b5be346b9cf086857ecb0c759c96e99324a3f58568cae17a309"
+    "sha256": "1e90a1625ea6ea01594222d1372e209b8c078a3de0b290204bb1bdfe1be5fbb3"
   },
   {
     "path": "Contents/Frameworks/Electron Helper.app/Contents/PkgInfo",
@@ -3050,7 +3050,7 @@
     "type": "file",
     "mode": 493,
     "bytes": 107072,
-    "sha256": "8099dcc02c0639a4437fef9b93c5392a494e5ee77ddab5b9ab9a436091a55ce9"
+    "sha256": "14efe05f1c9d5cf9dc54eb6a31548e7fcdd0afb04bf4eee482b755fe631c40fd"
   },
   {
     "path": "Contents/Frameworks/Mantle.framework/Versions/A/Resources",
@@ -3114,7 +3114,7 @@
     "type": "file",
     "mode": 493,
     "bytes": 385232,
-    "sha256": "960217d63cbbaa6ecf731beb7b03fc47869e48d20e2352e79bd76a323f6c1281"
+    "sha256": "ca05b9d74218109619c70b80c739c841ff32f552742aea9acbb2f27e7fd3bb90"
   },
   {
     "path": "Contents/Frameworks/ReactiveObjC.framework/Versions/A/Resources",
@@ -3190,14 +3190,14 @@
     "type": "file",
     "mode": 493,
     "bytes": 143264,
-    "sha256": "77c27d84ceaa133c147fa0026a708a09f04fd2a55895b0d89e35400e6dec31bf"
+    "sha256": "a6e77132019769bf97039f89755d7baf91fa56ccf6911d02883f583dbab31cae"
   },
   {
     "path": "Contents/Frameworks/Squirrel.framework/Versions/A/Squirrel",
     "type": "file",
     "mode": 493,
     "bytes": 162528,
-    "sha256": "8d084564b8f3da686811acf8307d6ac87a8b69f444ea16ad288eabcd272b88b9"
+    "sha256": "8298028022fe8a2ef0e09eb6277f77d94dc574f2c50efce24fe71e9dbf831f9b"
   },
   {
     "path": "Contents/Frameworks/Squirrel.framework/Versions/A/_CodeSignature",
@@ -3209,7 +3209,7 @@
     "type": "file",
     "mode": 420,
     "bytes": 2660,
-    "sha256": "642646dc678de43e6298de8ab11ff5168c7ffc3f556e6989405a61dc28b04ccf"
+    "sha256": "80f470d79b004efbe8e0270f871f3b8086b36cee1ab07814f0346fe0b88f1ba6"
   },
   {
     "path": "Contents/Frameworks/Squirrel.framework/Versions/Current",
@@ -3222,7 +3222,7 @@
     "type": "file",
     "mode": 420,
     "bytes": 2448,
-    "sha256": "0dd08d4233340983bce9ede27cbc76da1af61514fd37951673e7bb08e666c80a"
+    "sha256": "4d18ee0d7a569df5bb7bb0be8e137d164707995dfa196eb301fb85bcefe4729f"
   },
   {
     "path": "Contents/MacOS",
@@ -3234,7 +3234,7 @@
     "type": "file",
     "mode": 493,
     "bytes": 52976,
-    "sha256": "00e96427869d2ea8a7d2abaddf7d695ccf5f79bebe9cef35c612d9786e2f5f1e"
+    "sha256": "f2c5c38c07774ec8bae5b504b46bf70e7e1e3d6af4c96510ed8524d1815b33dd"
   },
   {
     "path": "Contents/PkgInfo",
@@ -3384,8 +3384,8 @@
     "path": "Contents/Resources/app/main.cjs",
     "type": "file",
     "mode": 420,
-    "bytes": 1569312,
-    "sha256": "2c6aa82b80fe2dd09b30d48b56c6795b9bb7466ec0568a1b4819db92a24abb85"
+    "bytes": 1586210,
+    "sha256": "5e270b4740dd1923cf1f85f62b59a8a4c805a6c02c064569ff8a9607319daec1"
   },
   {
     "path": "Contents/Resources/app/main.cjs.LEGAL.txt",
@@ -3404,14 +3404,14 @@
     "type": "file",
     "mode": 493,
     "bytes": 152784,
-    "sha256": "84fdb0d2a5c61e2e2d28cd5a598b329cdc93d3b1db9c21d3737fb9c2f9dc20c9"
+    "sha256": "6ccbee644fb269b7e54be15991c2cd2baf2536e2ce2698104deebc6621e64824"
   },
   {
     "path": "Contents/Resources/app/package.json",
     "type": "file",
     "mode": 420,
     "bytes": 140,
-    "sha256": "57a9449bc7642c39862fd7d79fa9987fb87e408f9882f59ea3ba888c3818cade"
+    "sha256": "a9f89219e1589c662141aa08f7e2558601f51968424bd8410c5c64c8f0cb1237"
   },
   {
     "path": "Contents/Resources/app/preload.cjs",
@@ -3432,7 +3432,7 @@
     "type": "file",
     "mode": 420,
     "bytes": 347,
-    "sha256": "4922fdbde5c5a90325409cc7e4b35416cd32514aa6270da39edae3435fa46ff0"
+    "sha256": "20e604fbd6a25ca29eb5c556444480fa1232c4526a7f22ecbd1509eebbda7857"
   },
   {
     "path": "Contents/Resources/app/ui",
@@ -3763,7 +3763,7 @@
     "type": "file",
     "mode": 420,
     "bytes": 13355,
-    "sha256": "e0701261343eb4d70f15d2af0409915dfdd81f6da91b5e1901fad6b3d5c6c674"
+    "sha256": "813d2dd6777808e39fba2c9ed26787062ca57c727954b366a366a778e371aab5"
   },
   {
     "path": "Contents/embedded.provisionprofile",

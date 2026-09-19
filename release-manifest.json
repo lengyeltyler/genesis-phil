@@ -1,30 +1,30 @@
 {
   "schema": 1,
   "version": "0.3.0",
-  "build": "96",
+  "build": "97",
   "platform": "macOS arm64",
   "minimumMacOS": "12.0",
   "releaseType": "current-public-desktop-installer",
-  "sourceHead": "776be1735a3bcb457d7bf02e1e5a44b1cad6eed9",
-  "sourceTree": "80c90c52238c934d704b7b6382fb740f8c79f40c",
+  "sourceHead": "afbf28a60e2591bb1bf306f333c1a39a6cd80378",
+  "sourceTree": "64b43fc7be826e978e833420f51cf6cd13a99952",
   "sourceDirty": false,
   "installer": {
-    "name": "Phil-0.3.0-96-macOS-arm64.dmg",
-    "sha256": "9575bd6696f9c15f56ecd3e49511564068b78c0d4aa36e3c74422f3e8401f908",
-    "bytes": 132867632,
-    "url": "https://github.com/lengyeltyler/genesis-phil/releases/download/v0.3.0-build96/Phil-0.3.0-96-macOS-arm64.dmg",
+    "name": "Phil-0.3.0-97-macOS-arm64.dmg",
+    "sha256": "488092e87ef343bbaf288211a6638e4217ab57906323e10a6df4010a8dd0fb77",
+    "bytes": 132732714,
+    "url": "https://github.com/lengyeltyler/genesis-phil/releases/download/v0.3.0-build97/Phil-0.3.0-97-macOS-arm64.dmg",
     "status": "public"
   },
-  "applicationInventorySHA256": "4ce3ccde5e6d204a0fb376490b3cac0bbe71dc73dc2f2a205c6268cef469376a",
+  "applicationInventorySHA256": "2399aadcf8b2f550e431d27d6052a889bbda0851343c180ab028f41262d6120f",
   "applicationNotarization": {
-    "message": "Processing complete",
-    "id": "e2afd8b6-7278-404f-a2aa-15e4666ab4e9",
-    "status": "Accepted"
+    "id": "7c987b30-853e-4620-b172-5814cad08070",
+    "status": "Accepted",
+    "message": "Processing complete"
   },
   "dmgNotarization": {
     "status": "Accepted",
-    "id": "8316f210-9a18-4a16-834f-7582fa99d31f",
-    "message": "Processing complete"
+    "message": "Processing complete",
+    "id": "39afc5c1-a5e1-4b12-86d6-10662bff24dd"
   },
   "signatureAndGatekeeper": "PASS",
   "chainId": 1,
@@ -38,21 +38,58 @@
     93,
     94,
     95,
-    96
+    96,
+    97
   ],
   "requiresNewIdentityForBuildsThrough": 91,
   "changes": [
-    "Replace nonsemantic purple UI accents with exact #C9E3FF; preserve Build-93 hierarchy, logo and Rolls",
-    "No Desktop functional, custody, contract, provider, artwork or execution changes from Build 95"
+    "Durable monotonic attempt lifecycle and atomic retired archive rotation for definite pre-submission failures",
+    "Conservative two-provider and bundler reconciliation; ambiguous submission remains held",
+    "Complete account identity validation before rebuilding after a valid concurrent deterministic deployment",
+    "Public reconstruction now includes the Desktop account wrapper required by its test surface",
+    "No contract, address, artwork, custody, passkey, mint policy, supply or Mainnet state change"
   ],
   "evidence": {
-    "focusedUniqueTestsPassed": 74,
+    "regressionTestsPassed": 239,
+    "regressionTestsFailed": 0,
+    "webTestsPassed": 64,
+    "desktopTestsPassed": 43,
+    "genesisStateAndUiTestsPassed": 52,
     "sourceToPackage": "PASS",
+    "verifierNegativeTestsPassed": 14,
     "appleSignatureNotarizationStaplingGatekeeper": "PASS",
-    "newMainnetMintPerformed": false
+    "newMainnetTransaction": false
   },
-  "packageRevision": "build93-light-blue",
-  "supersedesInstallerSHA256": "fd6307fceb1259eeded60f80fe4e5e2d9f4925eca26efab1b82d433221b582b7",
+  "packageRevision": "build97-remediation",
+  "supersedesInstallerSHA256": "9575bd6696f9c15f56ecd3e49511564068b78c0d4aa36e3c74422f3e8401f908",
+  "sourceTag": "v0.3.0-build97-source",
+  "sourceURL": "https://github.com/lengyeltyler/genesis-phil/tree/v0.3.0-build97-source/desktop",
+  "web": {
+    "origin": "https://phil.tylerlengyel.com",
+    "engineeringHead": "a4b24164bb65b242650a64bb0b76795e1bd84a83",
+    "engineeringTree": "28a0d26f1610fad3703e41eec6a387f765549223",
+    "sourceDigest": "a8f6e9f95729d64f2a0d1ed3327d0c0b2d670fdf1210ed89f762fdd030a17df4",
+    "releaseId": "a4b24164bb65b242650a64bb0b76795e1bd84a83:a59859497a9c73144260ed4dfb1a45b395b22bfd48f515529d71ba3b0bde0b5a",
+    "manifestSHA256": "a59859497a9c73144260ed4dfb1a45b395b22bfd48f515529d71ba3b0bde0b5a",
+    "buildSHA256": "d4d1c4805e8796b8d12fb510a172ee350a1ee052061de4b9fa9b5272c9eea50e",
+    "workerSHA256": "0f7d3df679b9151599e5f3670ce9c1562f2245de1abe228a19f1ff6e5e0ba4a4",
+    "stageAtPublication": "public",
+    "liveStatusURL": "https://phil.tylerlengyel.com/release-status.json",
+    "assets": {
+      "app.c0b46e855ca4ee8802ccbec8020ccae2f5ab40225f059d9919d44c4ff5bce8cc.js": "c0b46e855ca4ee8802ccbec8020ccae2f5ab40225f059d9919d44c4ff5bce8cc",
+      "style.d2ffe415a933ea8398fa2a9351699aaf2bceae0d01dff7809efe6dae4d9e9c64.css": "d2ffe415a933ea8398fa2a9351699aaf2bceae0d01dff7809efe6dae4d9e9c64",
+      "index.html": "1bfdf8b9bd567c91d64d7289cd077129c08cdfd24caafd8ada8bd295a53a6908",
+      "catalog.bin": "0a75a6f8f2c851b14a92dd363bab09aa7a1c987705c69e6badc71f16dde050b5",
+      "catalog-manifest.json": "21c57e33a7b82fe88e64094758fd2fd3193f84ede1ba4c4e090762e0286b4092",
+      "phil-logo.png": "1d9f5122d996fd5ce1631c09d2bffe86f19f77251561299ae439e9b351b83d0e",
+      "release.json": "a59859497a9c73144260ed4dfb1a45b395b22bfd48f515529d71ba3b0bde0b5a"
+    },
+    "finalLiveTag": "phil-remediation-live-2026-09-19",
+    "finalLiveTagURL": "https://github.com/lengyeltyler/genesis-phil/tree/phil-remediation-live-2026-09-19",
+    "focusedTestsPassed": 64,
+    "newMainnetTransaction": false,
+    "contractsUnchanged": true
+  },
   "build95": {
     "build": 95,
     "status": "signed-notarized-installer-unpublished-upload-failed",
@@ -67,26 +104,5 @@
     "sourceURL": "https://github.com/lengyeltyler/genesis-phil/tree/v0.3.0-build95-source/desktop",
     "artifactEvidence": "docs/historical-build95-release-manifest.json",
     "evidenceNote": "Archived manifest preserves original Build-95 provenance; its installer URL was an intended publication destination, not a currently available download."
-  },
-  "web": {
-    "origin": "https://phil.tylerlengyel.com",
-    "engineeringHead": "b9999937ac216fdb933163262298fab058d95730",
-    "engineeringTree": "abcbd9b285b46226cf8042e1b35c0b535af749ba",
-    "releaseId": "b9999937ac216fdb933163262298fab058d95730:436c8126f58f61f4bd3535fad6c6f59f657a77d055c69c56d27ac77c6c291ab7",
-    "stageAtPublication": "public",
-    "liveStatusURL": "https://phil.tylerlengyel.com/release-status.json",
-    "historyAndTutorial": "live",
-    "historyHeading": "Phils-Story",
-    "balanceAndWithdrawal": "implemented-and-live",
-    "acceptance": "additional-mainnet-mint-not-required-for-ui-audit",
-    "acceptanceTransactionHash": null,
-    "newMintPerformed": false,
-    "buildSHA256": "f1f93d0fb0f5ef04c238f69c50d0f33b719c24c70adf62f429469a95a6de8343",
-    "workerSHA256": "0f7d3df679b9151599e5f3670ce9c1562f2245de1abe228a19f1ff6e5e0ba4a4",
-    "finalLiveTag": "phil-story-opening-2026-09-17",
-    "finalLiveTagURL": "https://github.com/lengyeltyler/genesis-phil/tree/phil-story-opening-2026-09-17",
-    "contentRevision": "Owner-approved opening replacement, September 17, 2026"
-  },
-  "sourceTag": "v0.3.0-build96-source",
-  "sourceURL": "https://github.com/lengyeltyler/genesis-phil/tree/v0.3.0-build96-source/desktop"
+  }
 }

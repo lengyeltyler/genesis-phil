@@ -206,6 +206,7 @@ test("Mainnet gate blocks before approval; successful fixture submits once and l
       submit: async () => {
         submits++;
         if (lost) throw Error("lost response");
+        return { status: "pending", userOperationHash: pkg.userOperationHash };
       },
       reconcile: async () => ({ status: "confirmed", success: true }),
     };

@@ -437,7 +437,22 @@ async function execute(pkg, host, mainnet) {
     await host.assertFresh(pkg);
     await current();
     attempt.markSubmissionStarted();
-    const receipt = await host.submit(freeze({ ...pkg.op, signature }), pkg);
+    let acknowledged = false;
+    const lifecycle = Object.freeze({
+      markSubmitted() {
+        if (acknowledged) fail("GENESIS_ATTEMPT_TRANSITION_REJECTED");
+        attempt.markSubmitted();
+        acknowledged = true;
+      },
+    });
+    const receipt = await host.submit(
+      freeze({ ...pkg.op, signature }),
+      pkg,
+      lifecycle,
+    );
+    // Local and test hosts may return a receipt directly. Production calls the
+    // lifecycle hook immediately after the exact bundler acknowledgement.
+    if (!acknowledged) lifecycle.markSubmitted();
     if (receipt?.success === false) {
       attempt.markReverted(receipt);
       fail("GENESIS_EXECUTION_REVERTED");

@@ -1,26 +1,26 @@
 {
   "schema": 1,
   "version": "0.3.0",
-  "build": 96,
-  "packageRevision": "build93-light-blue",
-  "applicationSourceHead": "776be1735a3bcb457d7bf02e1e5a44b1cad6eed9",
-  "applicationSourceTree": "80c90c52238c934d704b7b6382fb740f8c79f40c",
-  "sourceTag": "v0.3.0-build96-source",
-  "sourceLocation": "https://github.com/lengyeltyler/genesis-phil/tree/v0.3.0-build96-source",
+  "build": 97,
+  "packageRevision": "build97-remediation",
+  "applicationSourceHead": "afbf28a60e2591bb1bf306f333c1a39a6cd80378",
+  "applicationSourceTree": "64b43fc7be826e978e833420f51cf6cd13a99952",
+  "sourceTag": "v0.3.0-build97-source",
+  "sourceLocation": "https://github.com/lengyeltyler/genesis-phil/tree/v0.3.0-build97-source",
   "toolingVersion": "1.0.0",
-  "toolingCommit": "776be1735a3bcb457d7bf02e1e5a44b1cad6eed9",
+  "toolingCommit": "afbf28a60e2591bb1bf306f333c1a39a6cd80378",
   "dmg": {
-    "name": "Phil-0.3.0-96-macOS-arm64.dmg",
-    "sha256": "9575bd6696f9c15f56ecd3e49511564068b78c0d4aa36e3c74422f3e8401f908",
-    "bytes": 132867632
+    "name": "Phil-0.3.0-97-macOS-arm64.dmg",
+    "sha256": "488092e87ef343bbaf288211a6638e4217ab57906323e10a6df4010a8dd0fb77",
+    "bytes": 132732714
   },
-  "dependencyLockSHA256": "14735d6df7c6e3bbc1db200734b23c3c6552ff9f1974068dce855f5a6ee4c836",
-  "packageInventorySHA256": "54382d71114421b2f0eceb85f2b6706ddd0ebe1072656f1e9b8ef83232dfd37a",
+  "dependencyLockSHA256": "250b2993ea66a3c3a105daa84d6f99c20949902853944029493452391c5944ff",
+  "packageInventorySHA256": "4423dee1be0c26f13c8f0b84081fb41f09c77522dc43f48101b2dff860eef5cd",
   "inventoryAlgorithm": "phil-inventory-v1: lexical depth-first POSIX relative paths; directories, lstat modes, regular file size/SHA256, literal symlink target; JSON UTF-8 pretty printed with 2 spaces and trailing LF",
   "packageInventoryEntries": 633,
   "packageInventoryFilesAndLinks": 311,
   "configurationSHA256": "ff96af7b927ec2520cc3288e819ba260fc89a4cb68a4cb2fe269e048056ccff7",
-  "mainSHA256": "2c6aa82b80fe2dd09b30d48b56c6795b9bb7466ec0568a1b4819db92a24abb85",
+  "mainSHA256": "5e270b4740dd1923cf1f85f62b59a8a4c805a6c02c064569ff8a9607319daec1",
   "mainLegalSHA256": "fcd141e9ef43369980cc49bd4a6452ac40b0b7334147c7da35b2047d1870571a",
   "catalogSHA256": "0a75a6f8f2c851b14a92dd363bab09aa7a1c987705c69e6badc71f16dde050b5",
   "catalogManifestSHA256": "21c57e33a7b82fe88e64094758fd2fd3193f84ede1ba4c4e090762e0286b4092",
@@ -105,5 +105,5 @@
     "sha256": "8961cdb57c95c073ff4770bc9309953832f447575f1a91127010f7b4870884b3",
     "checksumsURL": "https://github.com/electron/electron/releases/download/v41.10.3/SHASUMS256.txt"
   },
-  "sourceFilesSHA256": "085c6da18d6de35ceff27e6ec47133835eeb1441ebffe36b0ebaebe510bf9f53"
+  "sourceFilesSHA256": "9fabd64f10b2279e972e702cd70baf746c1a24935d09a97f5c16efb5fb7e7d9a"
 }

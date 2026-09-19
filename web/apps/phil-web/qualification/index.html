@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <meta charset="utf-8" /><meta
+    name="viewport"
+    content="width=device-width,initial-scale=1"
+  /><title>Phil Web — physical qualification</title
+  ><link rel="stylesheet" href="/style.css" />
+  <script type="module" src="/physical.js"></script>
+  <main>
+    <h1>Physical passkey qualification</h1>
+    <p>
+      Disposable LOCAL test only. Fake contract addresses. No network
+      submission. Never fund these accounts. This page is excluded from the
+      production build.
+    </p>
+    <p id="account"></p>
+    <p id="status" role="status">Ready.</p>
+    <button data-action="enroll">1. Enroll real passkey</button
+    ><button data-action="backup">2. Export and verify test backup</button
+    ><button data-action="unlock">Unlock / cancellation test</button
+    ><button data-action="sign">3. Sign offline test intent</button
+    ><button data-action="repeat">4. Repeat approval must fail</button
+    ><button data-action="restore">
+      5. Restore into fresh test storage and sign</button
+    ><button data-action="negatives">
+      6. Corruption and wrong-passphrase checks</button
+    ><button data-action="wrongCredential">7. Wrong real credential</button
+    ><button data-action="cancel">Cancel pending request</button>
+    <h2>Public test results</h2>
+    <pre id="report"></pre>
+  </main>
+</html>

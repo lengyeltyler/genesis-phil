@@ -1,12 +1,9 @@
 {
-  "name": "phil-desktop-verification",
+  "name": "phils-build93-verification",
   "version": "1.0.0",
   "private": true,
   "license": "MIT",
-  "engines": {
-    "node": "26.0.0",
-    "npm": "11.12.1"
-  },
+  "engines": {"node":"26.0.0","npm":"11.12.1"},
   "packageManager": "npm@11.12.1",
   "scripts": {
     "setup:electron": "node genesis/release/public-source/setup-electron.cjs",
@@ -15,12 +12,5 @@
     "verify:release": "node genesis/release/public-source/verify.cjs",
     "test:verifier": "node --test genesis/release/public-source/verify.test.cjs"
   },
-  "dependencies": {
-    "solc": "0.8.27",
-    "esbuild": "0.25.12",
-    "typescript": "5.9.3",
-    "ethers": "6.17.0",
-    "@noble/curves": "1.2.0",
-    "electron": "41.10.3"
-  }
+  "dependencies": {"solc":"0.8.27","esbuild":"0.25.12","typescript":"5.9.3","ethers":"6.17.0","@noble/curves":"1.2.0","electron":"41.10.3"}
 }

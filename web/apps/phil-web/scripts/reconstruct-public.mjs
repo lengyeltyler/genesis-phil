@@ -130,7 +130,7 @@ const release = {
   commit,
   tree: reference.tree,
   toolchain: {
-    node: process.version,
+    node: reference.toolchain.node,
     npmLockfileVersion: JSON.parse(
       await readFile(resolve(app, "package-lock.json")),
     ).lockfileVersion,

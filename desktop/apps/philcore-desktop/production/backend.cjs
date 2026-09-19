@@ -8,8 +8,9 @@ const { liveFunding } = require('../../../genesis/production/funding.cjs');
 const { bundlerFees } = require('../../../genesis/production/bundler-fees.cjs');
 const { buildAuthorization } = require('../../../genesis/runtime/authorization.cjs');
 const { bindIdentityAccount } = require('../../../genesis/runtime/profile-store.cjs');
-const { claimGenesisExecutionAttempt } = require('../../../genesis/runtime/attempt.cjs');
-const { reconcile } = require('../../../genesis/production/reconciliation.cjs');
+const { claimGenesisExecutionAttempt, inspectGenesisExecutionAttempt,
+  retireGenesisExecutionAttempt } = require('../../../genesis/runtime/attempt.cjs');
+const { reconcile, reconcileHeldAttempt } = require('../../../genesis/production/reconciliation.cjs');
 const { settleReconciledAttempt } = require('../../../genesis/production/settle-attempt.cjs');
 const { deriveAccount } = require('./account.cjs');
 const { inspectPrivateTree } = require('./namespace.cjs');
@@ -99,7 +100,7 @@ function createBackend({ host, root, providers, config, artReader, onProgress=()
       claimAttempt:p=>claimGenesisExecutionAttempt({directory:path.join(root,'attempts'),authorizationPackage:p}),
       // Phone authorization is deliberately not replaced by a Desktop callback.
       phoneApproval:async()=>fail('GENESIS_PHONE_ENROLLMENT_REQUIRED'),
-      submit:async(operation,p)=>{
+      submit:async(operation,p,lifecycle)=>{
         progress('submitting',p.presentation.action);
         const file=path.join(root,'attempts',p.userOperationHash.slice(2)+'.operation.json');
         const fd=fs.openSync(file,fs.constants.O_CREAT|fs.constants.O_EXCL|fs.constants.O_WRONLY|fs.constants.O_NOFOLLOW,0o600);
@@ -118,6 +119,7 @@ function createBackend({ host, root, providers, config, artReader, onProgress=()
           catch(error){await reader.cancel().catch(()=>{});throw error;}finally{reader.releaseLock();}
           const text=Buffer.concat(chunks,size).toString('utf8');
           const body=JSON.parse(text);if(body.id!==1||body.jsonrpc!=='2.0'||body.error||body.result!==p.userOperationHash)fail('GENESIS_RECONCILIATION_REQUIRED');
+          lifecycle.markSubmitted();
           progress('waiting',p.presentation.action);
           result=await reconcile({pkg:p,...apis});
           for(let poll=0;result.status==='pending'&&poll<10;poll++){
@@ -205,16 +207,30 @@ function createBackend({ host, root, providers, config, artReader, onProgress=()
       }
       if(action==='reconcile'){
         noInput(input);const {profile}=context(),apis=rpcs(),results=[];
-        for(const name of fs.readdirSync(path.join(root,'attempts')).filter(n=>/^[0-9a-f]{64}\.operation\.json$/.test(n))){
-          const file=path.join(root,'attempts',name),st=fs.lstatSync(file);
-          if(!st.isFile()||st.isSymbolicLink()||st.nlink!==1||st.mode&0o077||st.size>100000)fail('GENESIS_RECONCILIATION_REQUIRED');
-          const pkg=JSON.parse(fs.readFileSync(file,'utf8'));
-          if(pkg.profile.account===profile.account){
-            if(name !== pkg.userOperationHash.slice(2)+'.operation.json')fail('GENESIS_RECONCILIATION_REQUIRED');
-            const receipt=await reconcile({pkg,...apis});
-            settleReconciledAttempt({directory:path.join(root,'attempts'),pkg,receipt});
-            results.push(receipt);
+        const directory=path.join(root,'attempts');
+        for(const name of fs.readdirSync(directory).filter(n=>/^[0-9a-f]{64}\.jsonl$/.test(n))){
+          const current=inspectGenesisExecutionAttempt({directory,name});
+          if(current.binding.account!==profile.account)continue;
+          if(['signing_started','signed'].includes(current.state)){
+            const resolution={status:'retirable',reason:'definitely_not_submitted',userOperationHash:current.binding.userOperationHash};
+            retireGenesisExecutionAttempt({directory,binding:current.binding,expectedState:current.state,resolution});
+            results.push(resolution);continue;
           }
+          if(!['submission_started','submitted'].includes(current.state))continue;
+          const operationFile=path.join(directory,current.binding.userOperationHash.slice(2)+'.operation.json');
+          let receipt;
+          if(fs.existsSync(operationFile)){
+            const st=fs.lstatSync(operationFile);
+            if(!st.isFile()||st.isSymbolicLink()||st.nlink!==1||st.uid!==process.getuid()||st.mode&0o077||st.size>100000)fail('GENESIS_RECONCILIATION_REQUIRED');
+            const pkg=JSON.parse(fs.readFileSync(operationFile,'utf8'));
+            if(pkg.profile.account!==profile.account||pkg.userOperationHash!==current.binding.userOperationHash)fail('GENESIS_RECONCILIATION_REQUIRED');
+            receipt=await reconcile({pkg,...apis});
+            settleReconciledAttempt({directory,pkg,receipt});
+          }else{
+            receipt=await reconcileHeldAttempt({binding:current.binding,profile,...apis});
+            if(receipt.status==='retirable')retireGenesisExecutionAttempt({directory,binding:current.binding,expectedState:current.state,resolution:receipt});
+          }
+          results.push(receipt);
         }
         return {results};
       }

@@ -1,31 +1,21 @@
-# Verify the official download
+# Verify the official Build 97 download
 
 [Back to download](../README.md)
 
-Use the [Build 96 release](https://github.com/lengyeltyler/genesis-phil/releases/tag/v0.3.0-build96). Download **Phil-0.3.0-96-macOS-arm64.dmg**, not the automatic source-code archives.
+Download **Phil-0.3.0-97-macOS-arm64.dmg** from the [Build 97 release](https://github.com/lengyeltyler/genesis-phil/releases/tag/v0.3.0-build97), not the automatic source-code archives.
 
-- Version: **0.3.0, Build 96**
-- Developer ID publisher: **Tyler Lengyel (B342738S82)**
+- Version: **0.3.0, Build 97**
+- Publisher: **Tyler Lengyel (B342738S82)**
 - Bundle identifier: `com.philcore.desktop`
-- Size: **132,867,632 bytes**
-- SHA-256:
+- Size: **132,732,714 bytes**
+- SHA-256: `488092e87ef343bbaf288211a6638e4217ab57906323e10a6df4010a8dd0fb77`
 
-```text
-9575bd6696f9c15f56ecd3e49511564068b78c0d4aa36e3c74422f3e8401f908
-```
-
-The app and DMG passed Apple notarization, stapling and Gatekeeper assessment. These establish package identity and Apple acceptance, not support on every macOS version.
+The app and DMG passed Apple notarization, stapling, recursive signature verification and Gatekeeper. Never disable Gatekeeper or remove quarantine.
 
 Optional Terminal check:
 
 ```sh
-shasum -a 256 "$HOME/Downloads/Phil-0.3.0-96-macOS-arm64.dmg"
+shasum -a 256 "$HOME/Downloads/Phil-0.3.0-97-macOS-arm64.dmg"
 ```
 
-The digest must match. Ordinary installation does not require Terminal. Never disable Gatekeeper or remove quarantine.
-
-[Build-time release manifest](../release-manifest.json) · [Checksums](../SHA256SUMS.txt) · [Current release status](../release-status.json)
-
-Build 96 changes only the Desktop accent stylesheet and release number from Build 95. The canonical logo, account storage, contracts, artwork and execution remain unchanged. Existing Build 92–95 users can quit Phil and replace the application while retaining their identity and verified backup.
-
-Use [Desktop source verification](../desktop/VERIFYING.md) for a complete reconstruction and package comparison. The new `v0.3.0-build96-source` tag contains the exact current source snapshot. Historical tags remain untouched.
+Use [Desktop source verification](../desktop/VERIFYING.md) for the complete source-to-package comparison. `v0.3.0-build97-source` contains the exact current public snapshot. Historical tags remain untouched.

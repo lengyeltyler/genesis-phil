@@ -1,19 +1,16 @@
-# Phil Web — final blue UI release
+# Phil Web — Build 97 remediation release
 
 Production: https://phil.tylerlengyel.com
 
-[Final immutable live tag](https://github.com/lengyeltyler/genesis-phil/tree/phil-story-opening-2026-09-17) · [Exact HEAD/tree/build/Worker identity](LIVE-RELEASE.json). The historical `phil-web-completion-2026-09-17` tag is preserved as pre-public evidence, not current launch status.
+Engineering HEAD `a4b24164bb65b242650a64bb0b76795e1bd84a83`, tree `28a0d26f1610fad3703e41eec6a387f765549223`, release ID `a4b24164bb65b242650a64bb0b76795e1bd84a83:a59859497a9c73144260ed4dfb1a45b395b22bfd48f515529d71ba3b0bde0b5a`. [Exact identity and assets](LIVE-RELEASE.json).
 
-Engineering HEAD `b9999937ac216fdb933163262298fab058d95730`.
-The exact tree, source digest, assets, Worker and configuration are in [reference-release.json](reference-release.json). The public source export contains the browser bundle's complete source dependency set, tests, content, hosting code and pipeline. [ORIGINAL-SOURCE-MAP.json](ORIGINAL-SOURCE-MAP.json) records exact original hashes and sanitizations of owner-specific documentation/output paths. Runtime modules are unmodified.
+Build 97 adds durable, monotonic attempt states and conservative reconciliation. Definitely unsubmitted work can be retired without reusing identity; ambiguous delivery remains held. Before rebuilding a first operation after a concurrent deterministic deployment, the client validates code, factory registration, owner, recovery, Genesis collection, EntryPoint, chain, mode, epoch, and fee ceiling. Contracts and Mainnet state are unchanged.
 
-The app lockfile and separate Wrangler lockfile are pinned. No Desktop runtime or private owner state is needed in the browser build. The supplied catalog is the exact published catalog; it can also be reconstructed using the Desktop export's art sources/compiler and compared byte-for-byte.
+The public export contains the complete browser runtime dependency set, Web tests and the Desktop account wrapper required by the artwork/account reconstruction test. [ORIGINAL-SOURCE-MAP.json](ORIGINAL-SOURCE-MAP.json) records exact engineering hashes and every documentation-only path transformation.
 
-The owner replaced the opening on September 17, 2026. The exact supplied wording is published; the rest of the story and all Timeline posts are unchanged. Five focused content checks and exact public reconstruction passed. Desktop remains Build 96. The 74-test UI release qualification described below belongs to the preceding UI release; no account or transaction ceremony was repeated for this text edit.
+## Reproduce the frozen release
 
-## Reproduce the hosted release
-
-Use Node 26.0.0, then from this `web` directory:
+Use Node 26.0.0 from this `web` directory:
 
 ```sh
 npm ci --prefix apps/phil-web --ignore-scripts --no-audit --no-fund
@@ -21,16 +18,6 @@ PHIL_WEB_OUTPUT="$PWD/.web-build" node apps/phil-web/scripts/reconstruct-public.
 node apps/phil-web/scripts/verify-build.mjs "$PWD/.web-build"
 ```
 
-The public reconstruction verifies the source-file map, retains the frozen engineering identity, and requires every produced asset, Worker and complete release manifest to match the reference. It was run from freshly installed public dependencies and passed exact comparison. The exported source is a subset, so the ordinary engineering build command would derive a different Git identity; use the reconstruction command above to verify this specific live release.
+The reconstruction must reproduce all seven hosted files, the Worker, and `reference-release.json` exactly. The Web suite passed 64/64. The complete release qualification passed 239/239. No account, mint, transfer, withdrawal, signing, deployment, or other Mainnet transaction is performed by reconstruction.
 
-`release.json.mainnetEnabled` describes compiled capability, **not the live public gate**. Read https://phil.tylerlengyel.com/release-status.json for the current release-bound `closed`, account-specific `acceptance`, or `public` state. The live gate is **public**. The owner explicitly waived an additional acceptance mint after reporting prior mints. No new mint was signed or submitted for this completion release; no prior mint is represented as a test of these exact bytes. This UI release preserves that public gate. The Worker code is byte-identical to the preceding live release.
-
-## Content and hosting
-
-The owner's complete story and 161 original timeline posts are preserved: 98 in 2024, 22 in 2025 and 41 in 2026. Content is rendered with text nodes; only exact HTTPS X source/photo links become clickable, with opener protection. No remote scripts or embeds. [Source provenance](apps/phil-web/content/README.md).
-
-The exact original Tutorial MP4 is streamed through the same origin from private Cloudflare R2, with GET/HEAD and byte-range support. SHA-256 `0721231f121ffc9d3425c79b61fe9e99924b6cffa0f67c94ef3a0000b5288062`, 459107204 bytes, 447.830717 seconds, 1920×1080 H.264/AAC. Upload and complete read-back hash verified; live Chrome playback verified. The MP4 container/codecs support modern Chrome and Safari; Safari playback was not physically tested. The player uses native controls, no third-party player, and `preload="none"`.
-
-60 focused Web/UI tests passed, plus 14 Desktop verifier checks. After the Phils-Story heading change, the 11 relevant UI/content checks passed again. The Genesis-open announcements are removed and the exact #C9E3FF accent replaces nonsemantic purple. Balance and withdrawal reuse canonical Desktop/shared readers, preparation, authorization and receipt matching. The browser action allowlist now includes the existing WITHDRAW_ETH semantic action; passkey wrapping, encrypted backups and the once-only execution controller are unchanged. [Exact parity scope](apps/phil-web/PARITY.md). The original security headers and service-worker prohibition remain enforced.
-
-For development/deployment details, see [the application README](apps/phil-web/README.md). Production publication uses a separately pinned Wrangler pipeline; do not deploy an export or rebuild during acceptance. The public gate transition used the already-frozen qualified production output. The frozen engineering notes describe the originally planned acceptance sequence; the owner waiver superseded that operational requirement.
+The live host remains fail-closed and release-bound, disables service workers, uses same-origin static assets and Tutorial media, and retains the existing public mint policy. No additional Mainnet mint was performed for this client remediation rollout.

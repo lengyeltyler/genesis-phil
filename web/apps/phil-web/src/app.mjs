@@ -323,7 +323,15 @@ async function refreshAttempts() {
             confirmedTransaction(result);
             await refreshOwned();
             await refreshBalance();
-          } else status("Still unresolved. No new submission was sent.");
+          } else if (result.status === "retired")
+            status(
+              "The earlier approval was never submitted and has been safely retired. Review and approve a new operation to continue.",
+            );
+          else if (result.status === "retirable")
+            status(
+              "The earlier approval can no longer execute and has been safely retired. Review and approve a new operation to continue.",
+            );
+          else status("Still unresolved. No new submission was sent.");
           await refreshAttempts();
         }),
       );

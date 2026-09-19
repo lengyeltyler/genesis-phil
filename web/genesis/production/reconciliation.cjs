@@ -1,12 +1,37 @@
 'use strict';
-const {Interface,ZeroAddress}=require('ethers'),{checkedHead}=require('./rpc.cjs'),{canonicalJSON}=require('../runtime/authorization.cjs');
+const {Interface,ZeroAddress,keccak256}=require('ethers'),{checkedHead}=require('./rpc.cjs'),{canonicalJSON}=require('../runtime/authorization.cjs');
 const ep=new Interface(['event BeforeExecution()','event UserOperationEvent(bytes32 indexed userOpHash,address indexed sender,address indexed paymaster,uint256 nonce,bool success,uint256 actualGasCost,uint256 actualGasUsed)']);
+const epState=new Interface(['function getNonce(address,uint192) view returns(uint256)']);
+const factoryState=new Interface(['function getAddress(address,address,bytes32,uint8) view returns(address)','function identityOf(address) view returns(bytes32)','function isGenesisAccount(address) view returns(bool)']);
+const accountState=new Interface(['function identityCommitment() view returns(bytes32)','function owner() view returns(address)','function recoveryAuthority() view returns(address)','function genesis() view returns(address)','function entryPoint() view returns(address)','function authorityEpoch() view returns(uint64)','function authorizationMode() view returns(uint8)']);
 const account=new Interface(['event ETHWithdrawn(bytes32 indexed authorizationId,address indexed recipient,uint256 amount)']);
 const nft=new Interface(['event PhilMinted(address indexed account,uint256 indexed tokenId,uint256 indexed recipeId,uint256 nameId)','event Transfer(address indexed from,address indexed to,uint256 indexed tokenId)']);
 const fail=()=>{throw Object.assign(Error('GENESIS_RECONCILIATION_REQUIRED'),{code:'GENESIS_RECONCILIATION_REQUIRED'});};
 function events(receipt,address,abi,name){return receipt.logs.filter(l=>l.address.toLowerCase()===address).map((l,index)=>{try{const parsed=abi.parseLog(l);return parsed?{...parsed,receiptIndex:receipt.logs.indexOf(l)}:null}catch{return null}}).filter(l=>l?.name===name);}
+async function same(primary,independent,method,params){const [a,b]=await Promise.all([primary(method,params),independent(method,params)]);if(canonicalJSON(a)!==canonicalJSON(b))fail();return a;}
+async function call(primary,independent,to,abi,name,args,tag){const data=await same(primary,independent,'eth_call',[{to,data:abi.encodeFunctionData(name,args)},tag]);try{return abi.decodeFunctionResult(name,data);}catch{fail();}}
+async function safeBlock(primary,independent){let a,b;try{[a,b]=await Promise.all([primary('eth_getBlockByNumber',['safe',false]),independent('eth_getBlockByNumber',['safe',false])]);}catch{return null;}if(!a||!b)return null;const critical=x=>({number:x.number,hash:x.hash,timestamp:x.timestamp});if(canonicalJSON(critical(a))!==canonicalJSON(critical(b))||!/^0x[0-9a-f]{64}$/i.test(a.hash)||!/^0x[0-9a-f]+$/i.test(a.number)||!/^0x[0-9a-f]+$/i.test(a.timestamp))return null;return a;}
+async function validPredeployment(pkg,primary,independent,tag){const p=pkg.profile,code=await same(primary,independent,'eth_getCode',[p.account,tag]);if(code==='0x')return false;if(keccak256(code)!==p.accountCodeHash)fail();for(const [address,expected] of [[p.factory,p.factoryCodeHash],[p.entryPoint,p.entryPointCodeHash],[p.genesis,p.genesisCodeHash]]){const current=await same(primary,independent,'eth_getCode',[address,tag]);if(current==='0x'||keccak256(current)!==expected)fail();}
+ const [predicted,identity,registered,accountIdentity,owner,recovery,genesis,entryPoint,epoch,mode]=await Promise.all([
+  call(primary,independent,p.factory,factoryState,'getAddress',[p.owner,p.recoveryAuthority,p.identityCommitment,p.mode==='PHONE_REQUIRED'?2:1],tag),
+  call(primary,independent,p.factory,factoryState,'identityOf',[p.account],tag),call(primary,independent,p.factory,factoryState,'isGenesisAccount',[p.account],tag),
+  call(primary,independent,p.account,accountState,'identityCommitment',[],tag),call(primary,independent,p.account,accountState,'owner',[],tag),call(primary,independent,p.account,accountState,'recoveryAuthority',[],tag),
+  call(primary,independent,p.account,accountState,'genesis',[],tag),call(primary,independent,p.account,accountState,'entryPoint',[],tag),call(primary,independent,p.account,accountState,'authorityEpoch',[],tag),call(primary,independent,p.account,accountState,'authorizationMode',[],tag),
+ ]);
+ if(predicted[0].toLowerCase()!==p.account||identity[0]!==p.identityCommitment||registered[0]!==true||accountIdentity[0]!==p.identityCommitment||owner[0].toLowerCase()!==p.owner||recovery[0].toLowerCase()!==p.recoveryAuthority||genesis[0].toLowerCase()!==p.genesis||entryPoint[0].toLowerCase()!==p.entryPoint||String(epoch[0])!==p.authorityEpoch||String(mode[0])!==(p.mode==='PHONE_REQUIRED'?'2':'1'))fail();return true;
+}
+async function unresolved({pkg,primary,independent,bundler}){
+ let located=null,lookupAvailable=true;try{located=await bundler('eth_getUserOperationByHash',[pkg.userOperationHash]);}catch{lookupAvailable=false;}
+ const block=await safeBlock(primary,independent);if(!block)return{status:'pending',userOperationHash:pkg.userOperationHash,reason:'safe_block_unavailable'};
+ const nonce=BigInt((await call(primary,independent,pkg.profile.entryPoint,epState,'getNonce',[pkg.profile.account,0],block.number))[0]),expected=BigInt(pkg.op.nonce),evidence={safeBlockNumber:String(BigInt(block.number)),safeBlockHash:block.hash};
+ if(nonce<expected)fail();
+ if(nonce>expected)return{status:'retirable',reason:'nonce_advanced',userOperationHash:pkg.userOperationHash,...evidence};
+ if(BigInt(block.timestamp)>BigInt(pkg.authorization.validUntil))return{status:'retirable',reason:'authorization_expired',userOperationHash:pkg.userOperationHash,...evidence};
+ if(pkg.op.initCode!=='0x'&&await validPredeployment(pkg,primary,independent,block.number))return{status:'retirable',reason:'valid_account_predeployed',userOperationHash:pkg.userOperationHash,...evidence};
+ return{status:'pending',userOperationHash:pkg.userOperationHash,reason:located===null?(lookupAvailable?'not_found_unexpired':'operation_lookup_unavailable'):'operation_found'};
+}
 async function reconcile({pkg,primary,independent,bundler}){
- const reported=await bundler('eth_getUserOperationReceipt',[pkg.userOperationHash]);if(reported===null)return{status:'pending',userOperationHash:pkg.userOperationHash};
+ const reported=await bundler('eth_getUserOperationReceipt',[pkg.userOperationHash]);if(reported===null)return unresolved({pkg,primary,independent,bundler});
  const hash=reported?.receipt?.transactionHash;if(!/^0x[0-9a-f]{64}$/.test(hash))fail();
  const [a,b]=await Promise.all([primary('eth_getTransactionReceipt',[hash]),independent('eth_getTransactionReceipt',[hash])]);if(!a||!b)return{status:'pending',userOperationHash:pkg.userOperationHash};
  const critical=r=>({transactionHash:r.transactionHash,blockHash:r.blockHash,blockNumber:r.blockNumber,status:r.status,logs:r.logs.map(l=>({address:l.address.toLowerCase(),topics:l.topics,data:l.data,logIndex:l.logIndex,removed:l.removed===true}))});

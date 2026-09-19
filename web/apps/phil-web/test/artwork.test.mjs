@@ -2,6 +2,7 @@ import test from "node:test";
 import assert from "node:assert/strict";
 import { build } from "esbuild";
 import { readFile } from "node:fs/promises";
+import { execFileSync } from "node:child_process";
 import { createRequire } from "node:module";
 import { fileURLToPath } from "node:url";
 import { resolve, dirname } from "node:path";
@@ -9,6 +10,10 @@ const require = createRequire(import.meta.url),
   app = resolve(dirname(fileURLToPath(import.meta.url)), ".."),
   root = resolve(app, "../..");
 test("browser-compiled artwork matches canonical SVG, name, traits and commitment across representative recipes", async () => {
+  execFileSync(process.execPath, ["genesis/body2-correction/compile.cjs"], {
+    cwd: root,
+    stdio: "pipe",
+  });
   const result = await build({
     stdin: {
       contents: "export {createArtReader} from './genesis/production/art.cjs'",

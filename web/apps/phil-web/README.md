@@ -1,8 +1,6 @@
 # Phil Web
 
-**Current publication:** Ethereum Mainnet minting is public. The owner explicitly waived an additional acceptance mint; no new acceptance transaction was submitted. [Current live identity](../../LIVE-RELEASE.json) · [Final live tag](https://github.com/lengyeltyler/genesis-phil/tree/phil-web-mainnet-live-2026-09-17). The historical rollout procedure below documents the original plan, superseded for this release by that owner waiver. These publication notes do not change runtime code or the frozen reference manifest.
-
-Browser-native Genesis client, isolated from the marketing website and Desktop custody. Production origin: **https://phil.tylerlengyel.com**. Production artifacts support Mainnet. Initial deployment was closed by a release-bound rollout policy; the current live policy is public. Preview builds remain disabled. No live contracts are changed.
+Browser-native Genesis client, isolated from the marketing website and Desktop custody. Production origin: **https://phil.tylerlengyel.com**. Production artifacts support Mainnet, with official-client minting initially closed by an explicit release-bound rollout policy. Preview builds remain disabled. No live contracts are changed.
 
 The full compatibility, custody, testing and owner-action report is in `../../docs/PHIL_WEB_IMPLEMENTATION.md`; hosting findings are in `../../docs/PHIL_WEB_HOSTING_AUDIT.md`.
 
@@ -10,15 +8,15 @@ User-facing Genesis parity is documented in [PARITY.md](PARITY.md). Wallet/Entry
 
 ## Local build
 
-Use the repository's pinned Node 26.0.0. On the owner's Mac all builds remain under `./.web-build`. No production identities, Keychain or live journals are used.
+Use the repository's pinned Node 26.0.0. On the owner's Mac all builds remain under `/Volumes/PhilsHome/PhilDev/Builds`. No production identities, Keychain or live journals are used.
 
 From repository root:
 
 ```sh
 npm ci --ignore-scripts --prefix apps/phil-web
 node genesis/body2-correction/compile.cjs
-PHIL_WEB_OUTPUT=./.web-build node apps/phil-web/scripts/build.mjs --preview
-PHIL_WEB_OUTPUT=./.web-build node apps/phil-web/scripts/preview.mjs
+PHIL_WEB_OUTPUT=/Volumes/PhilsHome/PhilDev/Builds/phil-web-review node apps/phil-web/scripts/build.mjs --preview
+PHIL_WEB_OUTPUT=/Volumes/PhilsHome/PhilDev/Builds/phil-web-review node apps/phil-web/scripts/preview.mjs
 ```
 
 Open `http://localhost:4173`. A preview has a different WebAuthn RP identity and cannot be used as the production origin. Never fund test/preview accounts. Every build needs a fresh output directory. To produce production-origin artifacts, omit `--preview`. The initial deployment still leaves Mainnet minting closed.
@@ -60,7 +58,7 @@ The Custom Domain route is `phil.tylerlengyel.com`, Worker `phil-web`. Cloudflar
 
 `release.json` lists source hashes, source commit, dirty-candidate status, dependency lockfiles, exact asset hashes, worker/configuration hashes, configuration and catalog identities, and the compiled Mainnet capability (preview builds remain disabled). The separately fetched release status records the current rollout stage. JS/CSS filenames are content-addressed and the HTML binds them with SHA-384 SRI. The running app checks the manifest against compiled release identity and rejects mixed releases. The Worker emits `X-Phil-Release`. The verifier checks all assets, SRI and hosting policy.
 
-For this public subset export, follow [the exact reconstruction instructions](../../README.md); `reconstruct-public.mjs` preserves the engineering identity and compares against `reference-release.json`. The ordinary engineering build command derives a different Git identity from a subset checkout. A candidate based on an older commit plus uncommitted changes is not an immutable public source release. It must be committed, rebuilt and published before production approval.
+To independently verify a release, obtain the published exact source commit, run the pinned build with the same preview mode, compare `release.json` and every listed asset, and run `verify-build.mjs`. A candidate based on an older commit plus uncommitted changes is not an immutable public source release. It must be committed, rebuilt and published before production approval.
 
 There is no service worker, remote code, analytics or key-holding backend. CSP restricts RPC connections to the three explicit public endpoints. Code can still change on a future visit if the publisher or hosting account is compromised; SRI and a same-origin manifest do not solve that trust problem. New releases retain vault/journal schemas and fail closed on unknown formats. Rollback must restore an exact previously reviewed artifact and may not bypass unresolved approval holds.
 

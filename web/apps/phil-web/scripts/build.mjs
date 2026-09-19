@@ -37,6 +37,7 @@ const files = execFileSync(
       x &&
       (x.startsWith("apps/phil-web/") ||
         x.startsWith("genesis/") ||
+        x === "apps/philcore-desktop/production/account.cjs" ||
         x === "apps/philcore-desktop/production/candidate-public-config.json"),
   )
   .sort();
